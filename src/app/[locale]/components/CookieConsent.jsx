@@ -34,7 +34,7 @@ export default function CookieConsent() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 bg-gradient-to-r from-[#293794] to-[#000021] text-white px-6 py-4 text-xs md:text-sm  rounded-md border border-[#f2f2f27c] border-opacity-30" >
+    <div className="fixed max-w-6xl mx-auto bottom-6 left-1/2 transform -translate-x-1/2 z-50 bg-gradient-to-r from-[#293794] to-[#000021] text-white px-6 py-4 text-xs md:text-sm  rounded-md border border-[#f2f2f27c] border-opacity-30" >
     <div className='rtl:hidden ltr:flex flex-col md:flex-row items-center justify-between gap-3 md:gap-8'>
 
 

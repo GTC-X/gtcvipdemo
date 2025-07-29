@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
-import HeroSection from "../iraq/ib/components/banner";
-import SliderModal from "../iraq/ib/components/SliderModal";
+import SliderModal from "../10k-demo-trading-competition/components/SliderModal";
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 import PayCommission from "../components/common/PayCommission";
@@ -11,6 +10,11 @@ import ReferTables from "../components/common/ReferTables";
 import FeedBack from "../components/common/FeedBack";
 import NewHeader from "../components/NewHeader";
 import { useTranslations } from "next-intl";
+import HeroSection from "../components/common/HeroSection";
+import CountdownSection from "../components/CountdownSection";
+import WhyJoinSection from "../10k-demo-trading-competition/components/WhyJoinSection";
+import HowWorkSection from "../10k-demo-trading-competition/components/HowWorkSection";
+import EarningsMarginImpact from "../10k-demo-trading-competition/components/marginInfoPanel";
 
 
 const UaePartnerPage = () => {
@@ -41,43 +45,13 @@ const UaePartnerPage = () => {
 
   return (
     <>
-      <NewHeader />
-            <HeroSection setIsOpen={setIsOpen} />
-            <ReferTables setIsOpen={setIsOpen} />
-              <PayCommission 
-              topTitle={t('payMore.subtitle')}
-              bottomText={t('payMore.outro')}
-              buttonText={t('payMore.cta')}
-              setIsOpen={setIsOpen}
-              />
-              <TrustBroker 
-               title={t('broker.heading') }
-                  subtitle={t('broker.heading') }
-                  features={[
-                    t('broker.points.p1'),
-                    t('broker.points.p2'),,
-                    t('broker.points.p3'),,
-                    t('broker.points.p3'),,
-                  ]}
-                  buttonLabel="Start Earning"
-                  onClick={() => setIsOpen(true)}
-              />
+            <MainHeader />
+            <HeroSection />
+            <CountdownSection />
+            <WhyJoinSection />
+            <HowWorkSection />
+            <EarningsMarginImpact />
           
-            <FeedBack 
-             title="What UAE's Partners & Traders Are Saying"
-              description="Whether you’re a seasoned partner or just getting started, these partners made the switch and they or their traders haven’t looked back."
-              testimonials={testimonials}
-              buttonLabel="Join Us"
-              onClick={() => setIsOpen(true)}
-            />
-            <GrowBusiness
-              topTitle="Start Earning More."
-              mainTitle="Grow Your FX Partnership Business with GTC"
-              description1="You’ve seen what GTC brings to the table. Now it’s your turn. Join the partnership programme that’s helping UAE’s Forex Partners scale faster, earn more, and build lasting trust with their traders."
-              description2="Join us today, and your traders will thank you tomorrow."
-              buttonLabel="Make the Switch"
-              onClick={() => setIsOpen(true)}
-            />
             <MainFooter />
             <SliderModal isOpen={isOpen}
                 onClose={() => setIsOpen(false)}

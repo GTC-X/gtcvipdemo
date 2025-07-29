@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 @theme {
-  --color-primary: #02002f; /* Dark blue */
+  --color-primary: #000032; /* Dark blue */
   --color-secondary: #b68756; /* Gold yellow */
 }
 
@@ -171,5 +171,11 @@ html {
 @media (min-width: 1920px) {
   .hero-bg img {
     object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 2250px) {
+  .hero-bg {
+    height: 980px !important;
   }
 }
