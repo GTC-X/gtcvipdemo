@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 
-const HeroSection = () => {
+const HeroSection = ({ setIsOpen }) => {
   return (
     <section className="bg-white py-8 md:py-20 xl:pt-28 xl:pb-16 relative overflow-hidden">
 

@@ -100,6 +100,45 @@ const CommonMainForm = () => {
     };
 
     const sendDataToDb = async (data) => {
+        const payloadForm = {
+            first_name: data?.nickname,
+            phone: data?.phone,
+            email: data?.email,
+            password: `${data?.password}`,
+            company: "no",
+            country: data?.country,
+            group: "demo\\web.hedged",
+            invest_password: `${data?.password}`
+          }
+       await axios.post(`/api/mt5-server`, payloadForm).then(res => {
+            console.log({ res })
+            if (res?.data?.success) {
+                toast.success(res?.data?.message)
+                 // window.location.href = "/thank-you";
+                axios.post(`/api/mt5-completion-mail`, {
+                    name: formik?.values?.nickname,
+                    phone: formik?.values?.phone,
+                    email: formik?.values?.email,
+                    password: formik?.values?.password,
+                    user: res?.data?.data?.user,
+                    invest_password: data?.password,
+                    server_name: "demo\\web.hedged",
+                }).then(res => {
+                    toast.success(res?.data?.message)
+                 }).catch(err => {
+                    toast.success(err?.data?.message)
+                }).finally(() => {
+                    setLoading(false)
+                })
+            } else {
+                toast.error(res?.data?.message)
+            }
+        }).catch(err => {
+            toast.success(err?.data?.message)
+        }).finally(() => {
+            setLoading(false)
+
+        })
         const emailData = axios
             .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
             .then((res) => {
@@ -108,11 +147,11 @@ const CommonMainForm = () => {
                 setLoading(false);
                 localStorage.setItem("user", JSON.stringify(data));
                 // Redirect based on locale
-                const targetLocale =
-                    locale === "ar"
-                        ? "/ar/uae/partners/success"
-                        : "/uae/partners/success";
-                router.push(targetLocale);
+                // const targetLocale =
+                //     locale === "ar"
+                //         ? "/ar/uae/partners/success"
+                //         : "/uae/partners/success";
+                // router.push(targetLocale);
                 formik.resetForm();
                 setShowOtp(false);
             })

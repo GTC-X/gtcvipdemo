@@ -46,13 +46,14 @@ const UaePartnerPage = () => {
   return (
     <>
             <MainHeader />
-            <HeroSection />
+            <HeroSection setIsOpen={setIsOpen} />
             <CountdownSection />
             <WhyJoinSection />
             <HowWorkSection />
             <EarningsMarginImpact />
           
             <MainFooter />
+            
             <SliderModal isOpen={isOpen}
                 onClose={() => setIsOpen(false)}
             />

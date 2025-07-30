@@ -1,15 +1,59 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 
 const EarningsMarginImpact = () => {
+  const sectionRef = useRef(null);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sectionRef.current) return;
+      const section = sectionRef.current;
+      const rect = section.getBoundingClientRect();
+      // When section top is at or above viewport top and bottom is below image height
+      if (rect.top <= 0 && rect.bottom > 500) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-  <section className="relative bg-[#F2F2F5] py-14 md:py-24 text-[#1a1a1a]">
+    <section
+      ref={sectionRef}
+      className="relative bg-[#F2F2F5] py-14 md:py-24 text-[#1a1a1a]"
+    >
       {/* Sticky Side Image */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden md:flex justify-end">
-        <div className="sticky top-1/2 -translate-y-1/2 h-[80vh] flex items-center justify-end">
+        <div
+          className={`flex items-start justify-end w-full`}
+          style={{
+            position: isSticky ? 'fixed' : 'absolute',
+            top: isSticky ? 0 : 'auto',
+            right: 0,
+            left: 'auto',
+            zIndex: 20,
+            height: isSticky ? 500 : '90vh',
+            maxHeight: 500,
+            transition: 'top 0.2s',
+          }}
+        >
           <img
             src="/demo/sidebar.webp"
             alt="Sidebar Coins"
-            className="max-h-full object-contain"
+            className="object-contain"
+            style={{
+              maxHeight: 670,
+            //   width: 'auto',
+            //   marginTop: 0,
+            //   marginRight: 0,
+            //   boxShadow: '0 4px 24px 0 #0001',
+            //   borderRadius: 12,
+            //   background: '#fff',
+            }}
           />
         </div>
       </div>
