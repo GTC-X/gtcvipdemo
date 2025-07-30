@@ -36,7 +36,7 @@ const EarningsMarginImpact = () => {
             right: 0,
             left: 'auto',
             zIndex: 20,
-            height: isSticky ? 500 : '80vh',
+            height: isSticky ? 500 : '90vh',
             maxHeight: 500,
             transition: 'top 0.2s',
           }}
@@ -46,7 +46,7 @@ const EarningsMarginImpact = () => {
             alt="Sidebar Coins"
             className="object-contain"
             style={{
-              maxHeight: 500,
+              maxHeight: 670,
             //   width: 'auto',
             //   marginTop: 0,
             //   marginRight: 0,
