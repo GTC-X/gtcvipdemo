@@ -480,26 +480,11 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                            {t("termsText")}
-                            <a
-                                className="text-secondary underline"
-                                href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Vanuatu.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t("clientAgreement")}
-                            </a>{" "}
-                            & the{" "}
-                            <a
-                                className="text-secondary underline"
-                                href="/privacy-policy"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t("privacyPolicy")}
-                            </a>
-                            , {t("conset")}.
-                        </p>
+                           By clicking on the <span className="font-semibold text-primary">Get 80% RevShare</span> button, I confirm that I am over the age of 18, have read and agree to the 
+  <a href="/legal/client-agreement.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">Client Agreement</a> & 
+  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">Privacy Policy</a>, 
+  I consent to GTC contacting me at reasonable times, and that my number is not on the Do Not Call Register (DNCR).
+                  </p>
                     </div>
                 </div>
 

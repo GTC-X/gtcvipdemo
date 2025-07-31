@@ -22,7 +22,7 @@ const MainHeader = ({ setIsOpen }) => {
         {/* Logo */}
         <Link href="/" aria-label="Go to homepage">
           <Image
-            src="/Logo.png"
+            src="/logo-2024.webp"
             width={200}
             height={82}
             alt="GTCFX Logo"

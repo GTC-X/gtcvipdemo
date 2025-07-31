@@ -14,17 +14,17 @@ export const TraderCompletionMail = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="600" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
            <!-- Logo -->
             <tr>
-              <td align="left" style="padding-bottom: 20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Logo-Standard.png" alt="GTC Logo" style="width: 160px;" />
+              <td align="center" style="padding-bottom: 20px;">
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
+              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
                Your GTC Tournament Credentials
 
 
@@ -32,7 +32,7 @@ export const TraderCompletionMail = (data) => {
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:20px;">
+              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
                 We’ve added all your credentials into this email so that you’re ready!
               </td>
             </tr>
