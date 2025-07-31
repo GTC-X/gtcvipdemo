@@ -11,7 +11,7 @@ const MainHeader = () => {
             alt="Footer Logo"
             layout="fill"
             objectFit="contain"
-            className="block dark:hidden"
+            className="block"
           />
         </div>
       </div>
