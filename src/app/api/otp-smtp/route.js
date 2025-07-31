@@ -14,7 +14,7 @@ export async function POST(req) {
   const mailData = {
     from: '"GTCFX" <portal@mx3.gtcmail.com>',
     to: email,
-    subject: "Your GTCFX OTP Code",
+    subject: "You’ve Registered for the GTC Demo Competition",
     text: `Your OTP is ${otp}`,
     html:
       locale == "ar"
@@ -226,7 +226,8 @@ export async function POST(req) {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>GTC OTP Email</title>
+    <title>You’ve Registered for the GTC Demo Competition
+</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
@@ -235,23 +236,26 @@ export async function POST(req) {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="900" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+          <table width="600" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
            <!-- Logo -->
             <tr>
               <td align="left" style="padding-bottom: 20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/email-test.png" alt="GTC Logo" style="width: 120px;" />
+                <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
               <td style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                Your GTC OTP
+                You’ve Registered for the <br>GTC Demo Competition
+
               </td>
             </tr>
             <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:20px;">
-                Thank you for choosing GTCFX.
+                Confirm your email by entering the OTP that’s in this email.
+
+
 
               </td>
             </tr>
@@ -268,8 +272,12 @@ export async function POST(req) {
             </tr>
              <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-              Please use the following One-Time Password to complete your further process.
-
+             Thanks again for registering for the GTC Demo Trading Competition.
+              </td>
+            </tr>
+             <tr>
+              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+             Here’s the OTP that you’ll need to enter into the form.
               </td>
             </tr>
             <tr>
@@ -281,17 +289,22 @@ export async function POST(req) {
             <!-- Support Info -->
             <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:20px;">
-                If you’ve got any questions or need further assistance, please don’t hesitate to contact us at 
-                <a href="mailto:support@gtcfx.com" style="color:#0066cc;text-decoration:none;">support@gtcfx.com</a>.
-                We are here to support you and ensure your experience with us is the best you’ve ever experienced.
+                If you need any help or assistance, simply reach out to our amazing Customer Care team via our Live Chat feature that’s on our website, <a href="https://GTCVIP.com">https://GTCVIP.com</a>.
+
               </td>
             </tr>
+ <tr>
+              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+             We hope you’re excited about the upcoming GTC Demo Trading Tournament!
 
+              </td>
+            </tr>
             <!-- Signoff -->
             <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:30px;">
                 Have a great day,<br>
-                Your GTC Team
+                Your GTC Family
+
               </td>
             </tr>
 
@@ -305,7 +318,7 @@ export async function POST(req) {
                 <table width="100%" cellpadding="0" cellspacing="0">
                   <tr>
                     <td align="left">
-                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/email-test.png" alt="GTC Logo" style="width: 100px;" />
+                      <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
                     </td>
                     <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
                       📞 Phone: +971 800 667788<br/>
@@ -395,7 +408,7 @@ export async function POST(req) {
 
 <tr>
   <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
-    &copy; Copyright 2025 GTCFX – All Rights Reserved
+    &copy; Copyright 2025 GTCVIP – All Rights Reserved
   </td>
 </tr>
 
