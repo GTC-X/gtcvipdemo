@@ -125,34 +125,24 @@ const CommonMainForm = () => {
                     server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
                     toast.success(res?.data?.message)
+                    toast.success(t("thankYou1"));
+                    formik.resetForm();
+                    setLoading(false);
+                    localStorage.setItem("user", JSON.stringify(data));
+                    // Redirect based on locale
+                    const targetLocale =
+                        locale === "ar"
+                            ? "/ar/10k-demo-trading-competition/success"
+                            : "/10k-demo-trading-competition/success";
+                    router.push(targetLocale);
+                    formik.resetForm();
+                    setShowOtp(false);
                 }).catch(err => {
                     toast.success(err?.data?.message)
                 }).finally(() => {
                     setLoading(false)
                 })
-                axios
-                    .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
-                    .then((res) => {
-                        toast.success(t("thankYou1"));
-                        formik.resetForm();
-                        setLoading(false);
-                        localStorage.setItem("user", JSON.stringify(data));
-                        // Redirect based on locale
-                        // const targetLocale =
-                        //     locale === "ar"
-                        //         ? "/ar/uae/partners/success"
-                        //         : "/uae/partners/success";
-                        // router.push(targetLocale);
-                        formik.resetForm();
-                        setShowOtp(false);
-                    })
-                    .catch((err) => {
-                        toast.error("Error inserting data: " + result.error);
-                        setLoading(false);
-                    })
-                    .finally(() => {
-                        setLoading(false);
-                    });
+
             } else {
                 toast.error(res?.data?.message)
             }
