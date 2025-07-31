@@ -108,28 +108,51 @@ const CommonMainForm = () => {
             company: "no",
             country: data?.country,
             group: "demo\\web.hedged",
-            invest_password: `${data?.password}`
-          }
-       await axios.post(`/api/mt5-server`, payloadForm).then(res => {
+            invest_password: `${data?.invest_password}`
+        }
+        await axios.post(`/api/mt5-server`, payloadForm).then(res => {
             console.log({ res })
             if (res?.data?.success) {
                 toast.success(res?.data?.message)
-                 // window.location.href = "/thank-you";
+                // window.location.href = "/thank-you";
                 axios.post(`/api/mt5-completion-mail`, {
                     name: formik?.values?.nickname,
                     phone: formik?.values?.phone,
                     email: formik?.values?.email,
                     password: formik?.values?.password,
                     user: res?.data?.data?.user,
-                    invest_password: data?.password,
+                    invest_password: data?.invest_password,
                     server_name: "demo\\web.hedged",
                 }).then(res => {
                     toast.success(res?.data?.message)
-                 }).catch(err => {
+                }).catch(err => {
                     toast.success(err?.data?.message)
                 }).finally(() => {
                     setLoading(false)
                 })
+                axios
+                    .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
+                    .then((res) => {
+                        toast.success(t("thankYou1"));
+                        formik.resetForm();
+                        setLoading(false);
+                        localStorage.setItem("user", JSON.stringify(data));
+                        // Redirect based on locale
+                        // const targetLocale =
+                        //     locale === "ar"
+                        //         ? "/ar/uae/partners/success"
+                        //         : "/uae/partners/success";
+                        // router.push(targetLocale);
+                        formik.resetForm();
+                        setShowOtp(false);
+                    })
+                    .catch((err) => {
+                        toast.error("Error inserting data: " + result.error);
+                        setLoading(false);
+                    })
+                    .finally(() => {
+                        setLoading(false);
+                    });
             } else {
                 toast.error(res?.data?.message)
             }
@@ -139,29 +162,6 @@ const CommonMainForm = () => {
             setLoading(false)
 
         })
-        const emailData = axios
-            .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
-            .then((res) => {
-                toast.success(t("thankYou1"));
-                formik.resetForm();
-                setLoading(false);
-                localStorage.setItem("user", JSON.stringify(data));
-                // Redirect based on locale
-                // const targetLocale =
-                //     locale === "ar"
-                //         ? "/ar/uae/partners/success"
-                //         : "/uae/partners/success";
-                // router.push(targetLocale);
-                formik.resetForm();
-                setShowOtp(false);
-            })
-            .catch((err) => {
-                toast.error("Error inserting data: " + result.error);
-                setLoading(false);
-            })
-            .finally(() => {
-                setLoading(false);
-            });
     };
 
     const formik = useFormik({
@@ -182,6 +182,7 @@ const CommonMainForm = () => {
             utm_content: "",
             fbclid: "",
             gclid: "",
+            invest_password: generatePassword(),
         },
         validationSchema: Yup.object({
             nickname: Yup.string()
