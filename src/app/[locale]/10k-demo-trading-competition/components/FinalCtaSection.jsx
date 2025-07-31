@@ -17,15 +17,15 @@ const FinalCtaSection = ({ setIsOpen }) => {
           Unleash your trading skills and battle it out with traders from around the world.
           Remember, there’s $10,000 worth in Live Trading Account prizes that will be handed out!
         </p>
-        <div className="flex flex-row justify-center md:justify-start items-center">
+       
               <CustomButton
                         text="Register Your Place"
-                        bgColor="bg-white"
+                        bgColor="bg-white w-full md:w-auto "
                         textColor="text-[#000032]"
                         strokeColor="#000032"
                         onClick={() => setIsOpen(true)}
                       />
-            </div>
+            
       </div>
     </section>
   );

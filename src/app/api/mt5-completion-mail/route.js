@@ -5,7 +5,7 @@ import { TraderCompletionMail } from './template';
 export async function POST(req) {
     const data = await req.json();
     const mailData = {
-        from: '"GTCVIP" <portal@mx3.gtcmail.com>',
+        from: '"GTC" <portal@mx3.gtcmail.com>',
         to: data?.email,
         subject: "Your GTC Tournament Credentials",
         html: TraderCompletionMail(data)

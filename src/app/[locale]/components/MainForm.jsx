@@ -435,23 +435,33 @@ const CommonMainForm = () => {
                         onBlur={() => formik.setFieldTouched("country", true)}
                         value={options.find((opt) => opt.value === formik.values.country)} // ✅ ADD THIS LINE
                         className="text-white cpountry"
-                        styles={{
-                            control: (base, state) => ({
-                                ...base,
-                                backgroundColor: "#1A1A47",
-                                borderColor:
-                                    formik.touched.country && formik.errors.country
-                                        ? "red"
-                                        : "#ccccd679",
-                                color: "white",
-                            }),
-                            singleValue: (base) => ({ ...base, color: "white" }),
-                            menu: (base) => ({
-                                ...base,
-                                backgroundColor: "#1A1A47",
-                                color: "white",
-                            }),
-                        }}
+                      styles={{
+  control: (base, state) => ({
+    ...base,
+    backgroundColor: "#1A1A47",
+    borderColor:
+      formik.touched.country && formik.errors.country
+        ? "red"
+        : "#ccccd679",
+    color: "white",
+  }),
+  singleValue: (base) => ({
+    ...base,
+    color: "white",
+  }),
+  menu: (base) => ({
+    ...base,
+    backgroundColor: "#1A1A47",
+    color: "white",
+  }),
+  option: (base, state) => ({
+    ...base,
+    backgroundColor: state.isFocused ? "#b68756" : "#1A1A47", // gold on hover
+    color: state.isFocused ? "#fff" : "white",            // dark blue text on hover
+    cursor: "pointer",
+  }),
+}}
+
                     />
 
                     {formik.touched.country && formik.errors.country && (
@@ -480,10 +490,15 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                           By clicking on the <span className="font-semibold text-primary">Get 80% RevShare</span> button, I confirm that I am over the age of 18, have read and agree to the 
-  <a href="/legal/client-agreement.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">Client Agreement</a> & 
-  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline ml-1">Privacy Policy</a>, 
-  I consent to GTC contacting me at reasonable times, and that my number is not on the Do Not Call Register (DNCR).
+                         I confirm that I am over the age of 18, have read and agree to the 
+  <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf" 
+     target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+    Competition Terms & Conditions
+  </a> and the 
+  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+    Privacy Policy
+  </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
+  
                   </p>
                     </div>
                 </div>

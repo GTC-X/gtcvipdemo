@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import MobileMenu from './MobileMenu';
 
 const MainHeader = ({ setIsOpen }) => {
   const menuItems = [
@@ -63,6 +64,9 @@ const MainHeader = ({ setIsOpen }) => {
             )
           )}
         </nav>
+        <div className="md:hidden flex gap-2 items-center">
+              <MobileMenu   setIsOpen={setIsOpen}  />
+            </div>
       </div>
     </header>
   );
