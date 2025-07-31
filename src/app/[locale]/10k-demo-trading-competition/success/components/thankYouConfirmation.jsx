@@ -28,11 +28,11 @@ const ConfirmationThankYou = ({ user }) => {
 
   {/* Text column – show second on mobile, first on desktop */}
   <div className="text-center md:text-left order-2 md:order-1">
-    <h2 className="text-2xl md:text-4xl 2xl:text-5xl font-bold mb-5">
+    <h2 className="text-2xl md:text-4xl 2xl:text-4xl font-bold mb-5">
       Thanks, <span className="text-white">{user?.nickname}</span><b>! You’re In!</b>
 
     </h2>
-    <h4 className="text-lg md:text-xl 2xl:text-2xl font-semibold text-gray-200 mb-5">
+    <h4 className="text-lg md:text-xl 2xl:text-xl font-semibold text-secondary mb-5">
       Congrats for registering for the <b>GTC Demo Trading Tournament.</b>
 
     </h4>

@@ -99,70 +99,60 @@ const CommonMainForm = () => {
         ).join("");
     };
 
-    const sendDataToDb = async (data) => {
-        const payloadForm = {
-            first_name: data?.nickname,
-            phone: data?.phone,
-            email: data?.email,
-            password: `${data?.password}`,
-            company: "no",
-            country: data?.country,
-            group: "contest\\AUG25\\TEST-USD",
-            invest_password: `${data?.invest_password}`
-        }
-        await axios.post(`/api/mt5-server`, payloadForm).then(res => {
-            console.log({ res })
+   const sendDataToDb = async (data) => {
+    const payloadForm = {
+        first_name: data?.nickname,
+        phone: data?.phone,
+        email: data?.email,
+        password: `${data?.password}`,
+        company: "no",
+        country: data?.country,
+        group: "contest\\AUG25\\TEST-USD",
+        invest_password: `${data?.invest_password}`
+    };
+
+    await axios.post(`/api/mt5-server`, payloadForm)
+        .then(res => {
             if (res?.data?.success) {
-                toast.success(res?.data?.message)
-                // window.location.href = "/thank-you";
+                toast.success(res?.data?.message);
+
+                // ✅ Send only ONE email with MT5 details
                 axios.post(`/api/mt5-completion-mail`, {
-                    name: formik?.values?.nickname,
-                    phone: formik?.values?.phone,
-                    email: formik?.values?.email,
-                    password: formik?.values?.password,
+                    name: data?.nickname,
+                    phone: data?.phone,
+                    email: data?.email,
+                    password: data?.password,
                     user: res?.data?.data?.user,
                     invest_password: data?.invest_password,
                     server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
-                    toast.success(res?.data?.message)
+                    toast.success(res?.data?.message);
                 }).catch(err => {
-                    toast.success(err?.data?.message)
+                    toast.error("Mail Error: " + err?.response?.data?.message);
                 }).finally(() => {
-                    setLoading(false)
-                })
-                axios
-                    .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
-                    .then((res) => {
-                        toast.success(t("thankYou1"));
-                        formik.resetForm();
-                        setLoading(false);
-                        localStorage.setItem("user", JSON.stringify(data));
-                        // Redirect based on locale
-                        // const targetLocale =
-                        //     locale === "ar"
-                        //         ? "/ar/uae/partners/success"
-                        //         : "/uae/partners/success";
-                        // router.push(targetLocale);
-                        formik.resetForm();
-                        setShowOtp(false);
-                    })
-                    .catch((err) => {
-                        toast.error("Error inserting data: " + result.error);
-                        setLoading(false);
-                    })
-                    .finally(() => {
-                        setLoading(false);
-                    });
+                    setLoading(false);
+                });
+
+                // ✅ Redirect after all successful
+                const targetLocale =
+                    locale === "ar"
+                        ? "/ar/10k-demo-trading-competition/success"
+                        : "/10k-demo-trading-competition/success";
+
+                localStorage.setItem("user", JSON.stringify(data));
+                router.push(targetLocale);
+                formik.resetForm();
+                setShowOtp(false);
+
             } else {
-                toast.error(res?.data?.message)
+                toast.error(res?.data?.message);
             }
         }).catch(err => {
-            toast.success(err?.data?.message)
+            toast.error("Server Error: " + err?.response?.data?.message);
         }).finally(() => {
-            setLoading(false)
-
-        })
-    };
+            setLoading(false);
+        });
+};
 
     const formik = useFormik({
         initialValues: {

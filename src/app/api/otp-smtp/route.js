@@ -240,7 +240,7 @@ export async function POST(req) {
            <!-- Logo -->
             <tr>
               <td align="left" style="padding-bottom: 20px;">
-                <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 

@@ -18,7 +18,7 @@ export const TraderCompletionMail = (data) => {
            <!-- Logo -->
             <tr>
               <td align="left" style="padding-bottom: 20px;">
-                <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Logo-Standard.png" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
@@ -159,7 +159,7 @@ export const TraderCompletionMail = (data) => {
                 <table width="100%" cellpadding="0" cellspacing="0">
                   <tr>
                     <td align="left">
-                      <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
                     </td>
                     <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
                       📞 Phone: +971 800 667788<br/>
