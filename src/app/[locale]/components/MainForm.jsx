@@ -480,25 +480,14 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                            {t("termsText")}
-                            <a
-                                className="text-secondary underline"
-                                href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Vanuatu.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t("clientAgreement")}
-                            </a>{" "}
-                            & the{" "}
-                            <a
-                                className="text-secondary underline"
-                                href="/privacy-policy"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t("privacyPolicy")}
-                            </a>
-                            , {t("conset")}.
+                             I confirm that I am over the age of 18, have read and agree to the 
+  <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf" 
+     target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+    Competition Terms & Conditions
+  </a> and the 
+  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+    Privacy Policy
+  </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
                         </p>
                     </div>
                 </div>

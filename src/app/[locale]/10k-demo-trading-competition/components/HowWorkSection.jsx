@@ -24,7 +24,7 @@ const steps = [
   },
 ];
 
-export default function HowItWorksSection() {
+export default function HowItWorksSection({ setIsOpen }) {
   return (
     <section className="relative py-16 md:py-20 bg-white overflow-hidden bg-[url('/demo/work.webp')] bg-cover bg-center" id="work">
    
@@ -45,6 +45,7 @@ export default function HowItWorksSection() {
             bgColor="bg-white border border-gray-500 "
             textColor="text-[#1A1A3C]"
             strokeColor="#1A1A3C"
+            onClick={() => setIsOpen(true)}
           />
         </div>
 

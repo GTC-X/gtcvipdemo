@@ -101,8 +101,8 @@ const features = [
   },
 ];
 
-const WhyJoinSection = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const WhyJoinSection = ({ setIsOpen }) => {
+
 
   return (
     <section className="relative bg-[#E8DBCC] pt-0 pb-16 md:pb-20 overflow-hidden" id="join">

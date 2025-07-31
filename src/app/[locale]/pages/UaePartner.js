@@ -46,11 +46,11 @@ const UaePartnerPage = () => {
 
   return (
     <>
-            <MainHeader />
+            <MainHeader setIsOpen={setIsOpen} />
             <HeroSection setIsOpen={setIsOpen} />
             <CountdownSection />
-            <WhyJoinSection />
-            <HowWorkSection />
+            <WhyJoinSection setIsOpen={setIsOpen} />
+            <HowWorkSection  setIsOpen={setIsOpen} />
             <EarningsMarginImpact />
             <FinalCtaSection  setIsOpen={setIsOpen}  />
             <MainFooter />
