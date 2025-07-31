@@ -99,60 +99,70 @@ const CommonMainForm = () => {
         ).join("");
     };
 
-   const sendDataToDb = async (data) => {
-    const payloadForm = {
-        first_name: data?.nickname,
-        phone: data?.phone,
-        email: data?.email,
-        password: `${data?.password}`,
-        company: "no",
-        country: data?.country,
-        group: "contest\\AUG25\\TEST-USD",
-        invest_password: `${data?.invest_password}`
-    };
-
-    await axios.post(`/api/mt5-server`, payloadForm)
-        .then(res => {
+    const sendDataToDb = async (data) => {
+        const payloadForm = {
+            first_name: data?.nickname,
+            phone: data?.phone,
+            email: data?.email,
+            password: `${data?.password}`,
+            company: "no",
+            country: data?.country,
+            group: "contest\\AUG25\\TEST-USD",
+            invest_password: `${data?.invest_password}`
+        }
+        await axios.post(`/api/mt5-server`, payloadForm).then(res => {
+            console.log({ res })
             if (res?.data?.success) {
-                toast.success(res?.data?.message);
-
-                // ✅ Send only ONE email with MT5 details
+                toast.success(res?.data?.message)
+                // window.location.href = "/thank-you";
                 axios.post(`/api/mt5-completion-mail`, {
-                    name: data?.nickname,
-                    phone: data?.phone,
-                    email: data?.email,
-                    password: data?.password,
+                    name: formik?.values?.nickname,
+                    phone: formik?.values?.phone,
+                    email: formik?.values?.email,
+                    password: formik?.values?.password,
                     user: res?.data?.data?.user,
                     invest_password: data?.invest_password,
                     server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
-                    toast.success(res?.data?.message);
+                    toast.success(res?.data?.message)
                 }).catch(err => {
-                    toast.error("Mail Error: " + err?.response?.data?.message);
+                    toast.success(err?.data?.message)
                 }).finally(() => {
-                    setLoading(false);
-                });
-
-                // ✅ Redirect after all successful
-                const targetLocale =
-                    locale === "ar"
-                        ? "/ar/10k-demo-trading-competition/success"
-                        : "/10k-demo-trading-competition/success";
-
-                localStorage.setItem("user", JSON.stringify(data));
-                router.push(targetLocale);
-                formik.resetForm();
-                setShowOtp(false);
-
+                    setLoading(false)
+                })
+                axios
+                    .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
+                    .then((res) => {
+                        toast.success(t("thankYou1"));
+                        formik.resetForm();
+                        setLoading(false);
+                        localStorage.setItem("user", JSON.stringify(data));
+                        // Redirect based on locale
+                        // const targetLocale =
+                        //     locale === "ar"
+                        //         ? "/ar/uae/partners/success"
+                        //         : "/uae/partners/success";
+                        // router.push(targetLocale);
+                        formik.resetForm();
+                        setShowOtp(false);
+                    })
+                    .catch((err) => {
+                        toast.error("Error inserting data: " + result.error);
+                        setLoading(false);
+                    })
+                    .finally(() => {
+                        setLoading(false);
+                    });
             } else {
-                toast.error(res?.data?.message);
+                toast.error(res?.data?.message)
             }
         }).catch(err => {
-            toast.error("Server Error: " + err?.response?.data?.message);
+            toast.success(err?.data?.message)
         }).finally(() => {
-            setLoading(false);
-        });
-};
+            setLoading(false)
+
+        })
+    };
 
     const formik = useFormik({
         initialValues: {
@@ -480,14 +490,25 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                             I confirm that I am over the age of 18, have read and agree to the 
-  <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf" 
-     target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-    Competition Terms & Conditions
-  </a> and the 
-  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-    Privacy Policy
-  </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
+                            {t("termsText")}
+                            <a
+                                className="text-secondary underline"
+                                href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/pdf-files/Vanuatu.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t("clientAgreement")}
+                            </a>{" "}
+                            & the{" "}
+                            <a
+                                className="text-secondary underline"
+                                href="/privacy-policy"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t("privacyPolicy")}
+                            </a>
+                            , {t("conset")}.
                         </p>
                     </div>
                 </div>
