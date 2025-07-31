@@ -11,7 +11,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: 'https://gtcfx.com',
+        destination: 'https://www.gtcvip.com/',
         permanent: true,
       },
       {
