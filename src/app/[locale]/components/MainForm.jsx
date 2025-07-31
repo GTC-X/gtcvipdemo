@@ -121,7 +121,7 @@ const CommonMainForm = () => {
                     email: formik?.values?.email,
                     password: formik?.values?.password,
                     user: res?.data?.data?.user,
-                    invest_password: data?.password,
+                    invest_password: data?.invest_password,
                     server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
                     toast.success(res?.data?.message)
