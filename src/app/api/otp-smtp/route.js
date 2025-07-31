@@ -236,23 +236,23 @@ export async function POST(req) {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="600" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
            <!-- Logo -->
             <tr>
-              <td align="left" style="padding-bottom: 20px;">
+              <td align="center" style="padding-bottom: 20px;">
                 <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
+              <td align="center"  style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
                 You’ve Registered for the <br>GTC Demo Competition
 
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:20px;">
+              <td align="center"  style="font-size:14px;color:#000000;padding-bottom:20px;">
                 Confirm your email by entering the OTP that’s in this email.
 
 
@@ -318,7 +318,7 @@ export async function POST(req) {
                 <table width="100%" cellpadding="0" cellspacing="0">
                   <tr>
                     <td align="left">
-                      <img src="https://www.gtcvip.com/Logo-Standard.svg" alt="GTC Logo" style="width: 160px;" />
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
                     </td>
                     <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
                       📞 Phone: +971 800 667788<br/>
