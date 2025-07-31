@@ -105,7 +105,7 @@ const WhyJoinSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#E8DBCC] pt-0 pb-16 md:pb-20 overflow-hidden">
+    <section className="relative bg-[#E8DBCC] pt-0 pb-16 md:pb-20 overflow-hidden" id="join">
       {/* Wave */}
       <div className="absolute top-0 left-0 w-full z-0">
         <svg viewBox="0 0 1440 140" xmlns="http://www.w3.org/2000/svg" className="w-full h-[100px] md:h-[140px]" preserveAspectRatio="none">
@@ -122,21 +122,8 @@ const WhyJoinSection = () => {
         </svg>
       </div>
 
-      <div className="relative z-10 pt-6 container text-center">
-        <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary mb-8">
-           Real Prizes - Leaderboard 
-          </h2>
-        <div className="w-full min-h-[700px] rounded-xl overflow-hidden border border-[#ffffff1a] shadow-md mb-8 md:mb-16">
-  <iframe
-    src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/demo-contest"
-    frameBorder="0"
-    width="100%"
-    height="100%"
-    className="w-full h-[700px]"
-    allowFullScreen
-    title="Demo Contest Leaderboard"
-  />
-</div>
+      <div className="relative z-10 pt-6 md:pt-14 container text-center">
+      
 
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">

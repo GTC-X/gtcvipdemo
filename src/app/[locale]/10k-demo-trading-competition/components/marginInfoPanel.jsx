@@ -81,6 +81,7 @@ const EarningsMarginImpact = () => {
     <section
       ref={sectionRef}
       className="relative bg-[#F2F2F5] py-10 md:py-20 text-[#1a1a1a]"
+      id="details"
     >
       {/* Sticky Image */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden md:flex justify-end">

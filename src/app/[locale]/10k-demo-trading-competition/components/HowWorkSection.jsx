@@ -26,7 +26,7 @@ const steps = [
 
 export default function HowItWorksSection() {
   return (
-    <section className="relative py-16 md:py-20 bg-white overflow-hidden bg-[url('/demo/work.webp')] bg-cover bg-center">
+    <section className="relative py-16 md:py-20 bg-white overflow-hidden bg-[url('/demo/work.webp')] bg-cover bg-center" id="work">
    
 
       {/* Main Content */}

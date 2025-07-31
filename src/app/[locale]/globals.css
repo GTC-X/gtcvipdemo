@@ -7,7 +7,9 @@
   --color-primary: #000032; /* Dark blue */
   --color-secondary: #b68756; /* Gold yellow */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
