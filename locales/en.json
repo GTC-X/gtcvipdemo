@@ -207,7 +207,7 @@
     "whoWeAre": {
     "title": "Who We Are",
     "intro1": "This Privacy Policy applies to GTC, including all of its subdomains such as reg.gtcfx.com (and all other GTC-related subdomains), and covers how we handle your personal information.",
-    "intro2": "When we say “GTC,” “GTCFX,” “we,” “our,” or “us,” we’re referring to:",
+    "intro2": "When we say “GTC,” “GTCFX,” “GTC VIP,” “we,” “our,” or “us,” we’re referring to:",
     "entity1": {
       "title": "GTC Global Trade Capital Co. Ltd",
       "line1": "Authorised by the Vanuatu Financial Services Commission (VFSC).",
@@ -282,7 +282,7 @@
 },
 "cookiesTracking": {
   "title": "Cookies & Tracking",
-  "description": "We use cookies and tracking tech on all GTCFX domains to:",
+  "description": "We use cookies and tracking tech on all GTCFX domains (e.g. https://gtcfx.com, https://gtcvip.com, etc.) to:",
   "points": {
     "one": "Remember your preferences.",
     "two": "Show you relevant content.",

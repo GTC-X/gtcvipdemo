@@ -50,12 +50,12 @@ const CountdownSection = () => {
   </div>
 
   {/* Countdown Content */}
-  <div className="relative z-10 max-w-6xl mx-auto text-center px-4">
-    <h2 className="text-[#20205B] text-lg md:text-xl xl:text-[22px] font-medium mb-10">
+  <div className="relative z-10 max-w-6xl mx-auto md:text-center px-4">
+    <h2 className="text-[#20205B] text-xl xl:text-[22px]  mb-10">
       GTC’s First-Ever Demo Trading Competition Starts In:
     </h2>
 
-    <div className="flex justify-between items-center gap-4 sm:gap-8 md:gap-12">
+    <div className="flex justify-between items-center gap-2 sm:gap-8 md:gap-12">
       {[
         { label: "D A Y S", value: timeLeft.days },
         { label: "H O U R S", value: timeLeft.hours },
@@ -63,10 +63,10 @@ const CountdownSection = () => {
         { label: "S E C O N D S", value: timeLeft.seconds },
       ].map((item, index) => (
         <div key={index} className="flex flex-col items-center">
-          <span className="text-[36px] md:text-[48px] xl:text-[60px] xl:leading-[72px] font-extrabold bg-[linear-gradient(135deg,#293794_0%,#000021_100%)] bg-clip-text text-transparent leading-none">
+          <span className="text-[40px] md:text-[48px] xl:text-[60px] xl:leading-[72px] font-extrabold bg-[linear-gradient(135deg,#293794_0%,#000021_100%)] bg-clip-text text-transparent leading-none">
             {String(item.value).padStart(2, "0")}
           </span>
-          <span className="mt-2 text-xs md:text-base xl:text-[20px] font-semibold text-[#20205B] tracking-widest uppercase">
+          <span className="mt-2 text-base xl:text-[20px] font-semibold text-[#20205B] md:tracking-widest uppercase">
             {item.label}
           </span>
         </div>

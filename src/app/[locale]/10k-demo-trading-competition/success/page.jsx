@@ -39,7 +39,7 @@ const ThankYouPage = () => {
 
     return (
         <>
-        <Meta title="Joining the GTC Partnership Programme Confirmation" description=""/>
+        <Meta title="Get Ready for the GTC Demo Trading Tournament!" description=""/>
             <MainHeader />
             <ConfirmationThankYou user={user} />
             <HelpSection />

@@ -105,7 +105,7 @@ const WhyJoinSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#E8DBCC] pt-0 pb-20 overflow-hidden">
+    <section className="relative bg-[#E8DBCC] pt-0 pb-16 md:pb-20 overflow-hidden">
       {/* Wave */}
       <div className="absolute top-0 left-0 w-full z-0">
         <svg viewBox="0 0 1440 140" xmlns="http://www.w3.org/2000/svg" className="w-full h-[100px] md:h-[140px]" preserveAspectRatio="none">
@@ -122,12 +122,27 @@ const WhyJoinSection = () => {
         </svg>
       </div>
 
-      <div className="relative z-10 pt-24 container text-center">
-        <div className="flex flex-col items-center justify-center gap-6 pb-14">
-          <h2 className="text-2xl md:text-3xl xl:text-[40px] font-bold text-primary">
+      <div className="relative z-10 pt-6 container text-center">
+        <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary mb-8">
+           Real Prizes - Leaderboard 
+          </h2>
+        <div className="w-full min-h-[700px] rounded-xl overflow-hidden border border-[#ffffff1a] shadow-md mb-8 md:mb-16">
+  <iframe
+    src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/demo-contest"
+    frameBorder="0"
+    width="100%"
+    height="100%"
+    className="w-full h-[700px]"
+    allowFullScreen
+    title="Demo Contest Leaderboard"
+  />
+</div>
+
+        <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
+          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
             Why Join the GTC Demo Trading Competition?
           </h2>
-          <p className="text-[#000021] text-sm md:text-base max-w-2xl">
+          <p className="text-[#000021] text-base leading-5  px-5 md:px-0">
             You're not just entering a trading competition, you're stepping into the trading spotlight!
             Here’s why traders from all over the world are registering and can’t wait to compete in
             GTC’s first-ever demo trading tournament:
@@ -135,14 +150,14 @@ const WhyJoinSection = () => {
         </div>
 
         {/* Flip Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-10 pb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 pb-10 md:pb-16">
           {features.map((item, idx) => (
             <div key={idx} className="group perspective w-full h-[220px]">
               <div className="relative w-full h-full transition-transform duration-500 transform-style-3d group-hover:rotate-y-180">
                 {/* Front */}
                 <div className="absolute inset-0 bg-white rounded-lg shadow-md p-10 flex flex-col items-center justify-center text-center backface-hidden">
                   <div className="mb-4">{item.icon}</div>
-                  <p className="text-[#20205B] text-sm md:text-base font-medium max-w-[250px]">{item.text}</p>
+                  <p className="text-[#20205B] text-lg font-medium md:max-w-[250px]">{item.text}</p>
                 </div>
                 {/* Back */}
                 <div className="absolute inset-0 bg-[#C39F77] text-white rounded-lg shadow-md p-6 flex items-center justify-center text-center rotate-y-180 backface-hidden">
@@ -156,7 +171,7 @@ const WhyJoinSection = () => {
         <div className="flex justify-center">
           <CustomButton
             text="Take Part"
-            bgColor="bg-white"
+            bgColor="bg-white w-full md:w-auto"
             textColor="text-[#B48755]"
             strokeColor="#B48755"
             onClick={() => setIsOpen(true)}

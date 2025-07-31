@@ -107,7 +107,7 @@ const CommonMainForm = () => {
             password: `${data?.password}`,
             company: "no",
             country: data?.country,
-            group: "demo\\web.hedged",
+            group: "contest\\AUG25\\TEST-USD",
             invest_password: `${data?.password}`
           }
        await axios.post(`/api/mt5-server`, payloadForm).then(res => {
@@ -122,7 +122,7 @@ const CommonMainForm = () => {
                     password: formik?.values?.password,
                     user: res?.data?.data?.user,
                     invest_password: data?.password,
-                    server_name: "demo\\web.hedged",
+                    server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
                     toast.success(res?.data?.message)
                  }).catch(err => {
@@ -517,9 +517,9 @@ const CommonMainForm = () => {
                     <button
                         disabled={isDisable}
                         type="submit"
-                        className="bg-secondary cursor-pointer mb-10 text-white w-full font-bold py-4 px-8 rounded-md border border-[#ffffff1a]"
+                        className="bg-white cursor-pointer mb-10 text-[#000032] text-base md:text-lg w-full font-semibold py-4 px-8 rounded-xl border border-[#ffffff1a]"
                     >
-                        {loading ? t("submitting") : t("submit")}
+                        {loading ? t("submitting") : "Regsiter Your Place "}
                     </button>
                 </div>
             </form>

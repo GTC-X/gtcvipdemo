@@ -1,21 +1,18 @@
-// tailwind.config.js
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}', // if using /pages too
+    './pages/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', ...fontFamily.sans],
       },
-         screens: {
-        ...defaultScreens, // ✅ keep default breakpoints
-        '3xl': '1720px',
-        '4xl': '2250px',
+      screens: {
+        '3xl': '1800px', // ✅ now extends instead of replaces
       },
     },
   },

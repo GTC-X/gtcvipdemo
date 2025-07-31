@@ -15,6 +15,7 @@ import CountdownSection from "../components/CountdownSection";
 import WhyJoinSection from "../10k-demo-trading-competition/components/WhyJoinSection";
 import HowWorkSection from "../10k-demo-trading-competition/components/HowWorkSection";
 import EarningsMarginImpact from "../10k-demo-trading-competition/components/marginInfoPanel";
+import FinalCtaSection from "../10k-demo-trading-competition/components/FinalCtaSection";
 
 
 const UaePartnerPage = () => {
@@ -51,7 +52,7 @@ const UaePartnerPage = () => {
             <WhyJoinSection />
             <HowWorkSection />
             <EarningsMarginImpact />
-          
+            <FinalCtaSection  setIsOpen={setIsOpen}  />
             <MainFooter />
             
             <SliderModal isOpen={isOpen}

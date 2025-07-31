@@ -26,11 +26,12 @@ const steps = [
 
 export default function HowItWorksSection() {
   return (
-    <section className="relative py-16 md:py-28 bg-white overflow-hidden bg-[url('/demo/work.webp')] bg-cover bg-center">
+    <section className="relative py-16 md:py-20 bg-white overflow-hidden bg-[url('/demo/work.webp')] bg-cover bg-center">
    
 
       {/* Main Content */}
-      <div className="relative z-10 container grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-18">
+      <div className="relative z-10 container grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-18">
+       
         {/* Left Text */}
         <div className="space-y-6">
           <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-[40px] font-bold text-[#4D4D70] leading-snug">
@@ -41,7 +42,7 @@ export default function HowItWorksSection() {
           </p>
           <CustomButton
             text="Register Now"
-            bgColor="bg-white border border-gray-500"
+            bgColor="bg-white border border-gray-500 "
             textColor="text-[#1A1A3C]"
             strokeColor="#1A1A3C"
           />
