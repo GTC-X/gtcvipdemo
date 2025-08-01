@@ -91,12 +91,28 @@ const CommonMainForm = () => {
     };
 
     const generatePassword = (length = 12) => {
-        const chars =
-            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
-        return Array.from(
-            { length },
-            () => chars[Math.floor(Math.random() * chars.length)]
-        ).join("");
+        const lower = "abcdefghijklmnopqrstuvwxyz";
+        const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const number = "0123456789";
+        const special = "!@#$%^&*";
+
+        const all = lower + upper + number + special;
+
+        // Ensure at least one of each type
+        const password = [
+            lower[Math.floor(Math.random() * lower.length)],
+            upper[Math.floor(Math.random() * upper.length)],
+            number[Math.floor(Math.random() * number.length)],
+            special[Math.floor(Math.random() * special.length)],
+        ];
+
+        // Fill the rest with random chars
+        for (let i = password.length; i < length; i++) {
+            password.push(all[Math.floor(Math.random() * all.length)]);
+        }
+
+        // Shuffle to avoid predictable positions
+        return password.sort(() => Math.random() - 0.5).join('');
     };
 
     const sendDataToDb = async (data) => {
@@ -435,32 +451,32 @@ const CommonMainForm = () => {
                         onBlur={() => formik.setFieldTouched("country", true)}
                         value={options.find((opt) => opt.value === formik.values.country)} // ✅ ADD THIS LINE
                         className="text-white cpountry"
-                      styles={{
-  control: (base, state) => ({
-    ...base,
-    backgroundColor: "#1A1A47",
-    borderColor:
-      formik.touched.country && formik.errors.country
-        ? "red"
-        : "#ccccd679",
-    color: "white",
-  }),
-  singleValue: (base) => ({
-    ...base,
-    color: "white",
-  }),
-  menu: (base) => ({
-    ...base,
-    backgroundColor: "#1A1A47",
-    color: "white",
-  }),
-  option: (base, state) => ({
-    ...base,
-    backgroundColor: state.isFocused ? "#b68756" : "#1A1A47", // gold on hover
-    color: state.isFocused ? "#fff" : "white",            // dark blue text on hover
-    cursor: "pointer",
-  }),
-}}
+                        styles={{
+                            control: (base, state) => ({
+                                ...base,
+                                backgroundColor: "#1A1A47",
+                                borderColor:
+                                    formik.touched.country && formik.errors.country
+                                        ? "red"
+                                        : "#ccccd679",
+                                color: "white",
+                            }),
+                            singleValue: (base) => ({
+                                ...base,
+                                color: "white",
+                            }),
+                            menu: (base) => ({
+                                ...base,
+                                backgroundColor: "#1A1A47",
+                                color: "white",
+                            }),
+                            option: (base, state) => ({
+                                ...base,
+                                backgroundColor: state.isFocused ? "#b68756" : "#1A1A47", // gold on hover
+                                color: state.isFocused ? "#fff" : "white",            // dark blue text on hover
+                                cursor: "pointer",
+                            }),
+                        }}
 
                     />
 
@@ -490,16 +506,16 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                         I confirm that I am over the age of 18, have read and agree to the 
-  <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf" 
-     target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-    Competition Terms & Conditions
-  </a> and the 
-  <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-    Privacy Policy
-  </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
-  
-                  </p>
+                            I confirm that I am over the age of 18, have read and agree to the
+                            <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf"
+                                target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+                                Competition Terms & Conditions
+                            </a> and the
+                            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
+                                Privacy Policy
+                            </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
+
+                        </p>
                     </div>
                 </div>
 
