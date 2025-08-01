@@ -127,23 +127,32 @@ export const TraderCompletionMail = (data) => {
   </td>
 </tr>
 
-            <!-- Support Info -->
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:20px;">
-                If you need any help or assistance, simply reach out to our amazing Customer Care team via our Live Chat feature that’s on our website, <a href="https://GTCVIP.com">https://GTCVIP.com</a>.
+          <tr>
+              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600">
 
+
+Need Help?
               </td>
             </tr>
- <tr>
+               <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-             We hope you’re excited about the upcoming GTC Demo Trading Tournament!
+           If you’ve got any questions or need further assistance, please don’t hesitate to contact us at <a href="mailto:support@gtcfx.com">support@gtcfx.com</a> . We are here to support you and ensure your experience with us is the best you’ve ever experienced.
 
               </td>
             </tr>
+            
             <!-- Signoff -->
             <tr>
+              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600;">
+                <br>
+             Best Regard,
+
+              </td>
+            </tr>
+            <tr>
               <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                Have a great day,<br>
+                You’re the best, and soon, you’ll show the world you are!
+<br>
                 Your GTC Family
 
               </td>
@@ -174,6 +183,9 @@ export const TraderCompletionMail = (data) => {
             <!-- Legal Footer -->
 <tr>
   <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+  <strong>Your login account and password must be kept confidential at all times. Passwords should never be shared or exposed to others. You should never let anyone else access your GTC trading account, or do anything else that might jeopardize the security of your account.</strong><br/><br/>
+    <strong>You’re responsible for the confidentiality and use of all IDs, passwords, and other security data, methods, and devices in connection with the GTC client zone and the GTC trading platform(s).</strong> 
+    <br/><br/>
     This website is owned and operated by GTC Global Ltd, a limited company incorporated in Mauritius (company number: C188049) and licensed by the Financial Services Commission, Mauritius (No. GB22200292) to trade as an SEC-2.1B Investment Dealer. Registered Address: Cyberati Lounge, Ground Floor, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, Republic of Mauritius. The financial services and products promoted on this website are offered by GTC Global Ltd and GTC Global Trade Capital Co. Limited, a company authorised by the Vanuatu Financial Services Commission of the Republic of Vanuatu, Company License Number: 40354.
     <br/><br/>
     <stong style="font-weight: 600p; color: #000;">GTC Global Ltd and GTC Global Trade Capital Co. Limited</stong> belong to the GTC Financial Group, which consists of a group of entities across the globe.

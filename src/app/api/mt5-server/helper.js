@@ -187,7 +187,7 @@ async function clientPipeline(credentials) {
     // console.log("Deposit result:", depositResponse);
 
     return {
-        message: "Client and user added and bound successfully", 
+        message: "Congratulations! You’ve successfully registered.", 
         success: true,
         user: userResponse.Login,
     };
