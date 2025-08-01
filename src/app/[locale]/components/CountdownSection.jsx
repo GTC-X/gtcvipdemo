@@ -27,13 +27,13 @@ const CountdownSection = () => {
   }, []);
 
   return (
-  <section className="relative bg-white overflow-hidden pb-10">
+  <section className="relative bg-white overflow-hidden pb-16">
   {/* Beige wave background behind countdown */}
   <div className="absolute bottom-0 left-0 w-full z-0">
     <svg
       viewBox="0 0 1440 140"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-[100px] md:h-[140px]"
+      className="w-full h-[100px] md:h-[190px]"
       preserveAspectRatio="none"
     >
       <defs>

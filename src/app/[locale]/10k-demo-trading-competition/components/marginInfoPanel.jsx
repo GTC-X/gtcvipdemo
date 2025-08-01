@@ -84,7 +84,7 @@ const EarningsMarginImpact = () => {
       id="details"
     >
       {/* Sticky Image */}
-      <div className="absolute inset-0 z-0 pointer-events-none hidden md:flex justify-end">
+     {/*  <div className="absolute inset-0 z-0 pointer-events-none hidden md:flex justify-end">
         <div
           className="flex items-start justify-end w-full"
           style={{
@@ -105,7 +105,7 @@ const EarningsMarginImpact = () => {
           />
         </div>
       </div>
-
+ */}
       <div className="max-w-3xl mx-auto px-3 relative z-10">
          <div className="block md:hidden relative w-full h-[380px] mb-10">
           <Image src="/demo/mobile-new.webp" fill className="object-contain" alt="" />

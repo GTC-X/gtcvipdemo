@@ -105,24 +105,11 @@ const WhyJoinSection = ({ setIsOpen }) => {
 
 
   return (
-    <section className="relative bg-[#E8DBCC] pt-0 pb-16 md:pb-20 overflow-hidden" id="join">
+    <section className="relative bg-[#F7F3EE] pt-0 pb-16 md:py-20 overflow-hidden" id="join">
       {/* Wave */}
-      <div className="absolute top-0 left-0 w-full z-0">
-        <svg viewBox="0 0 1440 140" xmlns="http://www.w3.org/2000/svg" className="w-full h-[100px] md:h-[140px]" preserveAspectRatio="none">
-          <defs>
-            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-              <stop stopColor="rgba(232, 219, 204, 1)" offset="0%" />
-              <stop stopColor="rgba(232, 219, 204, 1)" offset="100%" />
-            </linearGradient>
-          </defs>
-          <path
-            fill="url(#sw-gradient-0)"
-            d="M0,112L40,100.3C80,89,160,65,240,49C320,33,400,23,480,32.7C560,42,640,70,720,74.7C800,79,880,61,960,63C1040,65,1120,89,1200,86.3C1280,84,1360,56,1440,37.3V140H0Z"
-          />
-        </svg>
-      </div>
+    
 
-      <div className="relative z-10 pt-6 md:pt-14 container text-center">
+      <div className="relative z-10 container text-center">
       
 
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
