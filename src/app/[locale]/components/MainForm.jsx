@@ -526,7 +526,7 @@ const CommonMainForm = () => {
                         type="submit"
                         className="bg-white cursor-pointer mb-10 text-[#000032] text-base md:text-lg w-full font-semibold py-4 px-8 rounded-xl border border-[#ffffff1a]"
                     >
-                        {loading ? t("submitting") : "Regsiter Your Place "}
+                        {loading ? t("submitting") : "Register Your Place "}
                     </button>
                 </div>
             </form>
