@@ -10,7 +10,7 @@ const steps = [
   {
     title: "Step 2",
     heading: "Get Your $5,000 Demo Account",
-    desc: "We’ll instantly set you up with a demo MT5 account loaded with $10K virtual funds.",
+    desc: "We’ll instantly set you up with a demo MT5 account loaded with $5k virtual funds.",
   },
   {
     title: "Step 3",

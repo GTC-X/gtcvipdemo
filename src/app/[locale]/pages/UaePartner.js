@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import SliderModal from "../10k-demo-trading-competition/components/SliderModal";
+import SliderModal from "../5k-demo-trading-competition/components/SliderModal";
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 import PayCommission from "../components/common/PayCommission";
@@ -12,10 +12,10 @@ import NewHeader from "../components/NewHeader";
 import { useTranslations } from "next-intl";
 import HeroSection from "../components/common/HeroSection";
 import CountdownSection from "../components/CountdownSection";
-import WhyJoinSection from "../10k-demo-trading-competition/components/WhyJoinSection";
-import HowWorkSection from "../10k-demo-trading-competition/components/HowWorkSection";
-import EarningsMarginImpact from "../10k-demo-trading-competition/components/marginInfoPanel";
-import FinalCtaSection from "../10k-demo-trading-competition/components/FinalCtaSection";
+import WhyJoinSection from "../5k-demo-trading-competition/components/WhyJoinSection";
+import HowWorkSection from "../5k-demo-trading-competition/components/HowWorkSection";
+import EarningsMarginImpact from "../5k-demo-trading-competition/components/marginInfoPanel";
+import FinalCtaSection from "../5k-demo-trading-competition/components/FinalCtaSection";
 
 
 const UaePartnerPage = () => {

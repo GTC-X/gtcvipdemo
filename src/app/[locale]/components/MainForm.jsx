@@ -148,8 +148,8 @@ const CommonMainForm = () => {
                     // Redirect based on locale
                     const targetLocale =
                         locale === "ar"
-                            ? "/ar/10k-demo-trading-competition/success"
-                            : "/10k-demo-trading-competition/success";
+                            ? "/ar/5k-demo-trading-competition/success"
+                            : "/5k-demo-trading-competition/success";
                     router.push(targetLocale);
                     formik.resetForm();
                     setShowOtp(false);
