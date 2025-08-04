@@ -22,7 +22,7 @@ const HeroSection = ({ setIsOpen }) => {
             GTC’s
           </h2>
           <h1 className="text-[76px] md:text-[56px] xl:text-[76px] font-bold leading-none 2xl:text-[90px] 3xl:text-[100px] bg-gradient-to-b from-[#E1CFBB] to-[#956D42] inline-block text-transparent bg-clip-text">
-            $10,000
+            $5,000
           </h1>
           <h2 className="text-[#000032] text-[32px] md:text-[28px] xl:text-[40px] font-bold leading-tight px-5 md:px-0">
             Demo Trading Competition Is Almost Here!
@@ -40,7 +40,7 @@ const HeroSection = ({ setIsOpen }) => {
           <p className="text-primary text-[14px] md:text-[16px] leading-relaxed py-4 md:px-0 mb-3 md:mb-0">
             Think you’ve got what it takes to top the GTC Demo Trading
             Competition League? Prove it in our first-ever demo trading
-            tournament & win your share of $10,000 in live trading prizes. No
+            tournament & win your share of $5,000 in live trading prizes. No
             risk, all reward & just pure trading glory. Remember, this is a demo
             trading competition, so we really do mean that there’s no risk! Hit
             the button below to register your place and let’s see what you’re

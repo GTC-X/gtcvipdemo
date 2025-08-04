@@ -178,7 +178,7 @@ async function clientPipeline(credentials) {
     const bindResult = await mt5Instance.clients.addUser(bindPayload);
     console.log("Binding result:", bindResult);
 
-    // Deposit a fixed amount of 10,000 into the user's account
+    // Deposit a fixed amount of 5,000 into the user's account
     // const depositResponse = await mt5Instance.users.deposit({
     //     Login: userResponse.Login,
     //     Amount: 10000,
@@ -187,7 +187,7 @@ async function clientPipeline(credentials) {
     // console.log("Deposit result:", depositResponse);
 
     return {
-        message: "Congratulations! You’ve successfully registered.", 
+        message: "Client and user added and bound successfully", 
         success: true,
         user: userResponse.Login,
     };

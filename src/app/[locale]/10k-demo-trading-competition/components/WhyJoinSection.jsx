@@ -14,7 +14,7 @@ const features = [
         />
       </svg>
     ),
-    text: "$10,000 Goes To The Winner + Zero Risk!",
+    text: "$5,000 Goes To The Winner + Zero Risk!",
     back: "You are trading demo funds, but the top performer wins a live trading account with $5,000 in it! No deposit required to join."
   },
   {

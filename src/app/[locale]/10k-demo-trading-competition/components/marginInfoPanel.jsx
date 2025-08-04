@@ -24,13 +24,13 @@ const EarningsMarginImpact = () => {
     {
       title: 'Registration Period',
       content: [
-        `Monday 4th August 2025 – Monday 18th August 2025 (23:59 GMT). Register early to secure your demo account and get familiar with the MT5 platform.`
+        `Wednesday, 6th August 2025 – Sunday, 24th August 2025 (23:59 GMT). Register early to secure your demo account and get familiar with the MT5 platform.`
       ]
     },
     {
       title: 'Competition Period',
       content: [
-        `Tuesday 19th August – Friday 19th September 2025 (23:59 GMT). You’ll have 30 full days to trade your way up the leaderboard.`
+        `Monday, 25th August – Friday 8th September 2025 (23:59 GMT). You’ll have 14 full days to trade your way up the leaderboard.`
       ]
     },
     {
@@ -39,19 +39,19 @@ const EarningsMarginImpact = () => {
         `Simply click here to access the registration form. When you fill in the form, here’s what will happen:`
       ],
       list: [
-        `You’ll get your $10,000 GTC MT5 Demo Account with login credentials via email.`,
+        `You’ll get your $5,000 GTC MT5 Demo Account with login credentials via email.`,
         `You’ll be able to trade FX, Metals & Commodities during the contest period.`,
         `You’ll be able to track your progress on the live leaderboard in GTC VIP, our loyalty rewards platform. Check it out!`
       ],
       note: `⚠️ Note: Minimum 10 trades are required to qualify for a prize.`
     },
     {
-      title: '$10,000 Prize Pool',
+      title: '$5,000 Prize Pool',
       list: [
-        '🥇 1st Place Wins $5,000 in a GTC Live Trading Account.',
-        '🥈 2nd Place Wins $2,500 in a GTC Live Trading Account.',
-        '🥉 3rd Place Wins $1,000 in a GTC Live Trading Account.',
-        '4th – 10th Win a $200 Credit Bonus (requires a deposit).'
+        '🥇 1st Place Wins $3,000 in a GTC Live Trading Account.',
+        '🥈 2nd Place Wins $1,500 in a GTC Live Trading Account.',
+        '🥉 3rd Place Wins $500 in a GTC Live Trading Account.',
+        '15% for the people who want to open an account and Deposit'
       ]
     },
     {

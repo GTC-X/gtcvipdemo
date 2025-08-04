@@ -15,7 +15,7 @@ const FinalCtaSection = ({ setIsOpen }) => {
         </h2>
         <p className="text-lg md:text-xl xl:text-[22px] leading-relaxed  max-w-5xl mx-auto">
           Unleash your trading skills and battle it out with traders from around the world.
-          Remember, there’s $10,000 worth in Live Trading Account prizes that will be handed out!
+          Remember, there’s $5,000 worth in Live Trading Account prizes that will be handed out!
         </p>
        
               <CustomButton
