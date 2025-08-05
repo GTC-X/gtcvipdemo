@@ -38,7 +38,7 @@ const ConfirmationThankYou = ({ user }) => {
     </h4>
     <div className="max-w-xl">
       <p className="text-sm md:text-base mb-5 leading-relaxed">
-       Now’s the perfect time to prepare your trading strategy! And remember, you’ll be trading FX, Metals & Commodities only, with 1:500 leverage across a 30-day period.
+       Now’s the perfect time to prepare your trading strategy! And remember, you’ll be trading FX, Metals & Commodities only, with 1:500 leverage across a 15-day period.
       </p>
       <p className="text-sm md:text-base mb-5 leading-relaxed">
        Make every trade count, and keep an eye on the leaderboard. Some seriously skilled traders are joining this tournament… but so are some seriously lucky ones too. 😉

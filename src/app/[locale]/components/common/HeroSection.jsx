@@ -50,9 +50,9 @@ const HeroSection = ({ setIsOpen }) => {
           <div className="flex flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
             <CustomButton
               text="Register Your Place"
-              bgColor="bg-gradient-to-r from-[#E1CFBB] to-[#956D42] text-white w-full md:w-auto"
+              bgColor="bg-gradient-to-l from-[#E1CFBB] to-[#956D42] text-white w-full md:w-auto hover:bg-gradient-to-r hover:from-[#E1CFBB] hover:to-[#956D42]"
               textColor="text-[#1F2937]"
-              strokeColor="#fff"
+              strokeColor="#fff "
               onClick={() => setIsOpen(true)}
             />
           </div>

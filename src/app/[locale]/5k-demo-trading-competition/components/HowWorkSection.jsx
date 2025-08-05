@@ -9,13 +9,13 @@ const steps = [
   },
   {
     title: "Step 2",
-    heading: "Get Your $5,000 Demo Account",
+    heading: "Get Your $10,000 Demo Account",
     desc: "We’ll instantly set you up with a demo MT5 account loaded with $5k virtual funds.",
   },
   {
     title: "Step 3",
     heading: "Trade FX, Metals & Commodities",
-    desc: "You’ll have 15 Days to make your move. Use your skills to grow your demo balance.",
+    desc: "You’ll have 14 Days to make your move. Use your skills to grow your demo balance.",
   },
   {
     title: "Step 4",
@@ -38,7 +38,7 @@ export default function HowItWorksSection({ setIsOpen }) {
             How the GTC Demo Trading Competition Works
           </h2>
           <p className="text-[#4D4D70] text-base sm:text-lg xl:text-[22px] max-w-xl">
-            Register your interest in literally seconds. Trade like a pro for 15 Days. Win big!
+            Register your interest in literally seconds. Trade like a pro for 14 Days. Win big!
           </p>
           <CustomButton
             text="Register Now"

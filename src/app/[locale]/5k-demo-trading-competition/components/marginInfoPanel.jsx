@@ -30,7 +30,7 @@ const EarningsMarginImpact = () => {
     {
       title: 'Competition Period',
       content: [
-        `Monday, 25th August – Friday 8th September 2025 (23:59 GMT). You’ll have 14 full days to trade your way up the leaderboard.`
+        `Monday, 25th August – Thursday 7th September 2025 (23:59 GMT). You’ll have 14 full days to trade your way up the leaderboard.`
       ]
     },
     {
@@ -51,13 +51,19 @@ const EarningsMarginImpact = () => {
         '🥇 1st Place Wins $3,000 in a GTC Live Trading Account.',
         '🥈 2nd Place Wins $1,500 in a GTC Live Trading Account.',
         '🥉 3rd Place Wins $500 in a GTC Live Trading Account.',
-        '15% for the people who want to open an account and Deposit'
+        '4th - 10th Win a $200 Credit Bonus, which requires a deposit.',
+
+
       ]
     },
     {
       content: [
-        'All other verified participants receive a 15% Deposit Bonus on their first GTC Live Trading Account deposit.',
-        'Everyone receives a certificate.'
+        'All other verified participants receive a 15% Deposit Bonus on their first GTC Live Trading Account deposit.'
+      ]
+    },
+     {
+      content: [
+               'Everyone receives a certificate.'
       ]
     },
     {

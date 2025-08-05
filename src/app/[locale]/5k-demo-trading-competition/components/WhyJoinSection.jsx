@@ -14,8 +14,8 @@ const features = [
         />
       </svg>
     ),
-    text: "$5,000 Goes To The Winner + Zero Risk!",
-    back: "You are trading demo funds, but the top performer wins a live trading account with $5,000 in it! No deposit required to join."
+    text: "$3,000 Goes To The Winner + Zero Risk!",
+    back: "You are trading demo funds, but the top performer wins a live trading account with $3,000 in it! No deposit required to join."
   },
   {
     icon: (
@@ -31,7 +31,7 @@ const features = [
         </g>
         <defs>
           <clipPath id="clip0">
-            <rect width="22" height="22" fill="white" transform="translate(10 9)" />
+            <rect width="22" height="22" fill="white" transform="translate(10 9)" /> 
           </clipPath>
         </defs>
       </svg>
@@ -116,7 +116,7 @@ const WhyJoinSection = ({ setIsOpen }) => {
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
             Why Join the GTC Demo Trading Competition?
           </h2>
-          <p className="text-[#000021] text-base leading-5  px-5 md:px-0">
+          <p className="text-[#000021] text-base leading-5  px-5 md:px-0 max-w-[1192px] mx-auto">
             You're not just entering a trading competition, you're stepping into the trading spotlight!
             Here’s why traders from all over the world are registering and can’t wait to compete in
             GTC’s first-ever demo trading tournament:
@@ -143,13 +143,14 @@ const WhyJoinSection = ({ setIsOpen }) => {
         </div>
 
         <div className="flex justify-center">
-          <CustomButton
-            text="Take Part"
-            bgColor="bg-white w-full md:w-auto"
-            textColor="text-[#B48755]"
-            strokeColor="#B48755"
-            onClick={() => setIsOpen(true)}
-          />
+      <CustomButton
+  text="Take Part"
+  bgColor="bg-white w-full md:w-auto hover:bg-gradient-to-l hover:from-[#E1CFBB] hover:to-[#956D42]"
+  textColor="text-[#B48755] hover:text-white"
+  strokeColor="#B48755"
+  hoverStrokeColor="#FFFFFF" // Explicitly set to white on hover
+  onClick={() => setIsOpen(true)}
+/>
         </div>
       </div>
 
