@@ -23,7 +23,7 @@ const CommonMainForm = () => {
     const [storedOtp, setStoredOtp] = useState("");
     const [isDisable, setIsDisable] = useState(true);
     const router = useRouter();
-    const t = useTranslations("partner.form");
+    const t = useTranslations("demo.form");
     const locale = useLocale(); // inside your component
     const options = countryList.map((item) => ({
         value: item.en_short_name,
