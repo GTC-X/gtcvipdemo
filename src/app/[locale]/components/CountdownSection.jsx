@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const CountdownSection = () => {
   const calculateTimeLeft = () => {
-    const targetDate = new Date("2025-08-06T00:00:00Z"); // ⏰ Set your launch date/time here
+    const targetDate = new Date("2025-08-25T00:00:00Z"); // ⏰ Set your launch date/time here
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();
 
