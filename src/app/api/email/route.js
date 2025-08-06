@@ -71,7 +71,7 @@ const generateEmailContent = (data) => {
 <tr>
   <td style="font-size:14px; color:#000000; padding-bottom:10px;">
     تواصل معنا مباشرة عبر الرقم: <span dir="ltr" style="unicode-bidi: embed;">+971 800 667788</span><br/>
-    أو عبر البريد الإلكتروني: <a href="mailto:partners@gtcfx.com" style="color:#000000; text-decoration: underline;">partners@gtcfx.com</a>
+    أو عبر البريد الإلكتروني: <a href="mailto:support@gtcfx.com" style="color:#000000; text-decoration: underline;">support@gtcfx.com</a>
   </td>
 </tr>
 <tr>
@@ -283,7 +283,7 @@ You’ve just filled in the GTC Partnership Programme form. Here’s what to do 
 </tr>
 <tr>
   <td style="font-size:14px; color:#000000; padding-bottom:20px;">
-    Need help? Simply call us on <a href="tel:+971800667788" style="color:#000000; text-decoration: underline;">+971 800 667788</a> or email us at <a href="mailto:partners@gtcfx.com" style="color:#000000; text-decoration: underline;">partners@gtcfx.com</a>.
+    Need help? Simply call us on <a href="tel:+971800667788" style="color:#000000; text-decoration: underline;">+971 800 667788</a> or email us at <a href="mailto:support@gtcfx.com" style="color:#000000; text-decoration: underline;">support@gtcfx.com</a>.
   </td>
 </tr>
 <tr>

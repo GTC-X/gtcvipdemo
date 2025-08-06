@@ -30,7 +30,7 @@ const ConfirmationThankYou = ({ user }) => {
           </div>
 
           {/* Text */}
-          <div className="text-center md:text-left order-2 md:order-1">
+          <div className="text-center ltr:md:text-left rtl:md:text-right order-2 md:order-1">
             <h2 className="text-2xl md:text-4xl 2xl:text-4xl font-bold mb-5">
               {t('thankYou')}, <span className="text-white">{user?.nickname || 'Trader'}</span>! {t('almostThere')}
             </h2>
