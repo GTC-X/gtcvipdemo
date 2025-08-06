@@ -5,8 +5,12 @@ import { usePathname, useRouter } from '@/i18n/navigation';
 import React, { useState, useRef, useEffect } from 'react';
 
 const languages = [
-  { code: 'en', label: 'English', country: 'gb' },
+   { code: 'en', label: 'English', country: 'gb' },
   { code: 'ar', label: 'العربية', country: 'sa' },
+  { code: 'pt', label: 'Português', country: 'pt' },
+  { code: 'es', label: 'Español', country: 'es' },
+  { code: 'ru', label: 'Русский', country: 'ru' },
+  { code: 'zh', label: '中文', country: 'cn' },
 ];
 
 const LanguageSwitcher = () => {
