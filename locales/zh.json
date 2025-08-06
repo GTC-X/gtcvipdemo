@@ -1,495 +1,369 @@
 {
-  "demo": {
+     "menuItem": {
+    "whyJoin": "为何参加",
+    "howItWorks": "如何运作",
+    "competitionDetails": "比赛详情",
+    "termsConditions": "条款细则",
+    "register": "立即注册"
+  },
+ "demo": {
     "meta": {
-      "title": "Join GTC’s Demo Trading Competition & Win $5K! Register Now",
-      "description": "Register to enter GTC’s demo trading competition right here & win $5,000! The trading tournament starts on 6th August 2025, so don’t miss out!."
+      "title": "参与GTC模拟交易赛，赢取$5000奖金！立即报名",
+      "description": "即刻注册GTC模拟交易大赛，赢取5000美元奖金！赛事将于2025年8月6日启动，切勿错过。"
     },
     "banner": {
       "no": "$5,000",
-      "title": "Demo Trading Competition Is Almost Here!",
-      "para1": "GTC’s",
-      "para2": "Think you’ve got what it takes to top the GTC Demo Trading Competition League? Prove it in our first-ever demo trading tournament & win your share of $5,000 in live trading prizes. No risk, all reward & just pure trading glory. Remember, this is a demo trading competition, and you’re given a $10,000 Demo Trading Account to use. So, we really do mean that there’s no risk! Hit the button below to register your place and let’s see what you’re made of.",
-      "btnText": "Register Your Place"
+      "title": "模拟交易赛即将开启！",
+      "para1": "GTC",
+      "para2": "登顶交易排行榜，证明您的实力！参与GTC首届模拟交易赛，零成本赢取$5000实盘账户奖金。\n本赛事为纯模拟交易，无真实资金风险。点击报名，见证交易实力！",
+      "btnText": "立即报名"
     },
     "counter": {
-      "title": "GTC’s First-Ever Demo Trading Competition Starts In:",
-      "days": "Days",
-      "hours": "Hours",
-      "min": "Minutes",
-      "sec": "Seconds"
+      "title": "GTC首届模拟交易赛开赛倒计时：",
+      "days": "天",
+      "hours": "小时",
+      "min": "分钟",
+      "sec": "秒"
     },
-    "payMore": {
-      "title": "Why Join the GTC Demo Trading Competition?",
-      "intro": "You're not just entering a trading competition, you're stepping into the trading spotlight! Here’s why traders from all over the world are registering and can’t wait to compete in GTC’s first-ever demo trading tournament:",
-      "cta": "Take Part",
+      "payMore": {
+      "title": "参赛价值",
+      "intro": "这不是普通比赛，而是全球专业交易者的竞技舞台！原因如下：",
+      "cta": "即刻参与",
       "features": {
         "feature1": {
-          "title": "$3,000 Goes To The Winner + Zero Risk!",
-          "description": "You are trading demo funds, but the top performer wins a live trading account with $3,000 in it! No deposit required to join."
+          "title": "第一名奖金$3000 + 零成本",
+          "description": "使用模拟资金交易，赢取$5000实盘账户，无需入金即可参与"
         },
         "feature2": {
-          "title": "Test Your Skills on Real Market Conditions",
-          "description": "This is your chance to prove you’re the best when it comes to trading in live market conditions, plus it’s completely risk free!"
+          "title": "真实市场环境试炼",
+          "description": "在实时行情中验证交易策略，全程无风险！"
         },
         "feature3": {
-          "title": "Leaderboard That Shows You’re Really the Best!",
-          "description": "See how you really stack up against other traders worldwide. The leaderboard updates daily & your performance does the talking."
+          "title": "权威排行榜见证实力",
+          "description": "与全球交易者同台竞技，排行榜每日更新，业绩数据透明呈现"
         },
         "feature4": {
-          "title": "Trade Your Way When Competing with Other Traders",
-          "description": "Trade your way in the demo trading competition with 1:500 leverage. Trade Forex, Metals & Commodities in the demo competition."
+          "title": "自由交易机制",
+          "description": "使用1:500杠杆，交易外汇/贵金属/大宗商品，自由施展交易策略。"
         },
         "feature5": {
-          "title": "Gain the Ultimate Recognition Plus the Rewards!",
-          "description": "The top traders don’t just win prizes but they get bragging rights, a trophy, a certificate, and exclusive recognition from GTC."
+          "title": "殊荣奖励双重加冕",
+          "description": "优胜者将获得：奖金账户、冠军奖杯、权威证书、GTC官方授誉"
         },
         "feature6": {
-          "title": "Absolutely Perfect for New & Experienced Traders",
-          "description": "Whether you're brand new to trading or already seasoned, this is the ideal no-risk opportunity to grow, compete & get rewarded."
+          "title": "新老交易者皆宜",
+          "description": "无论您是新手还是资深交易者，都能在此展现实力！"
         }
       }
     },
     "work": {
-      "heading": "How the GTC Demo Trading Competition Works",
-      "paragraph": "Register your interest in literally seconds. Trade like a pro for 14 Days. Win big!",
+      "heading": "赛事运作机制",
+      "paragraph": "10秒快速注册 | 30日专业级交易 | 赢取丰厚实盘奖金！",
       "list": {
         "t1": {
-          "step": "Step 1",
-          "name": "Register with Your Name & Email",
-          "stars": "Fill in a quick form. No deposit, no fuss, just your basic info to get started."
+          "step": "第一步",
+          "name": "填写基础信息（姓名/邮箱）",
+          "stars": "快速注册，无需入金"
         },
         "t2": {
-          "step": "Step 2",
-          "name": "Get Your $10,000 Demo Account",
-          "stars": "We’ll instantly set you up with a demo MT5 account loaded with $10K virtual funds."
+          "step": "第二步",
+          "name": "领取$10000模拟账户",
+          "stars": "即时获取MT5模拟账户及参赛凭证"
         },
         "t3": {
-          "step": "Step 3",
-          "name": "Trade FX, Metals & Commodities",
-          "stars": "You’ll have 14 Days to make your move. Use your skills to grow your demo balance."
+          "step": "第三步",
+          "name": "交易外汇/贵金属/大宗商品",
+          "stars": "15日交易窗口，全力冲刺"
         },
         "t4": {
-          "step": "Step 4",
-          "name": "Climb the Leaderboard & Win",
-          "stars": "Outperform other traders, climb the ranks, and grab your share of the $5,000 in live trading prizes."
+          "step": "第四步",
+          "name": "登顶排行榜\n",
+          "stars": "超越全球交易者，瓜分$5000实盘资金池"
         },
-        "cta": "Register Now"
+        "cta": "立即报名"
       }
     },
     "detail": {
-      "title": "Demo Trading Competition Details",
-      "description": "Here’s everything you need to know about the demo trading competition.",
+      "title": "赛事细则",
+      "description": "关于模拟交易赛的完整参赛指南",
       "competitionDetails": [
         {
-          "title": "Registration Period",
+          "title": "注册时段",
           "content": [
-            "Wednesday, 11th August 2025 – Sunday, 24th August 2025 (23:59 GMT).",
-            "Register early to secure your demo account and get familiar with the MT5 platform."
+            "2025年8月6日（周三）至8月24日（周日）GMT 23:59",
+            "建议尽早注册熟悉MT5平台"
           ]
         },
         {
-          "title": "Competition Period",
+          "title": "赛程",
           "content": [
-            "Monday, 25th August – Thursday 7th September 2025 (23:59 GMT).",
-            "You’ll have 14 full days to trade your way up the leaderboard."
+            "2025年8月25日（周一）至9月8日（周一）GMT 23:59\n完整15个交易日",
+            "完整14个交易日"
           ]
         },
         {
-          "title": "How to Participate",
+          "title": "参与方式",
           "content": [
-            "Simply click here to access the registration form. When you fill in the form, here’s what will happen:"
+            "点击进入注册页面，成功报名后将收到："
           ],
           "list": [
-            "You’ll get your $10,000 GTC MT5 Demo Account with login credentials via email.",
-            "You’ll be able to trade FX, Metals & Commodities during the contest period.",
-            "You’ll be able to track your progress on the live leaderboard in GTC VIP, our loyalty rewards platform. Check it out!"
+            "收取含$10000 GTC MT5模拟账户凭证的邮件",
+            "赛事期间外汇/贵金属/大宗商品交易权限",
+            "在GTC VIP平台查看实时排行榜"
           ],
-          "note": "⚠️ Note: Minimum 10 trades are required to qualify for a prize."
+          "note": "评奖要求：至少完成10笔交易"
         },
         {
-          "title": "$5,000 Prize Pool",
+          "title": "$5000奖金池",
           "list": [
-            "🥇 1st Place Wins $3,000 in a GTC Live Trading Account.",
-            "🥈 2nd Place Wins $1,500 in a GTC Live Trading Account.",
-            "🥉 3rd Place Wins $500 in a GTC Live Trading Account.",
-            "4th - 10th Win a $200 Credit Bonus, which requires a deposit."
+            "第1名 - $3000实盘账户",
+            "第2名 - $1500实盘账户",
+            "第3名 - $500实盘账户",
+            "第4-10名 $200信用赠金（需入金激活）"
           ]
         },
         {
           "content": [
-            "All other verified participants receive a 15% Deposit Bonus on their first GTC Live Trading Account deposit."
+            "开户入金享15%赠金"
           ]
         },
         {
-          "content": ["Everyone receives a certificate."]
+          "content": [
+            "所有参赛者可获电子证书"
+          ]
         },
         {
-          "title": "Terms & Conditions",
+          "title": "参赛协议",
           "content": [
-            "Make sure you’re clear on the rules. Simply click here to view full  "
+            "点击查看完整参赛协议"
           ],
-          "linkText": " Terms & Conditions",
+          "linkText": "参赛协议",
           "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+%E2%80%93+Terms+%26+Conditions.pdf"
         }
       ]
     },
     "final-cta-section": {
-      "heading": "Are You Up To The Challenge?",
-      "description": "Unleash your trading skills and battle it out with traders from around the world. Remember, there’s $5,000 worth in Live Trading Account prizes that will be handed out!",
-      "buttonText": "Register Your Place"
+      "heading": "终极挑战宣言",
+      "description": "与全球交易高手同台竞技，赢取$5000实盘账户奖金！",
+      "buttonText": "锁定席位"
     },
     "form": {
-      "heading": "Register Now",
-      "closeAlt": "Close the modal",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "phone": "Mobile Number",
-      "country": "Country of Residence",
-      "otp": "OTP has been sent to given Email",
-      "getCode": "Get Code",
-      "sending": "Sending...",
-      "sendOtp": "Send OTP",
-      "verifyCode": "Verify Code",
-      "termsLabel": "Please accept the terms and conditions",
-      "termsText": "By clicking on the Get 80% RevShare button, I confirm that I am over the age of 18, have read and agree to the ",
-      "conset": "I consent to GTC contacting me at reasonable times, and that my number is not on the Do Not Call Register (DNCR).",
-      "clientAgreement": "Client Agreement",
-      "privacyPolicy": "Privacy Policy",
-      "submit": "Get 80% RevShare",
-      "submitting": "Submitting...",
-      "otpSuccess": "Otp Verified Successfully!",
-      "otpFail": "Otp Verification Failed try again!",
-      "thankYou1": "Thank you for registering with GTC!",
-      "otpSent": "Otp sent successfully!",
+      "heading": "立即报名",
+      "closeAlt": "弹窗关闭按钮",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "邮箱",
+      "phone": "手机号码",
+      "country": "居住国家",
+      "otp": "验证码已发送至邮箱",
+      "getCode": "获取验证码",
+      "sending": "发送中...",
+      "sendOtp": "发送验证码",
+      "verifyCode": "输入验证码",
+      "termsLabel": "请接受条款与条件",
+      "termsText": "点击“获取80%佣金”，即确认：年满18周岁\n已阅读并同意《客户协议》与《隐私政策》",
+      "conset": "同意GTC在合理时间联系本人\n确认号码未列入拒接来电名单(DNCR)",
+      "clientAgreement": "比赛条款细则",
+    "and1": "以及",
+    "privacyPolicy": "隐私政策",
+    "submit": "注册参赛",
+      "submitting": "提交中...",
+      "otpSuccess": "验证成功！",
+      "otpFail": "验证失败，请重试",
+      "thankYou1": "感谢注册GTC！",
+      "otpSent": "验证码发送成功！",
       "errors": {
-        "fullNameFormat": "Full name can only contain letters.",
-        "firstNameRequired": "First name is required",
-        "lastNameFormat": "Last name can only contain letters.",
-        "lastNameRequired": "Last name is required",
-        "emailInvalid": "Invalid email address",
-        "emailRequired": "Email is required",
-        "phoneRequired": "Phone number is required",
-        "countryRequired": "Country is required",
-        "otpLength": "OTP must be 6 digits",
-        "otpRequired": "OTP is required",
-        "termsRequired": "Please accept the terms and conditions"
+        "fullNameFormat": "姓名仅可包含字母",
+        "firstNameRequired": "请输入名字",
+        "lastNameFormat": "姓氏仅可包含字母",
+        "lastNameRequired": "请输入姓氏",
+        "emailInvalid": "邮箱格式错误",
+        "emailRequired": "请输入邮箱",
+        "phoneRequired": "请输入手机号码",
+        "countryRequired": "请选择居住国家",
+        "otpLength": "验证码必须为6位数字",
+        "otpRequired": "请输入验证码",
+        "termsRequired": "请接受条款与条件"
       },
-      "thankYou": "Thanks",
-      "almostThere": "You’re In!",
-      "emailSent": "Congrats for registering for the GTC Demo Trading Tournament.",
-      "para1":"Now’s the perfect time to prepare your trading strategy! And remember, you’ll be trading FX, Metals & Commodities only, with 1:500 leverage across a 14-day period.",
-      "para2": "Make every trade count, and keep an eye on the leaderboard. Some seriously skilled traders are joining this tournament… but so are some seriously lucky ones too. 😉",
-      "para3": "We’ve sent you another email with all your trading credentials, so go ahead and check that out. It might be a good idea to check your spam or junk folder, just in case our email has crept in there. If the email we’ve sent you has made its way into your spam or junk folder, simply move it back into your inbox.",
-      "checkSpam": "We’ll send you a couple of emails before the tournament starts.",
-      "seeYou": "G O O D L U C K",
+      "thankYou": "感谢",
+      "almostThere": "您已成功报名！",
+      "emailSent": "恭喜您成功报名GTC模拟交易赛！",
+      "para1": "即刻优化交易策略！可交易外汇、贵金属及大宗商品，杠杆比例为1:500，赛事全程15天。",
+      "para2": "每笔交易均影响最终排名，专业交易者与机遇把握者将同台竞技。",
+      "para3": "参赛凭证已发送至您的邮箱，如未收到建议检查垃圾邮件文件夹（若邮件被误判，请移回收件箱）",
+      "checkSpam": "开赛前您还将收到其它重要通知邮件。​​",
+      "seeYou": "祝您交易顺利",
       "helpSection": {
-        "title": "Having trouble?",
-        "phoneLabel": "Contact us on",
+        "title": "客服支持",
+        "phoneLabel": "请联系",
         "phone": "+971 800 667788",
-        "emailLabel": "or email the GTC Partnership Team at",
+        "emailLabel": "合作邮箱",
         "email": "partners@gtcfx.com"
       }
     },
     "thankYoumeta": {
-      "title": "Get Ready for the GTC Demo Trading Tournament!",
-      "description": "Welcome to a partnership built for performance. At GTC, we don’t just give you up to 80% RevShare; we give you the tools to grow your business."
+      "title": "GTC模拟交易赛备战指南！",
+      "description": "欢迎加入高绩效合作计划。GTC不仅提供高达80%返佣，更为您配备业务增长工具。"
     }
   },
   "footer": {
-    "riskWarningTitle": "Risk Warning:",
-    "riskWarningText": "Trading leveraged products such as CFDs involves a high level of risk and may not be suitable for all investors. You could lose more than your initial investment. Please ensure you fully understand the risks and consult an independent advisor if needed.",
-    "company1": "GTC Global Ltd, regulated by the FSC Mauritius (License No. GB22200292)",
-    "company2": "GTC Global Pty Ltd, regulated by the Australian Securities and Investments Commission (ASIC)",
-    "company3": "GTC Global Trade Capital Co., Limited, registered in Vanuatu and licensed by the Vanuatu Financial Services Commission (VFSC)",
-    "jurisdictionNoticeTitle": "Jurisdiction Notice:",
-    "jurisdictionNoticeText": "GTC does not provide services in jurisdictions where such offerings would be contrary to local laws.",
-    "affiliateNoticeTitle": "Affiliate Notice:",
-    "affiliateNoticeText": "Affiliate/partner content is for referral and marketing purposes only and does not constitute financial advice."
-  },
-  "cookie": {
-    "message": "By clicking 'Fine By Me', you agree to the storing of cookies on your device to enhance your user experience, site navigation, analyse site usage, and assist in our marketing efforts.",
-    "cta": "Fine By Me",
-    "linkText": "Read our privacy policy here."
+    "riskWarningTitle": "风险警告：",
+    "riskWarningText": "交易杠杆产品（如差价合约CFDs）具有高风险，可能不适合所有投资者。您可能损失超过初始投资金额。请确保您完全理解相关风险，必要时咨询独立顾问。",
+    "company1": "GTC Global Ltd，受毛里求斯金融服务委员会（FSC）监管（牌照号 GB22200292）",
+    "company2": "GTC Global Pty Ltd，受澳大利亚证券投资委员会（ASIC）监管",
+    "company3": "GTC Global Trade Capital Co., Limited，注册于瓦努阿图并受瓦努阿图金融服务委员会（VFSC）许可",
+    "jurisdictionNoticeTitle": "司法管辖区声明：",
+    "jurisdictionNoticeText": "GTC不向当地法律禁止提供此类服务的司法管辖区提供服务。",
+    "affiliateNoticeTitle": "联盟合作伙伴声明：",
+    "affiliateNoticeText": "联盟/合作伙伴内容仅用于推荐和营销目的，不构成财务建议。"
   },
   "privacyPolicy": {
     "meta": {
-      "title": "Privacy Policy – GTC | Regulated Forex & CFD Broker",
-      "description": "Read GTCFX’s Privacy Policy to learn how we collect, use, and protect your personal data across our regulated platforms in Vanuatu, Mauritius, and UAE."
+      "title": "隐私政策 - GTC | 受监管的外汇和差价合约经纪商",
+      "description": "阅读GTCFX的隐私政策，了解我们如何在瓦努阿图、毛里求斯和阿联酋的受监管平台上收集、使用和保护您的个人数据。"
     },
     "header": {
-      "title": "Privacy Policy",
-      "subtitle": "Protecting your information across all GTC platforms and subdomains"
+      "title": "隐私政策",
+      "subtitle": "保护您在GTC所有平台和子域中的信息"
     },
     "whoWeAre": {
-      "title": "Who We Are",
-      "intro1": "This Privacy Policy applies to GTC, including all of its subdomains such as reg.gtcfx.com (and all other GTC-related subdomains), and covers how we handle your personal information.",
-      "intro2": "When we say “GTC,” “GTCFX,” “GTC VIP,” “we,” “our,” or “us,” we’re referring to:",
+      "title": "我们是谁",
+      "intro1": "本隐私政策适用于GTC及其所有子域（如reg.gtcfx.com及其他GTC相关子域），涵盖我们如何处理您的个人信息。",
+      "intro2": "当提及“GTC”、“GTCFX”、“GTC VIP”、“我们”或“我们的”时，指以下实体：",
       "entity1": {
         "title": "GTC Global Trade Capital Co. Ltd",
-        "line1": "Authorised by the Vanuatu Financial Services Commission (VFSC).",
-        "line2": "Licence Number: 40354.",
-        "line3": "Address: 1st Floor, B&P House, Kumul Highway, Port Vila, Vanuatu."
+        "line1": "获瓦努阿图金融服务委员会(VFSC)授权",
+        "line2": "牌照号：40354",
+        "line3": "地址：瓦努阿图维拉港Kumul Highway, B&P House一楼"
       },
       "entity2": {
         "title": "GTC Global Ltd",
-        "line1": "Authorised by the Financial Services Commission of Mauritius.",
-        "line2": "Licence Number: GB22200292.",
-        "line3": "Address: The Cyberati Lounge, Ground Floor, The Catalyst, 40 Cybercity, 72201 Ebene, Mauritius."
+        "line1": "获毛里求斯金融服务委员会授权",
+        "line2": "牌照号：GB22200292",
+        "line3": "地址：毛里求斯埃本尼Cybercity 40号The Catalyst大楼G层The Cyberati Lounge"
       }
     },
     "ourCommitment": {
-      "title": "Our Commitment",
-      "description": "At GTC, your privacy isn’t just a checkbox, it’s a priority. We’re committed to protecting your personal data and being fully transparent about how it’s collected, used, and safeguarded across all our domains.",
-      "subheading": "This policy explains:",
+      "title": "我们的承诺",
+      "description": "在GTC，您的隐私不仅是必选项，更是我们的首要任务。我们致力于保护您的个人数据，并完全透明地说明其在我们所有平台上的收集、使用和保护方式。",
+      "subheading": "本政策阐明：",
       "point": {
-        "one": "What personal data we collect",
-        "two": "Why we collect it",
-        "three": "How we protect it",
-        "four": "Your rights and how to exercise them"
+        "one": "我们收集哪些个人数据",
+        "two": "为何收集这些数据",
+        "three": "如何保护数据",
+        "four": "您的权利及行使方式"
       }
     },
     "personalData": {
-      "title": "The Personal Data We Collect",
-      "intro": "When you interact with GTC – whether through opening an account, visiting our site, or signing up on any of our landing pages, we may collect:",
+      "title": "我们收集的个人数据",
+      "intro": "当您与GTC互动时（无论是开户、访问网站或在落地页注册），我们可能收集：",
       "personal": {
-        "title": "Personal Information",
+        "title": "个人信息",
         "items": {
-          "one": "Full name, date and place of birth, gender, and nationality.",
-          "two": "Contact details: email, phone number, residential address.",
-          "three": "Employment and income details."
+          "one": "全名、出生日期地点、性别和国籍",
+          "two": "联系方式：电子邮件、电话号码、居住地址",
+          "three": "职业和收入详情"
         }
       },
       "financial": {
-        "title": "Financial & Technical Data",
+        "title": "财务与技术数据",
         "items": {
-          "one": "Financial info: bank details, source of funds, trading history.",
-          "two": "Identity documents: passport, driving licence, national ID.",
-          "three": "Trading preferences and performance.",
-          "four": "IP address, device info, cookies, and platform usage."
+          "one": "财务信息：银行账户、资金来源、交易历史",
+          "two": "身份文件：护照、驾照、身份证",
+          "three": "交易偏好和表现",
+          "four": "IP地址、设备信息、Cookies及平台使用数据"
         }
       },
-      "note": "We may also record phone calls and chat conversations for compliance and training."
+      "note": "我们可能记录电话和聊天内容用于合规及培训"
     },
     "howWeUse": {
-      "title": "How We Use Your Information",
-      "description": "We only use your data when we have a lawful reason to do so.",
+      "title": "信息使用方式",
+      "description": "我们仅在合法理由下使用您的数据：",
       "points": {
-        "one": "To provide services – So we can set up and manage your trading account.",
-        "two": "To meet legal obligations – Including anti-money laundering and regulatory requirements.",
-        "three": "To protect our business interests – Like improving our platforms, analysing user behaviour, and managing risk.",
-        "four": "With your consent – For email marketing and exclusive webinar invites.",
-        "five": "For customer support – To help you with requests or resolve issues.",
-        "six": "To improve our website experience – Using cookies, geolocation, and session tracking.",
-        "seven": "To keep records – For auditing, legal, and tax reasons."
+        "one": "提供服务：开设和管理交易账户",
+        "two": "履行法律义务：包括反洗钱和监管要求",
+        "three": "保护商业利益：改进平台、分析用户行为、管理风险",
+        "four": "经您同意：用于电子邮件营销和专属网络研讨会邀请",
+        "five": "客户支持：处理请求或解决问题",
+        "six": "优化网站体验：使用Cookies、地理位置和会话跟踪",
+        "seven": "记录保存：用于审计、法律和税务目的"
       },
-      "footer": "We’ll never sell your data. Period."
+      "footer": "我们绝不会出售您的数据"
     },
     "whoWeShare": {
-      "title": "Who We Share Your Data With",
-      "description": "Your data may be shared with:",
+      "title": "数据共享对象",
+      "description": "您的数据可能与以下方共享：",
       "items": {
-        "one": "Other GTC entities (e.g. regulated arms in Vanuatu and Mauritius).",
-        "two": "Payment providers and identity verification services.",
-        "three": "Legal, compliance, and financial service partners.",
-        "four": "Regulatory authorities, when required by law.",
-        "five": "Marketing tools (but never for third-party marketing)."
+        "one": "其他GTC实体（如瓦努阿图和毛里求斯的受监管机构）",
+        "two": "支付提供商和身份验证服务",
+        "three": "法律、合规和金融服务合作伙伴",
+        "four": "法律要求的监管机构",
+        "five": "营销工具（绝不用于第三方营销）"
       },
-      "footer": "We only share data on a need-to-know basis and make sure any third party meets strict data protection standards."
+      "footer": "我们仅按需共享数据，并确保第三方符合严格的数据保护标准"
     },
     "cookiesTracking": {
-      "title": "Cookies & Tracking",
-      "description": "We use cookies and tracking tech on all GTCFX domains (e.g. https://gtcfx.com, https://gtcvip.com, etc.) to:",
+      "title": "Cookies与跟踪技术",
+      "description": "我们在所有GTCFX域名（如https://gtcfx.com, https://gtcvip.com等）使用Cookies和跟踪技术以：",
       "points": {
-        "one": "Remember your preferences.",
-        "two": "Show you relevant content.",
-        "three": "Analyse website usage.",
-        "four": "Run remarketing campaigns."
+        "one": "记住您的偏好",
+        "two": "显示相关内容",
+        "three": "分析网站使用情况",
+        "four": "开展再营销活动"
       },
-      "footer": "You can manage your cookie settings in your browser. For more info, see our",
-      "linkText": "Cookies Policy"
+      "footer": "您可通过浏览器管理Cookie设置，详见我们的",
+      "linkText": "Cookie政策"
     },
-
     "internationalTransfers": {
-      "title": "International Transfers",
-      "description": "Because we operate globally, your data might be processed outside the EEA. Whenever we do this, we make sure your data is just as safe as it would be under EU laws, using safeguards like GDPR-compliant contracts."
+      "title": "国际数据传输",
+      "description": "因全球运营需要，您的数据可能在欧洲经济区(EEA)外处理。我们将通过符合GDPR的合同等保障措施，确保数据安全标准与欧盟法律一致"
     },
-
     "yourRights": {
-      "title": "Your Rights",
-      "description": "Here’s what you’re entitled to under data protection laws:",
+      "title": "您的权利",
+      "description": "根据数据保护法您享有以下权利：",
       "points": {
-        "one": "Access your data.",
-        "two": "Update or correct it.",
-        "three": "Request deletion if we no longer need it.",
-        "four": "Limit how we use it.",
-        "five": "Withdraw consent at any time.",
-        "six": "Request transfer of your data to another provider.",
-        "seven": "Object to marketing or data profiling."
+        "one": "访问您的数据",
+        "two": "更新或更正数据",
+        "three": "当我们不再需要时要求删除",
+        "four": "限制使用方式",
+        "five": "随时撤回同意",
+        "six": "要求将数据转移至其他服务商",
+        "seven": "拒绝营销或数据画像"
       },
-      "footer": "To exercise any of these rights, email:",
+      "footer": "行使权利请联系：",
       "email": "support@gtcfx.com"
     },
     "dataRetention": {
-      "title": "Data Retention",
-      "intro": "We’ll keep your data:",
+      "title": "数据保留",
+      "intro": "我们将在以下期限保留数据：",
       "points": {
         "one": {
           "icon": "∞",
-          "text": "For as long as your account is active."
+          "text": "账户有效期内持续保留"
         },
         "two": {
           "icon": "5+",
-          "text": "For at least 5 years after closing your account, to meet AML and regulatory obligations."
+          "text": "账户关闭后至少保留5年（满足反洗钱和监管要求）"
         },
         "three": {
           "icon": "⚖️",
-          "text": "Longer if required for legal, tax, or dispute purposes."
+          "text": "法律、税务或争议需要时延长保留"
         }
       }
     },
     "dataSafety": {
-      "title": "Keeping Your Data Safe",
-      "description": "We store your data in secure servers, limit staff access, and train our team regularly on data protection. We also use encryption, access controls, and strict monitoring to keep your data protected."
+      "title": "数据安全保障",
+      "description": "我们将数据存储于安全服务器，限制员工访问权限，并定期开展数据保护培训。同时采用加密技术、访问控制和严格监控确保数据安全"
     },
     "policyUpdates": {
-      "title": "Updates to This Policy",
-      "description": "We may update this Privacy Policy from time to time. Any updates will be posted on gtcfx.com and across relevant subdomains."
+      "title": "政策更新",
+      "description": "我们可能不时更新本政策，所有更新将在gtcfx.com及相关子域公布"
     },
     "contact": {
-      "title": "Contact Us",
-      "description": "Questions? Need help with your data rights?",
-      "buttonText": "Email us at support@gtcfx.com",
+      "title": "联系我们",
+      "description": "有疑问或需行使数据权利？",
+      "buttonText": "发送邮件至 support@gtcfx.com",
       "email": "support@gtcfx.com"
-    }
-  },
-  "oman": {
-    "meta": {
-      "title": "Become a GTC Partner in the Oman Today",
-      "description": "Join GTC as a Partner in Oman. Earn up to 80% RevShare, offer top bonuses to traders, and grow with a regulated global broker."
-    },
-    "para1": "Omani’s Top IBs Now Earn Up to",
-    "column2": "Become an IB in Just a Few Clicks",
-    "subtitle": "An IB Programme That",
-    "outro": "From realtrader bonuses to marketing support and instant payouts,this is the IB programme serious partners are switching to.",
-    "title": "Grow Your IB Business with GTC",
-    "description1": "You’ve seen what GTC brings to the table. Now it’s your turn. Join the IB programme that’s helping Omani’s partners scale faster, earn more, and build lasting trust with their traders.",
-    "description": "Whether you’re a seasoned IB or just getting started, these partners made the switch and they or their traders haven’t looked back.",
-    "title1": "What the Omani’s IBs & Traders Are Saying",
-    "list": {
-      "t1": {
-        "text": "“As an IB, getting up to 80% RevShare and paid out instantly was a game changer. I moved my entire client book to GTC where they’re looked after”",
-        "name": "Judi Izdihar Shamoon, Muscat",
-        "stars": 5
-      },
-      "t2": {
-        "text": "“I run monthly trading classes in Oman. GTC gave me banners, an LP, and real bonuses for my traders. The support is unreal!”",
-        "name": "Suoud Butrus Gaber, Nizwa",
-        "stars": 4
-      },
-      "t3": {
-        "text": "“My trading educator recommended GTC. I was sceptical at first, but now I see why he recommended them. The spreads, bonus, everything just works really well.”",
-        "name": "Kutaiba Abdul-Matin Awad, Salalah",
-        "stars": 5
-      },
-      "t4": {
-        "text": "“GTC doesn’t just talk, they deliver! I get paid on time, every time, and my traders are sticking around longer than ever. They also trade gold and GTC is great with them.”",
-        "name": "Yasser Nu'aym Bazzi, Muscat",
-        "stars": 4
-      }
-    }
-  },
-  "bahrain": {
-    "meta": {
-      "title": "Become a GTC Partner in the Bahrain Today",
-      "description": "Join GTC as a Partner in Bahrain. Earn up to 80% RevShare, offer top bonuses to traders, and grow with a regulated global broker."
-    },
-    "para1": "Bahrain’s Top IBs Now Earn Up to",
-    "description1": "You’ve seen what GTC brings to the table. Now it’s your turn. Join the IB programme that’s helping Bahrain’s partners scale faster, earn more, and build lasting trust with their traders.",
-    "title1": "What the Bahrain’s IBs & Traders Are Saying",
-    "list": {
-      "t1": {
-        "text": "“As an IB, getting up to 80% RevShare and paid out instantly was a game changer. I moved my entire client book to GTC where they’re looked after”",
-        "name": "Judi Izdihar Shamoon, Manama",
-        "stars": 5
-      },
-      "t2": {
-        "text": "“I run monthly trading classes in Bahrain. GTC gave me banners, an LP, and real bonuses for my traders. The support is unreal!”",
-        "name": "Suoud Butrus Gaber, Al-Muharraq",
-        "stars": 4
-      },
-      "t3": {
-        "text": "“My trading educator recommended GTC. I was sceptical at first, but now I see why he recommended them. The spreads, bonus, everything just works really well.”",
-        "name": "Kutaiba Abdul-Matin Awad, Al-Muharraq",
-        "stars": 5
-      },
-      "t4": {
-        "text": "“GTC doesn’t just talk, they deliver! I get paid on time, every time, and my traders are sticking around longer than ever. They also trade gold and GTC is great with them.”",
-        "name": "Yasser Nu'aym Bazzi, Manama",
-        "stars": 4
-      }
-    }
-  },
-  "qatar": {
-    "meta": {
-      "title": "Become a GTC Partner in the Qatar Today",
-      "description": "Join GTC as a Partner in Qatar. Earn up to 80% RevShare, offer top bonuses to traders, and grow with a regulated global broker."
-    },
-    "para1": "Qatar’s Top IBs Now Earn Up to",
-    "description1": "You’ve seen what GTC brings to the table. Now it’s your turn. Join the IB programme that’s helping Qatar’s partners scale faster, earn more, and build lasting trust with their traders.",
-    "title1": "What the Qatar’s IBs & Traders Are Saying",
-    "list": {
-      "t1": {
-        "text": "“As an IB, getting up to 80% RevShare and paid out instantly was a game changer. I moved my entire client book to GTC where they’re looked after”",
-        "name": "Judi Izdihar Shamoon, Doha",
-        "stars": 5
-      },
-      "t2": {
-        "text": "“I run monthly trading classes in Qatar. GTC gave me banners, an LP, and real bonuses for my traders. The support is unreal!”",
-        "name": "Suoud Butrus Gaber, Al Khor",
-        "stars": 4
-      },
-      "t3": {
-        "text": "“My trading educator recommended GTC. I was sceptical at first, but now I see why he recommended them. The spreads, bonus, everything just works really well.”",
-        "name": "Kutaiba Abdul-Matin Awad, Al Rayyan",
-        "stars": 5
-      },
-      "t4": {
-        "text": "“GTC doesn’t just talk, they deliver! I get paid on time, every time, and my traders are sticking around longer than ever. They also trade gold and GTC is great with them.”",
-        "name": "Yasser Nu'aym Bazzi, Doha",
-        "stars": 4
-      }
-    }
-  },
-  "egypt": {
-    "meta": {
-      "title": "Become a GTC Partner in the Egypt Today",
-      "description": "Join GTC as a Partner in Egypt. Earn up to 80% RevShare, offer top bonuses to traders, and grow with a regulated global broker."
-    },
-    "para1": "Egypt’s Top IBs Now Earn Up to",
-    "description1": "You’ve seen what GTC brings to the table. Now it’s your turn. Join the IB programme that’s helping Egypt’s partners scale faster, earn more, and build lasting trust with their traders.",
-    "title1": "What the Egypt’s IBs & Traders Are Saying",
-    "list": {
-      "t1": {
-        "text": "“As an IB, getting up to 80% RevShare and paid out instantly was a game changer. I moved my entire client book to GTC where they’re looked after”",
-        "name": "Judi Izdihar Shamoon, Cairo",
-        "stars": 5
-      },
-      "t2": {
-        "text": "“I run monthly trading classes in Egypt. GTC gave me banners, an LP, and real bonuses for my traders. The support is unreal!”",
-        "name": "Suoud Butrus Gaber, Luxor",
-        "stars": 4
-      },
-      "t3": {
-        "text": "“My trading educator recommended GTC. I was sceptical at first, but now I see why he recommended them. The spreads, bonus, everything just works really well.”",
-        "name": "Kutaiba Abdul-Matin Awad, Alexandria",
-        "stars": 5
-      },
-      "t4": {
-        "text": "“GTC doesn’t just talk, they deliver! I get paid on time, every time, and my traders are sticking around longer than ever. They also trade gold and GTC is great with them.”",
-        "name": "Yasser Nu'aym Bazzi, Cairo",
-        "stars": 4
-      }
     }
   }
 }

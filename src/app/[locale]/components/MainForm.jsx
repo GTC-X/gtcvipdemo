@@ -506,16 +506,17 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                            I confirm that I am over the age of 18, have read and agree to the
+                           {t("termsText")}
                             <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf"
                                 target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-                                Competition Terms & Conditions
-                            </a> and the
+                                {t("clientAgreement")}
+                            </a> {t("and1")}
                             <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-                                Privacy Policy
-                            </a>. I understand that this is a demo trading competition and no real funds are at risk. I consent to GTC contacting me regarding my participation in the competition.
+                                {t("privacyPolicy")}
+                            </a>. {t("conset")}
 
                         </p>
+
                     </div>
                 </div>
 
@@ -526,7 +527,7 @@ const CommonMainForm = () => {
                         type="submit"
                         className="bg-white cursor-pointer mb-10 text-[#000032] text-base md:text-lg w-full font-semibold py-4 px-8 rounded-xl border border-[#ffffff1a]"
                     >
-                        {loading ? t("submitting") : "Register Your Place "}
+                        {loading ? t("submitting") : t("submit")}
                     </button>
                 </div>
             </form>

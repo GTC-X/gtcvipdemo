@@ -1,4 +1,11 @@
 {
+   "menuItem": {
+        "whyJoin": "Why Join?",
+    "howItWorks": "How It Works",
+    "competitionDetails": "Competition Details",
+    "termsConditions": "T&Cs",
+    "register": "Register"
+    },
   "demo": {
     "meta": {
       "title": "Join GTC’s Demo Trading Competition & Win $5K! Register Now",
@@ -152,11 +159,12 @@
       "sendOtp": "Send OTP",
       "verifyCode": "Verify Code",
       "termsLabel": "Please accept the terms and conditions",
-      "termsText": "By clicking on the Get 80% RevShare button, I confirm that I am over the age of 18, have read and agree to the ",
+      "termsText": "I confirm that I am over the age of 18, have read and agree to the ",
       "conset": "I consent to GTC contacting me at reasonable times, and that my number is not on the Do Not Call Register (DNCR).",
-      "clientAgreement": "Client Agreement",
+      "clientAgreement": "Competition Terms & Conditions",
+      "and1":"and the",
       "privacyPolicy": "Privacy Policy",
-      "submit": "Get 80% RevShare",
+      "submit": "Register Your Place",
       "submitting": "Submitting...",
       "otpSuccess": "Otp Verified Successfully!",
       "otpFail": "Otp Verification Failed try again!",

@@ -1,11 +1,12 @@
-import { useState } from "react";
+'use client';
+import { use, useState } from "react";
 // import { AiOutlineClose } from "react-icons/ai";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import PhoneInput from "react-phone-number-input";
 import CommonMainForm from "@/app/[locale]/components/MainForm";
 import Image from "next/image";
-
+import { useTranslations } from "next-intl";
 const RegisterSchema = Yup.object().shape({
     firstName: Yup.string().required("Required"),
     lastName: Yup.string().required("Required"),
@@ -15,13 +16,7 @@ const RegisterSchema = Yup.object().shape({
 });
 
 const SliderModal = ({ isOpen, onClose }) => {
-    const initialValues = {
-        firstName: "",
-        lastName: "",
-        phone: "",
-        email: "",
-        country: "",
-    };
+const t = useTranslations("demo.form");
 
     return (
         <div
@@ -61,7 +56,7 @@ const SliderModal = ({ isOpen, onClose }) => {
                                       className="lg:w-[200px] lg:h-[72px] md:w-[120px] md:h-[53px] w-[130px] h-[47px] cursor-pointer"
                                      />
 
-                        <h2 className="text-center text-2xl md:text-3xl font-medium my-5 md:my-8">Register Now</h2>
+                        <h2 className="text-center text-2xl md:text-3xl font-medium my-5 md:my-8">{t("heading")}</h2>
 
                      <CommonMainForm />
 

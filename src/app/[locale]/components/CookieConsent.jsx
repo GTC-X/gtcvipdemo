@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 // Static translations object
 const translations = {
@@ -16,7 +17,7 @@ const translations = {
   pt: {
     message: "Ao clicar em 'Está Bem Para Mim', você concorda com o armazenamento de cookies em seu dispositivo para melhorar sua experiência de usuário, navegação no site, analisar o uso do site e auxiliar em nossos esforços de marketing.",
     cta: "Está Bem Para Mim",
-    linkText: "Leia nossa política de privacidade aqui.",
+    linkText: "Leia nossa política de privacidad aquí.",
   },
   ru: {
     message: "Нажимая 'Хорошо', вы соглашаетесь с сохранением cookies на вашем устройстве для улучшения вашего пользовательского опыта, навигации по сайту, анализа использования сайта и поддержки наших маркетинговых усилий.",
@@ -28,7 +29,11 @@ const translations = {
     cta: "موافق",
     linkText: "اقرأ سياسة الخصوصية الخاصة بنا من هنا.",
   },
-  // Add 'ku' if needed
+  zh: {
+    message: "点击'我同意'，即表示您同意我们在设备上存储Cookie以提升用户体验、优化网站导航、分析使用情况并协助我们的营销活动。",
+    cta: "我同意",
+    linkText: "在此阅读隐私政策",
+  },
 };
 
 export default function CookieConsent() {
@@ -76,14 +81,14 @@ export default function CookieConsent() {
         >
           {message}
           <span className="mx-1" />
-          <a
-            href={`/${isRTL ? 'ar' : ''}/privacy-policy`}
+          <Link
+            href={`/${locale}/privacy-policy`}
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-secondary"
           >
             {linkText}
-          </a>
+          </Link>
         </p>
         <button
           onClick={handleAccept}

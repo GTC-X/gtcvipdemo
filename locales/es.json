@@ -1,4 +1,11 @@
 {
+    "menuItem": {
+    "whyJoin": "¿Por qué unirse?",
+    "howItWorks": "Cómo funciona",
+    "competitionDetails": "Detalles de la competencia",
+    "termsConditions": "Términos y Condiciones",
+    "register": "Registrarse"
+  },
  "demo": {
   "meta": {
     "title": "¡Únete a la Competencia de Trading de GTC y gana $5,000! Regístrate ahora",
@@ -154,11 +161,12 @@
     "sendOtp": "Enviar OTP",
     "verifyCode": "Verificar código",
     "termsLabel": "Acepta los términos y condiciones",
-    "termsText": "Al hacer clic en el botón 'Obtener el 80% de participación en los ingresos', confirmo que soy mayor de 18 años, he leído y acepto los términos y condiciones.",
+    "termsText": "confirmo que soy mayor de 18 años, he leído y acepto los términos y condiciones.",
     "conset": "Doy mi consentimiento para que GTC se comunique conmigo en horarios razonables y que mi número no esté en el Registro de No Llamar (DNCR).",
-    "clientAgreement": "Acuerdo con el cliente",
+    "clientAgreement": "Términos y Condiciones de la Competencia",
     "privacyPolicy": "Política de privacidad",
-    "submit": "Obtener el 80% de participación en los ingresos",
+    "and1": "y los",
+    "submit": "Registra tu Lugar",
     "submitting": "Enviando...",
     "otpSuccess": "¡OTP verificado correctamente!",
     "otpFail": "Error en la verificación de OTP. ¡Inténtalo de nuevo!",
@@ -213,5 +221,154 @@
     "message": "Al hacer clic en 'Aceptar', aceptas el almacenamiento de cookies en tu dispositivo para mejorar tu experiencia de usuario, la navegación en el sitio, analizar el uso del sitio y asistir en nuestros esfuerzos de marketing.",
     "cta": "Aceptar",
     "linkText": "Lee nuestra política de privacidad aquí."
+  },
+  "privacyPolicy": {
+    "meta": {
+      "title": "Política de Privacidad – GTC | Broker Regulado de Forex y CFD",
+      "description": "Lea la Política de Privacidad de GTCFX para conocer cómo recopilamos, usamos y protegemos sus datos personales en nuestras plataformas reguladas en Vanuatu, Mauricio y EAU."
+    },
+    "header": {
+      "title": "Política de Privacidad",
+      "subtitle": "Protegiendo su información en todas las plataformas y subdominios de GTC"
+    },
+    "whoWeAre": {
+      "title": "Quiénes Somos",
+      "intro1": "Esta Política de Privacidad aplica a GTC, incluyendo todos sus subdominios como reg.gtcfx.com (y otros subdominios relacionados con GTC), y cubre cómo manejamos su información personal.",
+      "intro2": "Cuando decimos “GTC,” “GTCFX,” “GTC VIP,” “nosotros,” o “nuestro,” nos referimos a:",
+      "entity1": {
+        "title": "GTC Global Trade Capital Co. Ltd",
+        "line1": "Autorizado por la Comisión de Servicios Financieros de Vanuatu (VFSC).",
+        "line2": "Número de licencia: 40354.",
+        "line3": "Dirección: 1er piso, B&P House, Kumul Highway, Port Vila, Vanuatu."
+      },
+      "entity2": {
+        "title": "GTC Global Ltd",
+        "line1": "Autorizado por la Comisión de Servicios Financieros de Mauricio.",
+        "line2": "Número de licencia: GB22200292.",
+        "line3": "Dirección: The Cyberati Lounge, Planta Baja, The Catalyst, 40 Cybercity, 72201 Ebene, Mauricio."
+      }
+    },
+    "ourCommitment": {
+      "title": "Nuestro Compromiso",
+      "description": "En GTC, su privacidad no es solo una casilla por marcar, es una prioridad. Nos comprometemos a proteger sus datos personales y ser totalmente transparentes sobre cómo se recopilan, usan y protegen en todos nuestros dominios.",
+      "subheading": "Esta política explica:",
+      "point": {
+        "one": "Qué datos personales recopilamos",
+        "two": "Por qué los recopilamos",
+        "three": "Cómo los protegemos",
+        "four": "Sus derechos y cómo ejercerlos"
+      }
+    },
+    "personalData": {
+      "title": "Datos Personales que Recopilamos",
+      "intro": "Cuando interactúa con GTC – ya sea abriendo una cuenta, visitando nuestro sitio o registrándose en nuestras páginas, podemos recopilar:",
+      "personal": {
+        "title": "Información Personal",
+        "items": {
+          "one": "Nombre completo, fecha y lugar de nacimiento, género y nacionalidad.",
+          "two": "Datos de contacto: email, teléfono, dirección residencial.",
+          "three": "Detalles laborales y de ingresos."
+        }
+      },
+      "financial": {
+        "title": "Datos Financieros y Técnicos",
+        "items": {
+          "one": "Información financiera: datos bancarios, origen de fondos, historial de trading.",
+          "two": "Documentos de identidad: pasaporte, licencia de conducir, DNI.",
+          "three": "Preferencias y rendimiento en trading.",
+          "four": "Dirección IP, información del dispositivo, cookies y uso de plataforma."
+        }
+      },
+      "note": "Podemos grabar llamadas y chats para cumplimiento normativo y formación."
+    },
+    "howWeUse": {
+      "title": "Cómo Usamos Su Información",
+      "description": "Solo usamos sus datos cuando tenemos una base legal para hacerlo:",
+      "points": {
+        "one": "Prestar servicios: Abrir y gestionar su cuenta de trading.",
+        "two": "Cumplir obligaciones legales: Incluyendo prevención de blanqueo y requisitos regulatorios.",
+        "three": "Proteger intereses comerciales: Mejorar plataformas, analizar comportamiento y gestionar riesgos.",
+        "four": "Con su consentimiento: Email marketing e invitaciones exclusivas a webinars.",
+        "five": "Soporte al cliente: Ayudar con solicitudes o resolver problemas.",
+        "six": "Mejorar experiencia web: Usando cookies, geolocalización y seguimiento de sesiones.",
+        "seven": "Mantener registros: Para auditorías, legales e impuestos."
+      },
+      "footer": "Nunca venderemos sus datos. Punto final."
+    },
+    "whoWeShare": {
+      "title": "Con Quién Compartimos Sus Datos",
+      "description": "Sus datos pueden compartirse con:",
+      "items": {
+        "one": "Otras entidades de GTC (ej. filiales reguladas en Vanuatu y Mauricio).",
+        "two": "Proveedores de pago y servicios de verificación de identidad.",
+        "three": "Socios legales, de cumplimiento y servicios financieros.",
+        "four": "Autoridades reguladoras cuando la ley lo requiera.",
+        "five": "Herramientas de marketing (nunca para marketing de terceros)."
+      },
+      "footer": "Compartimos datos solo bajo necesidad y aseguramos que terceros cumplan estándares estrictos de protección."
+    },
+    "cookiesTracking": {
+      "title": "Cookies y Seguimiento",
+      "description": "Usamos cookies y tecnologías de seguimiento en todos los dominios de GTCFX (ej. https://gtcfx.com, https://gtcvip.com) para:",
+      "points": {
+        "one": "Recordar sus preferencias.",
+        "two": "Mostrar contenido relevante.",
+        "three": "Analizar uso del sitio.",
+        "four": "Ejecutar campañas de remarketing."
+      },
+      "footer": "Puede gestionar cookies en su navegador. Para más información, vea nuestra",
+      "linkText": "Política de Cookies"
+    },
+    "internationalTransfers": {
+      "title": "Transferencias Internacionales",
+      "description": "Al operar globalmente, sus datos pueden procesarse fuera del EEE. Cuando esto ocurre, aseguramos protección equivalente a las leyes UE mediante salvaguardas como contratos conforme al GDPR."
+    },
+    "yourRights": {
+      "title": "Sus Derechos",
+      "description": "Bajo leyes de protección de datos, usted tiene derecho a:",
+      "points": {
+        "one": "Acceder a sus datos.",
+        "two": "Actualizarlos o corregirlos.",
+        "three": "Solicitar eliminación si ya no son necesarios.",
+        "four": "Limitar su uso.",
+        "five": "Retirar consentimiento en cualquier momento.",
+        "six": "Solicitar portabilidad a otro proveedor.",
+        "seven": "Oponerse a marketing o perfilado de datos."
+      },
+      "footer": "Para ejercer estos derechos, contacte a:",
+      "email": "support@gtcfx.com"
+    },
+    "dataRetention": {
+      "title": "Retención de Datos",
+      "intro": "Conservaremos sus datos:",
+      "points": {
+        "one": {
+          "icon": "∞",
+          "text": "Mientras su cuenta esté activa."
+        },
+        "two": {
+          "icon": "5+",
+          "text": "Al menos 5 años tras cerrar su cuenta para cumplir obligaciones AML y regulatorias."
+        },
+        "three": {
+          "icon": "⚖️",
+          "text": "Más tiempo si es requerido por razones legales, fiscales o disputas."
+        }
+      }
+    },
+    "dataSafety": {
+      "title": "Protección de Sus Datos",
+      "description": "Almacenamos datos en servidores seguros, limitamos acceso del personal y capacitamos al equipo en protección de datos. Usamos cifrado, controles de acceso y monitoreo estricto."
+    },
+    "policyUpdates": {
+      "title": "Actualizaciones de Esta Política",
+      "description": "Podemos actualizar esta Política ocasionalmente. Las actualizaciones se publicarán en gtcfx.com y subdominios relevantes."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "¿Preguntas? ¿Necesita ayuda con sus derechos?",
+      "buttonText": "Escríbanos a support@gtcfx.com",
+      "email": "support@gtcfx.com"
+    }
   }
 }

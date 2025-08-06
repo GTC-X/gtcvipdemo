@@ -5,14 +5,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MobileMenu from './MobileMenu';
 import LanguageSwitcher from './LanguageSwitcher';
+import { useTranslations } from 'next-intl';
 
 const MainHeader = ({ setIsOpen }) => {
+  const t = useTranslations('menuItem');
+
   const menuItems = [
-    { label: 'Why Join?', href: '#join' },
-    { label: 'How It Works', href: '#work' },
-    { label: 'Competition Details', href: '#details' },
+    { label: t("whyJoin"), href: '#join' },
+    { label: t("howItWorks"), href: '#work' },
+    { label: t("competitionDetails"), href: '#details' },
     {
-      label: 'T&Cs',
+      label: t("termsConditions"),
       href: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf',
       external: true,
     },
@@ -39,7 +42,7 @@ const MainHeader = ({ setIsOpen }) => {
             onClick={() => setIsOpen(true)}
             className="text-[#000032] font-medium text-sm lg:text-base relative cursor-pointer after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
           >
-            Register
+            {t("register")}
           </button>
 
           {/* Other menu links */}
