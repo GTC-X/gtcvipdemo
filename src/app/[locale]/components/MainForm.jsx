@@ -123,7 +123,7 @@ const CommonMainForm = () => {
             password: `${data?.password}`,
             company: "no",
             country: data?.country,
-            group: "contest\\AUG25\\USD",
+            group: "contest\\AUG25\\TEST-USD",
             invest_password: `${data?.invest_password}`
         }
         await axios.post(`/api/mt5-server`, payloadForm).then(res => {
@@ -138,7 +138,7 @@ const CommonMainForm = () => {
                     password: formik?.values?.password,
                     user: res?.data?.data?.user,
                     invest_password: data?.invest_password,
-                    server_name: "contest\\AUG25\\USD",
+                    server_name: "contest\\AUG25\\TEST-USD",
                 }).then(res => {
                     toast.success(res?.data?.message)
                     toast.success(t("thankYou1"));
