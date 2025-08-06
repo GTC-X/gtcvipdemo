@@ -1,7 +1,7 @@
 // const Metatrader5 = require("mt5-sdk");
 // const axios = require("axios");
 
-// const group = "contest\\AUG25\\TEST-USD";
+// const group = "contest\\AUG25\\USD";
 
 
 // const mt5Instance = new Metatrader5("mtapi.gtcfx.com", 443, {

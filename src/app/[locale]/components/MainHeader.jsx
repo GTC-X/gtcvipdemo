@@ -67,7 +67,7 @@ const MainHeader = ({ setIsOpen }) => {
               </Link>
             )
           )}
-           <LanguageSwitcher />
+     
         </nav>
        
         <div className="md:hidden flex gap-2 items-center">
