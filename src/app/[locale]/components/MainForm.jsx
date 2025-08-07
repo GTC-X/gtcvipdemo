@@ -123,7 +123,7 @@ const CommonMainForm = () => {
             password: `${data?.password}`,
             company: "no",
             country: data?.country,
-            group: "contest\\AUG25\\TEST-USD",
+            group: "contest\\AUG25\\STD-USD",
             invest_password: `${data?.invest_password}`
         }
         await axios.post(`/api/mt5-server`, payloadForm).then(res => {
@@ -138,7 +138,7 @@ const CommonMainForm = () => {
                     password: formik?.values?.password,
                     user: res?.data?.data?.user,
                     invest_password: data?.invest_password,
-                    server_name: "contest\\AUG25\\TEST-USD",
+                    server_name: "contest\\AUG25\\STD-USD",
                     locale: locale
                 }).then(res => {
                     toast.success(res?.data?.message)
@@ -150,6 +150,14 @@ const CommonMainForm = () => {
                     const targetLocale =
                         locale === "ar"
                             ? "/ar/5k-demo-trading-competition/success"
+                            : locale === "cn"
+                            ? "/cn/5k-demo-trading-competition/success"
+                            : locale === "ru"
+                            ? "/ru/5k-demo-trading-competition/success"
+                            : locale === "es"
+                            ? "/es/5k-demo-trading-competition/success"
+                            : locale === "pt"
+                            ? "/pt/5k-demo-trading-competition/success"
                             : "/5k-demo-trading-competition/success";
                     router.push(targetLocale);
                     formik.resetForm();
@@ -506,17 +514,43 @@ const CommonMainForm = () => {
                             value="checked"
                             className="h-5 w-5"
                         />
-                        <p className="inline text-xs md:text-[13px] leading-normal">
-                            {t("termsText")}
-                            <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf"
-                                target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-                                {t("clientAgreement")}
-                            </a> {t("and1")}
-                            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
-                                {t("privacyPolicy")}
-                            </a>. {t("conset")}
-
-                        </p>
+                     <p className="inline text-xs md:text-[13px] leading-normal">
+  {t("termsText")}
+  <a
+    href={
+      {
+        ar: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions-AR.pdf",
+        ru: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions-RU.pdf",
+        cn: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions-CN.pdf",
+        pt: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions-PT.pdf",
+        es: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions-ES.pdf",
+      }[locale] || "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf"
+    }
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-secondary underline ml-1"
+  >
+    {t("clientAgreement")}
+  </a>
+  {t("and1")}
+  <a
+    href={
+      {
+        ar: "/ar/privacy-policy",
+        ru: "/ru/privacy-policy",
+        cn: "/cn/privacy-policy",
+        es: "/es/privacy-policy",
+        pt: "/pt/privacy-policy",
+      }[locale] || "/privacy-policy"
+    }
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-secondary underline ml-1"
+  >
+    {t("privacyPolicy")}
+  </a>
+  . {t("conset")}
+</p>
 
                     </div>
                 </div>
