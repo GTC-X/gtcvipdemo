@@ -139,6 +139,7 @@ const CommonMainForm = () => {
                     user: res?.data?.data?.user,
                     invest_password: data?.invest_password,
                     server_name: "contest\\AUG25\\TEST-USD",
+                    locale: locale
                 }).then(res => {
                     toast.success(res?.data?.message)
                     toast.success(t("thankYou1"));
@@ -506,7 +507,7 @@ const CommonMainForm = () => {
                             className="h-5 w-5"
                         />
                         <p className="inline text-xs md:text-[13px] leading-normal">
-                           {t("termsText")}
+                            {t("termsText")}
                             <a href="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf"
                                 target="_blank" rel="noopener noreferrer" className="text-secondary underline ml-1">
                                 {t("clientAgreement")}
