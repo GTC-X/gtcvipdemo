@@ -122,7 +122,6 @@ const CommonMainForm = () => {
             email: data?.email,
             password: `${data?.password}`,
             company: "no",
-            locale: locale,
             country: data?.country,
             group: "contest\\AUG25\\STD-USD",
             invest_password: `${data?.invest_password}`
@@ -202,26 +201,25 @@ const CommonMainForm = () => {
         },
         validationSchema: Yup.object({
            nickname: Yup.string()
-    .matches(/^[^\d\s\p{L}]*[\p{L}\s]+[^\d\s\p{L}]*$/, t("errors.fullNameFormat"))
-    .required(t("errors.firstNameRequired")),
+  .matches(/^[^\d]+$/, t("errors.fullNameFormat")) // Disallow digits
+  .required(t("errors.firstNameRequired")),
 
-  last_name: Yup.string()
-    .matches(/^[^\d\s\p{L}]*[\p{L}\s]+[^\d\s\p{L}]*$/, t("errors.lastNameFormat"))
-    .required(t("errors.lastNameRequired")),
+last_name: Yup.string()
+  .matches(/^[^\d]+$/, t("errors.lastNameFormat")) // Disallow digits
+  .required(t("errors.lastNameRequired")),
+            email: Yup.string()
+                .email(t("errors.emailInvalid"))
+                .required(t("errors.emailRequired")),
 
-  email: Yup.string()
-    .email(t("errors.emailInvalid"))
-    .required(t("errors.emailRequired")),
+            phone: Yup.string().required(t("errors.phoneRequired")),
 
-  phone: Yup.string().required(t("errors.phoneRequired")),
+            country: Yup.string().required(t("errors.countryRequired")),
 
-  country: Yup.string().required(t("errors.countryRequired")),
+            otp: Yup.string()
+                .length(6, t("errors.otpLength"))
+                .required(t("errors.otpRequired")),
 
-  otp: Yup.string()
-    .length(6, t("errors.otpLength"))
-    .required(t("errors.otpRequired")),
-
-  terms: Yup.bool().oneOf([true], t("errors.termsRequired")),
+            terms: Yup.bool().oneOf([true], t("errors.termsRequired")),
         }),
 
         onSubmit: async (values) => {
