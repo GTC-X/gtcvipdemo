@@ -8,14 +8,14 @@
   },
  "demo": {
   "meta": {
-    "title": "¡Únete a la Competencia de Trading de GTC y gana $5,000! Regístrate ahora",
-    "description": "¡Regístrate aquí para participar en la competencia de trading demo de GTC y gana $5,000! El torneo de trading comienza el 6 de agosto de 2025, ¡no te lo pierdas!"
+    "title": "¡Únete a la Competencia de Trading de GTC y gana  USD 5,000! Regístrate ahora",
+    "description": "¡Regístrate aquí para participar en la competencia de trading demo de GTC y gana  USD 5,000! El torneo de trading comienza el 6 de agosto de 2025, ¡no te lo pierdas!"
   },
   "banner": {
     "no": "5000",
     "title": "¡La Competencia de Trading ha llegado!",
     "para1": "GTC",
-    "para2": "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuestralo en nuestro primer torneo de trading y gana parte de los $5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading. Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de $10,000 para utilizar. Recuerda, ¡No hay riesgo! Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades.",
+    "para2": "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuestralo en nuestro primer torneo de trading y gana parte de los  USD 5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading. Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de  USD 10,000 para utilizar. Recuerda, ¡No hay riesgo! Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades.",
     "btnText": "Inscribite"
   },
   "counter": {
@@ -27,12 +27,12 @@
   },
   "payMore": {
     "title": "¿Por qué unirse al torneo de trading de GTC?",
-    "intro": "No solo participas en una competición de trading, ¡sino que te estás convirtiendo en el centro de atención del trading! Aquí te explicamos por qué traders de todo el mundo se están registrando y están deseando competir en el primer torneo de trading demo de GTC:",
+    "intro": "No solo participas en una competición de trading, ¡sino que te estás convirtiendo en el centro de atención del trading! Aquí te explicamos por qué traders de todo el mundo se están registrando y están deseando competir en el primer torneo de trading de GTC:",
     "cta": "Participa",
     "features": {
       "feature1": {
-        "title": "¡$3,000 para el ganador Sin riesgo!",
-        "description": "Estás operando con fondos virtuales, ¡pero el mejor jugador ganará una cuenta real de trading con $3,000! No se requiere depósito para unirse."
+        "title": "¡ USD 3,000 para el ganador Sin riesgo!",
+        "description": "Estarás operando con fondos virtuales, ¡pero el mejor jugador ganará una cuenta real de trading con  USD 3,000! No se requiere depósito para unirse."
       },
       "feature2": {
         "title": "Pon a prueba tus habilidades en condiciones reales de mercado",
@@ -40,7 +40,7 @@
       },
       "feature3": {
         "title": "¡Una tabla de clasificación que demuestra que realmente eres el mejor!",
-        "description": "Descubre cómo te comparas con otros traders de todo el mundo. La tabla de clasificación se actualiza a diario y tu rendimiento habla por tí."
+        "description": "Descubre cómo te comparas con otros traders de todo el mundo. La tabla de clasificación se actualiza a diario y tu rendimiento hablará por tí."
       },
       "feature4": {
         "title": "Demuestra tus habilidades cuando compitas con otros traders",
@@ -67,8 +67,8 @@
       },
       "t2": {
         "step": "Paso 2",
-        "name": "Obtén tu cuenta demo de $10,000",
-        "stars": "Al instante, te crearemos una cuenta demo MT5 con un saldo de US$10.000 en fondos virtuales."
+        "name": "Obtén tu cuenta demo de  USD 10,000",
+        "stars": "Al instante, te crearemos una cuenta demo MT5 con un saldo de US USD 10.000 en fondos virtuales."
       },
       "t3": {
         "step": "Paso 3",
@@ -78,58 +78,58 @@
       "t4": {
         "step": "Paso 4",
         "name": "Escala en la tabla de posiciones y ¡gana!",
-        "stars": "Supera a los otros traders, escala en el ranking y llévate tu parte del pozo de premios de US$5.000 para una cuenta real de trading."
+        "stars": "Supera a los otros traders, escala en el ranking y llévate tu parte del pozo de premios de US USD 5.000 para una cuenta real de trading."
       },
       "cta": "Regístrate ahora"
     }
   },
   "detail": {
-    "title": "Detalles de la competición de Trading",
+    "title": "Detalles de la competencia de Trading",
     "description": "Aquí encontrará todo lo que necesita saber sobre la competencia de Trading.",
     "competitionDetails": [
       {
-        "title": "Registration Period",
+        "title": "Periodo de Inscripción",
         "content": [
-          "Wednesday, 11th August 2025 – Sunday, 24th August 2025 (23:59 GMT).",
-          "Register early to secure your demo account and get familiar with the MT5 platform."
+          "Miércoles, 11 de agosto de 2025 al Domingo, 24 de agosto de 2025 (23:59 GMT).",
+          "Regístrate con anticipación para asegurar tu cuenta demo y familiarizarte con la plataforma MT5."
         ]
       },
       {
-        "title": "Competition Period",
+        "title": "Periodo de la Competencia",
         "content": [
-          "Monday, 25th August – Thursday 7th September 2025 (23:59 GMT).",
-          "You’ll have 14 full days to trade your way up the leaderboard."
+          "Lunes, 25 de agosto al Jueves, 11 de septiembre de 2025 (23:59 GMT)",
+          "Tendrás 14 días para escalar en la tabla de posiciones."
         ]
       },
       {
-        "title": "How to Participate",
+        "title": "Como Participar",
         "content": [
-          "Simply click here to access the registration form. When you fill in the form, here’s what will happen:"
+          "Simplemente haz clic aquí para acceder al formulario de registro. Al completarlo, esto es lo que sucederá:"
         ],
         "list": [
-          "You’ll get your $10,000 GTC MT5 Demo Account with login credentials via email.",
-          "You’ll be able to trade FX, Metals & Commodities during the contest period.",
-          "You’ll be able to track your progress on the live leaderboard in GTC VIP, our loyalty rewards platform. Check it out!"
+          "Recibirás tu cuenta demo GTC MT5 con USD 10,000 con tus credenciales de inicio de sesión por correo electrónico.",
+          "Podrás operar con divisas, metales y materias primas durante el concurso.",
+          "Podrás seguir tu progreso en la tabla de posiciones en vivo de GTC VIP, nuestra plataforma de recompensas de fidelidad. ¡Revisala!"
         ],
-        "note": "⚠️ Note: Minimum 10 trades are required to qualify for a prize."
+        "note": "⚠️ Nota: Se requiere un mínimo de 10 operaciones para optar a un premio."
       },
       {
-        "title": "$5,000 Prize Pool",
+        "title": "USD 5,000 en premios",
         "list": [
-          "🥇 1st Place Wins $3,000 in a GTC Live Trading Account.",
-          "🥈 2nd Place Wins $1,500 in a GTC Live Trading Account.",
-          "🥉 3rd Place Wins $500 in a GTC Live Trading Account.",
-          "4th - 10th Win a $200 Credit Bonus, which requires a deposit."
+          "🥇 El primer Lugar gana USD 3,000 en una cuenta real de trading de GTC.",
+          "🥈 El segundo Lugar gana USD 1,500 en una cuenta real de trading de GTC.",
+          "🥉 El tercer Lugar gana USD 500 en una cuenta real de trading de GTC.",
+          "Del 4° al 10° Lugar: Gana un bono de crédito de USD 200, que requiere un depósito."
         ]
       },
       {
         "content": [
-          "All other verified participants receive a 15% Deposit Bonus on their first GTC Live Trading Account deposit."
+          "Todos los demás participantes verificados reciben un bono de depósito de 15% en su primer depósito en una Cuenta real de Trading de GTC."
         ]
       },
       {
         "content": [
-          "Everyone receives a certificate."
+          "Todos reciben un certificado."
         ]
       },
       {
@@ -144,7 +144,7 @@
   },
   "final-cta-section": {
     "heading": "¿Estás preparado para el desafío?",
-    "description": "Demuestra tus habilidades de trading y compite con traders de todo el mundo. ¡Recuerda que se entregarán premios de $5,000 en cuentas de trading reales!",
+    "description": "Demuestra tus habilidades de trading y compite con traders de todo el mundo. ¡Recuerda que se entregarán premios de  USD 5,000 en cuentas de trading reales!",
     "buttonText": "Reserva tu lugar"
   },
   "form": {
@@ -165,7 +165,7 @@
     "conset": "Doy mi consentimiento para que GTC se comunique conmigo en horarios razonables y que mi número no esté en el Registro de No Llamar (DNCR).",
     "clientAgreement": "Términos y Condiciones de la Competencia",
     "privacyPolicy": "Política de privacidad",
-    "and1": "y los",
+    "and1": " y las",
     "submit": "Registra tu Lugar",
     "submitting": "Enviando...",
     "otpSuccess": "¡OTP verificado correctamente!",
