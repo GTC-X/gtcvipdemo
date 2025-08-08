@@ -122,6 +122,7 @@ const CommonMainForm = () => {
             email: data?.email,
             password: `${data?.password}`,
             company: "no",
+            locale: locale,
             country: data?.country,
             group: "contest\\AUG25\\TEST-USD",
             invest_password: `${data?.invest_password}`
