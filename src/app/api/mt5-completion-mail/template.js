@@ -1,118 +1,119 @@
 export const getArabicEmailMT5Templetes = (data) => {
   return `
  <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
   <head>
     <meta charset="UTF-8" />
-    <title>تفاصيل تسجيلك في مسابقة GTC</title>
+    <title>You’ve Registered for the GTC Demo Competition
+</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
   </head>
-  <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Noto Kufi Arabic', sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="padding:20px;">
+  <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif; direction: rtl; text-align: right; ">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px; direction: rtl; text-align: right; ">
       <tr>
         <td align="center">
           <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
-            <!-- Logo -->
+           <!-- Logo -->
             <tr>
-              <td align="center" style="padding-bottom:20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="شعار GTC" style="width:160px;" />
+              <td align="center" style="padding-bottom: 20px;">
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                بيانات تسجيلك في مسابقة GTC
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
+                بيانات حسابك لمسابقة GTC للحسابات التجريبية
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
-                إليك كافة التفاصيل للوصول إلى حسابك التجريبي والمشاركة!
-              </td>
-            </tr>
-
-            <tr><td style="border-top:2px solid #e0e0e0;padding:15px 0;"></td></tr>
-
-            <!-- Greeting -->
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                مرحباً ${data?.name}،
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                أنت الآن مستعد لتُثبت للعالم أنك أفضل متداول على الإطلاق!
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                لقد تم إنشاء حساب التداول التجريبي الخاص بك بنجاح، وإليك طريقة الوصول إليه.
+              <td align="center" style="font-size:14px;color:#2a2f83;padding-bottom:20px;">
+                نُرفق لك في هذا البريد جميع التفاصيل اللازمة للبدء في المسابقة.
               </td>
             </tr>
 
-            <!-- Account Info -->
             <tr>
-              <td style="padding:20px 0;">
-                <h3 style="color:#b68756;font-size:18px;margin-bottom:16px;">تفاصيل حساب التداول التجريبي الخاص بك</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#fdf6ee;font-size:14px;color:#000;border-radius:10px;">
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
+
+            <!-- Greeting & Instructions -->
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                مرحباً ${data?.name},
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                الأسواق بانتظارك، وأنت اليوم تبدأ أول خطوة لإثبات قدراتك في التداول.
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                تم إنشاء حسابك التجريبي الجديد من GTC بنجاح، وهذه تفاصيل الوصول التي تمكّنك من الدخول لتبدأ رحلتك بثقة.
+              </td>
+            </tr>
+            
+            <!-- Account Info Box -->
+            <tr>
+              <td style="padding: 20px 0;">
+                <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">تفاصيل حسابك التجريبي من GTC</h3>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
                   <tr>
-                    <td width="45%" style="font-weight:600;color:#7c4e00;padding:12px;">عملة الحساب</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;">USD</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">عملة الحساب</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">USD</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">رقم الحساب</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;">${data?.user}</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">رقم حساب التداول في GTC</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">كلمة المرور</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;">${data?.password}</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">كلمة المرور الخاصة بك</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">كلمة مرور المستثمر</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;border:2px solid #a076f9;">${data?.invest_password}</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">كلمة مرور المستثمر</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">المنصة</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;">MT5</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">منصة التداول التي ستستخدمها</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">MT5</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">الخادم</td>
-                    <td style="padding:5px;">
-                      <div style="background:#fff;padding:10px 14px;border-radius:8px;">GTCGlobalTrade-Server</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">اسم السيرفر</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
 
-            <!-- CTA -->
+            <!-- CTA Buttons -->
             <tr>
-              <td align="center" style="padding-bottom:20px;">
-                <p style="font-size:16px;color:#202a6b;font-weight:600;margin-bottom:20px;">الوصول إلى منصة التداول</p>
+              <td align="center" style="padding: 0px 0 20px 0;">
+                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">الوصول إلى منطقة العميل</p>
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
-                    <td style="padding:0 10px;">
-                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe"
-                         style="background:#fff;border:2px solid #b68756;border-radius:8px;color:#b68756;font-weight:600;padding:12px 20px;text-decoration:none;">
-                        GTC على الحاسوب
+                    <td align="center" style="padding: 0 10px;">
+                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe" style="background-color: #ffffff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        الوصول إلى منطقة العميل عبر (سطح المكتب)
                       </a>
                     </td>
-                    <td style="padding:0 10px;">
-                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server"
-                         style="background:linear-gradient(to right,#b68756,#7b6036);border-radius:8px;color:#fff;font-weight:600;padding:12px 20px;text-decoration:none;">
-                        GTC على الهاتف
+                    <td align="center" style="padding: 0 10px;">
+                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server" style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #ffffff; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        الوصول إلى منطقة العميل عبر الهاتف المحمول
                       </a>
                     </td>
                   </tr>
@@ -120,33 +121,123 @@ export const getArabicEmailMT5Templetes = (data) => {
               </td>
             </tr>
 
-            <!-- Contact -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px;font-weight:600;">هل تحتاج مساعدة؟</td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:20px;">
-                لا تتردد في التواصل معنا عبر: <a href="mailto:support@gtcfx.com" style="color:#000;text-decoration:underline;">support@gtcfx.com</a>
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                هل تحتاج إلى أي مساعدة؟
               </td>
             </tr>
-
-            <!-- Signature -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                بالتوفيق!<br/>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                في حال كان لديك أي استفسار أو واجهت أي صعوبات، لا تتردد في التواصل معنا عبر البريد الإلكتروني <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. نحن هنا لخدمتك، وملتزمون بتقديم أفضل تجربة تداول لك.
+              </td>
+            </tr>
+            
+            <!-- Signoff -->
+            <tr>
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                <br>
+                مع أطيب التحيات،
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:30px;">
+                أنت الأفضل… وحان وقتك لتُثبت ذلك!<br>
                 فريق GTC
               </td>
             </tr>
 
-            <!-- Divider -->
             <tr>
-              <td style="border-top:2px solid #e0e0e0;padding:15px 0;"></td>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
             </tr>
 
-            <!-- Footer -->
+            <!-- Contact Info -->
             <tr>
-              <td style="font-size:12px;color:#666666;text-align:center;">
-                &copy; 2025 جميع الحقوق محفوظة لشركة GTC
+              <td style="padding-top: 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="right">
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+                    </td>
+                    <td align="left" style="font-size: 13px; color: #192055; line-height: 25px;">
+                      📞 الهاتف: +971 800 667788<br/>
+                      ✉️ البريد الإلكتروني: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Legal Footer -->
+            <tr>
+  <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+    <strong>حافظ على سرية معلومات الدخول الخاصة بحسابك في GTC. لا تشارك كلمة المرور أو تسمح لأي شخص آخر باستخدام حسابك. تذكر، أنت المسؤول عن كل ما يخص بياناتك وكلمات المرور والأمان، سواء الخاصة بحساب التداول أو منطقة العميل أو على منصات التداول.</strong><br/><br/>
+    هذا الموقع مملوك ومدار من قبل GTC Global Ltd، وهي شركة محدودة مسجلة في موريشيوس (رقم الشركة: C188049) ومرخصة من قبل هيئة الخدمات المالية في موريشيوس (رقم الترخيص: GB22200292) للتداول كتاجر استثمار SEC-2.1B. العنوان المسجل: Cyberati Lounge, الطابق الأرضي، The Catalyst، Silicon Avenue، 40 Cybercity، 72201 Ebene، جمهورية موريشيوس. الخدمات والمنتجات المالية المروج لها على هذا الموقع مقدمة من GTC Global Ltd وGTC Global Trade Capital Co. Limited، وهي شركة مرخصة من قبل هيئة الخدمات المالية في فانواتو، جمهورية فانواتو، رقم الترخيص: 40354.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> تنتميان إلى مجموعة GTC Financial Group، التي تتكون من مجموعة من الكيانات في جميع أنحاء العالم.<br/><br/>
+    الاستثمار في المنتجات المشتقة ينطوي على مخاطر كبيرة وقد لا يكون مناسبًا لجميع المستثمرين. الرافعة المالية في هذه الأدوات يمكن أن تزيد من مستوى المخاطر وتؤدي إلى تعرض محتمل للخسائر. قبل اتخاذ أي قرار بالمشاركة في تداول العملات الأجنبية أو العقود مقابل الفروقات، من الضروري تقييم أهدافك الاستثمارية، ومستوى خبرتك، ومدى تحملك للمخاطر بعناية. يجب أن تستثمر فقط الأموال التي يمكنك تحمل خسارتها. نحن نشجعك بشدة على تثقيف نفسك جيدًا حول المخاطر المرتبطة، وإذا كانت لديك أي استفسارات، اطلب المشورة من مستشار مالي أو ضريبي مستقل.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> لا تقدمان خدمات للأفراد المقيمين في ولايات قضائية معينة و/أو الولايات القضائية التي يكون فيها توزيع هذه الخدمات مخالفًا للقوانين أو اللوائح المحلية.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">الكيانات الأخرى في المجموعة:</strong><br/>
+    المنتجات والخدمات المالية المقدمة على هذا الموقع <u>لا</u> يتم توفيرها من قبل الكيانات التالية في المجموعة، ولا يمكن اللجوء إلى هذه الكيانات. إذا كنت مهتمًا بالمنتجات والخدمات التي تقدمها كل من الكيانات التالية، يرجى زيارة مواقعهم الإلكترونية الخاصة.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> هي شركة قابضة مسجلة في دبي، الإمارات العربية المتحدة برقم الترخيص التجاري: 2311147.01. مكتبها المسجل في: Business Center 1، الطابق M، فندق الميدان، ند الشبا، دبي، الإمارات العربية المتحدة.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> هي شركة محدودة مرخصة ومسجلة بموجب قوانين مركز دبي للسلع المتعددة (رقم: DMCC-312687) ومرخصة من قبل هيئة الأوراق المالية والسلع، الإمارات العربية المتحدة (رقم: 20222a2f8307) لممارسة نشاط الوساطة في السلع - التداول والتسوية. العنوان المسجل: الوحدة رقم: 1501، 1 Lake Plaza، القطعة رقم: JLT-PH2-T2A، ابراج بحيرات الجميرا، دبي، الإمارات العربية المتحدة.<br/><br/>
+    يتم إدارة كل كيان ضمن مجموعة GTC Financial Group بشكل منفصل. المنتجات والخدمات المالية المقدمة على هذا الموقع يتم توفيرها فقط من قبل GTC Global Ltd وGTC Global Trade Capital Co. Limited.<br/><br/>
+    جميع العلامات التجارية ملك لأصحابها المعنيين. جميع الحقوق محفوظة. GTC Global Ltd هي جزء من مجموعة GTC Financial Group، التي تتكون من مجموعة من الكيانات في جميع أنحاء العالم.<br/><br/>
+    <strong>تحذير المخاطر:</strong> التداول في المنتجات ذات الرافعة المالية مثل الفوركس والمشتقات قد لا يكون مناسبًا لجميع المستثمرين لأنها تنطوي على درجة عالية من المخاطر على رأس مالك. يرجى التأكد من فهمك الكامل للمخاطر المرتبطة وطلب المشورة المستقلة إذا لزم الأمر.
+  </td>
+</tr>
+
+            <!-- Social Media Footer -->
+            <tr>
+              <td style="padding-top: 30px; text-align: center;">
+                <table align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://x.com/GTC_fx" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://t.me/gtc_vip_signal" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
+                &copy; Copyright 2025 GTCVIP – جميع الحقوق محفوظة
               </td>
             </tr>
           </table>
@@ -161,128 +252,119 @@ export const getArabicEmailMT5Templetes = (data) => {
 export const chineseEmailMT5Template = (data) => {
   return `
   <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <title>您的 GTC 竞赛登录凭证</title>
+    <title>GTC模拟交易赛参赛凭证</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Noto+Sans+SC:wght@400;700&display=swap');
+      body { font-family: 'Noto Sans SC', 'Poppins', sans-serif; }
     </style>
   </head>
-  <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="font-family:'Poppins',sans-serif;padding:20px;">
+  <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Noto Sans SC', 'Poppins', sans-serif;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Noto Sans SC', 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
           <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
-            <!-- Logo -->
+           <!-- Logo -->
             <tr>
-              <td align="center" style="padding-bottom:20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg"
-                     alt="GTC 徽标" style="width:160px;" />
+              <td align="center" style="padding-bottom: 20px;">
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
-            <!-- 主题标题 -->
+            <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                您的 GTC 大赛登录凭证
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
+                GTC模拟交易赛参赛凭证
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
-                我们已经将所有凭证整理在本邮件中，助您一臂之力！
-              </td>
-            </tr>
-
-            <tr><td style="border-top:2px solid #e0e0e0;padding:15px 0;"></td></tr>
-
-            <!-- 问候与说明 -->
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                您好，${data?.name}，
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                您已准备好迎接世界级挑战，向天下证明您才是真正的顶级交易员！
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                您的新 GTC 模拟交易账户已创建，请查看以下方式以登录账户。
+              <td align="center" style="font-size:14px;color:#2a2f83;padding-bottom:20px;">
+                您的赛事账户凭证已备份至本邮件，请查收
               </td>
             </tr>
 
-            <!-- 账户信息框 -->
             <tr>
-              <td style="padding:20px 0;">
-                <h3 style="color:#b68756;font-size:18px;margin:0 0 16px 0;">您的 GTC 模拟交易账户信息</h3>
-                <table width="100%" cellpadding="0" cellspacing="0"
-                       style="border-radius:10px;background-color:#fdf6ee;font-size:14px;color:#000;">
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
+
+            <!-- Greeting & Instructions -->
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                尊敬的${data?.name}：
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                您的参赛账户已开通，随时可登录参赛。
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                您的GTC模拟交易赛账户已创建完成，登录方式如下：
+              </td>
+            </tr>
+            
+            <!-- Account Info Box -->
+            <tr>
+              <td style="padding: 20px 0;">
+                <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">账户信息</h3>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
                   <tr>
-                    <td width="45%" style="font-weight:600;color:#7c4e00;padding:12px;">账户货币</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;">USD</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">账户货币</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">USD</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">GTC 交易账号</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;">
-                        ${data?.user}
-                      </div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">交易账号</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">登录密码</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;">
-                        ${data?.password}
-                      </div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">主密码</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">投资者密码</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;border:2px solid #a076f9;">
-                        ${data?.invest_password}
-                      </div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">只读密码</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">交易平台</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;">MT5</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">交易平台</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">MT5</div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="font-weight:600;color:#7c4e00;padding:12px;">服务器名称</td>
-                    <td style="padding:5px;">
-                      <div style="background-color:#ffffff;padding:10px 14px;border-radius:8px;">GTCGlobalTrade-Server</div>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">服务器</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
 
-            <!-- CTA 按钮 -->
+            <!-- CTA Buttons -->
             <tr>
-              <td align="center" style="padding-bottom:20px;">
-                <p style="font-size:16px;color:#202a6b;font-weight:600;margin-bottom:20px;">
-                  登录您的 GTC 客户端专区
-                </p>
+              <td align="center" style="padding: 0px 0 20px 0;">
+                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">快速访问通道</p>
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
-                    <td style="padding:0 10px;">
-                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe"
-                         style="background-color:#ffffff;border:2px solid #b68756;border-radius:8px;color:#b68756;font-weight:600;padding:12px 20px;text-decoration:none;display:inline-block;">
-                        桌面端 GTC 客户区
+                    <td align="center" style="padding: 0 10px;">
+                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe" style="background-color: #ffffff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        电脑端登录入口
                       </a>
                     </td>
-                    <td style="padding:0 10px;">
-                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server"
-                         style="background:linear-gradient(to right,#b68756,#7b6036);border-radius:8px;color:#ffffff;font-weight:600;padding:12px 20px;text-decoration:none;display:inline-block;">
-                        移动端 GTC 客户区
+                    <td align="center" style="padding: 0 10px;">
+                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server" style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #ffffff; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        移动端登录入口
                       </a>
                     </td>
                   </tr>
@@ -290,90 +372,127 @@ export const chineseEmailMT5Template = (data) => {
               </td>
             </tr>
 
-            <!-- 帮助说明 -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px;font-weight:600;">
-                需要帮助？
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                遇到问题？
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                如果您有任何疑问或需要进一步帮助，请随时联系我们：<a href="mailto:support@gtcfx.com">support@gtcfx.com</a>。我们在此为您提供支持，确保您享有最佳体验。
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                请联系客服邮箱 <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>，我们将尽快协助您。
+              </td>
+            </tr>
+            
+            <!-- Signoff -->
+            <tr>
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                <br>
+                祝交易顺利
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:30px;">
+                GTC泽汇团队
               </td>
             </tr>
 
-            <!-- 致敬语 -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px;font-weight:600;">
-                致敬，
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                您最棒，很快就会向世界证明！<br/>
-                您的 GTC 家人
-              </td>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
             </tr>
 
-            <tr><td style="border-top:2px solid #e0e0e0;padding:15px 0;"></td></tr>
-
-            <!-- 联系方式 & 公司说明 -->
+            <!-- Contact Info -->
             <tr>
-              <td style="padding-top:0;">
+              <td style="padding-top: 0px;">
                 <table width="100%" cellpadding="0" cellspacing="0">
                   <tr>
                     <td align="left">
-                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg"
-                           alt="GTC 徽标" style="width:160px;" />
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
                     </td>
-                    <td align="right" style="font-size:13px;color:#192055;line-height:25px;">
-                      📞 电话：+971 800 667788<br/>
-                      ✉️ 邮箱：<a href="mailto:support@gtcfx.com" style="color:#192055;text-decoration:none;">support@gtcfx.com</a>
+                    <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
+                      📞 电话: +971 800 667788<br/>
+                      ✉️ 电子邮件: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
 
-            <!-- 法律声明 -->
+            <!-- Legal Footer -->
             <tr>
-              <td style="font-size:11px;color:#666;padding:20px 0;line-height:1.5;">
-                <strong>请妥善保管您的账户和密码。请勿与他人共享，确保账户安全。</strong><br/><br/>
-                <strong>您为所有账户信息和交易所使用的安全凭证或设备承担全部责任。</strong><br/><br/>
-                本网站由 GTC Global Ltd（毛里求斯注册，注册号 C188049）拥有并运营，持有毛里求斯金融服务委员会颁发的证券交易牌照（编号：GB22200292）。注册地址：Cyberati Lounge，The Catalyst，Silicon Avenue，40 Cybercity，72201 Ebene，毛里求斯共和国。金融服务及产品由 GTC Global Ltd 和 GTC Global Trade Capital Co. Limited 提供，后者持有瓦努阿图金融服务委员会授权（牌照号：40354）。<br/><br/>
-                GTC Global Ltd 和 GTC Global Trade Capital Co. Limited 均为 GTC 金融集团的成员，该集团在全球拥有多家子公司。以杠杆进行的衍生品交易具有高风险，可能不适合所有投资者。在交易外汇或差价合约前，请全面评估您的投资目标、经验与风险承受能力，并仅使用可承受损失的资金。如有疑问，请咨询独立的财务或税务顾问。<br/><br/>
-                GTC Global Ltd 和 GTC Global Trade Capital Co. Limited 不向某些特定司法辖区的居民提供服务。<br/><br/>
-                其他集团实体：GTC Group LLC‑FZ 为设于阿联酋迪拜的控股公司（商务许可：2311147.01）。GTC Multi Trading DMCC 为设于 DMCC 的注册公司（编号 DMCC‑312687），并获阿联酋证券商品管理局授权（编号 202200000007）提供商品经纪服务。<br/><br/>
-                各实体独立运营。本网站上的金融服务仅由 GTC Global Ltd 及 GTC Global Trade Capital Co. Limited 提供。<br/><br/>
-                所有商标归其合法拥有者所有。GTC Global Ltd 为 GTC 金融集团成员之一。<br/><br/>
-                <strong>风险提示：</strong>杠杆产品具有高风险，可能导致资金损失，非所有投资者均适用。请确保完全理解这些风险并酌情寻求独立建议。
+              <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+                <strong>账户安全提醒</strong><br/>
+                1. 请妥善保管账号密码，切勿透露给他人<br/>
+                2. 禁止他人操作您的账户，防范安全风险<br/>
+                3. 您需对账户密码及操作行为全权负责<br/><br/>
+                本网站由GTC Global Ltd拥有和运营，该公司为一家在毛里求斯注册成立的有限责任公司（公司编号：C188049），并获得毛里求斯金融服务委员会（许可证编号：GB22200292）的许可，作为SEC-2.1B投资交易商进行交易。注册地址：Cyberati Lounge，地面层，The Catalyst，Silicon Avenue，40 Cybercity，72201 Ebene，毛里求斯共和国。本网站推广的金融服务和产品由GTC Global Ltd和GTC Global Trade Capital Co. Limited提供，后者是一家由瓦努阿图共和国瓦努阿图金融服务委员会授权的公司，公司许可证编号：40354。<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 隶属于GTC金融集团，该集团由全球多家实体组成。<br/><br/>
+                投资衍生品具有重大风险，可能不适合所有投资者。这些工具的杠杆作用可能会增加风险水平和潜在损失敞口。在决定参与外汇交易或差价合约（CFD）之前，仔细评估您的投资目标、经验水平和风险承受能力至关重要。您应仅投资您能承受损失的资金。我们强烈建议您全面了解相关风险，并在有任何疑问时，向独立的财务或税务顾问寻求建议。<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 不向居住在特定司法管辖区和/或分发此类服务违反当地法律或法规的司法管辖区的个人提供服务。<br/><br/>
+                <strong style="font-weight: 600; color: #000;">集团其他实体：</strong><br/>
+                本网站提供的金融产品和服务<u>不</u>由以下集团实体提供，且无法向以下实体追索。如果您对以下实体提供的金融产品和服务感兴趣，请访问其各自的网站。<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> 是一家在阿拉伯联合酋长国迪拜注册成立的控股公司，商业许可证编号：2311147.01。其注册办公地址为：Business Center 1，M层，Meydan Hotel，Nad Al Sheba，迪拜，阿拉伯联合酋长国。<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> 是一家根据迪拜多种商品中心（DMCC）法律许可和注册的有限责任公司（编号：DMCC-312687），并获得阿拉伯联合酋长国证券和商品管理局的许可（编号：20222a2f8307），从事商品经纪-交易和清算活动。注册地址：Unit No: 1501，1 Lake Plaza，Plot No: JLT-PH2-T2A，Jumeirah Lakes Towers，迪拜，阿拉伯联合酋长国。<br/><br/>
+                GTC金融集团内的每个实体均独立管理。本网站提供的金融产品和服务仅由GTC Global Ltd和GTC Global Trade Capital Co. Limited提供。<br/><br/>
+                所有商标均为其各自所有者的财产。保留所有权利。GTC Global Ltd是GTC金融集团的一部分，该集团由全球多家实体组成。<br/><br/>
+                <strong>风险提示：</strong> 交易外汇和衍生品等杠杆产品可能不适合所有投资者，因为它们对您的资本构成高风险。请确保您充分了解相关风险，并在必要时寻求独立的建议。
               </td>
             </tr>
 
-            <!-- 社交媒体图标 -->
+            <!-- Social Media Footer -->
             <tr>
-              <td style="padding-top:30px;text-align:center;">
+              <td style="padding-top: 30px; text-align: center;">
                 <table align="center" cellpadding="0" cellspacing="0">
                   <tr>
-                    <td style="padding:0 5px;"><a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://x.com/GTC_fx" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://linkedin.com/company/gtcfx-official" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://www.instagram.com/gtcfxofficial/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://t.me/gtc_vip_signal" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;"></a></td>
-                    <td style="padding:0 5px;"><a href="https://www.tiktok.com/@gtcgroup_official" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;"></a></td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://x.com/GTC_fx" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://t.me/gtc_vip_signal" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
                   </tr>
                 </table>
               </td>
             </tr>
-            <!-- Copyright -->
+
             <tr>
-              <td align="center" style="font-size:12px;color:#666666;padding-top:15px;padding-bottom:30px;">
-                &copy; 2025 GTCVIP – 版权所有
+              <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
+                &copy; Copyright 2025 GTCVIP – 保留所有权利
               </td>
             </tr>
-
           </table>
         </td>
       </tr>
@@ -389,82 +508,96 @@ export const spanishEmailMT5Template = (data) => {
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>¡Te has registrado en la Competencia Demo de GTC!</title>
+    <title>Tus credenciales GTC Demo</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
   </head>
   <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="padding: 20px;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
           <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
-            <!-- Logo -->
+           <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="Logo GTC" style="width: 160px;" />
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                Tus credenciales de competencia GTC
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
+                Tus credenciales GTC Demo
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
-                ¡Aquí tienes toda la información para empezar a operar!
+              <td align="center" style="font-size:14px;color:#2a2f83;padding-bottom:20px;">
+                Hemos incluido tus datos de acceso en este correo. ¡Prepárate para competir y ganar!
               </td>
             </tr>
 
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
-
-            <!-- Greeting -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Hola ${data?.name},
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                ¡Estás listo para demostrar al mundo que eres el mejor trader del planeta!
-              </td>
-            </tr>
-            <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Tu cuenta demo de GTC ya está creada. Aquí tienes los detalles para acceder:
-              </td>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
             </tr>
 
-            <!-- Account Info -->
+            <!-- Greeting & Instructions -->
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Estimado/a ${data?.name},
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                ¡Ahora estás listo para dominar los mercados y probar que de verdad eres el mejor trader del mundo!
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Tu nueva cuenta demo de trading GTC ya está lista. A continuación, te explicamos cómo puedes acceder:
+              </td>
+            </tr>
+            
+            <!-- Account Info Box -->
             <tr>
               <td style="padding: 20px 0;">
-                <h3 style="color: #b68756; font-size: 18px; margin-bottom: 16px;">Detalles de tu cuenta Demo GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #fdf6ee; font-size: 14px; color: #000; border-radius: 10px;">
+                <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">Información sobre tu cuenta demo de GTC</h3>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
                   <tr>
-                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px;">Moneda de la cuenta</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">USD</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Moneda de la Cuenta</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">USD</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Número de cuenta GTC</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Número de Cuenta de Trading GTC</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Tu contraseña</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Tu Contraseña</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Contraseña de inversionista</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Contraseña de Inversor</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Plataforma</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">MT5</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Plataforma de Trading</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">MT5</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Servidor</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Nombre del Servidor</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div>
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -472,20 +605,18 @@ export const spanishEmailMT5Template = (data) => {
 
             <!-- CTA Buttons -->
             <tr>
-              <td align="center" style="padding-bottom: 20px;">
-                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Accede a tu zona de cliente GTC</p>
+              <td align="center" style="padding: 0px 0 20px 0;">
+                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Accede a tu zona de clientes de GTC</p>
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe"
-                         style="background-color: #fff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Cliente GTC para Escritorio
+                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe" style="background-color: #ffffff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Accede a la Zona de Clientes GTC para Escritorio
                       </a>
                     </td>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server"
-                         style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #fff; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Cliente GTC para Móvil
+                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server" style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #ffffff; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Accede a la Zona de Clientes GTC para Móvil
                       </a>
                     </td>
                   </tr>
@@ -493,33 +624,125 @@ export const spanishEmailMT5Template = (data) => {
               </td>
             </tr>
 
-            <!-- Help -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600">
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
                 ¿Necesitas ayuda?
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Si tienes alguna duda o necesitas asistencia, contáctanos en <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. ¡Estamos aquí para ayudarte!
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Si tienes alguna duda o necesitas asistencia adicional, por favor, no dudes en contactarnos en <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. Estamos aquí para apoyarte y garantizar que tu experiencia con nosotros sea inmejorable.
               </td>
             </tr>
-
+            
             <!-- Signoff -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                ¡Mucha suerte y felices operaciones!<br/>
-                Tu familia GTC
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                <br>
+                Saludos cordiales,
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:30px;">
+                Eres increíble y pronto le mostrarás al mundo de lo que eres capaz.<br>
+                El Equipo GTC
               </td>
             </tr>
 
-            <!-- Divider -->
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
+            <tr>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
 
-            <!-- Footer -->
+            <!-- Contact Info -->
+            <tr>
+              <td style="padding-top: 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left">
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+                    </td>
+                    <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
+                      📞 Teléfono: +971 800 667788<br/>
+                      ✉️ Correo electrónico: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Legal Footer -->
+            <tr>
+              <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+                <strong>Importante:</strong><br/>
+                Tu nombre de usuario y contraseña deben ser confidenciales en todo momento. Las contraseñas nunca deben ser compartidas ni expuestas a otras personas. Nunca debes permitir que nadie más acceda a tu cuenta de trading de GTC o haga algo que pueda poner en riesgo la seguridad de tu cuenta.<br/>
+                Eres responsable de la confidencialidad y el uso de todos tus ID, contraseñas y otros datos, métodos y dispositivos de seguridad vinculados a la Zona de Clientes de GTC y a la(s) plataforma(s) de trading de GTC.<br/><br/>
+                Este sitio web es propiedad y está operado por GTC Global Ltd, una empresa limitada registrada en Mauricio (número de empresa: C188049) y licenciada por la Comisión de Servicios Financieros de Mauricio (No. GB22200292) para operar como Dealer de Inversión SEC-2.1B. Dirección registrada: Cyberati Lounge, Planta Baja, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, República de Mauricio. Los servicios y productos financieros promocionados en este sitio web son ofrecidos por GTC Global Ltd y GTC Global Trade Capital Co. Limited, una empresa autorizada por la Comisión de Servicios Financieros de Vanuatu, República de Vanuatu, Número de Licencia de Empresa: 40354.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> forman parte del GTC Financial Group, que consiste en un grupo de entidades en todo el mundo.<br/><br/>
+                Invertir en productos derivados conlleva riesgos significativos y puede no ser adecuado para todos los inversores. El apalancamiento en estos instrumentos puede aumentar el nivel de riesgo y la exposición potencial a pérdidas. Antes de tomar cualquier decisión para participar en el trading de divisas extranjeras o CFDs, es esencial evaluar cuidadosamente tus objetivos de inversión, nivel de experiencia y tolerancia al riesgo. Solo debes invertir fondos que puedas permitirte perder. Te recomendamos encarecidamente que te informes completamente sobre los riesgos asociados y, si tienes alguna duda, busques el asesoramiento de un consultor financiero o fiscal independiente.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> no prestan servicios a personas residentes en jurisdicciones específicas y/o jurisdicciones donde la distribución de dichos servicios sea contraria a la ley o regulación local.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">Otras Entidades del Grupo:</strong><br/>
+                Los productos y servicios financieros ofrecidos en este sitio web <u>NO</u> son proporcionados por las siguientes entidades del grupo, y no se puede recurrir a dichas entidades. Si estás interesado en los productos y servicios ofrecidos por cada una de las siguientes entidades, visita sus respectivos sitios web.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> es una empresa holding registrada en Dubái, Emiratos Árabes Unidos, con Número de Licencia Comercial: 2311147.01. Su oficina registrada está en Business Center 1, Planta M, Hotel Meydan, Nad Al Sheba, Dubái, Emiratos Árabes Unidos.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> es una empresa limitada licenciada y registrada bajo las leyes del Dubai Multi Commodities Centre (No. DMCC-312687) y licenciada por la Autoridad de Valores y Commodities, Emiratos Árabes Unidos (No. 20222a2f8307) para practicar la actividad de Correduría de Commodities - Trading y Liquidación. Dirección registrada: Unidad No: 1501, 1 Lake Plaza, Parcela No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubái, Emiratos Árabes Unidos.<br/><br/>
+                Cada una de las entidades dentro del GTC Financial Group se gestiona de forma separada. Los productos y servicios financieros ofrecidos en este sitio web son SOLAMENTE proporcionados por GTC Global Ltd y GTC Global Trade Capital Co. Limited.<br/><br/>
+                Todas las marcas comerciales son propiedad de sus respectivos dueños. Todos los derechos reservados. GTC Global Ltd forma parte del GTC Financial Group, que consiste en un grupo de entidades en todo el mundo.<br/><br/>
+                <strong>Advertencia de Riesgo:</strong> El trading de productos apalancados, como forex y derivados, puede no ser adecuado para todos los inversores, ya que conlleva un alto grado de riesgo para tu capital. Asegúrate de comprender completamente los riesgos involucrados y busca asesoramiento independiente si es necesario.
+              </td>
+            </tr>
+
+            <!-- Social Media Footer -->
+            <tr>
+              <td style="padding-top: 30px; text-align: center;">
+                <table align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://x.com/GTC_fx" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://t.me/gtc_vip_signal" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
             <tr>
               <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
-                &copy; 2025 GTCVIP – Todos los derechos reservados
+                &copy; Copyright 2025 GTCVIP – Todos los derechos reservados
               </td>
             </tr>
           </table>
@@ -536,82 +759,96 @@ export const portugueseEmailMT5Template = (data) => {
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <title>Você se registrou na Competição Demo da GTC!</title>
+    <title>Credenciais da competição GTC</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
   </head>
   <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="padding: 20px;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
           <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
-            <!-- Logo -->
+           <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="Logo GTC" style="width: 160px;" />
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                Suas Credenciais da Competição GTC
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
+                Credenciais da competição GTC
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
-                Reunimos todas as informações necessárias neste e-mail para você começar!
+              <td align="center" style="font-size:14px;color:#2a2f83;padding-bottom:20px;">
+                Adicionamos todas as suas credenciais neste e-mail para que você esteja pronto!
               </td>
             </tr>
 
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
-
-            <!-- Greeting -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
+
+            <!-- Greeting & Instructions -->
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
                 Olá ${data?.name},
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Agora você está pronto para mostrar ao mundo que é o melhor trader do planeta!
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Agora você está pronto para enfrentar o mundo e provar que é realmente o melhor trader do planeta!
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Sua nova conta demo de negociação GTC foi criada. Veja abaixo como acessá-la:
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Sua nova conta Demo Trading GTC foi criada. Confira como acessá-la:
               </td>
             </tr>
-
-            <!-- Account Info -->
+            
+            <!-- Account Info Box -->
             <tr>
               <td style="padding: 20px 0;">
-                <h3 style="color: #b68756; font-size: 18px; margin-bottom: 16px;">Informações da sua Conta Demo GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #fdf6ee; font-size: 14px; color: #000; border-radius: 10px;">
+                <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">Informações da sua Demo Trading GTC</h3>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
                   <tr>
-                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px;">Moeda da Conta</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">USD</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Moeda da Conta</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">USD</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Número da Conta GTC</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Número da Conta GTC</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Sua Senha</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Sua Senha</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Senha de Investidor</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Senha de Investidor</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Plataforma</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">MT5</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Plataforma de Trading</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">MT5</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Servidor</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Nome do Servidor</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div>
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -619,20 +856,18 @@ export const portugueseEmailMT5Template = (data) => {
 
             <!-- CTA Buttons -->
             <tr>
-              <td align="center" style="padding-bottom: 20px;">
-                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Acesse sua Área do Cliente GTC</p>
+              <td align="center" style="padding: 0px 0 20px 0;">
+                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Acesse a Área do Cliente GTC</p>
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe"
-                         style="background-color: #fff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Área do Cliente para Desktop
+                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe" style="background-color: #ffffff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Acesse a Área do Cliente GTC para Desktop
                       </a>
                     </td>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server"
-                         style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #fff; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Área do Cliente para Celular
+                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server" style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #ffffff; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Acesse a Área do Cliente GTC para Mobile
                       </a>
                     </td>
                   </tr>
@@ -640,33 +875,124 @@ export const portugueseEmailMT5Template = (data) => {
               </td>
             </tr>
 
-            <!-- Help -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600">
-                Precisa de Ajuda?
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                Precisa de ajuda?
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Se tiver dúvidas ou precisar de assistência, entre em contato conosco via <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. Estamos aqui para ajudar você!
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Se você tiver qualquer dúvida ou precisar de assistência adicional, não hesite em nos contatar pelo e-mail <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. Estamos aqui para te apoiar e garantir que sua experiência conosco seja a melhor de todas!
               </td>
             </tr>
-
+            
             <!-- Signoff -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                Boa sorte e ótimas negociações!<br/>
-                Sua Família GTC
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                <br>
+                Atenciosamente,
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:30px;">
+                Você já sabe do seu potencial. Agora é a vez do mundo descobrir.<br>
+                Família GTC
               </td>
             </tr>
 
-            <!-- Divider -->
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
+            <tr>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
 
-            <!-- Footer -->
+            <!-- Contact Info -->
+            <tr>
+              <td style="padding-top: 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left">
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+                    </td>
+                    <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
+                      📞 Telefone: +971 800 667788<br/>
+                      ✉️ E-mail: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+          <tr>
+  <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+    <strong>Importante:</strong><br/>
+    Sua conta e senha de login devem ser mantidas confidenciais o tempo todo. As senhas nunca devem ser compartilhadas ou expostas a terceiros. Você nunca deve permitir que outra pessoa acesse sua conta de trading GTC ou faça qualquer coisa que possa comprometer a segurança da sua conta.<br/>
+    Você é responsável pela confidencialidade e pelo uso de todos os IDs, senhas e demais dados, métodos e dispositivos de segurança relacionados à área do cliente GTC e às plataformas de trading GTC.<br/><br/>
+    Este site é de propriedade e operado pela GTC Global Ltd, uma empresa limitada incorporada em Maurício (número da empresa: C188049) e licenciada pela Comissão de Serviços Financeiros de Maurício (No. GB22200292) para atuar como Dealer de Investimento SEC-2.1B. Endereço registrado: Cyberati Lounge, Térreo, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, República de Maurício. Os serviços e produtos financeiros promovidos neste site são oferecidos pela GTC Global Ltd e GTC Global Trade Capital Co. Limited, uma empresa autorizada pela Comissão de Serviços Financeiros de Vanuatu, República de Vanuatu, Número de Licença da Empresa: 40354.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> pertencem ao GTC Financial Group, que consiste em um grupo de entidades em todo o mundo.<br/><br/>
+    Investir em produtos derivativos envolve riscos significativos e pode não ser adequado para todos os investidores. A alavancagem nesses instrumentos pode aumentar o nível de risco e a potencial exposição a perdas. Antes de tomar qualquer decisão para se engajar em trading de câmbio estrangeiro ou CFDs, é essencial avaliar cuidadosamente seus objetivos de investimento, nível de experiência e tolerância ao risco. Você deve investir apenas fundos que pode se dar ao luxo de perder. Encorajamos fortemente que você se informe completamente sobre os riscos associados e, se tiver alguma dúvida, procure aconselhamento de um consultor financeiro ou tributário independente.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> não fornecem serviços para indivíduos residentes em jurisdições específicas e/ou jurisdições onde a distribuição de tais serviços seria contrária à lei ou regulamentação local.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">Outras Entidades do Grupo:</strong><br/>
+    Os produtos e serviços financeiros oferecidos neste site <u>NÃO</u> são fornecidos pelas seguintes entidades do grupo, e nenhum recurso contra as seguintes entidades está disponível. Se você estiver interessado nos produtos e serviços oferecidos por cada uma das seguintes entidades, visite seus respectivos sites.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> é uma empresa holding incorporada em Dubai, Emirados Árabes Unidos, com Número de Licença Comercial: 2311147.01. Seu escritório registrado está em Business Center 1, Térreo, Meydan Hotel, Nad Al Sheba, Dubai, Emirados Árabes Unidos.<br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> é uma empresa limitada licenciada e incorporada sob as leis do Dubai Multi Commodities Centre (No. DMCC-312687) e licenciada pela Autoridade de Valores Mobiliários e Commodities, Emirados Árabes Unidos (No. 20222a2f8307) para praticar a atividade de Corretagem de Commodities - Trading e Liquidação. Endereço registrado: Unidade No: 1501, 1 Lake Plaza, Lote No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, Emirados Árabes Unidos.<br/><br/>
+    Cada uma das entidades dentro do GTC Financial Group é gerenciada separadamente. Os produtos e serviços financeiros oferecidos neste site são APENAS fornecidos pela GTC Global Ltd e GTC Global Trade Capital Co. Limited.<br/><br/>
+    Todas as marcas registradas são propriedade de seus respectivos proprietários. Todos os direitos reservados. GTC Global Ltd faz parte do GTC Financial Group, que consiste em um grupo de entidades em todo o mundo.<br/><br/>
+    <strong>Aviso de Risco:</strong> O trading de produtos alavancados, como forex e derivativos, pode não ser adequado para todos os investidores, pois envolve um alto grau de risco para seu capital. Certifique-se de compreender completamente os riscos envolvidos e procure aconselhamento independente, se necessário.
+  </td>
+</tr>
+
+            <!-- Social Media Footer -->
+            <tr>
+              <td style="padding-top: 30px; text-align: center;">
+                <table align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://x.com/GTC_fx" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://t.me/gtc_vip_signal" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
             <tr>
               <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
-                &copy; 2025 GTCVIP – Todos os direitos reservados
+                &copy; Copyright 2025 GTCVIP – Todos os direitos reservados
               </td>
             </tr>
           </table>
@@ -683,82 +1009,96 @@ export const russianEmailMT5Template = (data) => {
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Вы зарегистрировались в Демо-турнире GTC!</title>
+    <title>Ваши данные для Турнира GTC</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     </style>
   </head>
   <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="padding: 20px;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
           <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
-            <!-- Logo -->
+           <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
-                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="Логотип GTC" style="width: 160px;" />
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
               </td>
             </tr>
 
             <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
-                Ваши данные для турнира GTC
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
+                Ваши данные для Турнира GTC
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
-                Мы собрали всю необходимую информацию в этом письме, чтобы вы были готовы!
+              <td align="center" style="font-size:14px;color:#2a2f83;padding-bottom:20px;">
+                Мы добавили все ваши данные в это письмо, чтобы вы были готовы!
               </td>
             </tr>
 
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
-
-            <!-- Greeting -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
+
+            <!-- Greeting & Instructions -->
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
                 Привет, ${data?.name},
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Вы готовы доказать, что вы лучший трейдер на планете!
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Теперь вы готовы бросить вызов миру и доказать, что вы действительно лучший трейдер на планете!
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Ваша новая демо-торговая учетная запись GTC создана. Вот как получить к ней доступ:
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Ваш новый демо-счёт GTC уже создан, и вот как вы можете к нему получить доступ.
               </td>
             </tr>
-
-            <!-- Account Info -->
+            
+            <!-- Account Info Box -->
             <tr>
               <td style="padding: 20px 0;">
-                <h3 style="color: #b68756; font-size: 18px; margin-bottom: 16px;">Информация о вашей демо-учетной записи GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #fdf6ee; font-size: 14px; color: #000; border-radius: 10px;">
+                <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">Информация о вашем демо-счёте GTC</h3>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
                   <tr>
-                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px;">Валюта счета</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">USD</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Валюта счёта</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">USD</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Номер торгового счета GTC</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Номер демо-счёта GTC</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.user}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Ваш пароль</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Ваш пароль</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">${data?.password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Инвесторский пароль</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Инвесторский пароль</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px; border: 2px solid #a076f9;">${data?.invest_password}</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Платформа</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">MT5</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Торговая платформа</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">MT5</div>
+                    </td>
                   </tr>
                   <tr>
-                    <td style="font-weight: 600; color: #7c4e00; padding: 12px;">Имя сервера</td>
-                    <td style="padding: 5px;"><div style="background-color: #fff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div></td>
+                    <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Имя сервера</td>
+                    <td style="padding: 5px;">
+                      <div style="background-color: #ffffff; padding: 10px 14px; border-radius: 8px;">GTCGlobalTrade-Server</div>
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -766,20 +1106,18 @@ export const russianEmailMT5Template = (data) => {
 
             <!-- CTA Buttons -->
             <tr>
-              <td align="center" style="padding-bottom: 20px;">
-                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Перейти в Личный Кабинет GTC</p>
+              <td align="center" style="padding: 0px 0 20px 0;">
+                <p style="font-size: 16px; color: #202a6b; font-weight: 600; margin-bottom: 20px;">Вход в ваш Личный кабинет GTC</p>
                 <table cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe"
-                         style="background-color: #fff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Версия для ПК
+                      <a href="https://download.mql5.com/cdn/web/gtc.global.trade/mt5/gtcglobaltrade5setup.exe" style="background-color: #ffffff; border: 2px solid #b68756; border-radius: 8px; color: #b68756; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Перейти в Личный кабинет GTC (Desktop)
                       </a>
                     </td>
                     <td align="center" style="padding: 0 10px;">
-                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server"
-                         style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #fff; font-weight: 600; padding: 12px 20px; text-decoration: none;">
-                        Мобильная версия
+                      <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=GTCGlobalTrade-Server" style="background: linear-gradient(to right, #b68756, #7b6036); border-radius: 8px; color: #ffffff; font-weight: 600; padding: 12px 20px; text-decoration: none; display: inline-block;">
+                        Перейти в Личный кабинет GTC (Mobile)
                       </a>
                     </td>
                   </tr>
@@ -787,33 +1125,125 @@ export const russianEmailMT5Template = (data) => {
               </td>
             </tr>
 
-            <!-- Help -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600">
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
                 Нужна помощь?
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
-                Если у вас есть вопросы или требуется помощь, пожалуйста, свяжитесь с нами по адресу <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. Мы всегда рады помочь!
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:10px;">
+                Если у вас есть вопросы или вам нужна дополнительная помощь, пожалуйста, свяжитесь с нами по адресу <a href="mailto:support@gtcfx.com">support@gtcfx.com</a>. Мы здесь, чтобы поддержать вас и сделать ваше участие максимально комфортным и результативным.
               </td>
             </tr>
-
+            
             <!-- Signoff -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
-                Удачи в торговле!<br/>
-                Ваша команда GTC
+              <td style="font-size:16px;color:#2a2f83;padding-bottom:10px; font-weight: 600;">
+                <br>
+                С наилучшими пожеланиями,
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#2a2f83;padding-bottom:30px;">
+                Вы лучший — и скоро весь мир это увидит!<br>
+                Команда GTC
               </td>
             </tr>
 
-            <!-- Divider -->
-            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
+            <tr>
+              <td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td>
+            </tr>
 
-            <!-- Footer -->
+            <!-- Contact Info -->
+            <tr>
+              <td style="padding-top: 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left">
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+                    </td>
+                    <td align="right" style="font-size: 13px; color: #192ingles; line-height: 25px;">
+                      📞 Телефон: +971 800 667788<br/>
+                      ✉️ Электронная почта: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Legal Footer -->
+            <tr>
+              <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+                <strong>Важно!</strong><br/>
+                Ваш логин и пароль должны всегда храниться в тайне. Никогда не передавайте и не показывайте их другим. Никто, кроме вас, не должен иметь доступ к вашему торговому счёту GTC или выполнять действия, которые могут поставить под угрозу его безопасность.<br/>
+                Вы несёте ответственность за конфиденциальность и использование всех ID, паролей и других методов и устройств безопасности в связи с Личным кабинетом GTC и торговой платформой(-ами) GTC.<br/><br/>
+                Этот веб-сайт принадлежит и управляется GTC Global Ltd, компанией с ограниченной ответственностью, зарегистрированной в Маврикии (номер компании: C188049) и лицензированной Комиссией по финансовым услугам Маврикия (№ GB22200292) для торговли в качестве инвестиционного дилера SEC-2.1B. Зарегистрированный адрес: Cyberati Lounge, Первый этаж, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, Республика Маврикий. Финансовые услуги и продукты, продвигаемые на этом сайте, предоставляются GTC Global Ltd и GTC Global Trade Capital Co. Limited, компанией, уполномоченной Комиссией по финансовым услугам Вануату, Республика Вануату, номер лицензии компании: 40354.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd и GTC Global Trade Capital Co. Limited</strong> входят в GTC Financial Group, которая состоит из группы организаций по всему миру.<br/><br/>
+                Инвестирование в производные продукты сопряжено со значительными рисками и может не подходить для всех инвесторов. Использование кредитного плеча в этих инструментах может увеличить уровень риска и потенциальные убытки. Перед принятием решения об участии в торговле иностранной валютой или CFD необходимо тщательно оценить свои инвестиционные цели, уровень опыта и допустимый уровень риска. Вы должны инвестировать только те средства, которые можете позволить себе потерять. Мы настоятельно рекомендуем вам тщательно изучить связанные с этим риски и, при наличии вопросов, обратиться за консультацией к независимому финансовому или налоговому консультанту.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Global Ltd и GTC Global Trade Capital Co. Limited</strong> не предоставляют услуги лицам, проживающим в определённых юрисдикциях и/или юрисдикциях, где распространение таких услуг противоречит местным законам или регулированию.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">Другие организации группы:</strong><br/>
+                Финансовые продукты и услуги, предлагаемые на этом сайте, <u>НЕ</u> предоставляются следующими организациями группы, и к ним нельзя предъявлять претензии. Если вы заинтересованы в продуктах и услугах, предлагаемых каждой из следующих организаций, посетите их соответствующие веб-сайты.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> — это холдинговая компания, зарегистрированная в Дубае, Объединённые Арабские Эмираты, с номером коммерческой лицензии: 2311147.01. Зарегистрированный офис находится по адресу: Business Center 1, этаж M, отель Meydan, Nad Al Sheba, Дубай, Объединённые Арабские Эмираты.<br/><br/>
+                <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> — это компания с ограниченной ответственностью, лицензированная и зарегистрированная в соответствии с законами Дубайского мультимодального товарного центра (№ DMCC-312687) и лицензированная Управлением по ценным бумагам и товарам Объединённых Арабских Эмиратов (№ 20222a2f8307) для осуществления деятельности по брокерскому обслуживанию товаров — торговле и клирингу. Зарегистрированный адрес: Unit No: 1501, 1 Lake Plaza, участок №: JLT-PH2-T2A, Jumeirah Lakes Towers, Дубай, Объединённые Арабские Эмираты.<br/><br/>
+                Каждая организация в составе GTC Financial Group управляется отдельно. Финансовые продукты и услуги, предлагаемые на этом сайте, предоставляются ТОЛЬКО GTC Global Ltd и GTC Global Trade Capital Co. Limited.<br/><br/>
+                Все товарные знаки принадлежат их соответствующим владельцам. Все права защищены. GTC Global Ltd является частью GTC Financial Group, которая состоит из группы организаций по всему миру.<br/><br/>
+                <strong>Предупреждение о рисках:</strong> Торговля продуктами с кредитным плечом, такими как форекс и производные, может не подходить для всех инвесторов, поскольку связана с высоким уровнем риска для вашего капитала. Убедитесь, что вы полностью понимаете связанные риски, и при необходимости обратитесь за независимой консультацией.
+              </td>
+            </tr>
+
+            <!-- Social Media Footer -->
+            <tr>
+              <td style="padding-top: 30px; text-align: center;">
+                <table align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://x.com/GTC_fx" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://t.me/gtc_vip_signal" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                    <td style="padding: 0 5px;">
+                      <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
             <tr>
               <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
-                &copy; 2025 GTCVIP – Все права защищены
+                &copy; Copyright 2025 GTCVIP – Все права защищены
               </td>
             </tr>
           </table>
