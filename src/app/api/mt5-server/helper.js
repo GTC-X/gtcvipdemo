@@ -118,7 +118,21 @@ const mt5Instance = new Metatrader5("mtapi.gtcfx.com", 443, {
     agent: "WebManager",
 });
 
-async function clientPipeline(credentials) {
+const getLocalizedBindMessage = (locale) => {
+    const messages = {
+        en: "Client and user added and bound successfully",
+        ar: "تمت إضافة العميل والمستخدم وربطهما بنجاح",
+        zh: "客户端和用户已成功添加并绑定",
+        es: "Cliente y usuario agregados y vinculados correctamente",
+        pt: "Cliente e usuário adicionados e vinculados com sucesso",
+        ru: "Клиент и пользователь успешно добавлены и связаны",
+    };
+
+    return messages[locale] || messages["en"];
+};
+
+
+async function clientPipeline(credentials, locale) {
     // Create the client
     const newClient = {
         PersonName: credentials.first_name,
@@ -138,7 +152,7 @@ async function clientPipeline(credentials) {
     console.log("Client created:", clientResponse);
 
     // Create the user
-    const userResponse = await mt5Instance.users.create({ 
+    const userResponse = await mt5Instance.users.create({
         Login: 0, // Let the server auto-assign a login
         PassMain: credentials.password,
         PassInvestor: credentials.invest_password,
@@ -187,7 +201,7 @@ async function clientPipeline(credentials) {
     // console.log("Deposit result:", depositResponse);
 
     return {
-        message: "Client and user added and bound successfully", 
+        message: getLocalizedBindMessage(locale),
         success: true,
         user: userResponse.Login,
     };
