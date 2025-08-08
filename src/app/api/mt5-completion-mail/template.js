@@ -14,7 +14,14 @@ export const getArabicEmailMT5Templetes = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px; direction: rtl; text-align: right; ">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -59,7 +66,7 @@ export const getArabicEmailMT5Templetes = (data) => {
             <tr>
               <td style="padding: 20px 0;">
                 <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">تفاصيل حسابك التجريبي من GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #4D4D70;">
                   <tr>
                     <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">عملة الحساب</td>
                     <td style="padding: 5px;">
@@ -172,13 +179,13 @@ export const getArabicEmailMT5Templetes = (data) => {
   <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
     <strong>حافظ على سرية معلومات الدخول الخاصة بحسابك في GTC. لا تشارك كلمة المرور أو تسمح لأي شخص آخر باستخدام حسابك. تذكر، أنت المسؤول عن كل ما يخص بياناتك وكلمات المرور والأمان، سواء الخاصة بحساب التداول أو منطقة العميل أو على منصات التداول.</strong><br/><br/>
     هذا الموقع مملوك ومدار من قبل GTC Global Ltd، وهي شركة محدودة مسجلة في موريشيوس (رقم الشركة: C188049) ومرخصة من قبل هيئة الخدمات المالية في موريشيوس (رقم الترخيص: GB22200292) للتداول كتاجر استثمار SEC-2.1B. العنوان المسجل: Cyberati Lounge, الطابق الأرضي، The Catalyst، Silicon Avenue، 40 Cybercity، 72201 Ebene، جمهورية موريشيوس. الخدمات والمنتجات المالية المروج لها على هذا الموقع مقدمة من GTC Global Ltd وGTC Global Trade Capital Co. Limited، وهي شركة مرخصة من قبل هيئة الخدمات المالية في فانواتو، جمهورية فانواتو، رقم الترخيص: 40354.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> تنتميان إلى مجموعة GTC Financial Group، التي تتكون من مجموعة من الكيانات في جميع أنحاء العالم.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> تنتميان إلى مجموعة GTC Financial Group، التي تتكون من مجموعة من الكيانات في جميع أنحاء العالم.<br/><br/>
     الاستثمار في المنتجات المشتقة ينطوي على مخاطر كبيرة وقد لا يكون مناسبًا لجميع المستثمرين. الرافعة المالية في هذه الأدوات يمكن أن تزيد من مستوى المخاطر وتؤدي إلى تعرض محتمل للخسائر. قبل اتخاذ أي قرار بالمشاركة في تداول العملات الأجنبية أو العقود مقابل الفروقات، من الضروري تقييم أهدافك الاستثمارية، ومستوى خبرتك، ومدى تحملك للمخاطر بعناية. يجب أن تستثمر فقط الأموال التي يمكنك تحمل خسارتها. نحن نشجعك بشدة على تثقيف نفسك جيدًا حول المخاطر المرتبطة، وإذا كانت لديك أي استفسارات، اطلب المشورة من مستشار مالي أو ضريبي مستقل.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> لا تقدمان خدمات للأفراد المقيمين في ولايات قضائية معينة و/أو الولايات القضائية التي يكون فيها توزيع هذه الخدمات مخالفًا للقوانين أو اللوائح المحلية.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">الكيانات الأخرى في المجموعة:</strong><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd وGTC Global Trade Capital Co. Limited</strong> لا تقدمان خدمات للأفراد المقيمين في ولايات قضائية معينة و/أو الولايات القضائية التي يكون فيها توزيع هذه الخدمات مخالفًا للقوانين أو اللوائح المحلية.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">الكيانات الأخرى في المجموعة:</strong><br/>
     المنتجات والخدمات المالية المقدمة على هذا الموقع <u>لا</u> يتم توفيرها من قبل الكيانات التالية في المجموعة، ولا يمكن اللجوء إلى هذه الكيانات. إذا كنت مهتمًا بالمنتجات والخدمات التي تقدمها كل من الكيانات التالية، يرجى زيارة مواقعهم الإلكترونية الخاصة.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> هي شركة قابضة مسجلة في دبي، الإمارات العربية المتحدة برقم الترخيص التجاري: 2311147.01. مكتبها المسجل في: Business Center 1، الطابق M، فندق الميدان، ند الشبا، دبي، الإمارات العربية المتحدة.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> هي شركة محدودة مرخصة ومسجلة بموجب قوانين مركز دبي للسلع المتعددة (رقم: DMCC-312687) ومرخصة من قبل هيئة الأوراق المالية والسلع، الإمارات العربية المتحدة (رقم: 20222a2f8307) لممارسة نشاط الوساطة في السلع - التداول والتسوية. العنوان المسجل: الوحدة رقم: 1501، 1 Lake Plaza، القطعة رقم: JLT-PH2-T2A، ابراج بحيرات الجميرا، دبي، الإمارات العربية المتحدة.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Group LLC-FZ</strong> هي شركة قابضة مسجلة في دبي، الإمارات العربية المتحدة برقم الترخيص التجاري: 2311147.01. مكتبها المسجل في: Business Center 1، الطابق M، فندق الميدان، ند الشبا، دبي، الإمارات العربية المتحدة.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Multi Trading DMCC</strong> هي شركة محدودة مرخصة ومسجلة بموجب قوانين مركز دبي للسلع المتعددة (رقم: DMCC-312687) ومرخصة من قبل هيئة الأوراق المالية والسلع، الإمارات العربية المتحدة (رقم: 20222a2f8307) لممارسة نشاط الوساطة في السلع - التداول والتسوية. العنوان المسجل: الوحدة رقم: 1501، 1 Lake Plaza، القطعة رقم: JLT-PH2-T2A، ابراج بحيرات الجميرا، دبي، الإمارات العربية المتحدة.<br/><br/>
     يتم إدارة كل كيان ضمن مجموعة GTC Financial Group بشكل منفصل. المنتجات والخدمات المالية المقدمة على هذا الموقع يتم توفيرها فقط من قبل GTC Global Ltd وGTC Global Trade Capital Co. Limited.<br/><br/>
     جميع العلامات التجارية ملك لأصحابها المعنيين. جميع الحقوق محفوظة. GTC Global Ltd هي جزء من مجموعة GTC Financial Group، التي تتكون من مجموعة من الكيانات في جميع أنحاء العالم.<br/><br/>
     <strong>تحذير المخاطر:</strong> التداول في المنتجات ذات الرافعة المالية مثل الفوركس والمشتقات قد لا يكون مناسبًا لجميع المستثمرين لأنها تنطوي على درجة عالية من المخاطر على رأس مالك. يرجى التأكد من فهمك الكامل للمخاطر المرتبطة وطلب المشورة المستقلة إذا لزم الأمر.
@@ -265,7 +272,14 @@ export const chineseEmailMT5Template = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Noto Sans SC', 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+          <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -310,7 +324,7 @@ export const chineseEmailMT5Template = (data) => {
             <tr>
               <td style="padding: 20px 0;">
                 <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">账户信息</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #4D4D70;">
                   <tr>
                     <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">账户货币</td>
                     <td style="padding: 5px;">
@@ -425,13 +439,13 @@ export const chineseEmailMT5Template = (data) => {
                 2. 禁止他人操作您的账户，防范安全风险<br/>
                 3. 您需对账户密码及操作行为全权负责<br/><br/>
                 本网站由GTC Global Ltd拥有和运营，该公司为一家在毛里求斯注册成立的有限责任公司（公司编号：C188049），并获得毛里求斯金融服务委员会（许可证编号：GB22200292）的许可，作为SEC-2.1B投资交易商进行交易。注册地址：Cyberati Lounge，地面层，The Catalyst，Silicon Avenue，40 Cybercity，72201 Ebene，毛里求斯共和国。本网站推广的金融服务和产品由GTC Global Ltd和GTC Global Trade Capital Co. Limited提供，后者是一家由瓦努阿图共和国瓦努阿图金融服务委员会授权的公司，公司许可证编号：40354。<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 隶属于GTC金融集团，该集团由全球多家实体组成。<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 隶属于GTC金融集团，该集团由全球多家实体组成。<br/><br/>
                 投资衍生品具有重大风险，可能不适合所有投资者。这些工具的杠杆作用可能会增加风险水平和潜在损失敞口。在决定参与外汇交易或差价合约（CFD）之前，仔细评估您的投资目标、经验水平和风险承受能力至关重要。您应仅投资您能承受损失的资金。我们强烈建议您全面了解相关风险，并在有任何疑问时，向独立的财务或税务顾问寻求建议。<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 不向居住在特定司法管辖区和/或分发此类服务违反当地法律或法规的司法管辖区的个人提供服务。<br/><br/>
-                <strong style="font-weight: 600; color: #000;">集团其他实体：</strong><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd和GTC Global Trade Capital Co. Limited</strong> 不向居住在特定司法管辖区和/或分发此类服务违反当地法律或法规的司法管辖区的个人提供服务。<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">集团其他实体：</strong><br/>
                 本网站提供的金融产品和服务<u>不</u>由以下集团实体提供，且无法向以下实体追索。如果您对以下实体提供的金融产品和服务感兴趣，请访问其各自的网站。<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> 是一家在阿拉伯联合酋长国迪拜注册成立的控股公司，商业许可证编号：2311147.01。其注册办公地址为：Business Center 1，M层，Meydan Hotel，Nad Al Sheba，迪拜，阿拉伯联合酋长国。<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> 是一家根据迪拜多种商品中心（DMCC）法律许可和注册的有限责任公司（编号：DMCC-312687），并获得阿拉伯联合酋长国证券和商品管理局的许可（编号：20222a2f8307），从事商品经纪-交易和清算活动。注册地址：Unit No: 1501，1 Lake Plaza，Plot No: JLT-PH2-T2A，Jumeirah Lakes Towers，迪拜，阿拉伯联合酋长国。<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Group LLC-FZ</strong> 是一家在阿拉伯联合酋长国迪拜注册成立的控股公司，商业许可证编号：2311147.01。其注册办公地址为：Business Center 1，M层，Meydan Hotel，Nad Al Sheba，迪拜，阿拉伯联合酋长国。<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Multi Trading DMCC</strong> 是一家根据迪拜多种商品中心（DMCC）法律许可和注册的有限责任公司（编号：DMCC-312687），并获得阿拉伯联合酋长国证券和商品管理局的许可（编号：20222a2f8307），从事商品经纪-交易和清算活动。注册地址：Unit No: 1501，1 Lake Plaza，Plot No: JLT-PH2-T2A，Jumeirah Lakes Towers，迪拜，阿拉伯联合酋长国。<br/><br/>
                 GTC金融集团内的每个实体均独立管理。本网站提供的金融产品和服务仅由GTC Global Ltd和GTC Global Trade Capital Co. Limited提供。<br/><br/>
                 所有商标均为其各自所有者的财产。保留所有权利。GTC Global Ltd是GTC金融集团的一部分，该集团由全球多家实体组成。<br/><br/>
                 <strong>风险提示：</strong> 交易外汇和衍生品等杠杆产品可能不适合所有投资者，因为它们对您的资本构成高风险。请确保您充分了解相关风险，并在必要时寻求独立的建议。
@@ -517,7 +531,14 @@ export const spanishEmailMT5Template = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -562,7 +583,7 @@ export const spanishEmailMT5Template = (data) => {
             <tr>
               <td style="padding: 20px 0;">
                 <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">Información sobre tu cuenta demo de GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #4D4D70;">
                   <tr>
                     <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Moneda de la Cuenta</td>
                     <td style="padding: 5px;">
@@ -677,13 +698,13 @@ export const spanishEmailMT5Template = (data) => {
                 Tu nombre de usuario y contraseña deben ser confidenciales en todo momento. Las contraseñas nunca deben ser compartidas ni expuestas a otras personas. Nunca debes permitir que nadie más acceda a tu cuenta de trading de GTC o haga algo que pueda poner en riesgo la seguridad de tu cuenta.<br/>
                 Eres responsable de la confidencialidad y el uso de todos tus ID, contraseñas y otros datos, métodos y dispositivos de seguridad vinculados a la Zona de Clientes de GTC y a la(s) plataforma(s) de trading de GTC.<br/><br/>
                 Este sitio web es propiedad y está operado por GTC Global Ltd, una empresa limitada registrada en Mauricio (número de empresa: C188049) y licenciada por la Comisión de Servicios Financieros de Mauricio (No. GB22200292) para operar como Dealer de Inversión SEC-2.1B. Dirección registrada: Cyberati Lounge, Planta Baja, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, República de Mauricio. Los servicios y productos financieros promocionados en este sitio web son ofrecidos por GTC Global Ltd y GTC Global Trade Capital Co. Limited, una empresa autorizada por la Comisión de Servicios Financieros de Vanuatu, República de Vanuatu, Número de Licencia de Empresa: 40354.<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> forman parte del GTC Financial Group, que consiste en un grupo de entidades en todo el mundo.<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> forman parte del GTC Financial Group, que consiste en un grupo de entidades en todo el mundo.<br/><br/>
                 Invertir en productos derivados conlleva riesgos significativos y puede no ser adecuado para todos los inversores. El apalancamiento en estos instrumentos puede aumentar el nivel de riesgo y la exposición potencial a pérdidas. Antes de tomar cualquier decisión para participar en el trading de divisas extranjeras o CFDs, es esencial evaluar cuidadosamente tus objetivos de inversión, nivel de experiencia y tolerancia al riesgo. Solo debes invertir fondos que puedas permitirte perder. Te recomendamos encarecidamente que te informes completamente sobre los riesgos asociados y, si tienes alguna duda, busques el asesoramiento de un consultor financiero o fiscal independiente.<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> no prestan servicios a personas residentes en jurisdicciones específicas y/o jurisdicciones donde la distribución de dichos servicios sea contraria a la ley o regulación local.<br/><br/>
-                <strong style="font-weight: 600; color: #000;">Otras Entidades del Grupo:</strong><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd y GTC Global Trade Capital Co. Limited</strong> no prestan servicios a personas residentes en jurisdicciones específicas y/o jurisdicciones donde la distribución de dichos servicios sea contraria a la ley o regulación local.<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">Otras Entidades del Grupo:</strong><br/>
                 Los productos y servicios financieros ofrecidos en este sitio web <u>NO</u> son proporcionados por las siguientes entidades del grupo, y no se puede recurrir a dichas entidades. Si estás interesado en los productos y servicios ofrecidos por cada una de las siguientes entidades, visita sus respectivos sitios web.<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> es una empresa holding registrada en Dubái, Emiratos Árabes Unidos, con Número de Licencia Comercial: 2311147.01. Su oficina registrada está en Business Center 1, Planta M, Hotel Meydan, Nad Al Sheba, Dubái, Emiratos Árabes Unidos.<br/><br/>
-                <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> es una empresa limitada licenciada y registrada bajo las leyes del Dubai Multi Commodities Centre (No. DMCC-312687) y licenciada por la Autoridad de Valores y Commodities, Emiratos Árabes Unidos (No. 20222a2f8307) para practicar la actividad de Correduría de Commodities - Trading y Liquidación. Dirección registrada: Unidad No: 1501, 1 Lake Plaza, Parcela No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubái, Emiratos Árabes Unidos.<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Group LLC-FZ</strong> es una empresa holding registrada en Dubái, Emiratos Árabes Unidos, con Número de Licencia Comercial: 2311147.01. Su oficina registrada está en Business Center 1, Planta M, Hotel Meydan, Nad Al Sheba, Dubái, Emiratos Árabes Unidos.<br/><br/>
+                <strong style="font-weight: 600; color: #4D4D70;">GTC Multi Trading DMCC</strong> es una empresa limitada licenciada y registrada bajo las leyes del Dubai Multi Commodities Centre (No. DMCC-312687) y licenciada por la Autoridad de Valores y Commodities, Emiratos Árabes Unidos (No. 20222a2f8307) para practicar la actividad de Correduría de Commodities - Trading y Liquidación. Dirección registrada: Unidad No: 1501, 1 Lake Plaza, Parcela No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubái, Emiratos Árabes Unidos.<br/><br/>
                 Cada una de las entidades dentro del GTC Financial Group se gestiona de forma separada. Los productos y servicios financieros ofrecidos en este sitio web son SOLAMENTE proporcionados por GTC Global Ltd y GTC Global Trade Capital Co. Limited.<br/><br/>
                 Todas las marcas comerciales son propiedad de sus respectivos dueños. Todos los derechos reservados. GTC Global Ltd forma parte del GTC Financial Group, que consiste en un grupo de entidades en todo el mundo.<br/><br/>
                 <strong>Advertencia de Riesgo:</strong> El trading de productos apalancados, como forex y derivados, puede no ser adecuado para todos los inversores, ya que conlleva un alto grado de riesgo para tu capital. Asegúrate de comprender completamente los riesgos involucrados y busca asesoramiento independiente si es necesario.
@@ -768,7 +789,14 @@ export const portugueseEmailMT5Template = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -813,7 +841,7 @@ export const portugueseEmailMT5Template = (data) => {
             <tr>
               <td style="padding: 20px 0;">
                 <h3 style="color: #b68756; font-size: 18px; margin: 0 0 16px 0;">Informações da sua Demo Trading GTC</h3>
-                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #000;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-radius: 10px; background-color: #fdf6ee; font-size: 14px; color: #4D4D70;">
                   <tr>
                     <td width="45%" style="font-weight: 600; color: #7c4e00; padding: 12px 12px;">Moeda da Conta</td>
                     <td style="padding: 5px;">
@@ -927,13 +955,13 @@ export const portugueseEmailMT5Template = (data) => {
     Sua conta e senha de login devem ser mantidas confidenciais o tempo todo. As senhas nunca devem ser compartilhadas ou expostas a terceiros. Você nunca deve permitir que outra pessoa acesse sua conta de trading GTC ou faça qualquer coisa que possa comprometer a segurança da sua conta.<br/>
     Você é responsável pela confidencialidade e pelo uso de todos os IDs, senhas e demais dados, métodos e dispositivos de segurança relacionados à área do cliente GTC e às plataformas de trading GTC.<br/><br/>
     Este site é de propriedade e operado pela GTC Global Ltd, uma empresa limitada incorporada em Maurício (número da empresa: C188049) e licenciada pela Comissão de Serviços Financeiros de Maurício (No. GB22200292) para atuar como Dealer de Investimento SEC-2.1B. Endereço registrado: Cyberati Lounge, Térreo, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, República de Maurício. Os serviços e produtos financeiros promovidos neste site são oferecidos pela GTC Global Ltd e GTC Global Trade Capital Co. Limited, uma empresa autorizada pela Comissão de Serviços Financeiros de Vanuatu, República de Vanuatu, Número de Licença da Empresa: 40354.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> pertencem ao GTC Financial Group, que consiste em um grupo de entidades em todo o mundo.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> pertencem ao GTC Financial Group, que consiste em um grupo de entidades em todo o mundo.<br/><br/>
     Investir em produtos derivativos envolve riscos significativos e pode não ser adequado para todos os investidores. A alavancagem nesses instrumentos pode aumentar o nível de risco e a potencial exposição a perdas. Antes de tomar qualquer decisão para se engajar em trading de câmbio estrangeiro ou CFDs, é essencial avaliar cuidadosamente seus objetivos de investimento, nível de experiência e tolerância ao risco. Você deve investir apenas fundos que pode se dar ao luxo de perder. Encorajamos fortemente que você se informe completamente sobre os riscos associados e, se tiver alguma dúvida, procure aconselhamento de um consultor financeiro ou tributário independente.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> não fornecem serviços para indivíduos residentes em jurisdições específicas e/ou jurisdições onde a distribuição de tais serviços seria contrária à lei ou regulamentação local.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">Outras Entidades do Grupo:</strong><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Global Ltd e GTC Global Trade Capital Co. Limited</strong> não fornecem serviços para indivíduos residentes em jurisdições específicas e/ou jurisdições onde a distribuição de tais serviços seria contrária à lei ou regulamentação local.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">Outras Entidades do Grupo:</strong><br/>
     Os produtos e serviços financeiros oferecidos neste site <u>NÃO</u> são fornecidos pelas seguintes entidades do grupo, e nenhum recurso contra as seguintes entidades está disponível. Se você estiver interessado nos produtos e serviços oferecidos por cada uma das seguintes entidades, visite seus respectivos sites.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> é uma empresa holding incorporada em Dubai, Emirados Árabes Unidos, com Número de Licença Comercial: 2311147.01. Seu escritório registrado está em Business Center 1, Térreo, Meydan Hotel, Nad Al Sheba, Dubai, Emirados Árabes Unidos.<br/><br/>
-    <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> é uma empresa limitada licenciada e incorporada sob as leis do Dubai Multi Commodities Centre (No. DMCC-312687) e licenciada pela Autoridade de Valores Mobiliários e Commodities, Emirados Árabes Unidos (No. 20222a2f8307) para praticar a atividade de Corretagem de Commodities - Trading e Liquidação. Endereço registrado: Unidade No: 1501, 1 Lake Plaza, Lote No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, Emirados Árabes Unidos.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Group LLC-FZ</strong> é uma empresa holding incorporada em Dubai, Emirados Árabes Unidos, com Número de Licença Comercial: 2311147.01. Seu escritório registrado está em Business Center 1, Térreo, Meydan Hotel, Nad Al Sheba, Dubai, Emirados Árabes Unidos.<br/><br/>
+    <strong style="font-weight: 600; color: #4D4D70;">GTC Multi Trading DMCC</strong> é uma empresa limitada licenciada e incorporada sob as leis do Dubai Multi Commodities Centre (No. DMCC-312687) e licenciada pela Autoridade de Valores Mobiliários e Commodities, Emirados Árabes Unidos (No. 20222a2f8307) para praticar a atividade de Corretagem de Commodities - Trading e Liquidação. Endereço registrado: Unidade No: 1501, 1 Lake Plaza, Lote No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, Emirados Árabes Unidos.<br/><br/>
     Cada uma das entidades dentro do GTC Financial Group é gerenciada separadamente. Os produtos e serviços financeiros oferecidos neste site são APENAS fornecidos pela GTC Global Ltd e GTC Global Trade Capital Co. Limited.<br/><br/>
     Todas as marcas registradas são propriedade de seus respectivos proprietários. Todos os direitos reservados. GTC Global Ltd faz parte do GTC Financial Group, que consiste em um grupo de entidades em todo o mundo.<br/><br/>
     <strong>Aviso de Risco:</strong> O trading de produtos alavancados, como forex e derivativos, pode não ser adequado para todos os investidores, pois envolve um alto grau de risco para seu capital. Certifique-se de compreender completamente os riscos envolvidos e procure aconselhamento independente, se necessário.
@@ -1018,7 +1046,14 @@ export const russianEmailMT5Template = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -1162,7 +1197,7 @@ export const russianEmailMT5Template = (data) => {
                     <td align="left">
                       <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
                     </td>
-                    <td align="right" style="font-size: 13px; color: #192ingles; line-height: 25px;">
+                    <td align="right" style="font-size: 13px; color: #4D4D70; line-height: 25px;">
                       📞 Телефон: +971 800 667788<br/>
                       ✉️ Электронная почта: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
                     </td>
@@ -1271,7 +1306,14 @@ export const englishEmailMT5Template = (data) => {
     <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
       <tr>
         <td align="center">
-          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0;border-radius:8px;padding:30px;">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
            <!-- Logo -->
             <tr>
               <td align="center" style="padding-bottom: 20px;">
@@ -1281,7 +1323,7 @@ export const englishEmailMT5Template = (data) => {
 
             <!-- Heading -->
             <tr>
-              <td align="center" style="font-size:20px;font-weight:600;color:#000000;padding-bottom:10px;">
+              <td align="center" style="font-size:20px;font-weight:600;color:#2a2f83;padding-bottom:10px;">
                Your GTC Tournament Credentials
 
 
@@ -1289,7 +1331,7 @@ export const englishEmailMT5Template = (data) => {
               </td>
             </tr>
             <tr>
-              <td align="center" style="font-size:14px;color:#000000;padding-bottom:20px;">
+              <td align="center" style="font-size:14px;color:#4D4D70;padding-bottom:20px;">
                 We’ve added all your credentials into this email so that you’re ready!
               </td>
             </tr>
@@ -1300,17 +1342,17 @@ export const englishEmailMT5Template = (data) => {
 
             <!-- Greeting & OTP -->
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
                 Hi ${data?.name},
               </td>
             </tr>
              <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
              You’re now ready to take on the world and prove that you really are the best trader on earth!
               </td>
             </tr>
              <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
             Your brand-new GTC Demo Trading Account has been created and here’s how you access it.
 
               </td>
@@ -1385,14 +1427,14 @@ export const englishEmailMT5Template = (data) => {
 </tr>
 
           <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600">
+              <td style="font-size:16px;color:#4D4D70;padding-bottom:10px; font-weight: 600">
 
 
 Need Help?
               </td>
             </tr>
                <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:10px;">
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
            If you’ve got any questions or need further assistance, please don’t hesitate to contact us at <a href="mailto:support@gtcfx.com">support@gtcfx.com</a> . We are here to support you and ensure your experience with us is the best you’ve ever experienced.
 
               </td>
@@ -1400,14 +1442,14 @@ Need Help?
             
             <!-- Signoff -->
             <tr>
-              <td style="font-size:16px;color:#000000;padding-bottom:10px; font-weight: 600;">
+              <td style="font-size:16px;color:#4D4D70;padding-bottom:10px; font-weight: 600;">
                 <br>
              Best Regard,
 
               </td>
             </tr>
             <tr>
-              <td style="font-size:14px;color:#000000;padding-bottom:30px;">
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:30px;">
                 You’re the best, and soon, you’ll show the world you are!
 <br>
                 Your GTC Family
@@ -1456,7 +1498,7 @@ Need Help?
     <br/><br/>
     <strong style="font-weight: 600p; color: #000;">GTC Group LLC-FZ</strong> is a holding company incorporated in Dubai, United Arab Emirates with Business License Number: 2311147.01. Its registered office is at Business Center 1, M Floor, Meydan Hotel, Nad Al Sheba, Dubai, United Arab Emirates.
     <br/><br/>
-    <strong style="font-weight: 600p; color: #000;">GTC Multi Trading DMCC</strong> is a limited company licensed and incorporated under the laws of the Dubai Multi Commodities Centre (No. DMCC-312687) and licensed by the Securities and Commodities Authority, United Arab Emirates (No. 202200000007) to practice the activity of Commodity Brokerage - Trading and Clearing. Registered Address: Unit No: 1501, 1 Lake Plaza, Plot No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, United Arab Emirates.
+    <strong style="font-weight: 600p; color: #000;">GTC Multi Trading DMCC</strong> is a limited company licensed and incorporated under the laws of the Dubai Multi Commodities Centre (No. DMCC-312687) and licensed by the Securities and Commodities Authority, United Arab Emirates (No. 20224D4D7007) to practice the activity of Commodity Brokerage - Trading and Clearing. Registered Address: Unit No: 1501, 1 Lake Plaza, Plot No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, United Arab Emirates.
     <br/><br/>
     Each of the entities within the GTC Financial Group is managed separately. The financial products and services offered on this website are ONLY provided by GTC Global Ltd and GTC Global Trade Capital Co. Limited.
     <br/><br/>
