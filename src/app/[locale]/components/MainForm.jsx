@@ -541,7 +541,7 @@ last_name: Yup.string()
         ar: "/ar/privacy-policy",
         ru: "/ru/privacy-policy",
         cn: "/cn/privacy-policy",
-         vi: "/cn/privacy-policy",
+         vi: "/vi/privacy-policy",
         es: "/es/privacy-policy",
         pt: "/pt/privacy-policy",
       }[locale] || "/privacy-policy"
