@@ -34,6 +34,11 @@ const translations = {
     cta: "我同意",
     linkText: "在此阅读隐私政策",
   },
+  vi: {
+  message: "Bằng cách nhấp vào 'Tôi đồng ý', bạn đồng ý cho phép lưu cookie trên thiết bị của mình để cải thiện trải nghiệm người dùng, điều hướng trang web, phân tích việc sử dụng trang web và hỗ trợ các hoạt động tiếp thị của chúng tôi.",
+  cta: "Tôi đồng ý",
+  linkText: "Đọc chính sách bảo mật của chúng tôi tại đây."
+}
 };
 
 export default function CookieConsent() {

@@ -313,7 +313,189 @@ export const englishOtpEmailTemplate = (first_name, otp) => {
   </body>
 </html>`;
 };
+export const vitnamoesOtpEmailTemplate = (first_name, otp) => {
+    return `<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bạn đã đăng ký Cuộc thi GTC Demo</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    </style>
+  </head>
+  <body style="margin:0;padding:0;background-color:#ffffff;font-family:'Poppins',sans-serif;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Poppins', sans-serif; padding: 20px;">
+      <tr>
+        <td align="center">
+            <table width="650" cellpadding="0" cellspacing="0" style="border-left:1px solid #e0e0e0; border-bottom: none; border-right:1px solid #e0e0e0; border-top-left-radius:8px; border-top-right-radius:8px;">
+            <tr>
+        <td align="center">
+          <p style="margin: 0px; margin-bottom: 20px;"><img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/otp1.webp" alt="GTC Logo" style="width: 100%;border-radius:8px;" /></p>
+         </td>
+         </tr>
+         </table>
+          <table width="650" cellpadding="0" cellspacing="0" style="border:1px solid #e0e0e0; border-top:none; border-radius:8px;padding:30px; padding-top: 0px">
+            <tr>
+              <td align="center" style="padding-bottom: 20px;">
+                <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size:20px;font-weight:600;color:#253289;padding-bottom:10px;">
+                Bạn đã đăng ký <br>Cuộc thi GTC Demo
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size:14px;color:#4D4D70;padding-bottom:20px;">
+                Xác nhận email của bạn bằng cách nhập mã OTP trong email này.
+              </td>
+            </tr>
+            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
+                Kính gửi ${first_name || "Khách hàng"},
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
+                Cảm ơn bạn một lần nữa vì đã đăng ký Cuộc thi Giao dịch Demo GTC.
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
+                Đây là mã OTP bạn cần nhập vào biểu mẫu.
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:24px;font-weight:600;color:#253289;padding:20px 0px;">
+                ${otp}
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:20px;">
+                Nếu bạn cần bất kỳ sự giúp đỡ nào, hãy liên hệ với đội ngũ Chăm sóc Khách hàng tuyệt vời của chúng tôi qua tính năng Trò chuyện Trực tiếp trên trang web của chúng tôi, 
+                <a href="https://GTCVIP.com">https://GTCVIP.com</a>.
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
+                Chúng tôi hy vọng bạn hào hứng với Giải đấu Giao dịch Demo GTC sắp tới!
+              </td>
+            </tr>
+            <tr>
+              <td style="font-size:14px;color:#4D4D70;padding-bottom:30px;">
+                Chúc bạn một ngày tốt lành,<br>Gia đình GTC của bạn
+              </td>
+            </tr>
+            <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
+            <tr>
+              <td style="padding-top: 0px;">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="left">
+                      <img src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/logo-email.jpg" alt="GTC Logo" style="width: 160px;" />
+                    </td>
+                    <td align="right" style="font-size: 13px; color: #192055; line-height: 25px;">
+                      📞 Điện thoại: +971 800 667788<br/>
+                      ✉️ Email: <a href="mailto:support@gtcfx.com" style="color: #192055; text-decoration: none;">support@gtcfx.com</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Add Legal + Social sections here if needed -->
+             <!-- Legal Footer -->
+<tr>
+  <td style="font-size: 11px; color: #666; padding: 20px 0px; line-height: 1.5;">
+  <strong>Tài khoản đăng nhập và mật khẩu của bạn phải được giữ bí mật mọi lúc. Không bao giờ chia sẻ hoặc tiết lộ mật khẩu cho người khác. Bạn không bao giờ được cho phép bất kỳ ai khác truy cập vào tài khoản giao dịch GTC của mình hoặc thực hiện bất kỳ hành động nào có thể gây nguy hiểm cho bảo mật tài khoản của bạn.</strong><br/><br/>
+    <strong>Bạn chịu trách nhiệm về tính bảo mật và việc sử dụng tất cả ID, mật khẩu và dữ liệu bảo mật khác, phương pháp và thiết bị liên quan đến khu vực khách hàng GTC và (các) nền tảng giao dịch GTC.</strong> 
+    <br/><br/>
+    Trang web này thuộc sở hữu và được điều hành bởi GTC Global Ltd, một công ty trách nhiệm hữu hạn được thành lập tại Mauritius (số công ty: C188049) và được cấp phép bởi Ủy ban Dịch vụ Tài chính Mauritius (Số GB22200292) để giao dịch với tư cách là Nhà môi giới Đầu tư SEC-2.1B. Địa chỉ đăng ký: Cyberati Lounge, Tầng trệt, The Catalyst, Silicon Avenue, 40 Cybercity, 72201 Ebene, Cộng hòa Mauritius. Các dịch vụ và sản phẩm tài chính được quảng bá trên trang web này được cung cấp bởi GTC Global Ltd và GTC Global Trade Capital Co. Limited, một công ty được ủy quyền bởi Ủy ban Dịch vụ Tài chính Vanuatu của Cộng hòa Vanuatu, Số Giấy phép Công ty: 40354.
+    <br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd và GTC Global Trade Capital Co. Limited</strong> thuộc Tập đoàn Tài chính GTC, bao gồm một nhóm thực thể trên toàn cầu.
+    <br/><br/>
+    Đầu tư vào các sản phẩm phái sinh có rủi ro đáng kể và có thể không phù hợp với tất cả nhà đầu tư. Sử dụng đòn bẩy trong các công cụ này có thể làm tăng mức độ rủi ro và khả năng tiếp xúc với tổn thất. Trước khi đưa ra bất kỳ quyết định nào để tham gia giao dịch ngoại hối hoặc CFD, điều cần thiết là bạn phải đánh giá cẩn thận mục tiêu đầu tư, mức độ kinh nghiệm và khả năng chấp nhận rủi ro của mình. Bạn chỉ nên đầu tư các khoản tiền mà bạn có thể để mất. Chúng tôi rất khuyến khích bạn nên tìm hiểu kỹ lưỡng về các rủi ro liên quan và nếu có bất kỳ câu hỏi nào, hãy tìm kiếm lời khuyên từ cố vấn tài chính hoặc thuế độc lập.
+    <br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Global Ltd và GTC Global Trade Capital Co. Limited</strong> không cung cấp dịch vụ cho cá nhân cư trú tại các khu vực pháp lý cụ thể và/hoặc các khu vực pháp lý nơi việc phân phối các dịch vụ như vậy sẽ trái với luật hoặc quy định địa phương.
+    <br/><br/>
+    <strong style="font-weight: 600; color: #000;">Các Thực thể Khác trong Tập đoàn:</strong><br/>
+    Các sản phẩm và dịch vụ tài chính được cung cấp trên trang web này <u>KHÔNG</u> được cung cấp bởi các thực thể tập đoàn sau đây và không thể khiếu nại với các thực thể sau. Nếu bạn quan tâm đến các sản phẩm và dịch vụ được cung cấp bởi từng thực thể sau, vui lòng truy cập trang web tương ứng của họ.
+    <br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Group LLC-FZ</strong> là một công ty nắm giữ được thành lập tại Dubai, Các Tiểu vương quốc Ả Rập Thống nhất với Số Giấy phép Kinh doanh: 2311147.01. Văn phòng đăng ký tại Business Center 1, Tầng M, Meydan Hotel, Nad Al Sheba, Dubai, Các Tiểu vương quốc Ả Rập Thống nhất.
+    <br/><br/>
+    <strong style="font-weight: 600; color: #000;">GTC Multi Trading DMCC</strong> là một công ty trách nhiệm hữu hạn được cấp phép và thành lập theo luật của Trung tâm Đa Hàng hóa Dubai (Số DMCC-312687) và được cấp phép bởi Cơ quan Chứng khoán và Hàng hóa, Các Tiểu vương quốc Ả Rập Thống nhất (Số 202200000007) để thực hiện hoạt động Môi giới Hàng hóa - Giao dịch và Thanh toán. Địa chỉ đăng ký: Unit No: 1501, 1 Lake Plaza, Plot No: JLT-PH2-T2A, Jumeirah Lakes Towers, Dubai, Các Tiểu vương quốc Ả Rập Thống nhất.
+    <br/><br/>
+    Mỗi thực thể trong Tập đoàn Tài chính GTC được quản lý riêng biệt. Các sản phẩm và dịch vụ tài chính được cung cấp trên trang web này CHỈ được cung cấp bởi GTC Global Ltd và GTC Global Trade Capital Co. Limited.
+    <br/><br/>
+    Tất cả các nhãn hiệu là tài sản của chủ sở hữu tương ứng. Mọi quyền được bảo lưu. GTC Global Ltd là một phần của Tập đoàn Tài chính GTC, bao gồm một nhóm thực thể trên toàn cầu.
+    <br/><br/>
+    <strong>Cảnh báo Rủi ro:</strong> Giao dịch các sản phẩm có đòn bẩy như forex và phái sinh có thể không phù hợp với tất cả các nhà đầu tư vì chúng mang lại mức độ rủi ro cao đối với vốn của bạn. Vui lòng đảm bảo rằng bạn hiểu đầy đủ các rủi ro liên quan và tìm kiếm lời khuyên độc lập nếu cần thiết.
+  </td>
+</tr>
 
+<!-- Social Media Footer -->
+<tr>
+  <td style="padding-top: 30px; text-align: center;">
+    <table align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="padding: 0 5px;">
+          <a href="https://www.facebook.com/GTCFXGlobalTradeCapital" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://x.com/GTC_fx" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="X" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://www.youtube.com/channel/UCnKWakjm1b9Bm63xgwNFXHA" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://linkedin.com/company/gtcfx-official" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://www.instagram.com/gtcfxofficial/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://api.whatsapp.com/send/?phone=448000488461&text&type=phone_number&app_absent=0" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://t.me/gtc_vip_signal" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+        <td style="padding: 0 5px;">
+          <a href="https://www.tiktok.com/@gtcgroup_official" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="20" height="20" style="display:block;">
+          </a>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+
+<tr>
+  <td align="center" style="font-size: 12px; color: #666666; padding-top: 15px; padding-bottom: 30px;">
+    &copy; Bản quyền 2025 GTCVIP – Mọi quyền được bảo lưu
+  </td>
+</tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>`;
+};
 export const chineseOtpEmailTemplate = (first_name, otp) => {
     return `<!DOCTYPE html>
 <html lang="zh">

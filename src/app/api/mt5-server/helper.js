@@ -126,6 +126,7 @@ const getLocalizedBindMessage = (locale) => {
         es: "Cliente y usuario agregados y vinculados correctamente",
         pt: "Cliente e usuário adicionados e vinculados com sucesso",
         ru: "Клиент и пользователь успешно добавлены и связаны",
+        vi: "Khách hàng và người dùng đã được thêm và liên kết thành công",
     };
 
     return messages[locale] || messages["en"];

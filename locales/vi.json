@@ -1,0 +1,395 @@
+{
+  "menuItem": {
+    "whyJoin": "Tại sao nên tham gia?",
+    "howItWorks": "Cách thức hoạt động",
+    "competitionDetails": "Chi tiết cuộc thi",
+    "termsConditions": "Điều khoản & Điều kiện",
+    "register": "Đăng kí"
+  },
+  "demo": {
+    "meta": {
+      "title": "Tham gia Cuộc Thi Giao Dịch Demo của GTC & Nhận Ngay Giải Thưởng $5,000! Đăng Ký Ngay!",
+      "description": "Đăng ký tham gia cuộc thi giao dịch demo của GTC ngay tại đây và có cơ hội giành giải thưởng $5,000!"
+    },
+    "banner": {
+      "no": "5000",
+      "title": "Cuộc Thi Giao Dịch Demo Sắp Bắt Đầu!",
+      "para1": "GTC’s",
+      "para2": "Bạn nghĩ mình đủ khả năng để dẫn đầu bảng xếp hạng Cuộc Thi Giao Dịch Demo GTC?Hãy chứng minh điều đó trong giải đấu demo đầu tiên và giành lấy phần thưởng từ quỹ $5,000 tiền thưởng giao dịch thật!Không rủi ro – Chỉ có phần thưởng và vinh quang của một nhà giao dịch đỉnh cao!Bạn sẽ được cấp ngay $10,000 trong tài khoản demo để bắt đầu, vì vậy bạn hoàn toàn không lo mất gì cả – chỉ cần thể hiện kỹ năng giao dịch của bạn!Nhấn nút đăng ký bên dưới để giữ chỗ ngay hôm nay. Đã đến lúc cho cả thế giới thấy bạn là ai!",
+      "btnText": "Đăng ký ngay"
+    },
+    "counter": {
+      "title": "Chỉ còn ít thời gian nữa! Cuộc Thi Giao Dịch Demo GTC sắp bắt đầu!",
+      "days": "Ngày",
+      "hours": "Giờ ",
+      "min": "Phút ",
+      "sec": "Giây"
+    },
+    "payMore": {
+      "title": "Vì sao bạn nên tham gia Cuộc Thi Giao Dịch Demo của GTC?",
+      "intro": "Bạn không chỉ đang tham gia một cuộc thi giao dịch – bạn đang bước vào tâm điểm của thế giới trading!Và đây là lý do vì sao các nhà giao dịch từ khắp nơi trên thế giới đang đổ xô đăng ký và háo hức chờ đợi cuộc thi demo đầu tiên của GTC:",
+      "cta": "Tham gia",
+      "features": {
+        "feature1": {
+          "title": "$3,000 cho người chiến thắng – Giao dịch không lo rủi ro!",
+          "description": "Bạn đang giao dịch bằng tài khoản demo, nhưng người đạt thành tích cao nhất sẽ nhận ngay tài khoản giao dịch thật trị giá $3,000!Không cần nạp tiền để tham gia."
+        },
+        "feature2": {
+          "title": "Rèn luyện kỹ năng giao dịch trong môi trường thị trường thực",
+          "description": "Đây là cơ hội để bạn chứng minh mình là nhà giao dịch xuất sắc nhất trong điều kiện thị trường thực – và hoàn toàn không có rủi ro!"
+        },
+        "feature3": {
+          "title": "Leo top bảng xếp hạng – Khẳng định đẳng cấp trader của bạn!",
+          "description": "Bạn giỏi đến mức nào? Hãy để bảng xếp hạng toàn cầu trả lời!Cập nhật mỗi ngày – kỹ năng của bạn sẽ tự khẳng định vị trí."
+        },
+        "feature4": {
+          "title": "Giao dịch theo phong cách riêng – Chạm trán những đối thủ toàn cầu!",
+          "description": "Giao dịch theo phong cách riêng – với đòn bẩy 1:500 cực khủng!Forex, Kim loại, Hàng hóa – tất cả đều có trong cuộc thi demo!"
+        },
+        "feature5": {
+          "title": "Khẳng định tên tuổi – Rinh về phần thưởng xứng đáng!",
+          "description": "Những trader xuất sắc nhất không chỉ nhận giải thưởng, mà còn có quyền tự hào khoe thành tích, nhận cúp vinh danh, chứng nhận chính thức và sự công nhận đặc biệt từ GTC!"
+        },
+        "feature6": {
+          "title": "Dù bạn là người mới hay chuyên gia – cuộc thi này sinh ra là dành cho bạn!",
+          "description": "Dù bạn là người mới bắt đầu hay đã có kinh nghiệm giao dịch, đây chính là cơ hội lý tưởng – không rủi ro – để học hỏi, cạnh tranh và nhận thưởng!"
+        }
+      }
+    },
+    "work": {
+      "heading": "Cách Thức Hoạt Động của Cuộc Thi Giao Dịch Demo GTC",
+      "paragraph": "Đăng ký chỉ trong vài giây. Giao dịch như một chuyên gia suốt 14 ngày. Và rinh giải lớn!",
+      "list": {
+        "t1": {
+          "step": "Bước 1",
+          "name": "Đăng kí với tên và email của bạn",
+          "stars": "Điền vào một mẫu đăng ký nhanh.Không cần nạp tiền, không rườm rà – chỉ cần vài thông tin cơ bản để bắt đầu ngay"
+        },
+        "t2": {
+          "step": "Bước 2",
+          "name": "Nhận ngay tài khoản demo trị giá $10,000",
+          "stars": "Chúng tôi sẽ cấp ngay cho bạn một tài khoản demo MT5 với $10,000 tiền ảo sẵn sàng giao dịch."
+        },
+        "t3": {
+          "step": "Bước 3",
+          "name": "Giao dịch Forex, Kim loại và Hàng hóa",
+          "stars": "Bạn sẽ có 14 ngày để thể hiện bản lĩnh. Hãy dùng kỹ năng của mình để gia tăng số dư tài khoản demo!"
+        },
+        "t4": {
+          "step": "Bước 4",
+          "name": "Leo top bảng xếp hạng, chạm tay vào vinh quang!",
+          "stars": "Thắng bằng thực lực – Leo top bảng xếp hạng – Rinh ngay phần thưởng từ quỹ $5,000!"
+        },
+        "cta": "Đăng kí ngay"
+      }
+    },
+    "detail": {
+      "title": "Thông tin chi tiết về Cuộc Thi Giao Dịch Demo",
+      "description": "Dưới đây là tất cả những gì bạn cần biết về cuộc thi giao dịch demo.",
+      "competitionDetails": [
+        {
+          "title": "Thời gian đăng kí",
+          "content": [
+            "Từ Thứ Hai, 11/08/2025 đến Chủ Nhật, 24/08/2025 (23:59 GMT)",
+            "Đăng ký sớm – nhận tài khoản demo trước và làm chủ nền tảng MT5 từ bây giờ"
+          ]
+        },
+        {
+          "title": "Thời gian diễn ra cuộc thi",
+          "content": [
+            "Từ Thứ Hai, 25/08/2025 đến Thứ Năm, 07/09/2025 (23:59 GMT)",
+            "Bạn sẽ có trọn vẹn 14 ngày để giao dịch và leo lên bảng xếp hạng."
+          ]
+        },
+        {
+          "title": "Cách tham gia",
+          "content": [
+            "Chỉ cần nhấp vào đây để truy cập mẫu đăng ký. Khi bạn điền form, đây là những gì sẽ diễn ra:"
+          ],
+          "list": [
+            "Bạn sẽ nhận được tài khoản demo MT5 trị giá $10,000 từ GTC cùng thông tin đăng nhập qua email.",
+            "Bạn sẽ có thể giao dịch Forex, Kim loại và Hàng hóa trong suốt thời gian diễn ra cuộc thi.",
+            "Bạn có thể theo dõi tiến trình của mình trên bảng xếp hạng trực tiếp trong GTC VIP – nền tảng tích điểm và nhận thưởng dành cho khách hàng thân thiết. Hãy khám phá ngay!"
+          ],
+          "note": "⚠️ Lưu ý: Cần thực hiện tối thiểu 10 lệnh giao dịch để đủ điều kiện nhận giải thưởng."
+        },
+        {
+          "title": "ổng giải thưởng $5,000",
+          "list": [
+            "🥇 Giải Nhất nhận $3,000 trong tài khoản giao dịch thật tại GTC",
+            "🥈 Giải Nhì nhận $1,500 trong tài khoản giao dịch thật tại GTC.",
+            "🥉 Giải Ba nhận $500 trong tài khoản giao dịch thật tại GTC.",
+            "Hạng 4 đến 10 nhận thưởng $200 dưới dạng tín dụng bonus (yêu cầu nạp tiền để sử dụng)."
+          ]
+        },
+        {
+          "content": [
+            "ất cả những người tham gia đã xác minh khác sẽ nhận được 15% bonus nạp tiền cho lần nạp đầu tiên vào tài khoản giao dịch thật tại GTC."
+          ]
+        },
+        {
+          "content": [
+            "Tất cả người tham gia đều nhận được giấy chứng nhận."
+          ]
+        },
+        {
+          "title": "Điều khoản và điều kiện",
+          "content": [
+            "Hãy đảm bảo rằng bạn đã hiểu rõ các quy định. Chỉ cần nhấp vào đây để xem đầy đủ điều khoản"
+          ],
+          "linkText": "Điều khoản và điều kiện",
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+%E2%80%93+Terms+%26+Conditions.pdf"
+        }
+      ]
+    },
+    "final-cta-section": {
+      "heading": "Bạn đã sẵn sàng chấp nhận thử thách chưa?",
+      "description": "Giải phóng kỹ năng giao dịch của bạn và so tài cùng các trader đến từ khắp nơi trên thế giới!Đừng quên – tổng giải thưởng trị giá $5,000 sẽ được trao vào tài khoản giao dịch thật!",
+      "buttonText": "Đăng ký liền tay – cơ hội không chờ đợi!"
+    },
+    "form": {
+      "heading": "Đăng kí ngay",
+      "closeAlt": "Đóng cửa sổ",
+      "firstName": "Họ",
+      "lastName": "Tên",
+      "email": " Email",
+      "phone": " Số điện thoại di động",
+      "country": " Quốc gia cư trú",
+      "otp": "Mã OTP đã được gửi đến địa chỉ email đã nhập",
+      "getCode": " Lấy mã",
+      "sending": "Đang gửi...",
+      "sendOtp": "Gửi mã OTP",
+      "verifyCode": " Xác minh mã",
+      "termsLabel": "Vui lòng chấp nhận các điều khoản và điều kiện",
+      "termsText": "Tôi xác nhận rằng tôi trên 18 tuổi, đã đọc và đồng ý với...",
+      "conset": "Tôi đồng ý để GTC liên hệ với tôi vào thời điểm hợp lý, và số điện thoại của tôi không nằm trong danh sách Không Gọi (DNCR).",
+      "clientAgreement": "Điều khoản & Điều kiện cuộc thi",
+      "and1": "và",
+      "privacyPolicy": "Chính sách Bảo mật",
+      "submit": "Đăng ký tham gia",
+      "submitting": "Đang gửi...",
+      "otpSuccess": "Xác minh OTP thành công!",
+      "otpFail": "Xác minh OTP thất bại, vui lòng thử lại!",
+      "thankYou1": "Cảm ơn bạn đã đăng ký với GTC!",
+      "otpSent": "Gửi OTP thành công!",
+      "errors": {
+        "fullNameFormat": "Họ tên chỉ được chứa chữ cái.",
+        "firstNameRequired": "Tên là bắt buộc",
+        "lastNameFormat": "Họ chỉ được chứa chữ cái",
+        "lastNameRequired": "Họ là bắt buộc",
+        "emailInvalid": "Địa chỉ email không hợp lệ",
+        "emailRequired": "Email là bắt buộc",
+        "phoneRequired": "Số điện thoại là bắt buộc",
+        "countryRequired": "Quốc gia là bắt buộc",
+        "otpLength": "Mã OTP phải gồm 6 chữ số",
+        "otpRequired": "OTP là bắt buộc",
+        "termsRequired": "Vui lòng chấp nhận điều khoản và điều kiện"
+      },
+      "thankYou": "Cảm ơn bạn",
+      "almostThere": "Bạn đã đăng ký thành công!",
+      "emailSent": "Chúc mừng bạn đã đăng ký thành công Cuộc Thi Giao Dịch Demo của GTC!",
+      "para1": "Bây giờ chính là thời điểm lý tưởng để bạn chuẩn bị chiến lược giao dịch của mình!Và đừng quên: bạn sẽ giao dịch các sản phẩm Forex, Kim loại và Hàng hóa với đòn bẩy 1:500 trong suốt 14 ngày thi đấu.",
+      "para2": "Hãy biến từng lệnh giao dịch của bạn trở nên có giá trị và luôn theo dõi bảng xếp hạng.Một số trader cực kỳ chuyên nghiệp đã tham gia giải đấu này… nhưng cũng có những người cực kỳ may mắn nữa đấy 😉",
+      "para3": "Chúng tôi đã gửi cho bạn một email khác chứa đầy đủ thông tin đăng nhập giao dịch. Hãy kiểm tra hộp thư ngay nhé!Đừng quên kiểm tra cả thư rác hoặc hộp thư quảng cáo, phòng khi email bị lọt vào đó.✅Nếu email nằm trong thư rác, chỉ cần chuyển nó về hộp thư chính là được.",
+      "checkSpam": "Chúng tôi sẽ gửi cho bạn một vài email trước khi cuộc thi bắt đầu.",
+      "seeYou": "CHÚC BẠN MAY MẮN!",
+      "helpSection": {
+        "title": "Cần hỗ trợ?",
+        "phoneLabel": "Bạn có thể liên hệ với chúng tôi thông qua",
+        "phone": "+971 800 667788",
+        "emailLabel": "hoặc gửi email cho Đội Ngũ Đối Tác GTC tại địa chỉ",
+        "email": "support@gtcfx.com"
+      }
+    },
+    "thankYoumeta": {
+      "title": "Sẵn sàng cho Cuộc Thi Giao Dịch Demo của GTC!",
+      "description": "Chào mừng bạn đến với một mối quan hệ đối tác được xây dựng để bứt phá hiệu suất.Tại GTC, chúng tôi không chỉ chia sẻ cho bạn lên đến 80% doanh thu (RevShare) — mà còn cung cấp đầy đủ công cụ để giúp bạn phát triển hoạt động kinh doanh của mình."
+    }
+  },
+  "footer": {
+    "riskWarningTitle": "Cảnh báo rủi ro:",
+    "riskWarningText": "Giao dịch các sản phẩm có sử dụng đòn bẩy như CFD tiềm ẩn mức độ rủi ro cao và có thể không phù hợp với tất cả nhà đầu tư. Bạn có thể thua lỗ vượt quá số tiền đầu tư ban đầu. Vui lòng đảm bảo rằng bạn hiểu rõ các rủi ro liên quan và tham khảo ý kiến từ cố vấn tài chính độc lập nếu cần thiết.",
+    "company1": "GTC Global Ltd, được quản lý bởi Ủy ban Dịch vụ Tài chính Mauritius (FSC Mauritius) – Giấy phép số: GB22200292",
+    "company2": "GTC Global Pty Ltd, được quản lý bởi Ủy ban Chứng khoán và Đầu tư Úc (ASIC)",
+    "company3": "GTC Global Trade Capital Co., Limited, được đăng ký tại Vanuatu và được cấp phép bởi Ủy ban Dịch vụ Tài chính Vanuatu (VFSC)",
+    "jurisdictionNoticeTitle": "Thông báo về khu vực pháp lý:",
+    "jurisdictionNoticeText": "GTC không cung cấp dịch vụ tại các khu vực pháp lý mà việc cung cấp đó trái với luật pháp địa phương.",
+    "affiliateNoticeTitle": "Thông báo dành cho Đối tác Tiếp thị (Affiliate):",
+    "affiliateNoticeText": "Nội dung từ đối tác/affiliate chỉ nhằm mục đích giới thiệu và tiếp thị, và không cấu thành lời khuyên tài chính."
+  },
+  "cookie": {
+    "message": "Bằng cách nhấp vào “Đồng ý”, bạn chấp thuận cho chúng tôi lưu cookie trên thiết bị của bạn để cải thiện trải nghiệm người dùng, điều hướng trang web, phân tích lưu lượng truy cập và hỗ trợ hoạt động tiếp thị của chúng tôi.",
+    "cta": "Tôi đồng ý",
+    "linkText": "Đọc chính sách quyền riêng tư của chúng tôi tại đây."
+  },
+  "privacyPolicy": {
+    "meta": {
+      "title": "Chính Sách Bảo Mật – GTC | Sàn Giao Dịch Forex & CFD Được Quản Lý",
+      "description": "Đọc Chính Sách Bảo Mật của GTCFX để tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn trên các nền tảng được quản lý tại Vanuatu, Mauritius và Các Tiểu Vương Quốc Ả Rập Thống Nhất (UAE)."
+    },
+    "header": {
+      "title": "Chính Sách Bảo Mật",
+      "subtitle": "Bảo vệ thông tin của bạn trên tất cả các nền tảng và tên miền phụ của GTC"
+    },
+    "whoWeAre": {
+      "title": "Chúng Tôi Là Ai",
+      "intro1": {
+        "richText": [
+          {
+            "text": "Chính sách bảo mật này áp dụng cho GTC, bao gồm tất cả các tên miền phụ như "
+          },
+          {
+            "font": {
+              "size": 11,
+              "color": {
+                "theme": 1
+              },
+              "name": "Calibri",
+              "family": 2,
+              "scheme": "minor"
+            },
+            "text": "reg.gtcfx.com (và các tên miền phụ khác liên quan đến GTC), và quy định cách chúng tôi xử lý thông tin cá nhân của bạn."
+          }
+        ]
+      },
+      "intro2": "Khi chúng tôi sử dụng các thuật ngữ “GTC”, “GTCFX”, “GTC VIP”, “chúng tôi”, “của chúng tôi” hoặc “chúng ta”, chúng tôi đang đề cập đến:",
+      "entity1": {
+        "title": "GTC Global Trade Capital Co. Ltd",
+        "line1": "Được cấp phép bởi Ủy ban Dịch vụ Tài chính Vanuatu (VFSC)",
+        "line2": "Số giấy phép: 40354",
+        "line3": "Địa chỉ: Tầng 1, Tòa nhà B&P, Đường Kumul, Port Vila, Vanuatu"
+      },
+      "entity2": {
+        "title": "GTC Global Ltd",
+        "line1": "Được cấp phép bởi Ủy ban Dịch vụ Tài chính Mauritius",
+        "line2": "Số giấy phép: GB22200292",
+        "line3": "Địa chỉ: The Cyberati Lounge, Tầng Trệt, Tòa nhà The Catalyst, Số 40 Cybercity, 72201 Ebene, Mauritius."
+      }
+    },
+    "ourCommitment": {
+      "title": "Cam kết của chúng tôi",
+      "description": "Tại GTC, quyền riêng tư của bạn không chỉ là một ô đánh dấu – mà là ưu tiên hàng đầu.Chúng tôi cam kết bảo vệ dữ liệu cá nhân của bạn và minh bạch hoàn toàn về cách dữ liệu được thu thập, sử dụng và bảo mật trên tất cả các nền tảng và tên miền của chúng tôi.",
+      "subheading": "Chính sách này giải thích:",
+      "point": {
+        "one": "Những dữ liệu cá nhân nào chúng tôi thu thập",
+        "two": "Lý do vì sao chúng tôi thu thập dữ liệu đó",
+        "three": "Cách chúng tôi bảo vệ dữ liệu của bạn",
+        "four": "Quyền của bạn và cách bạn có thể thực thi các quyền đó"
+      }
+    },
+    "personalData": {
+      "title": "Các loại dữ liệu cá nhân mà chúng tôi thu thập",
+      "intro": "Khi bạn tương tác với GTC – dù là thông qua việc mở tài khoản, truy cập trang web của chúng tôi, hay đăng ký trên bất kỳ trang đích (landing page) nào – chúng tôi có thể thu thập các thông tin sau:",
+      "personal": {
+        "title": "Thông tin cá nhân:",
+        "items": {
+          "one": "Họ tên đầy đủ, ngày và nơi sinh, giới tính, và quốc tịch.",
+          "two": "Thông tin liên hệ:Email, số điện thoại, địa chỉ cư trú.",
+          "three": "Thông tin việc làm và thu nhập:"
+        }
+      },
+      "financial": {
+        "title": "Dữ liệu tài chính & kỹ thuật:",
+        "items": {
+          "one": "Thông tin tài chính: chi tiết ngân hàng, nguồn tiền, và lịch sử giao dịch.",
+          "two": "Giấy tờ định danh: hộ chiếu, bằng lái xe, căn cước công dân.",
+          "three": "Sở thích giao dịch và hiệu suất đầu tư.",
+          "four": "Địa chỉ IP, thông tin thiết bị, cookie và cách bạn sử dụng nền tảng."
+        }
+      },
+      "note": "Chúng tôi có thể ghi âm các cuộc gọi điện thoại và lưu lại các cuộc trò chuyện qua chat"
+    },
+    "howWeUse": {
+      "title": "Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn",
+      "description": "Chúng tôi chỉ sử dụng dữ liệu của bạn khi có lý do hợp pháp để làm như vậy.",
+      "points": {
+        "one": "Để cung cấp dịch vụ – Giúp chúng tôi thiết lập và quản lý tài khoản giao dịch của bạn.",
+        "two": "Để tuân thủ nghĩa vụ pháp lý – Bao gồm các quy định về chống rửa tiền và các yêu cầu pháp lý khác.",
+        "three": "Để bảo vệ lợi ích kinh doanh của chúng tôi – Như cải tiến nền tảng, phân tích hành vi người dùng và quản lý rủi ro.",
+        "four": "Với sự đồng ý của bạn – Dùng cho hoạt động tiếp thị qua email và gửi lời mời tham gia các hội thảo trực tuyến độc quyền.",
+        "five": "Để hỗ trợ khách hàng – Giúp bạn xử lý yêu cầu hoặc giải quyết các sự cố.",
+        "six": "Để cải thiện trải nghiệm trên trang web của chúng tôi – Thông qua việc sử dụng cookie, định vị địa lý và theo dõi phiên làm việc.",
+        "seven": "Để lưu trữ hồ sơ – Phục vụ cho kiểm toán, pháp lý và mục đích thuế."
+      },
+      "footer": "Chúng tôi không bao giờ bán dữ liệu của bạn. Chấm hết."
+    },
+    "whoWeShare": {
+      "title": "Chúng tôi chia sẻ dữ liệu của bạn với ai?",
+      "description": "Dữ liệu của bạn có thể được chia sẻ với:",
+      "items": {
+        "one": "Các đơn vị thuộc GTC khác (ví dụ: các tổ chức được cấp phép tại Vanuatu và Mauritius).",
+        "two": "Các nhà cung cấp dịch vụ thanh toán và xác minh danh tính.",
+        "three": "Đối tác pháp lý, tuân thủ và dịch vụ tài chính.",
+        "four": "Cơ quan quản lý, khi pháp luật yêu cầu.",
+        "five": "Các công cụ tiếp thị (nhưng không bao giờ cho mục đích tiếp thị từ bên thứ ba)."
+      },
+      "footer": "Chúng tôi chỉ chia sẻ dữ liệu khi thực sự cần thiết và đảm bảo rằng bất kỳ bên thứ ba nào cũng phải tuân thủ các tiêu chuẩn bảo vệ dữ liệu nghiêm ngặt."
+    },
+    "cookiesTracking": {
+      "title": "Cookies & Tracking",
+      "description": "Chúng tôi sử dụng cookies và công nghệ theo dõi trên tất cả các tên miền của GTCFX (ví dụ: https://gtcfx.com, https://gtcvip.com, v.v.) để:",
+      "points": {
+        "one": "Ghi nhớ các tùy chọn của bạn",
+        "two": "Hiển thị nội dung phù hợp",
+        "three": "Phân tích mức độ sử dụng trang web",
+        "four": "Chạy các chiến dịch tiếp thị lại (remarketing)"
+      },
+      "footer": "Bạn có thể quản lý cài đặt cookie trong trình duyệt của mình. Để biết thêm thông tin, vui lòng xem",
+      "linkText": "Chính sách Cookie"
+    },
+    "internationalTransfers": {
+      "title": "Chuyển dữ liệu quốc tế",
+      "description": "Vì chúng tôi hoạt động trên toàn cầu, dữ liệu của bạn có thể được xử lý bên ngoài khu vực Kinh tế châu Âu (EEA). Trong mọi trường hợp như vậy, chúng tôi luôn đảm bảo rằng dữ liệu của bạn được bảo vệ nghiêm ngặt như theo luật EU, bằng cách sử dụng các biện pháp như hợp đồng tuân thủ GDPR."
+    },
+    "yourRights": {
+      "title": "Quyền của bạn",
+      "description": "Dưới đây là những quyền bạn được hưởng theo luật bảo vệ dữ liệu cá nhân:",
+      "points": {
+        "one": "Truy cập dữ liệu cá nhân của bạn.",
+        "two": "Cập nhật hoặc chỉnh sửa dữ liệu.",
+        "three": "Yêu cầu xóa dữ liệu nếu chúng tôi không còn cần sử dụng.",
+        "four": "Hạn chế cách chúng tôi sử dụng dữ liệu của bạn.",
+        "five": "Rút lại sự đồng ý bất cứ lúc nào.",
+        "six": "Yêu cầu chuyển dữ liệu của bạn sang nhà cung cấp khác.",
+        "seven": "Phản đối việc tiếp thị hoặc phân tích hồ sơ dữ liệu của bạn."
+      },
+      "footer": "Để thực hiện bất kỳ quyền nào trong số này, hãy gửi email đến:",
+      "email": "support@gtcfx.com"
+    },
+    "dataRetention": {
+      "title": "Lưu trữ dữ liệu",
+      "intro": "Chúng tôi sẽ giữ dữ liệu của bạn",
+      "points": {
+        "one": {
+          "icon": "∞",
+          "text": "Miễn là tài khoản của bạn còn hoạt động"
+        },
+        "two": {
+          "icon": "5+",
+          "text": "Ít nhất 5 năm sau khi bạn đóng tài khoản, để đáp ứng các nghĩa vụ về chống rửa tiền (AML) và quy định pháp lý."
+        },
+        "three": {
+          "icon": "⚖️",
+          "text": "Lâu hơn nếu được yêu cầu cho mục đích pháp lý, thuế hoặc giải quyết tranh chấp."
+        }
+      }
+    },
+    "dataSafety": {
+      "title": "Đảm bảo an toàn thông tin cá nhân của bạn",
+      "description": "Chúng tôi lưu trữ dữ liệu của bạn trên các máy chủ an toàn, giới hạn quyền truy cập của nhân viên và thường xuyên đào tạo đội ngũ về bảo vệ dữ liệu.Chúng tôi cũng sử dụng các biện pháp mã hóa, kiểm soát truy cập và giám sát nghiêm ngặt để đảm bảo dữ liệu của bạn luôn được bảo vệ."
+    },
+    "policyUpdates": {
+      "title": "Cập nhật Chính Sách Này",
+      "description": "Chúng tôi có thể cập nhật Chính Sách Quyền Riêng Tư này theo thời gian. Mọi cập nhật sẽ được đăng trên trang web gtcfx.com và các tên miền phụ liên quan."
+    },
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "description": "Bạn có câu hỏi? Cần hỗ trợ về quyền dữ liệu của mình?",
+      "buttonText": "Gửi email cho chúng tôi qua địa chỉ:support@gtcfx.com",
+      "email": {
+        "text": "support@gtcfx.com",
+        "hyperlink": "mailto:support@gtcfx.com"
+      }
+    }
+  }
+}

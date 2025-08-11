@@ -70,6 +70,7 @@ const MainHeader = ({ setIsOpen }) => {
      
         </nav>
        
+       
         <div className="md:hidden flex gap-2 items-center">
               <MobileMenu   setIsOpen={setIsOpen}  />
             </div>

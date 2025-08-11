@@ -11,6 +11,7 @@ const languages = [
   { code: 'es', label: 'Español', country: 'es' },
   { code: 'ru', label: 'Русский', country: 'ru' },
   { code: 'zh', label: '中文', country: 'cn' },
+  { code: 'vi', label: 'Tiếng Việt', country: 'vn' }
 ];
 
 const LanguageSwitcher = () => {
