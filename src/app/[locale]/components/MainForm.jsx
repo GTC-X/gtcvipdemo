@@ -154,6 +154,8 @@ const CommonMainForm = () => {
                             ? "/cn/5k-demo-trading-competition/success"
                             : locale === "ru"
                             ? "/ru/5k-demo-trading-competition/success"
+                            : locale === "vi"
+                            ? "/vi/5k-demo-trading-competition/success"
                             : locale === "es"
                             ? "/es/5k-demo-trading-competition/success"
                             : locale === "pt"
@@ -538,6 +540,7 @@ last_name: Yup.string()
         ar: "/ar/privacy-policy",
         ru: "/ru/privacy-policy",
         cn: "/cn/privacy-policy",
+         vi: "/cn/privacy-policy",
         es: "/es/privacy-policy",
         pt: "/pt/privacy-policy",
       }[locale] || "/privacy-policy"
