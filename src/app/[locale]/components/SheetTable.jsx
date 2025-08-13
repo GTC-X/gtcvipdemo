@@ -148,9 +148,7 @@ export default function SheetTable({
     <th className="px-4 py-4 text-[11px] md:text-base font-semibold uppercase tracking-wide text-white text-center border-b border-gray-200">
           {t("table.lastName")}
     </th>
-    <th className="px-4 py-4 text-[11px] md:text-base font-semibold uppercase tracking-wide text-white text-center border-b border-gray-200">
-           {t("table.email")}
-    </th>
+
     <th className="px-4 py-4 text-[11px] md:text-base font-semibold uppercase tracking-wide text-white text-center border-b border-gray-200">
            {t("table.balance")}
     </th>
@@ -173,7 +171,7 @@ export default function SheetTable({
         {maskName(r["Last Name"])}
       </td>
       
-      <td className="px-4 py-3 border-b border-gray-100 align-middle text-right">
+      <td className="px-4 py-3 border-b border-gray-100 align-middle text-center">
         {r["Amount"]}
       </td>
     </tr>

@@ -20,7 +20,7 @@ const t = useTranslations("demo.form");
 
     return (
         <div
-            className={`fixed inset-0 z-[99] transition-all duration-700 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"
+            className={`fixed inset-0 z-[99] transition-all duration-700 max-w-md right-0 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
         >
             {/* Backdrop */}
