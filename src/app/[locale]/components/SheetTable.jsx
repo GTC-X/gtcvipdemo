@@ -172,9 +172,7 @@ export default function SheetTable({
       <td className="px-4 py-3 border-b border-gray-100 align-middle">
         {maskName(r["Last Name"])}
       </td>
-      <td className="px-4 py-3 border-b border-gray-100 align-middle">
-        {maskEmail(r["Email"])}
-      </td>
+      
       <td className="px-4 py-3 border-b border-gray-100 align-middle text-right">
         {r["Amount"]}
       </td>
