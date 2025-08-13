@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
 import { useMemo } from "react";
+import SheetTable from "../../components/SheetTable";
 
 const icons = [
   // 1. Shield + Trophy
@@ -81,6 +82,8 @@ const icons = [
 
 const WhyJoinSection = ({ setIsOpen }) => {
   const t = useTranslations("demo.payMore");
+  const tRegister = useTranslations("demo.register");
+
 
   const featureItems = useMemo(() => {
     return Object.keys(t.raw("features")).map((key, idx) => ({
@@ -92,10 +95,25 @@ const WhyJoinSection = ({ setIsOpen }) => {
 
   return (
     <section
-      className="relative bg-[#F7F3EE] pt-0 pb-16 md:py-20 overflow-hidden"
+      className="relative bg-[#F7F3EE] pt-10 pb-16 md:py-20 overflow-hidden"
       id="join"
     >
+  
       <div className="relative z-10 container text-center">
+        <div className="mb-12 flex flex-col gap-5">
+          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
+           {tRegister("title")}
+
+          </h2>
+          <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
+           {tRegister("description")}
+          </p>
+              <SheetTable
+  id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
+  gid="0"
+/>
+          </div>
+        
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
             {t("title")}

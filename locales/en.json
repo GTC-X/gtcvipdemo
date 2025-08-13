@@ -25,6 +25,18 @@
       "min": "Minutes",
       "sec": "Seconds"
     },
+    "register": {
+      "title": "Registered Participants",
+      "description": "Below is the list of traders who have already registered for the GTC Demo Trading Competition. Check out the community of competitors ready to take on the challenge!",
+      "table": {
+        "account": "Account No",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "balance": "Balance"
+      }
+    },
+
     "payMore": {
       "title": "Why Join the GTC Demo Trading Competition?",
       "intro": "You're not just entering a trading competition, you're stepping into the trading spotlight! Here’s why traders from all over the world are registering and can’t wait to compete in GTC’s first-ever demo trading tournament:",

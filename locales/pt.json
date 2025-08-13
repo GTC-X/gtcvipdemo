@@ -18,6 +18,17 @@
     "para2": "Você acha que tem o que é preciso para liderar o ranking da nossa primeira competição Demo Trading? Então prove! Participe da competição e ganhe prêmios que somam US$ 5.000. Lembre-se: esta é uma competição de demonstração de trading, e você receberá uma Conta Demo US$ 10.000 para usar. Sem risco. Só prêmio. E o reconhecimento que você merece. Clique no botão abaixo para garantir sua vaga e mostrar suas habilidades.",
     "btnText": "Inscreva-se para participar"
   },
+  "register": {
+      "title": "Participantes Registrados",
+      "description": "Abaixo está a lista de traders que já se registraram para a Competição de Trading Demo GTC. Confira a comunidade de competidores prontos para enfrentar o desafio!",
+      "table": {
+        "account": "Número da Conta",
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
+        "email": "Endereço de Email",
+        "balance": "Saldo"
+      }
+    },
   "counter": {
     "title": "A primeira competição de negociação de demonstração da GTC começa em:",
     "days": "Dias",

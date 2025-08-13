@@ -25,6 +25,17 @@
       "min": "分钟",
       "sec": "秒"
     },
+    "register": {
+    "title": "已注册参赛者名单",
+    "description": "以下为已报名GTC模拟交易大赛的交易者列表，查看即将参与挑战的选手社区！",
+    "table": {
+      "account": "账户编号",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "电子邮箱",
+      "balance": "账户余额"
+    }
+  },
       "payMore": {
       "title": "参赛价值",
       "intro": "这不是普通比赛，而是全球专业交易者的竞技舞台！原因如下：",

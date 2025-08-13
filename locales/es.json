@@ -18,6 +18,17 @@
     "para2": "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuestralo en nuestro primer torneo de trading y gana parte de los  USD 5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading. Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de  USD 10,000 para utilizar. Recuerda, ¡No hay riesgo! Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades.",
     "btnText": "Inscribite"
   },
+  "register": {
+      "title": "Participantes Registrados",
+      "description": "A continuación se muestra la lista de traders que ya se han registrado para la Competencia de Trading Demo de GTC. ¡Conoce a la comunidad de competidores listos para asumir el desafío!",
+      "table": {
+        "account": "Número de Cuenta",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Dirección de Correo Electrónico",
+        "balance": "Saldo"
+      }
+    },
   "counter": {
     "title": "El primer torneo de Trading de GTC comienza en:",
     "days": "Días",

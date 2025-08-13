@@ -18,6 +18,17 @@
       "para2": "Bạn nghĩ mình đủ khả năng để dẫn đầu bảng xếp hạng Cuộc Thi Giao Dịch Demo GTC?Hãy chứng minh điều đó trong giải đấu demo đầu tiên và giành lấy phần thưởng từ quỹ $5,000 tiền thưởng giao dịch thật!Không rủi ro – Chỉ có phần thưởng và vinh quang của một nhà giao dịch đỉnh cao!Bạn sẽ được cấp ngay $10,000 trong tài khoản demo để bắt đầu, vì vậy bạn hoàn toàn không lo mất gì cả – chỉ cần thể hiện kỹ năng giao dịch của bạn!Nhấn nút đăng ký bên dưới để giữ chỗ ngay hôm nay. Đã đến lúc cho cả thế giới thấy bạn là ai!",
       "btnText": "Đăng ký ngay"
     },
+    "register": {
+    "title": "Người tham gia đã đăng ký",
+    "description": "Dưới đây là danh sách các nhà giao dịch đã đăng ký tham gia Cuộc thi Giao dịch Demo GTC. Hãy xem cộng đồng các đối thủ sẵn sàng đối mặt với thử thách!",
+    "table": {
+      "account": "Số tài khoản",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa chỉ Email",
+      "balance": "Số dư"
+    }
+  },
     "counter": {
       "title": "Chỉ còn ít thời gian nữa! Cuộc Thi Giao Dịch Demo GTC sắp bắt đầu!",
       "days": "Ngày",
