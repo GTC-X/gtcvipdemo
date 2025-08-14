@@ -132,6 +132,20 @@ const getLocalizedBindMessage = (locale) => {
     return messages[locale] || messages["en"];
 };
 
+const getLocalizedUserExistsMessage = (locale) => {
+    const messages = {
+        en: "User already has an account, please use a different phone number!",
+        ar: "المستخدم لديه حساب بالفعل، يرجى استخدام رقم هاتف مختلف!",
+        zh: "用户已拥有账户，请使用其他电话号码！",
+        es: "El usuario ya tiene una cuenta, ¡por favor use un número de teléfono diferente!",
+        pt: "O usuário já possui uma conta, por favor use um número de telefone diferente!",
+        ru: "Пользователь уже имеет учетную запись, пожалуйста, используйте другой номер телефона!",
+        vi: "Người dùng đã có tài khoản, vui lòng sử dụng số điện thoại khác!",
+    };
+
+    return messages[locale] || messages["en"];
+};
+
 
 async function clientPipeline(credentials, locale) {
     // Create the client
@@ -152,6 +166,14 @@ async function clientPipeline(credentials, locale) {
     const client_id = clientResponse[0].id;
     console.log("Client created:", clientResponse);
 
+    const getUSer = await mt5Instance.users.getBatch("contest\\AUG25\\STD-USD")
+    if (getUSer?.answer?.some(x => x?.Phone == credentials?.phone)) {
+        return {
+            message: getLocalizedUserExistsMessage(locale),
+            success: false,
+        };
+
+    }
     // Create the user
     const userResponse = await mt5Instance.users.create({
         Login: 0, // Let the server auto-assign a login

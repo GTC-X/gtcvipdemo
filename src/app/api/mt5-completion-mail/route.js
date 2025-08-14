@@ -41,17 +41,17 @@ export async function POST(req) {
         from: '"GTC" <portal@mx4.gtcmail.com>',
         to: data?.email,
       subject:
-    data?.locale === "ar"
+    data?.locale == "ar"
         ? "بيانات اعتماد بطولة GTC الخاصة بك"
-        : data?.locale === "zh"
+        : data?.locale == "zh"
             ? "您的 GTC 比赛账户信息"
-            : data?.locale === "es"
+            : data?.locale == "es"
                 ? "Tus credenciales para el torneo de GTC"
-                : data?.locale === "pt"
+                : data?.locale == "pt"
                     ? "Suas credenciais do torneio GTC"
-                    : data?.locale === "ru"
+                    : data?.locale == "ru"
                         ? "Ваши учетные данные для турнира GTC"
-                        : data?.locale === "vi"
+                        : data?.locale == "vi"
                             ? "Thông tin đăng nhập giải đấu GTC của bạn"
                             : "Your GTC Tournament Credentials",
         html:

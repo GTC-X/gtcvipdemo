@@ -124,6 +124,7 @@ const CommonMainForm = () => {
       country: data.country,
       group: "contest\\AUG25\\STD-USD",
       invest_password: data.invest_password,
+      locale:locale
     };
 
     try {
@@ -136,7 +137,7 @@ const CommonMainForm = () => {
           "https://hooks.zapier.com/hooks/catch/16420445/u40nunc/",
           JSON.stringify({
             ...data,
-            user: mt5Res.data.data.user, // Add account number
+            user: mt5Res?.data?.data?.user, // Add account number
           })
         );
 
@@ -148,7 +149,7 @@ const CommonMainForm = () => {
           user: mt5Res.data.data.user,
           invest_password: data.invest_password,
           server_name: "contest\\AUG25\\STD-USD",
-          locale,
+          locale:locale,
         });
 
         toast.success(mailRes?.data?.message);
