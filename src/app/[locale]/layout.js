@@ -26,27 +26,33 @@ export default async function LocaleLayout({ children, params }) {
           href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap"
           rel="stylesheet"
         />
-        <meta name="color-scheme" content="light"/>
+        <meta name="color-scheme" content="light" />
 
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-          {/* Google Tag Manager */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-PSWH9QF');`,
-            }}
-          />
-          <style>{`
+          }}
+        />
+        <style>{`
           body {
             font-family: '${isArabicOrKurdish ? 'Noto Kufi Arabic' : 'Poppins'}', sans-serif;
           }
         `}</style>
       </head>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+
+          <div className="bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+
+            {children}
+          </div>
+        </NextIntlClientProvider>
         <ToastContainer autoClose={3000} />
         <CookieConsent />
       </body>
