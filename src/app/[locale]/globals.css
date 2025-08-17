@@ -4,9 +4,21 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* globals.css */
-@layer base { html { color-scheme: light; } body { @apply bg-white text-slate-900; } }
+@layer base {
+  /* Tell the browser: default is LIGHT; when .dark is present, it's DARK.
+     This stops Chrome mobile from "auto-darkening" your page on top of Tailwind. */
+  html { color-scheme: light; }
+  .dark { color-scheme: dark; }
 
+  /* Base readable colors */
+  body { @apply bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100; }
+
+  /* Inputs/AntD sometimes show weird (reddish) fill in dark – normalize */
+  .dark input, .dark textarea, .dark select, .dark .ant-input, .dark .ant-typography {
+    color: inherit !important;
+    -webkit-text-fill-color: currentColor;
+  }
+}
 
 @theme {
   --color-primary: #000032; /* Dark blue */
