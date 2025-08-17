@@ -26,8 +26,6 @@ export default async function LocaleLayout({ children, params }) {
           href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap"
           rel="stylesheet"
         />
-        <meta name="color-scheme" content="light" />
-
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         {/* Google Tag Manager */}
         <script
@@ -46,13 +44,7 @@ export default async function LocaleLayout({ children, params }) {
         `}</style>
       </head>
       <body>
-        <NextIntlClientProvider>
-
-          <div className="bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100">
-
-            {children}
-          </div>
-        </NextIntlClientProvider>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
         <ToastContainer autoClose={3000} />
         <CookieConsent />
       </body>
