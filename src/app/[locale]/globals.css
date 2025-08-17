@@ -5,8 +5,8 @@
 }
 
 @layer base {
-  html { color-scheme: light dark; } /* helps native controls adapt */
-  body { @apply bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100; }
+  body { @apply bg-white text-slate-900; }
+  @media (prefers-color-scheme: dark) { body { @apply bg-slate-900 text-slate-100; } }
 }
 
 @theme {
