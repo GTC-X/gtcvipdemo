@@ -3,6 +3,12 @@
 :root {
   font-family: "Poppins", sans-serif;
 }
+
+@layer base {
+  html { color-scheme: light dark; } /* helps native controls adapt */
+  body { @apply bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100; }
+}
+
 @theme {
   --color-primary: #000032; /* Dark blue */
   --color-secondary: #b68756; /* Gold yellow */
