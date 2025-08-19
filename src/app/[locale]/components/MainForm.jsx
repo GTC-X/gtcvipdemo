@@ -3,9 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { useEffect, useState, useMemo } from "react";
-import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
-import { parsePhoneNumberFromString } from 'libphonenumber-js';
-
+import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import OtpInput from "react-otp-input";
 import { countryList } from "../context/useCountriesDetails";
@@ -46,12 +44,6 @@ const CommonMainForm = () => {
     [countryList]
   );
 
-  const getIso2ByCountryName = (name) => {
-    const hit = countryList.find(c => c.en_short_name === name);
-    return hit?.alpha_2_code; // e.g. "PK"
-  };
-
-
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     formik.setFieldValue("utm_source", params.get("utm_source") || "");
@@ -80,15 +72,15 @@ const CommonMainForm = () => {
     setOtpLoading(true);
     axios
       .post(`/api/otp-smtp`, {
-        email: formik?.values?.email,
-        first_name: formik?.values?.nickname,
+        email: formik.values.email,
+        first_name: formik.values.nickname,
         type: "0",
         locale,
       })
       .then((res) => {
         if (res?.data?.message) {
           setShowOtp(true);
-          setStoredOtp(res?.data?.message?.slice(4, -3)); // TODO: Move to server-side
+          setStoredOtp(res?.data?.message?.slice(4, -3));
           toast.success(t("otpSent"));
         } else {
           toast.error(res?.data?.message || t("otpError"));
@@ -132,7 +124,7 @@ const CommonMainForm = () => {
       country: data.country,
       group: "contest\\AUG25\\STD-USD",
       invest_password: data.invest_password,
-      locale: locale
+      locale: locale,
     };
 
     try {
@@ -140,12 +132,11 @@ const CommonMainForm = () => {
       if (mt5Res?.data?.success) {
         toast.success(mt5Res?.data?.message);
 
-        // Send to Zapier with account number (user)
         await axios.post(
           "https://hooks.zapier.com/hooks/catch/16420445/u40nunc/",
           JSON.stringify({
             ...data,
-            user: mt5Res?.data?.data?.user, // Add account number
+            user: mt5Res?.data?.data?.user,
           })
         );
 
@@ -165,12 +156,12 @@ const CommonMainForm = () => {
         localStorage.setItem("user", JSON.stringify({ ...data, user: mt5Res.data.data.user }));
         const targetLocale =
           locale === "ar" ? "/ar/5k-demo-trading-competition/success" :
-            locale === "cn" ? "/cn/5k-demo-trading-competition/success" :
-              locale === "ru" ? "/ru/5k-demo-trading-competition/success" :
-                locale === "vi" ? "/vi/5k-demo-trading-competition/success" :
-                  locale === "es" ? "/es/5k-demo-trading-competition/success" :
-                    locale === "pt" ? "/pt/5k-demo-trading-competition/success" :
-                      "/5k-demo-trading-competition/success";
+          locale === "cn" ? "/cn/5k-demo-trading-competition/success" :
+          locale === "ru" ? "/ru/5k-demo-trading-competition/success" :
+          locale === "vi" ? "/vi/5k-demo-trading-competition/success" :
+          locale === "es" ? "/es/5k-demo-trading-competition/success" :
+          locale === "pt" ? "/pt/5k-demo-trading-competition/success" :
+          "/5k-demo-trading-competition/success";
         router.push(targetLocale);
         formik.resetForm();
         setShowOtp(false);
@@ -213,25 +204,12 @@ const CommonMainForm = () => {
         .required(t("errors.lastNameRequired")),
       email: Yup.string()
         .email(t("errors.emailInvalid"))
+        .matches(
+          /^[^\+]+@[^\+]+\.[^\+]+$/,
+          t("errors.emailInvalid")
+        )
         .required(t("errors.emailRequired")),
-      phone: Yup.string()
-        .required(t('errors.phoneRequired'))
-        .test('is-valid-e164', t('errors.phoneInvalid'), (value) => {
-          if (!value) return false;
-          // e.g. "+923161028955"
-          return isValidPhoneNumber(value);
-        })
-        .test('matches-selected-country', t('errors.phoneCountryMismatch') /* e.g. "Number doesn't match selected country" */, function (value) {
-          const selectedCountryName = this.parent.country;
-          if (!value || !selectedCountryName) return true; // skip if not chosen yet
-          const selectedIso2 = getIso2ByCountryName(selectedCountryName); // e.g. "PK"
-          if (!selectedIso2) return true; // can't verify → don't block
-
-          const pn = parsePhoneNumberFromString(value);
-          if (!pn) return false; // invalid structure
-
-          return pn.country === selectedIso2; // must match the selected country
-        }),
+      phone: Yup.string().required(t("errors.phoneRequired")),
       country: Yup.string().required(t("errors.countryRequired")),
       otp: Yup.string()
         .length(6, t("errors.otpLength"))
@@ -291,10 +269,11 @@ const CommonMainForm = () => {
               inputMode="text"
               autoComplete="off"
               aria-label={t("firstName")}
-              className={`w-full px-4 bg-[#1A1A47] py-3 pl-3 text-base border-[.5px] rounded-md border-opacity-10 ${formik.touched.nickname && formik.errors.nickname
-                ? "border-red-500"
-                : "border-[#ffffff1a]"
-                } focus:outline-none`}
+              className={`w-full px-4 bg-[#1A1A47] py-3 pl-3 text-base border-[.5px] rounded-md border-opacity-10 ${
+                formik.touched.nickname && formik.errors.nickname
+                  ? "border-red-500"
+                  : "border-[#ffffff1a]"
+              } focus:outline-none`}
               {...formik.getFieldProps("nickname")}
             />
             {formik.touched.nickname && formik.errors.nickname && (
@@ -312,10 +291,11 @@ const CommonMainForm = () => {
               inputMode="text"
               autoComplete="off"
               aria-label={t("lastName")}
-              className={`w-full px-4 bg-[#1A1A47] text-base py-3 pl-3 border-[.5px] rounded-md border-opacity-10 ${formik.touched.last_name && formik.errors.last_name
-                ? "border-red-500"
-                : "border-[#ffffff1a]"
-                } focus:outline-none`}
+              className={`w-full px-4 bg-[#1A1A47] text-base py-3 pl-3 border-[.5px] rounded-md border-opacity-10 ${
+                formik.touched.last_name && formik.errors.last_name
+                  ? "border-red-500"
+                  : "border-[#ffffff1a]"
+              } focus:outline-none`}
               {...formik.getFieldProps("last_name")}
             />
             {formik.touched.last_name && formik.errors.last_name && (
@@ -336,10 +316,11 @@ const CommonMainForm = () => {
               <input
                 type="email"
                 aria-label={t("email")}
-                className={`w-full bg-[#1A1A47] px-4 py-3 pl-3 text-base border-[.5px] border-[#ccccd679] rounded-md border-opacity-30 ${formik.touched.email && formik.errors.email
-                  ? "border-red-500"
-                  : "border-[#ffffff1a]"
-                  } focus:outline-none focus:bg-none`}
+                className={`w-full bg-[#1A1A47] px-4 py-3 pl-3 text-base border-[.5px] border-[#ccccd679] rounded-md border-opacity-30 ${
+                  formik.touched.email && formik.errors.email
+                    ? "border-red-500"
+                    : "border-[#ffffff1a]"
+                } focus:outline-none focus:bg-none`}
                 {...formik.getFieldProps("email")}
               />
               {formik.touched.email && formik.errors.email && (
@@ -348,8 +329,17 @@ const CommonMainForm = () => {
                 </p>
               )}
               <div
-                className="absolute top-9 bg-primary ltr:right-3 rtl:left-3 rounded-md cursor-pointer text-white py-1.5 px-2"
-                onClick={sendVerificationCode}
+                className={`absolute top-9 bg-primary ltr:right-3 rtl:left-3 rounded-md text-white py-1.5 px-2 ${
+                  formik.touched.email && formik.errors.email
+                    ? "cursor-not-allowed bg-gray-500"
+                    : "cursor-pointer"
+                }`}
+                onClick={
+                  formik.touched.email && !formik.errors.email
+                    ? sendVerificationCode
+                    : undefined
+                }
+                disabled={formik.touched.email && formik.errors.email}
               >
                 {otpLoading ? t("sending") : t("getCode")}
               </div>
@@ -416,8 +406,9 @@ const CommonMainForm = () => {
               defaultCountry={countryData?.country || "AE"}
               value={formik.values.phone}
               onChange={(phone) => formik.setFieldValue("phone", phone)}
-              className={`flex w-full overflow-hidden rounded-md text-base border border-[#ffffff1a] bg-[#1A1A47] phone-setting text-white focus:outline-none ${formik.touched.phone && formik.errors.phone ? "border-red-500" : ""
-                }`}
+              className={`flex w-full overflow-hidden rounded-md text-base border border-[#ffffff1a] bg-[#1A1A47] phone-setting text-white focus:outline-none ${
+                formik.touched.phone && formik.errors.phone ? "border-red-500" : ""
+              }`}
               style={{
                 display: "flex",
                 width: "100%",
