@@ -25,7 +25,7 @@ const MainHeader = ({ setIsOpen }) => {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="container py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" aria-label="Go to homepage">
+        <Link href="#" aria-label="Go to homepage">
           <Image
             src="/logo-2024.webp"
             width={200}
