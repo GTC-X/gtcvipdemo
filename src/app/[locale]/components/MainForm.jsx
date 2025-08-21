@@ -54,6 +54,8 @@ const CommonMainForm = () => {
     formik.setFieldValue("utm_content", params.get("utm_content") || "");
     formik.setFieldValue("fbclid", params.get("fbclid") || "");
     formik.setFieldValue("gclid", params.get("gclid") || "");
+          // ✅ Add this line:
+         formik.setFieldValue("language", locale || "");
   }, []);
 
   useEffect(() => {
@@ -192,6 +194,7 @@ const CommonMainForm = () => {
       utm_term: "",
       utm_content: "",
       fbclid: "",
+      language: "",
       gclid: "",
       invest_password: generatePassword(),
     },
