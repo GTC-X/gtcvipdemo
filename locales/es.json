@@ -6,6 +6,42 @@
     "termsConditions": "Términos y Condiciones",
     "register": "Registrarse"
   },
+  "MarginContent": {
+  "meta": {
+    "title": "¡Únete a la Competencia de Trading Demo de GTC y Gana $5K! Regístrate Ahora",
+    "description": "Regístrate aquí para participar en la competencia de trading demo de GTC y gana $5,000. ¡El torneo de trading comienza el 6 de agosto de 2025, así que no te lo pierdas!"
+  },
+  "banner": {
+    "no": "¡Bonificación de Coincidencia de Depósito!",
+    "title": "¿Listo para Ir en Vivo?",
+    "para1": "¡Te Impulsaremos desde el Inicio!",
+    "para2": "Cuando deposites $250, igualaremos tu depósito con la misma cantidad, lo que significa que ahora tienes $500 para operar. Igualaremos tu depósito hasta $500."
+  },
+  "form": {
+    "accountNo": "Número de Cuenta",
+    "otpSent": "OTP enviado con éxito",
+    "otpError": "Fallo al enviar OTP",
+    "otpSuccess": "OTP verificado con éxito",
+    "otpFail": "OTP no válido",
+    "thankYou1": "Gracias por tu envío",
+    "submitting": "Enviando...",
+    "sending": "Enviando...",
+    "verifying": "Verificando...",
+    "getCode": "Obtener Código",
+    "verifyCode": "Verificar Código",
+    "submitError": "Fallo en el envío",
+    "email": "Correo Electrónico",
+    "otp": "Ingresa el OTP",
+    "errors": {
+      "accountRequired": "El número de cuenta es obligatorio",
+      "accountNumeric": "El número de cuenta debe contener solo números",
+      "accountMinLength": "El número de cuenta debe tener al menos 8 dígitos",
+      "accountMaxLength": "El número de cuenta no debe exceder  dígitos",
+      "emailRequired": "El correo electrónico es obligatorio",
+      "emailInvalid": "Formato de correo electrónico no válido"
+    }
+  }
+},
  "demo": {
   "meta": {
     "title": "¡Únete a la Competencia de Trading de GTC y gana  USD 5,000! Regístrate ahora",

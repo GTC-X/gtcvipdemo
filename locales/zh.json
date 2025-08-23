@@ -6,6 +6,42 @@
     "termsConditions": "条款细则",
     "register": "立即注册"
   },
+   "MarginContent": {
+    "meta": {
+      "title": "参加GTC模拟交易竞赛，赢取5千美元大奖！立即注册",
+      "description": "立即注册参加GTC模拟交易竞赛，赢取5000美元奖金！交易锦标赛将于2025年8月6日开始，切勿错过！"
+    },
+    "banner": {
+      "no": "存款匹配奖金！",
+      "title": "准备实战交易了吗？",
+      "para1": "我们将从起点助您一臂之力！",
+      "para2": "当您存入250美元时，我们将匹配相同金额的存款，这意味着您现在拥有500美元的交易资金。我们最高可匹配500美元的存款。"
+    },
+    "form": {
+      "accountNo": "账户号码",
+      "otpSent": "验证码发送成功",
+      "otpError": "验证码发送失败",
+      "otpSuccess": "验证码验证成功",
+      "otpFail": "验证码无效",
+      "thankYou1": "感谢您的提交",
+      "submitting": "提交中...",
+      "sending": "发送中...",
+      "verifying": "验证中...",
+      "getCode": "获取验证码",
+      "verifyCode": "验证验证码",
+      "submitError": "提交失败",
+      "email": "电子邮箱",
+      "otp": "输入验证码",
+      "errors": {
+        "accountRequired": "请输入账户号码",
+        "accountNumeric": "账户号码必须为数字",
+        "accountMinLength": "账户号码至少8位数字",
+        "accountMaxLength": "账户号码不能超过位数",
+        "emailRequired": "请输入邮箱地址",
+        "emailInvalid": "邮箱格式不正确"
+      }
+    }
+  },
  "demo": {
     "meta": {
       "title": "参与GTC模拟交易赛，赢取$5000奖金！立即报名",

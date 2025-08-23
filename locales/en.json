@@ -13,12 +13,35 @@
       "description": "Register to enter GTC’s demo trading competition right here & win $5,000! The trading tournament starts on 6th August 2025, so don’t miss out!."
     },
     "banner": {
-      "no": "$5,000",
-      "title": "Demo Trading Competition Is Almost Here!",
-      "para1": "GTC’s",
-      "para2": "Think you’ve got what it takes to top the GTC Demo Trading Competition League? Prove it in our first-ever demo trading tournament & win your share of $5,000 in live trading prizes. No risk, all reward & just pure trading glory. Remember, this is a demo trading competition, and you’re given a $10,000 Demo Trading Account to use. So, we really do mean that there’s no risk! Hit the button below to register your place and let’s see what you’re made of.",
-      "btnText": "Register Your Place"
-    }
+      "no": "Deposit Match Bonus!",
+      "title": "Ready to Go Live?",
+      "para1": "We’ll Boost You from the Start!",
+      "para2": "When you deposit $250, we match your deposit with the same amount, meaning you’ve now got $500 to trade with. We’ll match your deposit all the way up to $500."
+    },
+    "form": {
+      "accountNo": "Account Number",
+      "otpSent": "OTP sent successfully",
+      "otpError": "Failed to send OTP",
+      "otpSuccess": "OTP verified successfully",
+      "otpFail": "Invalid OTP",
+      "thankYou1": "Thank you for your submission",
+      "submitting": "Submitting...",
+      "sending": "Sending...",
+      "verifying": "Verifying...",
+      "getCode": "Get Code",
+      "verifyCode": "Verify Code",
+      "submitError": "Submission failed",
+      "email": "Email",
+      "otp": "Enter OTP",
+      "errors": {
+        "accountRequired": "Account number is required",
+        "accountNumeric": "Account number must contain only numbers",
+        "accountMinLength": "Account number must be at least 8 digits",
+        "accountMaxLength": "Account number must not exceed  digits",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format"
+      }
+  }
     },
   "demo": {
     "meta": {
