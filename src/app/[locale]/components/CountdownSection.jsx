@@ -6,9 +6,15 @@ const CountdownSection = () => {
   const t = useTranslations("demo.counter");
 
   const calculateTimeLeft = () => {
-    const targetDate = new Date("2025-08-24T00:00:00Z");
+    // Set target date in Dubai time (UTC+4)
+    const targetDate = new Date("2025-08-25T00:00:00+04:00"); // Dubai time
+    // Get current time and adjust to Dubai timezone (UTC+4)
     const now = new Date();
-    const difference = targetDate.getTime() - now.getTime();
+    const dubaiOffset = 4 * 60; // UTC+4 in minutes
+    const localOffset = now.getTimezoneOffset(); // Local timezone offset in minutes
+    const dubaiTime = new Date(now.getTime() + (dubaiOffset + localOffset) * 60 * 1000);
+
+    const difference = targetDate.getTime() - dubaiTime.getTime();
 
     return {
       days: Math.max(Math.floor(difference / (1000 * 60 * 60 * 24)), 0),
