@@ -155,7 +155,7 @@ export async function POST(req) {
         await transporter.sendMail({
             ...mailOptionSupport,
             ...generateEmailContentSupport(reqBody),
-            subject: `🎉 You're In! Welcome to GTC's $5,000 Demo Trading Competition`,
+            subject: `🎉 Deposit Match Bonus! From Demo Trading Competition`,
         });
         return NextResponse.json(
             { message: "Success", email: reqBody?.email },
