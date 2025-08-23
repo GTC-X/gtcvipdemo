@@ -72,7 +72,7 @@ const DepositFormNew = () => {
   const sendVerificationCode = () => {
     setOtpLoading(true);
     axios
-      .post(`/api/otp-smtp`, {
+      .post(`/api/deposit-otp`, {
         email: formik.values.email,
         first_name: formik.values.nickname,
         type: "0",
