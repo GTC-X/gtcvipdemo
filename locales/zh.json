@@ -25,6 +25,7 @@
       "otpFail": "验证码无效",
       "thankYou1": "感谢您的提交",
       "submitting": "提交中...",
+      "submit": "提交",
       "sending": "发送中...",
       "verifying": "验证中...",
       "getCode": "获取验证码",

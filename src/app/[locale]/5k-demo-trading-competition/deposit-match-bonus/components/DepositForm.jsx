@@ -288,7 +288,7 @@ const DepositFormNew = () => {
                         type="submit"
                         className="bg-[#1A1A47] cursor-pointer mt-5 text-[#fff] text-base md:text-lg w-full font-semibold py-4 px-8 rounded-xl border border-[#ffffff1a]"
                     >
-                        {loading ? t("submitting") : "Submit"}
+                        {loading ? t("submitting") : t("submit")}
                     </button>
                 </div>
             </form>

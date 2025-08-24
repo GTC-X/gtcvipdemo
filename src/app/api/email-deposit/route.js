@@ -138,11 +138,11 @@ const generateEmailContentSupport = (data) => {
 export async function POST(req) {
     const reqBody = await req.json();
     const mailOption = {
-        from: '"GTCFX" <portal@mx4.gtcmail.com>',
+        from: '"GTC" <portal@mx4.gtcmail.com>',
         to: reqBody?.email,
     };
     const mailOptionSupport = {
-        from: '"GTCFX" <portal@mx4.gtcmail.com>',
+        from: '"GTC" <portal@mx4.gtcmail.com>',
         to: "support@gtcfx.com",
         bcc: 'zeeshan@gtcfx.com',
     };
