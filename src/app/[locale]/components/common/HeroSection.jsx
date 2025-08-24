@@ -2,9 +2,9 @@
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 import { useTranslations, useLocale } from "next-intl";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"; 
 
-const HeroSection = ({ setIsOpen, isAfterMidnight }) => {
+const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
   const t = useTranslations("demo.banner");
   const locale = useLocale();
   const [isRtl, setIsRtl] = useState(false);
@@ -19,7 +19,7 @@ const HeroSection = ({ setIsOpen, isAfterMidnight }) => {
   return (
     <section className="bg-white py-8 md:py-20 xl:pt-20 xl:pb-16 relative overflow-hidden">
       <div className="relative z-10 container flex flex-col md:flex-row items-center">
-
+        
         {/* LEFT SIDE */}
         <div className="w-full md:w-[44%] space-y-2 text-center ltr:md:text-left rtl:md:text-right">
           <h2 className="text-[#000032] text-[32px] md:text-[30px] ltr:xl:text-[40px] rtl:xl:text-[30px] font-bold">

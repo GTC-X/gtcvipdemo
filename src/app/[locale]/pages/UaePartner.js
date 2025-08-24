@@ -128,18 +128,19 @@ const UaePartnerPage = () => {
       document.removeEventListener("visibilitychange", onVisibility);
     };
   }, []);
+  
 
   return (
     <>
       <Meta title={t("meta.title")} description={t("meta.description")} />
       <MainHeader setIsOpen={setIsOpen} />
 
-      <HeroSection setIsOpen={setIsOpen} isAfterMidnight={isAfterMidnight} />
-      <CountdownSection isAfterMidnight={isAfterMidnight} />
-      <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={isAfterMidnight} />
-      <HowWorkSection setIsOpen={setIsOpen} isAfterMidnight={isAfterMidnight} />
-      <EarningsMarginImpact isAfterMidnight={isAfterMidnight} />
-      <FinalCtaSection setIsOpen={setIsOpen} isAfterMidnight={isAfterMidnight} />
+      <HeroSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+      <CountdownSection isAfterMidnight={true} />
+      <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+      <HowWorkSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+      <EarningsMarginImpact isAfterMidnight={true} />
+      <FinalCtaSection setIsOpen={setIsOpen} isAfterMidnight={true} />
 
       <MainFooter />
       <SliderModal isOpen={isOpen} onClose={() => setIsOpen(false)} />

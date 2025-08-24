@@ -102,27 +102,27 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-            {!isAfterMidnight ? tRegister("title") : "Leaderboard "}
+            {"Leaderboard "}
 
           </h2>
-          {!isAfterMidnight &&
+          {/* {!isAfterMidnight &&
             <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
               {tRegister("description")}
             </p>
-          }
-          {!isAfterMidnight ?
+          } */}
+          {/* {!isAfterMidnight ?
             <SheetTable
               id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
               gid="0"
             />
-            :
+            : */}
             <iframe
               src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/demo-contest"
               frameborder="0"
               width="100%"
               height="100%"
             ></iframe>
-          }
+          {/* } */}
         </div>
 
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
@@ -159,7 +159,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
             bgColor="bg-white w-full md:w-auto hover:bg-gradient-to-l hover:from-[#E1CFBB] hover:to-[#956D42]"
             textColor="text-[#B48755] hover:text-white"
             strokeColor="#B48755"
-            disabled={isAfterMidnight}
+            disabled={true}
             hoverStrokeColor="#FFFFFF"
             onClick={() => setIsOpen(true)}
           />
