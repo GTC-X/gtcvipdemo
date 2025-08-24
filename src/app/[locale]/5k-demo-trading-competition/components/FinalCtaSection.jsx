@@ -2,7 +2,7 @@ import React from 'react';
 import CustomButton from '../../components/common/CustomButton';
 import { useTranslations } from 'next-intl';
 
-const FinalCtaSection = ({ setIsOpen }) => {
+const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations('demo.final-cta-section');
 
   return (
@@ -24,6 +24,7 @@ const FinalCtaSection = ({ setIsOpen }) => {
           bgColor="bg-white w-full md:w-auto"
           textColor="text-[#000032]"
           strokeColor="#000032"
+          disabled={isAfterMidnight}
           onClick={() => setIsOpen(true)}
         />
       </div>

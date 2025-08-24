@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
 
-export default function HowItWorksSection({ setIsOpen }) {
+export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
   const t = useTranslations("demo.work");
 
   const steps = [
@@ -50,6 +50,7 @@ export default function HowItWorksSection({ setIsOpen }) {
             bgColor="bg-white border border-gray-500"
             textColor="text-[#1A1A3C]"
             strokeColor="#1A1A3C"
+            disabled={isAfterMidnight}
             onClick={() => setIsOpen(true)}
           />
         </div>

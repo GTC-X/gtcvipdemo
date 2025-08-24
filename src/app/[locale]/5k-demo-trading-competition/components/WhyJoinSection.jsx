@@ -66,7 +66,7 @@ const icons = [
     />
   </svg>,
 
- // ✅ 6. Final Updated Speedometer with Inner Needle
+  // ✅ 6. Final Updated Speedometer with Inner Needle
   <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle cx="20.4978" cy="19.998" r="18.3352" fill="#4D4D70" />
     <path
@@ -80,7 +80,7 @@ const icons = [
   </svg>
 ];
 
-const WhyJoinSection = ({ setIsOpen }) => {
+const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations("demo.payMore");
   const tRegister = useTranslations("demo.register");
 
@@ -98,22 +98,31 @@ const WhyJoinSection = ({ setIsOpen }) => {
       className="relative bg-[#F7F3EE] pt-10 pb-16 md:py-20 overflow-hidden"
       id="join"
     >
-  
+
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-           {tRegister("title")}
+            {!isAfterMidnight ? tRegister("title") : "Leaderboard "}
 
           </h2>
           <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
-           {tRegister("description")}
+            {tRegister("description")}
           </p>
-              <SheetTable
-  id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
-  gid="0"
-/>
-          </div>
-        
+          {!isAfterMidnight ?
+            <SheetTable
+              id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
+              gid="0"
+            />
+            :
+            <iframe
+              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/demo-contest"
+              frameborder="0"
+              width="100%"
+              height="100%"
+            ></iframe>
+          }
+        </div>
+
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
             {t("title")}
@@ -148,6 +157,7 @@ const WhyJoinSection = ({ setIsOpen }) => {
             bgColor="bg-white w-full md:w-auto hover:bg-gradient-to-l hover:from-[#E1CFBB] hover:to-[#956D42]"
             textColor="text-[#B48755] hover:text-white"
             strokeColor="#B48755"
+            disabled={isAfterMidnight}
             hoverStrokeColor="#FFFFFF"
             onClick={() => setIsOpen(true)}
           />

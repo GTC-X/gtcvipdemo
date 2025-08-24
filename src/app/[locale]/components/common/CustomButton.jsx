@@ -8,6 +8,7 @@ const CustomButton = ({
   strokeColor,
   hoverStrokeColor = '#FFFFFF', // Default to white on hover if not provided
   showIcon = true,
+  disabled = false,
   onClick,
 }) => {
   const [isRtl, setIsRtl] = useState(false);
@@ -21,6 +22,7 @@ const CustomButton = ({
   return (
     <button
       onClick={onClick}
+      disabled={disabled}
       className={`px-8 py-4 rounded-xl cursor-pointer w-full md:w-auto shadow-md transition-all duration-500 ease-in-out flex items-center gap-4 text-base xl:text-lg font-semibold justify-center ${bgColor} ${textColor} hover:opacity-90 group relative`}
     >
       {text}

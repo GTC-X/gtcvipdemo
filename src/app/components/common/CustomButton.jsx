@@ -7,6 +7,7 @@ const CustomButton = ({
   textColor,
   strokeColor,
   showIcon = true,
+  disabled=false,
   onClick,
 }) => {
   const [isRtl, setIsRtl] = useState(false);
@@ -20,6 +21,7 @@ const CustomButton = ({
   return (
     <button
       onClick={onClick}
+      disabled={disabled}
       className={`px-8 py-3 rounded-xl cursor-pointer shadow-md transition flex items-center gap-4 text-sm md:text-base font-bold xl:text-lg justify-center ${bgColor} ${textColor} hover:opacity-90`}
     >
       {text}
