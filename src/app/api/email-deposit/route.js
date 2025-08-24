@@ -138,11 +138,11 @@ const generateEmailContentSupport = (data) => {
 export async function POST(req) {
     const reqBody = await req.json();
     const mailOption = {
-        from: '"GTCFX" <portal@mx4.gtcmail.com>',
+        from: '"GTC" <portal@mx4.gtcmail.com>',
         to: reqBody?.email,
     };
     const mailOptionSupport = {
-        from: '"GTCFX" <portal@mx4.gtcmail.com>',
+        from: '"GTC" <portal@mx4.gtcmail.com>',
         to: "support@gtcfx.com",
         bcc: 'zeeshan@gtcfx.com',
     };
@@ -155,7 +155,7 @@ export async function POST(req) {
         await transporter.sendMail({
             ...mailOptionSupport,
             ...generateEmailContentSupport(reqBody),
-            subject: `🎉 You're In! Welcome to GTC's $5,000 Demo Trading Competition`,
+            subject: `🎉 Deposit Match Bonus! From Demo Trading Competition`,
         });
         return NextResponse.json(
             { message: "Success", email: reqBody?.email },
