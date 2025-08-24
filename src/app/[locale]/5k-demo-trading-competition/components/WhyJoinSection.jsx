@@ -105,9 +105,11 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
             {!isAfterMidnight ? tRegister("title") : "Leaderboard "}
 
           </h2>
-          <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
-            {tRegister("description")}
-          </p>
+          {!isAfterMidnight &&
+            <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
+              {tRegister("description")}
+            </p>
+          }
           {!isAfterMidnight ?
             <SheetTable
               id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
