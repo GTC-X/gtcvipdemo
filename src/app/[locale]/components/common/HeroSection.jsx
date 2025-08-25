@@ -49,16 +49,7 @@ const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
             {t("para2")}
           </p>
 
-          {/* CTA Button */}
-          <div className="flex flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
-            <CustomButton
-              text={t("btnText")}
-              bgColor="bg-gradient-to-l from-[#E1CFBB] to-[#956D42] text-white w-full md:w-auto hover:bg-gradient-to-r hover:from-[#E1CFBB] hover:to-[#956D42]"
-              textColor="text-[#1F2937]"
-              strokeColor="#fff"
-              onClick={() => setIsOpen(true)}
-            />
-          </div>
+ 
         </div>
 
         {/* RIGHT SIDE */}
