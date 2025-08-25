@@ -6,6 +6,19 @@
     "termsConditions": "T&Cs",
     "register": "Register"
     },
+     "reRegistration": {
+    "buttonText": "Be First to Know",
+    "popup": {
+      "comingSoon": "We’ll be back soon!",
+      "title": "Registration Temporarily Closed",
+      "subtitle": "Registration reopens on {date}. Stay tuned!",
+      "leadPrompt": "Leave your details and we’ll notify you as soon as registration opens."
+    },
+    "thankYou": {
+      "title": "Thank You for Staying Connected!",
+      "body": "We’ve received your details.\nYou’ll be the first to know as soon as registration reopens on {date}.\nIn the meantime, keep an eye on your inbox for our reminder email, and get ready to secure your spot as soon as registration goes live.\nThank you for your interest—we look forward to welcoming you!"
+    }
+  },
     "MarginContent":
     {
         "meta": {
@@ -233,13 +246,12 @@
         "termsRequired": "Please accept the terms and conditions"
       },
       "thankYou": "Thanks",
-      "almostThere": "You’re In!",
-      "emailSent": "Congrats for registering for the GTC Demo Trading Tournament.",
-      "para1":"Now’s the perfect time to prepare your trading strategy! And remember, you’ll be trading FX, Metals & Commodities only, with 1:500 leverage across a 14-day period.",
-      "para2": "Make every trade count, and keep an eye on the leaderboard. Some seriously skilled traders are joining this tournament… but so are some seriously lucky ones too. 😉",
-      "para3": "We’ve sent you another email with all your trading credentials, so go ahead and check that out. It might be a good idea to check your spam or junk folder, just in case our email has crept in there. If the email we’ve sent you has made its way into your spam or junk folder, simply move it back into your inbox.",
-      "checkSpam": "We’ll send you a couple of emails before the tournament starts.",
-      "seeYou": "G O O D L U C K",
+      "almostThere": "for Staying Connected!",
+      "emailSent": "We’ve received your details.",
+      "para1":"You’ll be the first to know as soon as registration reopens on 15th September.",
+      "para2": "In the meantime, keep an eye on your inbox for our reminder email, and get ready to secure your spot as soon as registration goes live.. 😉",
+      "checkSpam": "Thank you for your interest",
+      "seeYou": "We look forward to welcoming you!",
       "helpSection": {
         "title": "Having trouble?",
         "phoneLabel": "Contact us on",

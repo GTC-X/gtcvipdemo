@@ -6,6 +6,20 @@
     "termsConditions": "条款细则",
     "register": "立即注册"
   },
+   "reRegistration": {
+    "buttonText": "抢先知晓",
+    "popup": {
+      "comingSoon": "我们将很快回归！",
+      "title": "注册暂时关闭",
+      "subtitle": "注册将于{date}重新开放。敬请期待！",
+      "leadPrompt": "留下您的联系方式，注册开放后我们将第一时间通知您。"
+    },
+    "submit": "提交",
+    "thankYou": {
+      "title": "感谢您的关注！",
+      "body": "我们已收到您的信息。\n您将在{date}注册重新开放时第一时间收到通知。\n在此期间，请留意您的收件箱查看我们的提醒邮件，并准备好随时注册锁定名额。\n感谢您的关注——我们期待您的加入！"
+    }
+  },
    "MarginContent": {
     "meta": {
       "title": "参加GTC模拟交易竞赛，赢取5千美元大奖！立即注册",

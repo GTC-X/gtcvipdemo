@@ -1,30 +1,47 @@
 'use client';
 import React, { Fragment, useEffect, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
+import { useTranslations } from 'next-intl';
 import ReregistrationForm from '../../components/ReregistrationForm';
 
 export default function RegistrationPopup({
-  buttonText = 'Register Now',
-  reopenDate = '15th September',
+  // Fallbacks if JSON is missing, but prefer using translations!
+  buttonTextFallback = 'Register Now',
+  reopenDate = '15th September'
 }) {
+  const t = useTranslations('reRegistration');
   const [open, setOpen] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   // Optional: lock background scroll while modal is open
   useEffect(() => {
-    if (open) {
-      const prev = document.body.style.overflow;
-      document.body.style.overflow = 'hidden';
-      return () => (document.body.style.overflow = prev);
-    }
+    if (!open) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => (document.body.style.overflow = prev);
   }, [open]);
+
+  const buttonText = t('buttonText', { default: buttonTextFallback });
+
+  // Helpers for content mapping
+  const comingSoon = t('popup.comingSoon');
+  const title = t('popup.title');
+  const subtitle = t('popup.subtitle', { date: reopenDate });
+  const leadPrompt = t('popup.leadPrompt');
+
+  const thankTitle = t('thankYou.title');
+  const thankBody = t('thankYou.body', { date: reopenDate });
 
   return (
     <>
       {/* Trigger Button */}
       <button
         type="button"
-        onClick={() => setOpen(true)}
-        className="inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93]"
+        onClick={() => {
+          setSubmitted(false);
+          setOpen(true);
+        }}
+        className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93]"
       >
         {buttonText}
       </button>
@@ -57,7 +74,7 @@ export default function RegistrationPopup({
                 leaveFrom="opacity-100 translate-y-0 scale-100"
                 leaveTo="opacity-0 translate-y-2 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-lg rounded-3xl bg-gradient-to-r from-[#293794] to-[#000021] p-6 shadow-2xl">
+                <Dialog.Panel className="w-full max-w-lg rounded-3xl bg-gradient-to-r from-[#293794] to-[#000021] p-6 shadow-2xl text-white">
                   {/* Close */}
                   <div className="flex justify-end">
                     <button
@@ -69,33 +86,51 @@ export default function RegistrationPopup({
                     </button>
                   </div>
 
-                  {/* Content */}
-                  <div className="text-center space-y-3">
-                    <p className="text-[15px] md:text-lg text-[#fff]">
-                      We’ll be back soon!
-                    </p>
-                    <Dialog.Title className="text-xl md:text-2xl font-semibold bg-gradient-to-b from-[#E1CFBB] to-[#956D42] inline-block text-transparent bg-clip-text">
-                      Registration Temporarily Closed
-                    </Dialog.Title>
-                    
-                    <p className="text-[15px] text-[#fff]">
-                      Registration reopens on <span className="font-semibold text-secondary">{reopenDate}</span>. Stay tuned!
-                    </p>
-                  </div>
+                  {/* Conditional: Thank You vs Form */}
+                  {submitted ? (
+                    // THANK YOU STATE
+                    <div className="text-center space-y-4">
+                      <Dialog.Title className="text-xl md:text-2xl font-semibold bg-gradient-to-b from-[#E1CFBB] to-[#956D42] inline-block text-transparent bg-clip-text">
+                        {thankTitle}
+                      </Dialog.Title>
+                      <p className="whitespace-pre-line text-[15px] md:text-base">
+                        {thankBody}
+                      </p>
 
-                  {/* Divider */}
-                  <div className="my-5 h-px bg-gray-200" />
+                      <div className="mt-6">
+                        <button
+                          type="button"
+                          onClick={() => setOpen(false)}
+                          className="w-full rounded-2xl bg-[#263B93] text-white px-4 py-3 text-sm font-semibold hover:opacity-95"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    // FORM + COPY STATE
+                    <>
+                      {/* Content */}
+                      <div className="text-center space-y-3">
+                        <p className="text-[15px] md:text-lg">{comingSoon}</p>
+                        <Dialog.Title className="text-xl md:text-2xl font-semibold bg-gradient-to-b from-[#E1CFBB] to-[#956D42] inline-block text-transparent bg-clip-text">
+                          {title}
+                        </Dialog.Title>
+                        <p className="text-[15px]">{subtitle}</p>
+                      </div>
 
-                  {/* Form area (replace with your real form) */}
-                  <div className="space-y-3">
-                    <p className="text-sm md:text-base text-white text-center">
-                      Leave your details and we’ll notify you as soon as registration opens.
-                    </p>
+                      {/* Divider */}
+                      <div className="my-5 h-px bg-white/20" />
 
-                    {/* START: Replace this block with your own form */}
-                    <ReregistrationForm />
-                    {/* END: Replace block */}
-                  </div>
+                      {/* Form area */}
+                      <div className="space-y-3">
+                        <p className="text-sm md:text-base text-center">{leadPrompt}</p>
+
+                        {/* Your actual form. Call setSubmitted(true) on success */}
+                        <ReregistrationForm onSuccess={() => setSubmitted(true)} />
+                      </div>
+                    </>
+                  )}
                 </Dialog.Panel>
               </Transition.Child>
             </div>

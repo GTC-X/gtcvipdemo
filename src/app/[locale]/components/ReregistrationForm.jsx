@@ -97,9 +97,13 @@ const ReregistrationForm = () => {
                 localStorage.setItem("user", JSON.stringify(data));
                 // Redirect based on locale
                 const targetLocale =
-                    locale === "ar"
-                        ? "/ar/ksa/partners/success"
-                        : "/ksa/partners/success";
+                    locale === "ar" ? "/ar/5k-demo-trading-competition/success" :
+                    locale === "cn" ? "/cn/5k-demo-trading-competition/success" :
+                    locale === "ru" ? "/ru/5k-demo-trading-competition/success" :
+                    locale === "vi" ? "/vi/5k-demo-trading-competition/success" :
+                    locale === "es" ? "/es/5k-demo-trading-competition/success" :
+                    locale === "pt" ? "/pt/5k-demo-trading-competition/success" :
+                    "/5k-demo-trading-competition/success";
                 router.push(targetLocale);
                 formik.resetForm();
                 setShowOtp(false);
@@ -140,7 +144,7 @@ const ReregistrationForm = () => {
             try {
                 setLoading(true);
                 await axios.post(
-                    "https://hooks.zapier.com/hooks/catch/16420445/u2lf0dh/",
+                    "https://hooks.zapier.com/hooks/catch/16420445/utnxylg/",
                     JSON.stringify(values)
                 );
             } catch (error) {

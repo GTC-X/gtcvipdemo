@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
+import RegistrationPopup from './RegistrationPopup';
 
 export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
   const t = useTranslations("demo.work");
@@ -17,9 +18,6 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
       title: t("list.t2.step"),
       heading: t("list.t2.name"),
       desc: t("list.t2.stars"),
-    },
-    {
-      title: t("list.t3.step"),
       heading: t("list.t3.name"),
       desc: t("list.t3.stars"),
     },
@@ -45,7 +43,10 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
           <p className="text-[#4D4D70] text-base sm:text-lg xl:text-[22px] max-w-xl">
             {t("paragraph")}
           </p>
-        
+             <RegistrationPopup
+                        buttonText="Be First to Know"
+                        reopenDate="15th September"
+                      />
         </div>
 
         {/* Right Steps Grid */}

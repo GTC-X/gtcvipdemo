@@ -6,6 +6,20 @@
     "termsConditions": "Termos e Condições",
     "register": "Registre-se"
   },
+  "reRegistration": {
+  "buttonText": "Seja o Primeiro a Saber",
+  "popup": {
+    "comingSoon": "Voltaremos em breve!",
+    "title": "Registro Temporariamente Fechado",
+    "subtitle": "O registro será reaberto em {date}. Fique atento!",
+    "leadPrompt": "Deixe os seus dados e nós o notificaremos assim que o registro abrir."
+  },
+  "submit": "Enviar",
+  "thankYou": {
+    "title": "Obrigado por se Manter Conectado!",
+    "body": "Recebemos os seus dados.\nVocê será o primeiro a saber assim que o registro reabrir em {date}.\nEnquanto isso, fique de olho na sua caixa de entrada para o nosso e-mail de lembrete e prepare-se para garantir sua vaga assim que o registro estiver disponível.\nObrigado pelo seu interesse — estamos ansiosos para recebê-lo!"
+  }
+},
   "MarginContent": {
   "meta": {
     "title": "Junte-se à Competição de Trading Demo da GTC e Ganhe $5K! Registre-se Agora",

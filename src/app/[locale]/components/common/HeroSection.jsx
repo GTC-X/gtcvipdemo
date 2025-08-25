@@ -50,7 +50,13 @@ const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
             {t("para2")}
           </p>
 
-     
+          {/* CTA Button */}
+          <div className="flex flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
+             <RegistrationPopup
+              buttonText="Be First to Know"
+              reopenDate="15th September"
+            />
+          </div>
         </div>
 
         {/* RIGHT SIDE */}

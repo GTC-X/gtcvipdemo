@@ -1,6 +1,7 @@
 import React from 'react';
 import CustomButton from '../../components/common/CustomButton';
 import { useTranslations } from 'next-intl';
+import RegistrationPopup from './RegistrationPopup';
 
 const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations('demo.final-cta-section');
@@ -19,7 +20,10 @@ const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
         <p className="text-lg md:text-xl xl:text-[22px] leading-relaxed max-w-5xl mx-auto">
           {t('description')}
         </p>
-       
+          <RegistrationPopup
+                     buttonText="Be First to Know"
+                     reopenDate="15th September"
+                   />
       </div>
     </section>
   );

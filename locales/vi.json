@@ -6,6 +6,20 @@
     "termsConditions": "Điều khoản & Điều kiện",
     "register": "Đăng kí"
   },
+  "reRegistration": {
+    "buttonText": "Được biết trước tiên",
+    "popup": {
+      "comingSoon": "Chúng tôi sẽ sớm trở lại!",
+      "title": "Tạm dừng đăng ký",
+      "subtitle": "Đăng ký sẽ mở lại vào {date}. Hãy theo dõi!",
+      "leadPrompt": "Để lại thông tin của bạn và chúng tôi sẽ thông báo ngay khi đăng ký mở lại."
+    },
+    "submit": "Gửi đi",
+    "thankYou": {
+      "title": "Cảm ơn bạn đã kết nối!",
+      "body": "Chúng tôi đã nhận thông tin của bạn.\nBạn sẽ là người đầu tiên biết khi đăng ký mở lại vào {date}.\nTrong lúc chờ đợi, hãy theo dõi hộp thư đến để nhận email nhắc nhở của chúng tôi và chuẩn bị sẵn sàng để đảm bảo vị trí của bạn ngay khi đăng ký bắt đầu.\nCảm ơn sự quan tâm của bạn—chúng tôi rất mong được chào đón bạn!"
+    }
+  },
   "MarginContent": {
   "meta": {
     "title": "Junte-se à Competição de Trading Demo da GTC e Ganhe $5K! Registre-se Agora",
