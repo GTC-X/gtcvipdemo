@@ -42,18 +42,18 @@ export async function POST(req) {
         to: data?.email,
       subject:
     data?.locale == "ar"
-        ? "بيانات اعتماد بطولة GTC الخاصة بك"
+        ? "لقد انضممت إلى القائمة! سيتم فتح التسجيل قريباً"
         : data?.locale == "zh"
-            ? "您的 GTC 比赛账户信息"
+            ? "您已加入名单！注册即将重新开启"
             : data?.locale == "es"
-                ? "Tus credenciales para el torneo de GTC"
+                ? "¡Estás en la lista! El registro se reabrirá pronto"
                 : data?.locale == "pt"
-                    ? "Suas credenciais do torneio GTC"
+                    ? "Você está na lista! O registro será reaberto em breve"
                     : data?.locale == "ru"
                         ? "Ваши учетные данные для турнира GTC"
                         : data?.locale == "vi"
-                            ? "Thông tin đăng nhập giải đấu GTC của bạn"
-                            : "Your GTC Tournament Credentials",
+                            ? "Bạn đã có trong danh sách! Việc đăng ký sẽ sớm được mở lại"
+                            : "You’re on the List! Registration Reopens Soon",
         html:
             data?.locale == "ar"
                 ? `${getArabicEmailMT5Templetes(data)}`
