@@ -50,8 +50,7 @@ const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
             {t("para2")}
           </p>
 
-          {/* CTA Button */}
-        
+     
         </div>
 
         {/* RIGHT SIDE */}
