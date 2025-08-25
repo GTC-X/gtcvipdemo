@@ -117,7 +117,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
             />
             : */}
             <iframe
-              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest"
+              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/demo-contest"
               frameborder="0"
               width="100%"
               height="100%"
@@ -153,17 +153,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
           ))}
         </div>
 
-        <div className="flex justify-center">
-          <CustomButton
-            text={t("cta")}
-            bgColor="bg-white w-full md:w-auto hover:bg-gradient-to-l hover:from-[#E1CFBB] hover:to-[#956D42]"
-            textColor="text-[#B48755] hover:text-white"
-            strokeColor="#B48755"
-            disabled={true}
-            hoverStrokeColor="#FFFFFF"
-            onClick={() => setIsOpen(true)}
-          />
-        </div>
+      
       </div>
 
       <style jsx>{`

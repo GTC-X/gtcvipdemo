@@ -56,7 +56,7 @@
       "btnText": "Register Your Place"
     },
     "counter": {
-      "title": "GTC’s First-Ever Demo Trading Competition  has Started",
+      "title": "GTC’s First-Ever Demo Trading Competition  has Started!",
       "days": "Days",
       "hours": "Hours",
       "min": "Minutes",
@@ -195,7 +195,7 @@
       "buttonText": "Register Your Place"
     },
     "form": {
-      "heading": "Register Now",
+      "heading": "Register is now closed. The competition has started!",
       "closeAlt": "Close the modal",
       "firstName": "First Name",
       "lastName": "Last Name",

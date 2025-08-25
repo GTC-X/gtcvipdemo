@@ -45,14 +45,7 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
           <p className="text-[#4D4D70] text-base sm:text-lg xl:text-[22px] max-w-xl">
             {t("paragraph")}
           </p>
-          <CustomButton
-            text={t("list.cta")}
-            bgColor="bg-white border border-gray-500"
-            textColor="text-[#1A1A3C]"
-            strokeColor="#1A1A3C"
-            disabled={isAfterMidnight}
-            onClick={() => setIsOpen(true)}
-          />
+        
         </div>
 
         {/* Right Steps Grid */}

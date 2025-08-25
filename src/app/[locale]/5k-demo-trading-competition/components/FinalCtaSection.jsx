@@ -19,14 +19,7 @@ const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
         <p className="text-lg md:text-xl xl:text-[22px] leading-relaxed max-w-5xl mx-auto">
           {t('description')}
         </p>
-        <CustomButton
-          text={t('buttonText')}
-          bgColor="bg-white w-full md:w-auto"
-          textColor="text-[#000032]"
-          strokeColor="#000032"
-          disabled={isAfterMidnight}
-          onClick={() => setIsOpen(true)}
-        />
+       
       </div>
     </section>
   );
