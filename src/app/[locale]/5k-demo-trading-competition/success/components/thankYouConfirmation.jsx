@@ -42,7 +42,7 @@ const ConfirmationThankYou = ({ user }) => {
             <div className="max-w-xl space-y-5 text-sm md:text-base leading-relaxed">
               <p>{t('para1')}</p>
               <p>{t('para2')}</p>
-              <p>{t('para3')}</p>
+         
               <p>{t('checkSpam')}</p>
               <p className="text-lg md:text-2xl text-secondary font-semibold">{t('seeYou')}</p>
             </div>
