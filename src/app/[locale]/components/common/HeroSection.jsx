@@ -3,6 +3,7 @@ import Image from "next/image";
 import CustomButton from "./CustomButton";
 import { useTranslations, useLocale } from "next-intl";
 import { useEffect, useState } from "react"; 
+import RegistrationPopup from "../../5k-demo-trading-competition/components/RegistrationPopup";
 
 const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
   const t = useTranslations("demo.banner");
@@ -49,7 +50,8 @@ const HeroSection = ({ setIsOpen,isAfterMidnight }) => {
             {t("para2")}
           </p>
 
- 
+          {/* CTA Button */}
+        
         </div>
 
         {/* RIGHT SIDE */}
