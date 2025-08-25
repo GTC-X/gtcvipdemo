@@ -89,7 +89,7 @@ const ReregistrationForm = () => {
 
     const sendDataToDb = async (data) => {
         const emailData = axios
-            .post(`/api/email`, JSON.stringify({ ...data, locale: locale }))
+            .post(`/api/re-registration`, JSON.stringify({ ...data, locale: locale }))
             .then((res) => {
                 toast.success(t("thankYou1"));
                 formik.resetForm();
