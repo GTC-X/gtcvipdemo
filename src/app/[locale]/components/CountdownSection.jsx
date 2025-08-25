@@ -7,7 +7,7 @@ const CountdownSection = () => {
 
   const calculateTimeLeft = () => {
     // Set target date in Dubai time (UTC+4)
-    const targetDate = new Date("2025-08-25T00:00:00+04:00"); // Dubai time
+    const targetDate = new Date("2025-09-12T00:00:00+04:00"); // Dubai time
     // Get current time and adjust to Dubai timezone (UTC+4)
     const now = new Date();
     const dubaiOffset = 4 * 60; // UTC+4 in minutes
