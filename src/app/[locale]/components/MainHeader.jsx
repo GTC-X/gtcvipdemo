@@ -4,21 +4,41 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import MobileMenu from './MobileMenu';
-import LanguageSwitcher from './LanguageSwitcher';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+
+const TERMS_LINKS = {
+  en: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf',
+  ar: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Arabic.pdf',
+  ru: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Russian.pdf',
+  zh: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Mandarin.pdf', // use zh instead of cn
+  vi: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Vietnamese.pdf',
+  pt: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Portuguese.pdf', // fix .pdf extension
+  es: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Spanish.pdf',
+};
+
+// normalize runtime locale → base code
+function getBaseLocale(locale) {
+  const lc = (locale || '').toLowerCase();
+  if (lc.startsWith('zh') || lc.startsWith('cn')) return 'zh';
+  if (lc.startsWith('pt')) return 'pt';
+  if (lc.startsWith('es')) return 'es';
+  if (lc.startsWith('ar')) return 'ar';
+  if (lc.startsWith('ru')) return 'ru';
+  if (lc.startsWith('vi')) return 'vi';
+  return 'en';
+}
 
 const MainHeader = ({ setIsOpen }) => {
   const t = useTranslations('menuItem');
+  const locale = useLocale();
+  const base = getBaseLocale(locale);
+  const termsHref = TERMS_LINKS[base] || TERMS_LINKS.en;
 
   const menuItems = [
-    { label: t("whyJoin"), href: '#join' },
-    { label: t("howItWorks"), href: '#work' },
-    { label: t("competitionDetails"), href: '#details' },
-    {
-      label: t("termsConditions"),
-      href: 'https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+–+Terms+%26+Conditions.pdf',
-      external: true,
-    },
+    { label: t('whyJoin'), href: '#join' },
+    { label: t('howItWorks'), href: '#work' },
+    { label: t('competitionDetails'), href: '#details' },
+    { label: t('termsConditions'), href: termsHref, external: true },
   ];
 
   return (
@@ -35,21 +55,19 @@ const MainHeader = ({ setIsOpen }) => {
           />
         </Link>
 
-        {/* Navigation Menu */}
+        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
-          {/* Register opens modal */}
           <button
             onClick={() => setIsOpen(true)}
             className="text-[#000032] font-medium text-sm lg:text-base relative cursor-pointer after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
           >
-            {t("register")}
+            {t('register')}
           </button>
 
-          {/* Other menu links */}
-          {menuItems.map((item, index) =>
+          {menuItems.map((item, i) =>
             item.external ? (
               <a
-                key={index}
+                key={i}
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,7 +77,7 @@ const MainHeader = ({ setIsOpen }) => {
               </a>
             ) : (
               <Link
-                key={index}
+                key={i}
                 href={item.href}
                 className="text-[#000032] font-medium text-sm lg:text-base relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
               >
@@ -67,13 +85,12 @@ const MainHeader = ({ setIsOpen }) => {
               </Link>
             )
           )}
-     
         </nav>
-       
-       
+
+        {/* Mobile menu */}
         <div className="md:hidden flex gap-2 items-center">
-              <MobileMenu   setIsOpen={setIsOpen}  />
-            </div>
+          <MobileMenu setIsOpen={setIsOpen} termsHref={termsHref} />
+        </div>
       </div>
     </header>
   );

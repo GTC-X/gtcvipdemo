@@ -39,6 +39,7 @@
     "otpFail": "OTP inválido",
     "thankYou1": "Obrigado por seu envio",
     "submitting": "Enviando...",
+    "submit": "Garanta seu lugar",
     "sending": "Enviando...",
     "verifying": "Verificando...",
     "getCode": "Obter Código",
@@ -61,13 +62,17 @@
     "title": "Participe da competição Demo Trading da GTC e ganhe prêmios que somam US$ 5.000.  Inscreva-se agora!",
     "description": "Inscreva-se para participar da competição Demo Trading da GTC e ganhe sua parte do prêmio de $ 5.000! A competição começa dia 6 de agosto de 2025, NÃO PERCA!"
   },
-  "banner": {
-    "no": "$5,000",
-    "title": "A Competição Demo Trading da GTC está quase chegando!",
-    "para1": "GTC",
-    "para2": "Você acha que tem o que é preciso para liderar o ranking da nossa primeira competição Demo Trading? Então prove! Participe da competição e ganhe prêmios que somam US$ 5.000. Lembre-se: esta é uma competição de demonstração de trading, e você receberá uma Conta Demo US$ 10.000 para usar. Sem risco. Só prêmio. E o reconhecimento que você merece. Clique no botão abaixo para garantir sua vaga e mostrar suas habilidades.",
-    "btnText": "Inscreva-se para participar"
-  },
+"banner": {
+      "para1": "GTC Demo Trading",
+      "no": "Prêmios no total de USD 5.000",
+      "title": "A Competição Demo Trading da GTC está quase chegando!",
+      "para2": [
+        "Você acha que tem o que é preciso para liderar o ranking da nossa primeira competição Demo Trading? Então prove! Esta é uma competição de demonstração de trading, e você receberá uma Conta Demo US$ 10.000 para negociar.",
+        "Participe da competição e ganhe prêmios que somam US$ 5.000. Sem risco. Só prêmio. E o reconhecimento que você merece.",
+        "Clique no botão abaixo para garantir sua vaga e mostrar suas habilidades."
+      ],
+      "btnText": "Quero ser avisado"
+    },
   "register": {
       "title": "Participantes Registrados",
       "description": "Abaixo está a lista de traders que já se registraram para a Competição de Trading Demo GTC. Confira a comunidade de competidores prontos para enfrentar o desafio!",
@@ -205,7 +210,7 @@
   },
   "final-cta-section": {
     "heading": "Você está pronto para o desafio?",
-    "description": "Mostre suas habilidades no trading e enfrente traders do mundo inteiro. Lembre-se: US$ 5.000 em prêmios serão distribuídos!",
+    "description": "Lembre-se: US$ 5.000 em prêmios serão distribuídos. Mostre suas habilidades no trading e enfrente traders do mundo inteiro.",
     "buttonText": "Garanta sua vaga agora"
   },
   "form": {
@@ -227,7 +232,7 @@
     "clientAgreement": "Termos e Condições da Competição",
     "and1": "e os",
     "privacyPolicy": "Política de Privacidade",
-    "submit": "Registre seu Lugar",
+    "submit": "Garanta seu lugar",
     "submitting": "Enviando...",
     "otpSuccess": "OTP verificado com sucesso!",
     "otpFail": "Falha na verificação do OTP, tente novamente!",
@@ -246,7 +251,7 @@
       "otpRequired": "OTP obrigatório",
       "termsRequired": "Aceite os termos e condições"
     },
-    "thankYou": "Obrigada!",
+    "thankYou": "Obrigada",
     "almostThere": "Você está inscrito!",
     "emailSent": "Parabéns por se inscrever na Competição Demo Trading da GTC.",
     "para1": "Agora é o momento perfeito para preparar sua estratégia de trading! Lembre-se: você negociará apenas Forex, Metais e Commodities, com alavancagem de 1:500 em um período de 14 dias.",

@@ -61,13 +61,17 @@
     "title": "¡Únete a la Competencia de Trading de GTC y gana  USD 5,000! Regístrate ahora",
     "description": "¡Regístrate aquí para participar en la competencia de trading demo de GTC y gana  USD 5,000! El torneo de trading comienza el 6 de agosto de 2025, ¡no te lo pierdas!"
   },
-  "banner": {
-    "no": "5000",
-    "title": "¡La Competencia de Trading ha llegado!",
-    "para1": "GTC",
-    "para2": "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuestralo en nuestro primer torneo de trading y gana parte de los  USD 5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading. Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de  USD 10,000 para utilizar. Recuerda, ¡No hay riesgo! Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades.",
-    "btnText": "Inscribite"
-  },
+"banner": {
+  "no": "USD 5.000 en premios",
+  "title": "¡La Competencia de Trading ha llegado!",
+  "para1": "GTC Torneo de Trading",
+  "para2": [
+    "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuéstralo en nuestro primer torneo de trading y gana parte de los $5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading.",
+    "Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de $10,000 para utilizar. Recuerda, ¡No hay riesgo!",
+    "Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades."
+  ],
+  "btnText": "Avísenme primero"
+},
   "register": {
       "title": "Participantes Registrados",
       "description": "A continuación se muestra la lista de traders que ya se han registrado para la Competencia de Trading Demo de GTC. ¡Conoce a la comunidad de competidores listos para asumir el desafío!",

@@ -18,8 +18,13 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
       title: t("list.t2.step"),
       heading: t("list.t2.name"),
       desc: t("list.t2.stars"),
+
+    },
+    {
+      title: t("list.t3.step"),
       heading: t("list.t3.name"),
       desc: t("list.t3.stars"),
+
     },
     {
       title: t("list.t4.step"),
