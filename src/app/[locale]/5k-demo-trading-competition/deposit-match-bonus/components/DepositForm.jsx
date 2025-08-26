@@ -126,8 +126,8 @@ const DepositFormNew = () => {
             account_no: Yup.string()
                 .required(t("errors.accountRequired"))
                 .matches(/^\d+$/, t("errors.accountNumeric"))
-                .min(8, t("errors.accountMinLength", { min: 8 }))
-                .max(15, t("errors.accountMinLength", { max: 15 })),
+                .min(6, t("errors.accountMinLength", { min: 6 }))
+                .max(8, t("errors.accountMinLength", { max: 8 })),
             email: Yup.string()
                 .email(t("errors.emailInvalid"))
                 .matches(

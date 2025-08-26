@@ -50,8 +50,8 @@
       "errors": {
         "accountRequired": "Account number is required",
         "accountNumeric": "Account number must contain only numbers",
-        "accountMinLength": "Account number must be at least 8 digits",
-        "accountMaxLength": "Account number must not exceed  digits",
+        "accountMinLength": "Account number must be at least 6 digits",
+        "accountMaxLength": "Account number must not exceed 8 digits",
         "emailRequired": "Email is required",
         "emailInvalid": "Invalid email format"
       }
