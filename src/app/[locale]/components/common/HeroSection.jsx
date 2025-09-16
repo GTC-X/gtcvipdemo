@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useEffect, useMemo, useState } from 'react';
 import RegistrationPopup from '../../5k-demo-trading-competition/components/RegistrationPopup';
 import Link from 'next/link';
+import CustomButton from './CustomButton';
 export default function HeroSection({ setIsOpen, isAfterMidnight }) {
   const t = useTranslations('demo.banner');
   const locale = useLocale();
@@ -58,10 +59,15 @@ export default function HeroSection({ setIsOpen, isAfterMidnight }) {
             )}
           </div>
 
-          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
-            <RegistrationPopup buttonText={t('btnText')} reopenDate="15th September" />
-           
-          </div>
+           <div className="flex flex-row justify-center md:justify-start items-center gap-4 pb-8 md:pb-20">
+              <CustomButton
+                text={t("btnText")}
+                bgColor="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-[#b2b2c2]"
+                textColor="text-[#1F2937]"
+                strokeColor="#000032"
+                onClick={() => setIsOpen(true)}
+              />
+            </div>
         </div>
 
         {/* RIGHT */}

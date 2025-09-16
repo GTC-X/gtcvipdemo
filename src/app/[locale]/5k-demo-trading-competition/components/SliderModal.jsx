@@ -58,7 +58,7 @@ const t = useTranslations("demo.form");
 
                         <h2 className="text-center text-2xl md:text-3xl font-medium my-5 md:my-8">{t("heading")}</h2>
 
-                    
+                    <CommonMainForm />
 
                     </div>
                 </div>

@@ -7,7 +7,7 @@
     "register": "Register"
     },
      "reRegistration": {
-    "buttonText": "Be First to Know",
+    "buttonText": "Register Your Place",
     "popup": {
       "comingSoon": "We’ll be back soon!",
       "title": "Registration Temporarily Closed",
@@ -60,7 +60,7 @@
   "demo": {
     "meta": {
       "title": "Join GTC’s Demo Trading Competition & Win $5K! Register Now",
-      "description": "Register to enter GTC’s demo trading competition right here & win $5,000! The trading tournament starts on 6th August 2025, so don’t miss out!."
+      "description": "Register to enter GTC’s demo trading competition right here & win $5,000! The trading tournament starts on 13th October 2025, so don’t miss out!."
     },
     "banner": {
       "no": "$5,000",
@@ -70,7 +70,7 @@
       "btnText": "Register Your Place"
     },
     "counter": {
-      "title": "GTC’s Demo Trading Competition is Almost Here!",
+      "title": "GTC’s Demo Trading Competition Starts In:",
       "days": "Days",
       "hours": "Hours",
       "min": "Minutes",
@@ -153,14 +153,14 @@
         {
           "title": "Registration Period",
           "content": [
-            "Monday, 11th August 2025 – Sunday, 24th August 2025 (23:59 GMT).",
+            "Monday, 22nd September 2025 – Sunday, 12th October 2025 (23:59 GMT+4, Dubai time).",
             "Register early to secure your demo account and get familiar with the MT5 platform."
           ]
         },
         {
           "title": "Competition Period",
           "content": [
-            "Monday, 25th August – Thursday 11th September 2025 (23:59 GMT).",
+            "Monday, 13th October – Friday, 24th October 2025 (23:59 GMT+4, Dubai time).",
             "You’ll have 14 full days to trade your way up the leaderboard."
           ]
         },
@@ -209,7 +209,7 @@
       "buttonText": "Register Your Place"
     },
     "form": {
-      "heading": "Register is now closed. The competition has started!",
+      "heading": "Register Now",
       "closeAlt": "Close the modal",
       "firstName": "First Name",
       "lastName": "Last Name",

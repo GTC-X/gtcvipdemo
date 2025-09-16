@@ -5,7 +5,7 @@ import RegistrationPopup from './RegistrationPopup';
 import Link from 'next/link';
 const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations('demo.final-cta-section');
-
+ const t2 = useTranslations('demo.banner');
   return (
     <section
       className="bg-cover bg-center bg-no-repeat text-white text-center items-center"
@@ -20,14 +20,15 @@ const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
         <p className="text-lg md:text-xl xl:text-[22px] leading-relaxed max-w-5xl mx-auto">
           {t('description')}
         </p>
-            <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4"
-          >
-               <RegistrationPopup
-                        buttonText="Be First to Know"
-                        reopenDate="15th September"
-                      />
-             <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-[#E1CFBB] to-[#956D42] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-gradient-to-r hover:from-primary hover:to-[#263B93]">Check Previous Winners </Link>
-          </div>
+           <div className="flex flex-row justify-center md:justify-start items-center gap-4 pb-8 md:pb-20">
+              <CustomButton
+                text={t2("btnText")}
+                bgColor="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-[#b2b2c2]"
+                textColor="text-[#1F2937]"
+                strokeColor="#000032"
+                onClick={() => setIsOpen(true)}
+              />
+            </div>
           
       </div>
     </section>

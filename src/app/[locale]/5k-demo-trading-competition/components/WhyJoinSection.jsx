@@ -101,28 +101,25 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
-          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-            {"Leaderboard "}
-
-          </h2>
+       
           {/* {!isAfterMidnight &&
             <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
               {tRegister("description")}
             </p>
-          } */}
+          } }
           {/* {!isAfterMidnight ?
             <SheetTable
               id="1gjvJ35RNXe-aDYANSu-9dg7vDsOztslaRseHTYJMFWU"
               gid="0"
             />
-            : */}
-            <iframe
+            : }
+          
+          {/*   <iframe
               src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest"
               frameborder="0"
               width="100%"
               height="1000px"
-            ></iframe>
-          {/* } */}
+            ></iframe>} */}
         </div>
 
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
