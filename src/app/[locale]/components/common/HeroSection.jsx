@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { useEffect, useMemo, useState } from 'react';
 import RegistrationPopup from '../../5k-demo-trading-competition/components/RegistrationPopup';
-
+import Link from 'next/link';
 export default function HeroSection({ setIsOpen, isAfterMidnight }) {
   const t = useTranslations('demo.banner');
   const locale = useLocale();
@@ -58,8 +58,9 @@ export default function HeroSection({ setIsOpen, isAfterMidnight }) {
             )}
           </div>
 
-          <div className="flex flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
+          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4">
             <RegistrationPopup buttonText={t('btnText')} reopenDate="15th September" />
+            <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-[#E1CFBB] to-[#956D42] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-gradient-to-r hover:from-primary hover:to-[#263B93]">Check Previous Winners </Link>
           </div>
         </div>
 

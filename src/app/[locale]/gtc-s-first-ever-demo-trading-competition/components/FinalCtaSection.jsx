@@ -2,7 +2,7 @@ import React from 'react';
 import CustomButton from '../../components/common/CustomButton';
 import { useTranslations } from 'next-intl';
 import RegistrationPopup from './RegistrationPopup';
-import Link from 'next/link';
+
 const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations('demo.final-cta-section');
 
@@ -20,15 +20,10 @@ const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
         <p className="text-lg md:text-xl xl:text-[22px] leading-relaxed max-w-5xl mx-auto">
           {t('description')}
         </p>
-            <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4"
-          >
-               <RegistrationPopup
-                        buttonText="Be First to Know"
-                        reopenDate="15th September"
-                      />
-             <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-[#E1CFBB] to-[#956D42] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-gradient-to-r hover:from-primary hover:to-[#263B93]">Check Previous Winners </Link>
-          </div>
-          
+          <RegistrationPopup
+                     buttonText="Be First to Know"
+                     reopenDate="15th September"
+                   />
       </div>
     </section>
   );
