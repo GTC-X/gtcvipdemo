@@ -55,7 +55,7 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
                         buttonText="Be First to Know"
                         reopenDate="15th September"
                       />
-             <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-[#E1CFBB] to-[#956D42] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-gradient-to-r hover:from-primary hover:to-[#263B93]">Check Previous Winners </Link>
+            
           </div>
           
         </div>

@@ -4,12 +4,7 @@ import SliderModal from "../5k-demo-trading-competition/components/SliderModal";
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 import { useTranslations } from "next-intl";
-import HeroSection from "../components/common/HeroSection";
-import CountdownSection from "../components/CountdownSection";
-import WhyJoinSection from "../5k-demo-trading-competition/components/WhyJoinSection";
-import HowWorkSection from "../5k-demo-trading-competition/components/HowWorkSection";
-import EarningsMarginImpact from "../5k-demo-trading-competition/components/marginInfoPanel";
-import FinalCtaSection from "../5k-demo-trading-competition/components/FinalCtaSection";
+import WhyJoinSection from "../gtc-s-first-ever-demo-trading-competition/components/WhyJoinSection";
 import Meta from "@/app/components/common/MetaData";
 
 const DUBAI_TZ = "Asia/Dubai";
@@ -137,7 +132,7 @@ const FirstEverPage = () => {
 
 
    
-      <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+          <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
 
 
 

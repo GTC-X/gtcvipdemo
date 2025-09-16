@@ -3,6 +3,8 @@ import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
 import { useMemo } from "react";
 import SheetTable from "../../components/SheetTable";
+import WinnersPodium from "../../gtc-s-first-ever-demo-trading-competition/components/WinnersPodium";
+import LeaderboardList from "./LeaderboardList";
 
 const icons = [
   // 1. Shield + Trophy
@@ -95,16 +97,17 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 
   return (
     <section
-      className="relative bg-[#F7F3EE] pt-10 pb-16 md:py-20 overflow-hidden"
+      className="relative bg-[#fff] pt-10 pb-16 md:py-20 overflow-hidden"
       id="join"
     >
 
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-            {"Leaderboard "}
+           GTC's First-Ever Demo <br></br>Trading Competition has Ended!
 
           </h2>
+           <p className="text-[#000021] text-base md:text-2xl leading-5 px-5 md:px-0 max-w-[1192px] mx-auto">Here are the Top Winners</p>
           {/* {!isAfterMidnight &&
             <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
               {tRegister("description")}
@@ -116,12 +119,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
               gid="0"
             />
             : */}
-            <iframe
-              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest"
-              frameborder="0"
-              width="100%"
-              height="1000px"
-            ></iframe>
+            <LeaderboardList />
           {/* } */}
         </div>
 
@@ -175,3 +173,4 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 };
 
 export default WhyJoinSection;
+
