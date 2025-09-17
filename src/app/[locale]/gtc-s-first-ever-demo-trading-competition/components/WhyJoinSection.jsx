@@ -104,7 +104,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
           <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-           GTC's First-Ever Demo <br></br>Trading Competition has Ended!
+           Check out GTC’s Previous <br></br>Trading Competition Winners
 
           </h2>
            <p className="text-[#000021] text-base md:text-2xl leading-5 px-5 md:px-0 max-w-[1192px] mx-auto">Here are the Top Winners</p>
