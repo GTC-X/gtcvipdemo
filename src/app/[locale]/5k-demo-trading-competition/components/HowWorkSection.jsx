@@ -57,7 +57,7 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
                 text={t2("btnText")}
                 bgColor="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-[#b2b2c2]"
                 textColor="text-[#1F2937]"
-                strokeColor="#000032"
+                strokeColor="#fff"
                 onClick={() => setIsOpen(true)}
               />
             </div>
