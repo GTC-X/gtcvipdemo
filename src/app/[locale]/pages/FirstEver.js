@@ -133,8 +133,10 @@ const FirstEverPage = () => {
       <MainHeader setIsOpen={setIsOpen} />
 
 
-   
-          <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+   <div className=" min-h-screen items-start justify-center">
+<WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
+   </div>
+          
 
 
 
