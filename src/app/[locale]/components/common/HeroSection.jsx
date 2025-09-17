@@ -47,7 +47,7 @@ export default function HeroSection({ setIsOpen, isAfterMidnight }) {
           </div>
 
           {/* Paragraph(s): supports string (EN) or array (ES/PT). First ES paragraph bold. */}
-          <div className="text-primary text-[14px] md:text-[16px] leading-relaxed py-4 md:px-0 mb-3 md:mb-0 space-y-4">
+          <div className="text-primary text-[14px] md:text-[18px] leading-relaxed py-4 md:px-0 mb-3 md:mb-0 space-y-4">
             {Array.isArray(rawPara2) ? (
               rawPara2.map((p, i) => (
                 <p key={i} className={locale === 'es' && i === 0 ? 'font-semibold' : undefined}>

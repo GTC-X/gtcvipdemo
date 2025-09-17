@@ -161,7 +161,7 @@
           "title": "Competition Period",
           "content": [
             "Monday, 13th October – Friday, 24th October 2025 (23:59 GMT+4, Dubai time).",
-            "You’ll have 14 full days to trade your way up the leaderboard."
+            "You’ll have 10 full days to trade your way up the leaderboard."
           ]
         },
         {
@@ -199,7 +199,7 @@
             "Make sure you’re clear on the rules. Simply click here to view full  "
           ],
           "linkText": " Terms & Conditions",
-          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/GTC+Demo+Trading+Competition+%E2%80%93+Terms+%26+Conditions.pdf"
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
         }
       ]
     },
