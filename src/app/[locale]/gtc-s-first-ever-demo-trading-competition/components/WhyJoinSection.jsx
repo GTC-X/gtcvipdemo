@@ -5,6 +5,8 @@ import { useMemo } from "react";
 import SheetTable from "../../components/SheetTable";
 import WinnersPodium from "../../gtc-s-first-ever-demo-trading-competition/components/WinnersPodium";
 import LeaderboardList from "./LeaderboardList";
+import ComparisonTable from "./table";
+import CompetitionTable from "./CompetitionTable";
 
 const icons = [
   // 1. Shield + Trophy
@@ -107,7 +109,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
            Check out GTC’s Previous <br></br>Trading Competition Winners
 
           </h2>
-           <p className="text-[#000021] text-base md:text-2xl leading-5 px-5 md:px-0 max-w-[1192px] mx-auto">Here are the Top Winners</p>
+          
           {/* {!isAfterMidnight &&
             <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto mb-5">
               {tRegister("description")}
@@ -119,37 +121,11 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
               gid="0"
             />
             : */}
-            <LeaderboardList />
+            <CompetitionTable />
           {/* } */}
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
-          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-            {t("title")}
-          </h2>
-          <p className="text-[#000021] text-base leading-5 px-5 md:px-0 max-w-[1192px] mx-auto">
-            {t("intro")}
-          </p>
-        </div>
-
-        {/* Flip Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 pb-10 md:pb-16">
-          {featureItems.map((item, idx) => (
-            <div key={idx} className="group perspective w-full h-[220px]">
-              <div className="relative w-full h-full transition-transform duration-500 transform-style-3d group-hover:rotate-y-180">
-                {/* Front */}
-                <div className="absolute inset-0 bg-white rounded-lg shadow-md p-10 flex flex-col items-center justify-center text-center backface-hidden">
-                  <div className="mb-4">{item.icon}</div>
-                  <p className="text-[#20205B] text-lg font-medium md:max-w-[250px]">{item.title}</p>
-                </div>
-                {/* Back */}
-                <div className="absolute inset-0 bg-[#C39F77] text-white rounded-lg shadow-md p-6 flex items-center justify-center text-center rotate-y-180 backface-hidden">
-                  <p className="text-sm md:text-base">{item.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+      
 
       
       </div>

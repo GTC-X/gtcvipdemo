@@ -4,7 +4,9 @@ import SliderModal from "../5k-demo-trading-competition/components/SliderModal";
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
 import { useTranslations } from "next-intl";
+
 import WhyJoinSection from "../gtc-s-first-ever-demo-trading-competition/components/WhyJoinSection";
+
 import Meta from "@/app/components/common/MetaData";
 
 const DUBAI_TZ = "Asia/Dubai";
