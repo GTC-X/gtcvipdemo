@@ -90,7 +90,7 @@
 
     "payMore": {
       "title": "Why Join the GTC Demo Trading Competition?",
-      "intro": "You're not just entering a trading competition, you're stepping into the trading spotlight! Here’s why traders from all over the world are registering and can’t wait to compete in GTC’s first-ever demo trading tournament:",
+      "intro": "You're not just entering a trading competition, you're stepping into the trading spotlight! Here’s why traders from all over the world are registering and can’t wait to compete in GTC’s demo trading tournament:",
       "cta": "Take Part",
       "features": {
         "feature1": {
@@ -121,7 +121,7 @@
     },
     "work": {
       "heading": "How the GTC Demo Trading Competition Works",
-      "paragraph": "Register your interest in literally seconds. Trade like a pro for 14 Days. Win big!",
+      "paragraph": "Register your interest in literally seconds. Trade like a pro for 10 Days. Win big!",
       "list": {
         "t1": {
           "step": "Step 1",
@@ -136,7 +136,7 @@
         "t3": {
           "step": "Step 3",
           "name": "Trade FX, Metals & Commodities",
-          "stars": "You’ll have 14 Days to make your move. Use your skills to grow your demo balance."
+          "stars": "You’ll have 10 Days to make your move. Use your skills to grow your demo balance."
         },
         "t4": {
           "step": "Step 4",
