@@ -270,6 +270,19 @@
       "description": "Welcome to a partnership built for performance. At GTC, we don’t just give you up to 80% RevShare; we give you the tools to grow your business."
     }
   },
+  "previous" : {
+ "meta": {
+      "title": "GTC's First-Ever Demo Trading Competition has Ended!",
+      "description": "The GTC Demo Trading Competition has officially ended. Thank you to all participants who joined us for this exciting event. Stay tuned for future competitions and opportunities to win big with GTC!"
+    },
+    "banner": {
+      "title": "Check out GTC’s Previous Trading Competition Winners",
+      "competitionTitle": "Trading Competition",
+  "date": "Date",
+  "username": "Username",
+  "total": "Total"
+        }
+  },
    "footer": {
   "riskWarningTitle": "Risk Warning:",
   "riskWarningText": "Trading leveraged products such as CFDs involves a high level of risk and may not be suitable for all investors. You could lose more than your initial investment. Please ensure you fully understand the risks and consult an independent advisor if needed.",

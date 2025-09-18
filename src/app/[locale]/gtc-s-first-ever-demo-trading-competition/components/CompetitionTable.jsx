@@ -1,13 +1,16 @@
 // components/CompetitionTable.jsx
 "use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function CompetitionTable({
-  title = "Trading Competition",
+  titleKey = "competitionTitle", // translation key
   date = "11/8/2025",
-  rows = SAMPLE_ROWS, // [{ rank, username, total }]
+  rows = SAMPLE_ROWS,
   className = "",
 }) {
+  const t = useTranslations("previous.banner"); // looks up from /locales/[lang]/previous.json
+
   return (
     <section className={`w-full ${className}`}>
       <div className="max-w-5xl mx-auto">
@@ -19,10 +22,10 @@ export default function CompetitionTable({
                 <th colSpan={3} className="px-5 py-4">
                   <div className="flex items-center justify-between">
                     <span className="text-lg font-semibold text-slate-900">
-                      {title}
+                      {t(titleKey)}
                     </span>
                     <span className="text-sm font-medium text-slate-600">
-                      Date {date}
+                      {t("date")} {date}
                     </span>
                   </div>
                 </th>
@@ -33,10 +36,10 @@ export default function CompetitionTable({
                   #
                 </th>
                 <th className="px-5 py-3 text-slate-600 text-sm font-semibold">
-                  Username
+                  {t("username")}
                 </th>
                 <th className="px-5 py-3 text-right text-slate-600 text-sm font-semibold">
-                  Total
+                  {t("total")}
                 </th>
               </tr>
             </thead>
@@ -52,7 +55,6 @@ export default function CompetitionTable({
                   </td>
                   <td className="px-5 py-3">
                     <div className="flex items-center gap-3">
-                      {/* avatar ring (optional) */}
                       <div className="grid place-items-center rounded-full border border-indigo-300 h-9 w-9">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                           <path
@@ -78,13 +80,7 @@ export default function CompetitionTable({
 }
 
 const SAMPLE_ROWS = [
-  { rank: 1, name: "taofeek",
-    handle: "@niyiolaniyi18",
-    balance: "$1,666,566.15" },
-  { rank: 2, name: "Levine",
-    handle: "@levineonyango62",
-    balance: "$1,599,761.85" },
-  { rank: 3,  name: "Gbafan",
-    handle: "@egbafan",
-    balance: "$681,896.70", }
+  { rank: 1, name: "taofeek", handle: "@niyiolaniyi18", balance: "$1,666,566.15" },
+  { rank: 2, name: "Levine", handle: "@levineonyango62", balance: "$1,599,761.85" },
+  { rank: 3, name: "Gbafan", handle: "@egbafan", balance: "$681,896.70" },
 ];

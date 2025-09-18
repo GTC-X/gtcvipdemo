@@ -53,7 +53,7 @@ function getTodayDubaiCutoffMs(nowMs, h = 23, m = 59, s = 59) {
 
 const FirstEverPage = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations("demo");
+  const t = useTranslations("previous");
 
   // This controls what you show/hide after the cutoff
   const [isAfterMidnight, setIsAfterMidnight] = useState(false);
@@ -129,7 +129,7 @@ const FirstEverPage = () => {
 
   return (
     <>
-      <Meta title="GTC's First-Ever Demo Trading Competition has Ended!" description={t("meta.description")} />
+      <Meta title={t("meta.title")} description="" />
       <MainHeader setIsOpen={setIsOpen} />
 
 

@@ -85,7 +85,7 @@ const icons = [
 ];
 
 const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
-  const t = useTranslations("demo.payMore");
+    const t = useTranslations("previous");
   const tRegister = useTranslations("demo.register");
 
 
@@ -105,8 +105,8 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
-          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-           Check out GTC’s Previous <br></br>Trading Competition Winners
+          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary max-w-2xl mx-auto mb-6">
+           {t("banner.title")}
 
           </h2>
           
