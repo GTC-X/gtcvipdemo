@@ -44,6 +44,10 @@ const ConfirmationThankYou = ({ user }) => {
               <p>{t('para2')}</p>
          
               <p>{t('checkSpam')}</p>
+               <p className='text-secondary font-semibold text base md:text-lg'>{t('checkSpam2')}</p>
+                <p className='text-secondary font-semibold text base md:text-lg'>{t('checkSpam3')}</p>
+                 <p>{t('checkSpam4')}</p>
+               
               <p className="text-lg md:text-2xl text-secondary font-semibold">{t('seeYou')}</p>
             </div>
           </div>
