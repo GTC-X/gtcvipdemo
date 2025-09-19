@@ -1,276 +1,239 @@
 {
-    "menuItem": {
+ "menuItem": {
     "whyJoin": "¿Por qué unirse?",
     "howItWorks": "Cómo funciona",
     "competitionDetails": "Detalles de la competencia",
-    "termsConditions": "Términos y Condiciones",
-    "register": "Registrarse"
+    "termsConditions": "Términos y condiciones",
+    "register": "Regístrate",
+    "previous": "Último ganador"
   },
-  "reRegistration": {
-  "buttonText": "Sé el Primero en Saberlo",
-  "popup": {
-    "comingSoon": "¡Volveremos pronto!",
-    "title": "Registro Temporalmente Cerrado",
-    "subtitle": "El registro se reabrirá el {date}. ¡Mantente atento!",
-    "leadPrompt": "Deja tus datos y te notificaremos en cuanto se abra el registro."
-  },
-  "submit": "Enviar",
-  "thankYou": {
-    "title": "¡Gracias por Mantenerte Conectado!",
-    "body": "Hemos recibido tus datos.\nSerás el primero en saberlo en cuanto el registro se reabra el {date}.\nMientras tanto, mantente atento a tu bandeja de entrada para nuestro correo de recordatorio y prepárate para asegurar tu lugar en cuanto el registro esté disponible.\nGracias por tu interés — ¡estamos deseando darte la bienvenida!"
-  }
-},
-  "MarginContent": {
-  "meta": {
-    "title": "¡Únete a la Competencia de Trading Demo de GTC y Gana $5K! Regístrate Ahora",
-    "description": "Regístrate aquí para participar en la competencia de trading demo de GTC y gana $5,000. ¡El torneo de trading comienza el 6 de agosto de 2025, así que no te lo pierdas!"
-  },
-  "banner": {
-    "no": "¡Bonificación de Coincidencia de Depósito!",
-    "title": "¿Listo para Ir en Vivo?",
-    "para1": "¡Te Impulsaremos desde el Inicio!",
-    "para2": "Cuando deposites $250, igualaremos tu depósito con la misma cantidad, lo que significa que ahora tienes $500 para operar. Igualaremos tu depósito hasta $500."
-  },
-  "form": {
-    "accountNo": "Número de Cuenta",
-    "otpSent": "OTP enviado con éxito",
-    "otpError": "Fallo al enviar OTP",
-    "otpSuccess": "OTP verificado con éxito",
-    "otpFail": "OTP no válido",
-    "thankYou1": "Gracias por tu envío",
-    "submitting": "Enviando...",
-    "sending": "Enviando...",
-    "verifying": "Verificando...",
-    "getCode": "Obtener Código",
-    "verifyCode": "Verificar Código",
-    "submitError": "Fallo en el envío",
-    "email": "Correo Electrónico",
-    "otp": "Ingresa el OTP",
-    "errors": {
-      "accountRequired": "El número de cuenta es obligatorio",
-      "accountNumeric": "El número de cuenta debe contener solo números",
-      "accountMinLength": "El número de cuenta debe tener al menos 8 dígitos",
-      "accountMaxLength": "El número de cuenta no debe exceder  dígitos",
-      "emailRequired": "El correo electrónico es obligatorio",
-      "emailInvalid": "Formato de correo electrónico no válido"
-    }
-  }
-},
- "demo": {
-  "meta": {
-    "title": "¡Únete a la Competencia de Trading de GTC y gana  USD 5,000! Regístrate ahora",
-    "description": "¡Regístrate aquí para participar en la competencia de trading demo de GTC y gana  USD 5,000! El torneo de trading comienza el 6 de agosto de 2025, ¡no te lo pierdas!"
-  },
-"banner": {
-  "no": "USD 5.000 en premios",
-  "title": "¡La Competencia de Trading ha llegado!",
-  "para1": "GTC Torneo de Trading",
-  "para2": [
-    "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuéstralo en nuestro primer torneo de trading y gana parte de los $5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading.",
-    "Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de $10,000 para utilizar. Recuerda, ¡No hay riesgo!",
-    "Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades."
-  ],
-  "btnText": "Avísenme primero"
-},
-  "register": {
-      "title": "Participantes Registrados",
-      "description": "A continuación se muestra la lista de traders que ya se han registrado para la Competencia de Trading Demo de GTC. ¡Conoce a la comunidad de competidores listos para asumir el desafío!",
+  "demo": {
+    "meta": {
+      "title": "¡Únete a la competencia de trading demo de GTC y gana parte de los 5k en premios a repartir! Regístrate ahora",
+      "description": "¡Inscríbete aquí para participar en la Competencia de Trading de GTC y gana premios de un pozo de USD5.000! Las inscripciones comienzan el 22 de septiembre de 2025, ¡así que no te lo pierdas!"
+    },
+    "banner": {
+      "no": "US$5000",
+      "title": "¡La competencia de trading está por comenzar!",
+      "para1": "GTC",
+      "para2": "¿Crees que tienes lo necesario para liderar la Liga de Trading de GTC? ¡Demuéstralo en nuestro primer torneo de trading y gana parte de los US$5,000 en premios a repartir! Sin riesgos, solo recompensas y solo obtener la gloria en el trading. Recuerda, esta es una competición de trading donde te entregaremos una cuenta Demo de US$10,000 para utilizar. Recuerda, ¡No hay riesgo! Haz clic en el botón de abajo para registrarte y demostrarnos todas tus habilidades.",
+      "btnText": "Regístrate"
+    },
+    "counter": {
+      "title": "El próximo Torneo de Trading Demo de GTC comienza en:",
+      "days": "Días",
+      "hours": "Horas",
+      "min": "Minutos",
+      "sec": "Segundos"
+    }, 
+    "register": {
+      "title": "Participantes registrados",
+      "description": "A continuación, se muestra la lista de traders que ya se han registrado en el Torneo de Trading de GTC. ¡Descubre la comunidad de competidores listos para aceptar el reto!",
       "table": {
-        "account": "Número de Cuenta",
+        "account": "N.° de cuenta",
         "firstName": "Nombre",
-        "lastName": "Apellido",
-        "email": "Dirección de Correo Electrónico",
+        "lastName": "Apellidos",
+        "email": "Correo electrónico",
         "balance": "Saldo"
       }
     },
-  "counter": {
-    "title": "El primer torneo de Trading de GTC comienza en:",
-    "days": "Días",
-    "hours": "Horas",
-    "min": "Minutos",
-    "sec": "Segundos"
-  },
-  "payMore": {
-    "title": "¿Por qué unirse al torneo de trading de GTC?",
-    "intro": "No solo participas en una competición de trading, ¡sino que te estás convirtiendo en el centro de atención del trading! Aquí te explicamos por qué traders de todo el mundo se están registrando y están deseando competir en el primer torneo de trading de GTC:",
-    "cta": "Participa",
-    "features": {
-      "feature1": {
-        "title": "¡ USD 3,000 para el ganador Sin riesgo!",
-        "description": "Estarás operando con fondos virtuales, ¡pero el mejor jugador ganará una cuenta real de trading con  USD 3,000! No se requiere depósito para unirse."
-      },
-      "feature2": {
-        "title": "Pon a prueba tus habilidades en condiciones reales de mercado",
-        "description": "Esta es tu oportunidad de demostrar que eres el mejor operando en condiciones reales de mercado, ¡y además, sin ningún riesgo!"
-      },
-      "feature3": {
-        "title": "¡Una tabla de clasificación que demuestra que realmente eres el mejor!",
-        "description": "Descubre cómo te comparas con otros traders de todo el mundo. La tabla de clasificación se actualiza a diario y tu rendimiento hablará por tí."
-      },
-      "feature4": {
-        "title": "Demuestra tus habilidades cuando compitas con otros traders",
-        "description": "Demuestra tus habilidades en la competencia de trading con un apalancamiento de 1:500. Opera con Divisas, metales y materias primas en la competencia demo."
-      },
-      "feature5": {
-        "title": "¡Consigue el máximo de reconocimiento y recompensas!",
-        "description": "Los traders más destacados no solo se llevan los premios, sino también el prestigio de ser los mejores, un trofeo, un certificado y el reconocimiento exclusivo de GTC."
-      },
-      "feature6": {
-        "title": "Ideal para traders principiantes y experimentados",
-        "description": "No importa si recién estás comenzando en el trading o si ya eres un experto, esta es la oportunidad ideal y sin riesgo para crecer, competir y ganar premios."
+    "payMore": {
+      "title": "¿Por qué unirse al torneo de trading de GTC?",
+      "intro": "No solo participas en una competición de trading, ¡sino que te estás convirtiendo en el centro de atención del trading! Aquí te explicamos por qué traders de todo el mundo se están registrando y están deseando competir en el primer torneo de trading demo de GTC:",
+      "cta": "Participa",
+      "features": {
+        "feature1": {
+          "title": "US$3.000 para el ganador, ¡sin riesgo!",
+          "description": "Estás operando con fondos virtuales, ¡pero el mejor jugador ganará una cuenta real de trading con $3,000! No se requiere depósito para unirse."
+        },
+        "feature2": {
+          "title": "Demuestra tus habilidades en condiciones reales de mercado",
+          "description": "Esta es tu oportunidad de demostrar que eres el mejor operando en condiciones reales de mercado, ¡y además sin ningún riesgo!"
+        },
+        "feature3": {
+          "title": "¡La tabla de clasificación te demuestra que eres el mejor!",
+          "description": "Comprueba tu rendimiento frente a otros traders de todo el mundo. La tabla de clasificación se actualiza a diario y tu rendimiento habla por sí solo."
+        },
+        "feature4": {
+          "title": "Opera a tu manera compitiendo con otros operadores",
+          "description": "Opera a tu manera en la competición de trading demo con un apalancamiento de 1:500. Opera en Forex, metales y materias primas en la competición demo."
+        },
+        "feature5": {
+          "title": "¡Consigue el máximo reconocimiento y recompensas!",
+          "description": "Los mejores traders no solo ganan premios, sino que también obtienen el derecho a presumir, un trofeo, un certificado y el reconocimiento exclusivo de GTC."
+        },
+        "feature6": {
+          "title": "Absolutamente perfecto para operadores nuevos y experimentados",
+          "description": "Tanto si eres nuevo en el trading como si ya tienes experiencia, esta es la oportunidad ideal y sin riesgo para crecer, competir y obtener recompensas."
+        }
       }
-    }
-  },
-  "work": {
-    "heading": "Cómo funciona la competencia de Trading de GTC",
-    "paragraph": "Inscríbete en cuestión de segundos. Demuestra tu talento por 14 días. ¡Llévate grandes premios!",
-    "list": {
-      "t1": {
-        "step": "Paso 1",
-        "name": "Regístrate con tu nombre y correo electrónico",
-        "stars": "Completa un breve formulario. Sin depósitos, sin complicaciones, solo tu información básica para comenzar."
-      },
-      "t2": {
-        "step": "Paso 2",
-        "name": "Obtén tu cuenta demo de  USD 10,000",
-        "stars": "Al instante, te crearemos una cuenta demo MT5 con un saldo de US USD 10.000 en fondos virtuales."
-      },
-      "t3": {
-        "step": "Paso 3",
-        "name": "Opera en divisas, metales y materias primas",
-        "stars": "Cuentas con 14 días para implementar tu estrategia.Usa tus habilidades para hacer crecer el saldo de tu cuenta demo."
-      },
-      "t4": {
-        "step": "Paso 4",
-        "name": "Escala en la tabla de posiciones y ¡gana!",
-        "stars": "Supera a los otros traders, escala en el ranking y llévate tu parte del pozo de premios de US USD 5.000 para una cuenta real de trading."
-      },
-      "cta": "Regístrate ahora"
-    }
-  },
-  "detail": {
-    "title": "Detalles de la competencia de Trading",
-    "description": "Aquí encontrará todo lo que necesita saber sobre la competencia de Trading.",
-    "competitionDetails": [
-      {
-        "title": "Periodo de Inscripción",
-        "content": [
-          "Miércoles, 11 de agosto de 2025 al Domingo, 24 de agosto de 2025 (23:59 GMT).",
-          "Regístrate con anticipación para asegurar tu cuenta demo y familiarizarte con la plataforma MT5."
-        ]
-      },
-      {
-        "title": "Periodo de la Competencia",
-        "content": [
-          "Lunes, 25 de agosto al Jueves, 11 de septiembre de 2025 (23:59 GMT)",
-          "Tendrás 14 días para escalar en la tabla de posiciones."
-        ]
-      },
-      {
-        "title": "Como Participar",
-        "content": [
-          "Simplemente haz clic aquí para acceder al formulario de registro. Al completarlo, esto es lo que sucederá:"
-        ],
-        "list": [
-          "Recibirás tu cuenta demo GTC MT5 con USD 10,000 con tus credenciales de inicio de sesión por correo electrónico.",
-          "Podrás operar con divisas, metales y materias primas durante el concurso.",
-          "Podrás seguir tu progreso en la tabla de posiciones en vivo de GTC VIP, nuestra plataforma de recompensas de fidelidad. ¡Revisala!"
-        ],
-        "note": "⚠️ Nota: Se requiere un mínimo de 10 operaciones para optar a un premio."
-      },
-      {
-        "title": "USD 5,000 en premios",
-        "list": [
-          "🥇 El primer Lugar gana USD 3,000 en una cuenta real de trading de GTC.",
-          "🥈 El segundo Lugar gana USD 1,500 en una cuenta real de trading de GTC.",
-          "🥉 El tercer Lugar gana USD 500 en una cuenta real de trading de GTC.",
-          "Del 4° al 10° Lugar: Gana un bono de crédito de USD 200, que requiere un depósito."
-        ]
-      },
-      {
-        "content": [
-          "Todos los demás participantes verificados reciben un bono de depósito de 15% en su primer depósito en una Cuenta real de Trading de GTC."
-        ]
-      },
-      {
-        "content": [
-          "Todos reciben un certificado."
-        ]
-      },
-      {
-        "title": "Términos y Condiciones",
-        "content": [
-          "Asegúrate de comprender las reglas. Haz clic aquí para ver todos los Términos y Condiciones."
-        ],
-        "linkText": "Términos y Condiciones",
-        "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Spanish.pdf"
-      }
-    ]
-  },
-  "final-cta-section": {
-    "heading": "¿Estás preparado para el desafío?",
-    "description": "Demuestra tus habilidades de trading y compite con traders de todo el mundo. ¡Recuerda que se entregarán premios de  USD 5,000 en cuentas de trading reales!",
-    "buttonText": "Reserva tu lugar"
-  },
-  "form": {
-    "heading": "Regístrate ahora",
-    "closeAlt": "Cerrar la ventana emergente",
-    "firstName": "Nombre",
-    "lastName": "Apellido",
-    "email": "Correo electrónico",
-    "phone": "Número de teléfono móvil",
-    "country": "País de residencia",
-    "otp": "Se ha enviado un OTP al correo electrónico indicado",
-    "getCode": "Obtener código",
-    "sending": "Enviando...",
-    "sendOtp": "Enviar OTP",
-    "verifyCode": "Verificar código",
-    "termsLabel": "Acepta los términos y condiciones",
-    "termsText": "confirmo que soy mayor de 18 años, he leído y acepto los términos y condiciones.",
-    "conset": "Doy mi consentimiento para que GTC se comunique conmigo en horarios razonables y que mi número no esté en el Registro de No Llamar (DNCR).",
-    "clientAgreement": "Términos y Condiciones de la Competencia",
-    "privacyPolicy": "Política de privacidad",
-    "and1": " y las",
-    "submit": "Registra tu Lugar",
-    "submitting": "Enviando...",
-    "otpSuccess": "¡OTP verificado correctamente!",
-    "otpFail": "Error en la verificación de OTP. ¡Inténtalo de nuevo!",
-    "thankYou1": "¡Gracias por registrarte en GTC!",
-    "otpSent": "¡OTP enviada correctamente!",
-    "errors": {
-      "fullNameFormat": "El nombre completo debe contener solo letras",
-      "firstNameRequired": "El nombre es obligatorio",
-      "lastNameFormat": "El apellido debe contener solo letras",
-      "lastNameRequired": "El apellido es obligatorio",
-      "emailInvalid": "Dirección de correo electrónico no válida",
-      "emailRequired": "Correo electrónico obligatorio",
-      "phoneRequired": "Número de teléfono obligatorio",
-      "countryRequired": "País obligatorio",
-      "otpLength": "OTP debe tener 6 dígitos",
-      "otpRequired": "OTP obligatorio",
-      "termsRequired": "Acepta los términos y condiciones"
     },
-    "thankYou": "¡Gracias!",
-    "almostThere": "¡Ya estás registrado!",
-    "emailSent": "¡Felicidades por registrarte en la Competición de Trading de GTC!",
-    "para1": "¡Ahora es el momento perfecto para preparar tu estrategia de trading! Recuerda: solo operarás en Forex, Metales y Materias Primas con un apalancamiento de 1:500 durante 14 días.",
-    "para2": "Cada operación es importante, así que mantente atento al ranking. Habrá traders con un talento increíble en esta competencia... pero la suerte también juega su papel. 😉",
-    "para3": "Ya recibiste un segundo email con tus credenciales de trading; por favor, revísalo. Es una buena idea que compruebes tu carpeta de spam o correo no deseado. Si nuestro correo terminó ahí, solo tienes que moverlo a tu bandeja de entrada.",
-    "checkSpam": "Te enviaremos un par de correos electrónicos antes de que comience el torneo",
-    "seeYou": "¡BUENA SUERTE!",
-    "helpSection": {
-      "title": "¿Tienes algún problema?",
-      "phoneLabel": "Contáctanos al",
-      "phone": "+971 800 667788",
-      "emailLabel": "o envía un correo electrónico al equipo de socios de GTC a:",
-      "email": "support@gtcfx.com"
+    "work": {
+      "heading": "Cómo funciona la competición de trading demo de GTC",
+      "paragraph": "Regístrate en segundos. Opera como un profesional durante 10 días. ¡Gana a lo grande!",
+      "list": {
+        "t1": {
+          "step": "Paso 1",
+          "name": "Regístrate con tu nombre y correo electrónico",
+          "stars": "Llena un breve formulario. No requiere depósito ni trámites complicados, solo tu información básica para empezar."
+        },
+        "t2": {
+          "step": "Paso 2",
+          "name": "Obtén tu cuenta demo de US$10,000",
+          "stars": "Te abriremos al instante una cuenta demo MT5 con US$10,000 en fondos virtuales."
+        },
+        "t3": {
+          "step": "Paso 3",
+          "name": "Opera con divisas, metales y materias primas",
+          "stars": "Tendrás 10 días para dar destacar. Usa tus habilidades para aumentar tu saldo en la cuenta demo."
+        },
+        "t4": {
+          "step": "Paso 4",
+          "name": "Escala en la clasificación y gana",
+          "stars": "Supera a otros traders, asciende en la clasificación y consigue tu parte de los US$5,000 en premios de trading en vivo."
+        },
+        "cta": "Regístrate ahora"
+      }
+    },
+    "detail": {
+      "title": "Detalles de la competición de trading demo",
+      "description": "Aquí encontrará todo lo que necesita saber sobre la competencia de trading demo.",
+      "competitionDetails": [
+        {
+          "title": "Periodo de Inscripción",
+          "content": [
+            "Lunes, 22 de septiembre de 2025, (01:00 GMT+4) – Domingo, 12 de octubre de 2025, (01:00 GMT+4).",
+            "Regístrese con anticipación para asegurar tu cuenta demo y familiarizarte con la plataforma MT5."
+          ]
+        },
+        {
+          "title": "Periodo del concurso",
+          "content": [
+            "Lunes, 13 de octubre, 01:00 (GMT+4) y finaliza el viernes, 24 de octubre, (01:00 GMT+4).",
+            "Tendrás 10 días completos para operar y ascender en la clasificación."
+          ]
+        },
+        {
+          "title": "Cómo participar",
+          "content": [
+            "Simplemente haz clic aquí para acceder al formulario de registro. Al completarlo, esto es lo que sucederá:"
+          ],
+          "list": [
+            "Recibirás tu cuenta demo GTC MT5 con USD 10,000 con tus credenciales de inicio de sesión por correo electrónico.",
+            "Podrás operar con divisas, metales y materias primas durante el concurso.",
+            "Podrás seguir tu progreso en la tabla de posiciones en vivo de GTC VIP, nuestra plataforma de recompensas de fidelidad. ¡Revisala!"
+          ],
+          "note": "⚠️ Nota: Se requiere un mínimo de 10 operaciones para optar a un premio."
+        },
+        {
+          "title": "US$5,000 en premios",
+          "list": [
+            "🥇 El 1.er lugar gana US$3,000 en una cuenta de trading real de GTC.",
+            "🥈 El 2.º lugar gana US$1,500 en una cuenta de trading real de GTC.",
+            "🥉 El 3.er lugar gana US$500 en una cuenta de trading real de GTC.",
+            "Del 4.º al 10.º lugar ganan un bono de crédito de US$200, que requiere un depósito."
+          ]
+        },
+        {
+          "content": [
+            "Todos los demás participantes verificados reciben un bono de depósito del 15% en su primer depósito en una cuenta de trading real de GTC."
+          ]
+        },
+        {
+          "content": [
+            "Todos reciben un certificado."
+          ]
+        },
+        {
+          "title": "Términos y Condiciones",
+          "content": [
+            "Asegúrate de entender las reglas. Simplemente haz clic aquí para ver los Términos y Condiciones completos"
+          ],
+          "linkText": "Términos y Condiciones",
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
+        }
+      ]
+    },
+    "final-cta-section": {
+      "heading": "¿Estás preparado para el reto?",
+      "description": "¡Libera tus habilidades de trading y compite con traders de todo el mundo! Recuerda que se entregarán premios de US$5,000 en cuentas de trading reales.",
+      "buttonText": "Asegura tu lugar"
+    },
+    "form": {
+      "heading": "Regístrate ahora",
+      "closeAlt": "Cerrar ventana",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Correo electrónico",
+      "phone": "Número de móvil",
+      "country": "País de residencia",
+      "otp": "Se ha enviado un OTP al correo electrónico indicado",
+      "getCode": "Obtener código",
+      "sending": "Enviando...",
+      "sendOtp": "Enviar OTP",
+      "verifyCode": "Verificar código",
+      "termsLabel": "Acepta los Términos y Condiciones",
+      "termsText": "Confirmo que soy mayor de 18 años, he leído y acepto los Términos y Condiciones del Concurso.",
+      "conset": "Doy mi consentimiento para que GTC me contacte en horarios razonables y que mi número no figura en el Registro de No Llamar (DNCR).",
+      "clientAgreement": "Términos y Condiciones del Concurso",
+      "and1": "y la",
+      "privacyPolicy": "Política de Privacidad",
+      "submit": "Registra tu lugar",
+      "submitting": "Enviando...",
+      "otpSuccess": "¡OTP verificado correctamente!",
+      "otpFail": "¡Verificación de OTP fallida! ¡Inténtalo de nuevo!",
+      "thankYou1": "¡Gracias por registrarte en GTC!",
+      "otpSent": "¡OTP enviado correctamente!",
+      "errors": {
+        "fullNameFormat": "El nombre completo solo puede contener letras.",
+        "firstNameRequired": "El nombre es obligatorio",
+        "lastNameFormat": "El apellido solo puede contener letras.",
+        "lastNameRequired": "El apellido es obligatorio",
+        "emailInvalid": "Dirección de correo electrónico no válida",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "phoneRequired": "El número de teléfono es obligatorio",
+        "countryRequired": "El país es obligatorio",
+        "otpLength": "El OTP debe tener 6 dígitos",
+        "otpRequired": "El OTP es obligatorio",
+        "termsRequired": "Acepta los términos y condiciones"
+      },
+      "thankYou": "Gracias",
+      "almostThere": "¡Ya estás dentro!",
+      "emailSent": "¡Felicidades por registrarte en el Torneo de Trading Demo de GTC!",
+      "para1": "¡Ahora es el momento perfecto para preparar tu estrategia de trading! Y recuerda, operarás solo en FX, metales y materias primas, con un apalancamiento de 1:500 durante 10 días.",
+      "para2": "Aprovecha cada operación y no pierdas de vista la clasificación. Algunos traders muy hábiles se unen a este torneo... pero también algunos muy afortunados. 😉",
+      "checkSpam": "Esta es tu oportunidad de brillar, ya que no hay riesgo, solo pura adrenalina del trading.",
+      "checkSpam1": "Te hemos enviado un correo electrónico con todas tus credenciales de trading, así que no dudes en consultarlo. Te recomendamos revisar tu carpeta de correo no deseado, por si acaso ha llegado nuestro correo. Si el correo que te enviamos ha llegado a la carpeta de correo no deseado, simplemente devuélvelo a tu bandeja de entrada.",
+      "checkSpam2": "Uno de nuestros gestores de cuentas te llamará para guiarte y que tengas las mejores posibilidades de ganar los mayores premios.",
+      "checkSpam3": "¡No te pierdas nuestra llamada!",
+      "checkSpam4": "También te enviaremos un par de correos electrónicos antes del inicio del torneo para ayudarte a formular tus estrategias de trading.",
+      "seeYou": "¡BUENA SUERTE!",
+      "helpSection": {
+        "title": "¿Tienes problemas?",
+        "phoneLabel": "Contáctanos al",
+        "phone": "+971 800 667788",
+        "emailLabel": "o envía un correo electrónico al Equipo de Socios de GTC a",
+        "email": "support@gtcfx.com"
+      }
+    },
+    "thankYoumeta": {
+      "title": "¡Prepárate para el Torneo de Trading de GTC!",
+      "description": "Bienvenido a una alianza diseñada para el rendimiento. En GTC, no solo te ofrecemos hasta un 80% de RevShare; te damos las herramientas para hacer crecer tu negocio."
     }
   },
-  "thankYoumeta": {
-    "title": "Prepárate para la Competición de Trading de GTC",
-    "description": "Te damos la bienvenida a una asociación creada para el éxito. En GTC, no nos limitamos a darte hasta un 80% de participación en los ingresos; te proporcionamos las herramientas para hacer crecer tu negocio."
-  }
-},
+  "previous": {
+    "meta": {
+      "title": "¡El primer Torneo de Trading Demo de GTC ha finalizado!",
+      "description": "El Torneo de Trading Demo de GTC ha finalizado oficialmente. Gracias a todos los participantes que se unieron a nosotros en este emocionante evento. ¡Estén atentos para futuras competiciones y oportunidades de ganar a lo grande con GTC!"
+    },
+    "banner": {
+      "title": "Consulta a los ganadores de anteriores competiciones de trading de GTC",
+      "competitionTitle": "Competición de Trading",
+      "date": "Fecha",
+      "username": "Nombre de usuario",
+      "total": "Total"
+    }
+  },
 "footer": {
   "riskWarningTitle": "Advertencia de Riesgo:",
   "riskWarningText": "Operar con productos apalancados como los CFDs implica un alto nivel de riesgo y puede no ser adecuado para todos los inversores. Podría perder más que su inversión inicial. Asegúrese de comprender plenamente los riesgos y consulte a un asesor independiente si es necesario.",

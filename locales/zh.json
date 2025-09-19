@@ -1,100 +1,67 @@
 {
      "menuItem": {
-    "whyJoin": "为何参加",
-    "howItWorks": "如何运作",
-    "competitionDetails": "比赛详情",
+    "whyJoin": "为何参赛？",
+    "howItWorks": "赛制说明",
+    "competitionDetails": "赛事详情",
     "termsConditions": "条款细则",
-    "register": "立即注册"
+    "register": "报名",
+    "previous": "往届优胜者"
   },
-   "reRegistration": {
-    "buttonText": "抢先知晓",
-    "popup": {
-      "comingSoon": "我们将很快回归！",
-      "title": "注册暂时关闭",
-      "subtitle": "注册将于{date}重新开放。敬请期待！",
-      "leadPrompt": "留下您的联系方式，注册开放后我们将第一时间通知您。"
-    },
-    "submit": "提交",
-    "thankYou": {
-      "title": "感谢您的关注！",
-      "body": "我们已收到您的信息。\n您将在{date}注册重新开放时第一时间收到通知。\n在此期间，请留意您的收件箱查看我们的提醒邮件，并准备好随时注册锁定名额。\n感谢您的关注——我们期待您的加入！"
-    }
-  },
-   "MarginContent": {
+  "demo": {
     "meta": {
-      "title": "参加GTC模拟交易竞赛，赢取5千美元大奖！立即注册",
-      "description": "立即注册参加GTC模拟交易竞赛，赢取5000美元奖金！交易锦标赛将于2025年8月6日开始，切勿错过！"
+      "title": "参与GTC模拟交易赛 瓜分$5000奖金池\n立即报名",
+      "description": "即刻注册GTC模拟交易赛，瓜分$5000奖金池！\n报名通道将于2025年9月22日开启，切勿错过！"
     },
     "banner": {
-      "no": "存款匹配奖金！",
-      "title": "准备实战交易了吗？",
-      "para1": "我们将从起点助您一臂之力！",
-      "para2": "当您存入250美元时，我们将匹配相同金额的存款，这意味着您现在拥有500美元的交易资金。我们最高可匹配500美元的存款。"
-    },
-    "form": {
-      "accountNo": "账户号码",
-      "otpSent": "验证码发送成功",
-      "otpError": "验证码发送失败",
-      "otpSuccess": "验证码验证成功",
-      "otpFail": "验证码无效",
-      "thankYou1": "感谢您的提交",
-      "submitting": "提交中...",
-      "submit": "提交",
-      "sending": "发送中...",
-      "verifying": "验证中...",
-      "getCode": "获取验证码",
-      "verifyCode": "验证验证码",
-      "submitError": "提交失败",
-      "email": "电子邮箱",
-      "otp": "输入验证码",
-      "errors": {
-        "accountRequired": "请输入账户号码",
-        "accountNumeric": "账户号码必须为数字",
-        "accountMinLength": "账户号码至少8位数字",
-        "accountMaxLength": "账户号码不能超过位数",
-        "emailRequired": "请输入邮箱地址",
-        "emailInvalid": "邮箱格式不正确"
-      }
-    }
-  },
- "demo": {
-    "meta": {
-      "title": "参与GTC模拟交易赛，赢取$5000奖金！立即报名",
-      "description": "即刻注册GTC模拟交易大赛，赢取5000美元奖金！赛事将于2025年8月6日启动，切勿错过。"
-    },
-    "banner": {
-      "no": "$5,000",
+      "no": 5000,
       "title": "模拟交易赛即将开启！",
-      "para1": "GTC",
-      "para2": "登顶交易排行榜，证明您的实力！参与GTC首届模拟交易赛，零成本赢取$5000实盘账户奖金。\n本赛事为纯模拟交易，无真实资金风险。点击报名，见证交易实力！",
+      "para1": "GTC主办",
+      "para2": "登顶交易排行榜，证明您的实力！\n参与GTC模拟交易赛，零成本赢取$5000实盘账户奖金池\n本次赛事全程使用$10000模拟账户交易，无真实资金风险\n点击报名，见证交易实力！",
       "btnText": "立即报名"
     },
     "counter": {
-      "title": "GTC首届模拟交易赛开赛倒计时：",
+      "title": "GTC下次模拟交易赛 - 开赛倒计时：",
       "days": "天",
-      "hours": "小时",
-      "min": "分钟",
+      "hours": "时",
+      "min": "分",
       "sec": "秒"
     },
     "register": {
-    "title": "已注册参赛者名单",
-    "description": "以下为已报名GTC模拟交易大赛的交易者列表，查看即将参与挑战的选手社区！",
-    "table": {
-      "account": "账户编号",
-      "firstName": "名字",
-      "lastName": "姓氏",
-      "email": "电子邮箱",
-      "balance": "账户余额"
-    }
-  },
-      "payMore": {
+      "title": "已注册参赛者",
+      "description": "以下为已报名GTC模拟交易赛的交易者名单，见证挑战者社区的壮大！",
+      "table": {
+        "account": "账户",
+        "firstName": "名字",
+        "lastName": "姓氏",
+        "email": "电子邮箱",
+        "balance": "账户余额"
+      }
+    },
+    "payMore": {
       "title": "参赛价值",
-      "intro": "这不是普通比赛，而是全球专业交易者的竞技舞台！原因如下：",
+      "intro": {
+        "richText": [
+          {
+            "text": "这不是普通比赛，而是全球专业交易者的竞技舞台！原因如下："
+          },
+          {
+            "font": {
+              "size": 11,
+              "color": {
+                "argb": "FF0F1115"
+              },
+              "name": "Roboto",
+              "charset": 134
+            },
+            "text": "​"
+          }
+        ]
+      },
       "cta": "即刻参与",
       "features": {
         "feature1": {
           "title": "第一名奖金$3000 + 零成本",
-          "description": "使用模拟资金交易，赢取$5000实盘账户，无需入金即可参与"
+          "description": "使用模拟资金交易，赢取$3000实盘账户，无需入金即可参与"
         },
         "feature2": {
           "title": "真实市场环境试炼",
@@ -106,7 +73,7 @@
         },
         "feature4": {
           "title": "自由交易机制",
-          "description": "使用1:500杠杆，交易外汇/贵金属/大宗商品，自由施展交易策略。"
+          "description": "使用1:500杠杆，交易外汇、贵金属、大宗商品，自由施展交易策略"
         },
         "feature5": {
           "title": "殊荣奖励双重加冕",
@@ -114,18 +81,18 @@
         },
         "feature6": {
           "title": "新老交易者皆宜",
-          "description": "无论您是新手还是资深交易者，都能在此展现实力！"
+          "description": "零风险提升交易技能的理想平台"
         }
       }
     },
     "work": {
       "heading": "赛事运作机制",
-      "paragraph": "10秒快速注册 | 30日专业级交易 | 赢取丰厚实盘奖金！",
+      "paragraph": "10秒快速注册 & 10天专业级交易 & 赢取丰厚奖金",
       "list": {
         "t1": {
           "step": "第一步",
-          "name": "填写基础信息（姓名/邮箱）",
-          "stars": "快速注册，无需入金"
+          "name": "填写基础信息快速注册",
+          "stars": "填写姓名和邮箱注册，无需入金"
         },
         "t2": {
           "step": "第二步",
@@ -134,33 +101,33 @@
         },
         "t3": {
           "step": "第三步",
-          "name": "交易外汇/贵金属/大宗商品",
-          "stars": "15日交易窗口，全力冲刺"
+          "name": "10天交易窗口",
+          "stars": "交易外汇、贵金属、大宗商品，全力冲刺"
         },
         "t4": {
           "step": "第四步",
-          "name": "登顶排行榜\n",
-          "stars": "超越全球交易者，瓜分$5000实盘资金池"
+          "name": "登顶排行榜",
+          "stars": "超越全球交易者，瓜分$5000实盘奖金池"
         },
         "cta": "立即报名"
       }
     },
     "detail": {
-      "title": "赛事细则",
+      "title": "赛事详情",
       "description": "关于模拟交易赛的完整参赛指南",
       "competitionDetails": [
         {
-          "title": "注册时段",
+          "title": "报名时间",
           "content": [
-            "2025年8月6日（周三）至8月24日（周日）GMT 23:59",
+            "2025年9月22日（周一）01:00 GMT+4 – 2025年10月12日（周日）01:00 GMT+4",
             "建议尽早注册熟悉MT5平台"
           ]
         },
         {
-          "title": "赛程",
+          "title": "比赛时间",
           "content": [
-            "2025年8月25日（周一）至9月11日（周一）GMT 23:59\n完整15个交易日",
-            "完整14个交易日"
+            "025年10月13日（周一）01:00 GMT+4 – 2025年10月24日（周五）01:00 GMT+4",
+            "完整10个交易日"
           ]
         },
         {
@@ -170,7 +137,7 @@
           ],
           "list": [
             "收取含$10000 GTC MT5模拟账户凭证的邮件",
-            "赛事期间外汇/贵金属/大宗商品交易权限",
+            "赛事期间外汇、贵金属、大宗商品交易权限",
             "在GTC VIP平台查看实时排行榜"
           ],
           "note": "评奖要求：至少完成10笔交易"
@@ -178,15 +145,15 @@
         {
           "title": "$5000奖金池",
           "list": [
-            "第1名 - $3000实盘账户",
-            "第2名 - $1500实盘账户",
-            "第3名 - $500实盘账户",
-            "第4-10名 $200信用赠金（需入金激活）"
+            "第1名 $3000实盘账户",
+            "第2名 $1500实盘账户",
+            "第3名 $500实盘账户",
+            "第4-10名 $200赠金（需入金激活）"
           ]
         },
         {
           "content": [
-            "开户入金享15%赠金"
+            "其他参赛者首次入金享15%赠金"
           ]
         },
         {
@@ -200,39 +167,42 @@
             "点击查看完整参赛协议"
           ],
           "linkText": "参赛协议",
-          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Mandarin.pdf"
+          "linkUrl": {
+            "text": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf",
+            "hyperlink": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
+          }
         }
       ]
     },
     "final-cta-section": {
       "heading": "终极挑战宣言",
-      "description": "与全球交易高手同台竞技，赢取$5000实盘账户奖金！",
-      "buttonText": "锁定席位"
+      "description": "与全球交易高手同台竞技，瓜分$5000实盘账户奖金！",
+      "buttonText": "立即报名"
     },
     "form": {
       "heading": "立即报名",
-      "closeAlt": "弹窗关闭按钮",
+      "closeAlt": "关闭弹窗",
       "firstName": "名字",
       "lastName": "姓氏",
-      "email": "邮箱",
+      "email": "电子邮箱",
       "phone": "手机号码",
       "country": "居住国家",
       "otp": "验证码已发送至邮箱",
       "getCode": "获取验证码",
-      "sending": "发送中...",
+      "sending": "发送中",
       "sendOtp": "发送验证码",
-      "verifyCode": "确定",
-      "termsLabel": "请接受条款与条件",
-      "termsText": "点击“获取80%佣金”，即确认：年满18周岁\n已阅读并同意《客户协议》与《隐私政策》",
-      "conset": "同意GTC在合理时间联系本人\n确认号码未列入拒接来电名单(DNCR)",
-      "clientAgreement": "比赛条款细则",
-    "and1": "以及",
-    "privacyPolicy": "隐私政策",
-    "submit": "注册参赛",
+      "verifyCode": "确认验证码",
+      "termsLabel": "请接受参赛协议",
+      "termsText": "本人确认：\n年满18周岁\n已阅读并同意",
+      "conset": "同意GTC在合理时间联系本人\n确认号码未列入拒接来电名单（DNCR）",
+      "clientAgreement": "参赛协议",
+      "and1": "和",
+      "privacyPolicy": "隐私政策",
+      "submit": "立即锁定席位",
       "submitting": "提交中...",
       "otpSuccess": "验证成功！",
-      "otpFail": "验证失败，请重试",
-      "thankYou1": "感谢注册GTC！",
+      "otpFail": "验证失败，请重试！",
+      "thankYou1": "感谢您注册GTC！",
       "otpSent": "验证码发送成功！",
       "errors": {
         "fullNameFormat": "姓名仅可包含字母",
@@ -242,30 +212,46 @@
         "emailInvalid": "邮箱格式错误",
         "emailRequired": "请输入邮箱",
         "phoneRequired": "请输入手机号码",
-        "countryRequired": "请选择居住国家",
+        "countryRequired": "请选择国家",
         "otpLength": "验证码必须为6位数字",
         "otpRequired": "请输入验证码",
         "termsRequired": "请接受条款与条件"
       },
       "thankYou": "感谢",
-      "almostThere": "您已成功报名！",
+      "almostThere": "已报名！",
       "emailSent": "恭喜您成功报名GTC模拟交易赛！",
-      "para1": "即刻优化交易策略！可交易外汇、贵金属及大宗商品，杠杆比例为1:500，赛事全程15天。",
-      "para2": "每笔交易均影响最终排名，专业交易者与机遇把握者将同台竞技。",
-      "para3": "参赛凭证已发送至您的邮箱，如未收到建议检查垃圾邮件文件夹（若邮件被误判，请移回收件箱）",
-      "checkSpam": "开赛前您还将收到其它重要通知邮件。​​",
+      "para1": "即刻优化交易策略！可交易外汇、贵金属及大宗商品，杠杆比例为1:500，赛事全程10天",
+      "para2": "每笔交易均影响最终排名，专业交易者与机遇把握者将同台竞技",
+      "checkSpam": "这确实是您大显身手的绝佳机会，在零风险环境中感受真实交易的魅力！",
+      "checkSpam1": "参赛凭证已发送至您的邮箱，如未收到建议检查垃圾邮件文件夹（若邮件被误判，请移回收件箱）",
+      "checkSpam2": "我们的客户经理将致电指导，助您最大化赢取大奖的几率！",
+      "checkSpam3": "敬请留意我们的来电！",
+      "checkSpam4": "大赛开始前，我们还将发送多封邮件，助您完善交易策略。",
       "seeYou": "祝您交易顺利",
       "helpSection": {
-        "title": "客服支持",
-        "phoneLabel": "请联系",
+        "title": "遇到问题？",
+        "phoneLabel": "请联系我们",
         "phone": "+971 800 667788",
-        "emailLabel": "合作邮箱",
+        "emailLabel": "或发送邮件至",
         "email": "support@gtcfx.com"
       }
     },
     "thankYoumeta": {
       "title": "GTC模拟交易赛备战指南！",
-      "description": "欢迎加入高绩效合作计划。GTC不仅提供高达80%返佣，更为您配备业务增长工具。"
+      "description": "欢迎加入高效合作伙伴计划！GTC不仅提供高达80%佣金分成，更为您配备业务增长工具。"
+    }
+  },
+  "previous": {
+    "meta": {
+      "title": "GTC首届模拟交易赛已圆满结束！",
+      "description": "本次模拟交易赛正式收官，感谢所有参赛者的热情参与！请持续关注GTC后续赛事及赢奖机会！"
+    },
+    "banner": {
+      "title": "查看GTC往届交易赛优胜者",
+      "competitionTitle": "交易竞赛",
+      "date": "日期",
+      "username": "用户名",
+      "total": "总收益"
     }
   },
   "footer": {

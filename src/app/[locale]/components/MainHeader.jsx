@@ -86,7 +86,7 @@ const MainHeader = ({ setIsOpen }) => {
             )
           )}
         </nav>
-         <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93]">Previous Winners </Link>
+         <Link href="/gtc-s-first-ever-demo-trading-competition" className="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93]">{t("previous")}</Link>
 
         {/* Mobile menu */}
         <div className="md:hidden flex gap-2 items-center">

@@ -1,270 +1,237 @@
 {
   "menuItem": {
-    "whyJoin": "Tại sao nên tham gia?",
+    "whyJoin": "Tại sao phải tham gia?",
     "howItWorks": "Cách thức hoạt động",
     "competitionDetails": "Chi tiết cuộc thi",
     "termsConditions": "Điều khoản & Điều kiện",
-    "register": "Đăng kí"
+    "register": "Đăng kí",
+    "previous": "Người chiến thắng trước đây"
   },
-  "reRegistration": {
-    "buttonText": "Được biết trước tiên",
-    "popup": {
-      "comingSoon": "Chúng tôi sẽ sớm trở lại!",
-      "title": "Tạm dừng đăng ký",
-      "subtitle": "Đăng ký sẽ mở lại vào {date}. Hãy theo dõi!",
-      "leadPrompt": "Để lại thông tin của bạn và chúng tôi sẽ thông báo ngay khi đăng ký mở lại."
-    },
-    "submit": "Gửi đi",
-    "thankYou": {
-      "title": "Cảm ơn bạn đã kết nối!",
-      "body": "Chúng tôi đã nhận thông tin của bạn.\nBạn sẽ là người đầu tiên biết khi đăng ký mở lại vào {date}.\nTrong lúc chờ đợi, hãy theo dõi hộp thư đến để nhận email nhắc nhở của chúng tôi và chuẩn bị sẵn sàng để đảm bảo vị trí của bạn ngay khi đăng ký bắt đầu.\nCảm ơn sự quan tâm của bạn—chúng tôi rất mong được chào đón bạn!"
-    }
-  },
-  "MarginContent": {
-  "meta": {
-    "title": "Junte-se à Competição de Trading Demo da GTC e Ganhe $5K! Registre-se Agora",
-    "description": "Registre-se aqui para participar da competição de trading demo da GTC e ganhe $5.000! O torneio de trading começa em 6 de agosto de 2025, então não perca!"
-  },
-  "banner": {
-    "no": "Bônus de Correspondência de Depósito!",
-    "title": "Pronto para Ir ao Vivo?",
-    "para1": "Vamos Impulsioná-lo desde o Início!",
-    "para2": "Quando você depositar $250, combinaremos seu depósito com o mesmo valor, o que significa que você terá $500 para negociar. Combinaremos seu depósito até $500."
-  },
-  "form": {
-    "accountNo": "Número da Conta",
-    "otpSent": "OTP enviado com sucesso",
-    "otpError": "Falha ao enviar OTP",
-    "otpSuccess": "OTP verificado com sucesso",
-    "otpFail": "OTP inválido",
-    "thankYou1": "Obrigado por seu envio",
-    "submitting": "Enviando...",
-    "sending": "Enviando...",
-    "verifying": "Verificando...",
-    "getCode": "Obter Código",
-    "verifyCode": "Verificar Código",
-    "submitError": "Falha no envio",
-    "email": "E-mail",
-    "otp": "Digite o OTP",
-    "errors": {
-      "accountRequired": "O número da conta é obrigatório",
-      "accountNumeric": "O número da conta deve conter apenas números",
-      "accountMinLength": "O número da conta deve ter pelo menos 8 dígitos",
-      "accountMaxLength": "O número da conta não deve exceder  dígitos",
-      "emailRequired": "O e-mail é obrigatório",
-      "emailInvalid": "Formato de e-mail inválido"
-    }
-  }
-},
   "demo": {
     "meta": {
-      "title": "Tham gia Cuộc Thi Giao Dịch Demo của GTC & Nhận Ngay Giải Thưởng $5,000! Đăng Ký Ngay!",
-      "description": "Đăng ký tham gia cuộc thi giao dịch demo của GTC ngay tại đây và có cơ hội giành giải thưởng $5,000!"
+      "title": "Tham Gia Cuộc Thi Giao Dịch Demo của GTC & Nhận Ngay $5,000! Đăng Ký Ngay",
+      "description": "Đăng ký tham gia cuộc thi giao dịch demo của GTC ngay tại đây và có cơ hội nhận $5,000! Giải đấu sẽ bắt đầu vào ngày 22/09/2025, đừng bỏ lỡ!"
     },
     "banner": {
-      "no": "5000",
-      "title": "Cuộc Thi Giao Dịch Demo Sắp Bắt Đầu!",
-      "para1": "GTC’s",
-      "para2": "Bạn nghĩ mình đủ khả năng để dẫn đầu bảng xếp hạng Cuộc Thi Giao Dịch Demo GTC?Hãy chứng minh điều đó trong giải đấu demo đầu tiên và giành lấy phần thưởng từ quỹ $5,000 tiền thưởng giao dịch thật!Không rủi ro – Chỉ có phần thưởng và vinh quang của một nhà giao dịch đỉnh cao!Bạn sẽ được cấp ngay $10,000 trong tài khoản demo để bắt đầu, vì vậy bạn hoàn toàn không lo mất gì cả – chỉ cần thể hiện kỹ năng giao dịch của bạn!Nhấn nút đăng ký bên dưới để giữ chỗ ngay hôm nay. Đã đến lúc cho cả thế giới thấy bạn là ai!",
-      "btnText": "Đăng ký ngay"
+      "no": 5000,
+      "title": "Cuộc thi giao dịch Demo sắp khởi tranh!",
+      "para1": "GTC",
+      "para2": "Giao Dịch Demo – Cơ Hội Giành $5,000!\nTham gia cuộc thi giao dịch demo của GTC và nhận ngay tài khoản demo trị giá $10,000 để bắt đầu.\nKhông rủi ro – chỉ cần thể hiện kỹ năng để giành giải thưởng lên đến $5,000 tiền thật!\n👉 Đăng ký ngay hôm nay và bước vào đường đua nhà giao dịch hàng đầu!",
+      "btnText": "Đăng kí tham gia"
     },
-    "register": {
-    "title": "Người tham gia đã đăng ký",
-    "description": "Dưới đây là danh sách các nhà giao dịch đã đăng ký tham gia Cuộc thi Giao dịch Demo GTC. Hãy xem cộng đồng các đối thủ sẵn sàng đối mặt với thử thách!",
-    "table": {
-      "account": "Số tài khoản",
-      "firstName": "Tên",
-      "lastName": "Họ",
-      "email": "Địa chỉ Email",
-      "balance": "Số dư"
-    }
-  },
     "counter": {
-      "title": "Chỉ còn ít thời gian nữa! Cuộc Thi Giao Dịch Demo GTC sắp bắt đầu!",
+      "title": "Cuộc thi Giao dịch Demo GTC Next sẽ khởi tranh sau",
       "days": "Ngày",
-      "hours": "Giờ ",
+      "hours": "Giờ",
       "min": "Phút ",
       "sec": "Giây"
     },
+    "register": {
+      "title": "Danh sách Người tham gia đã đăng ký",
+      "description": "Danh sách các nhà giao dịch đã đăng ký tham gia Cuộc thi Giao dịch Demo GTC – nơi quy tụ những đối thủ sẵn sàng bước vào đường đua tài chính.",
+      "table": {
+        "account": "Tài Khoản",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "balance": "Số dư"
+      }
+    },
     "payMore": {
-      "title": "Vì sao bạn nên tham gia Cuộc Thi Giao Dịch Demo của GTC?",
-      "intro": "Bạn không chỉ đang tham gia một cuộc thi giao dịch – bạn đang bước vào tâm điểm của thế giới trading!Và đây là lý do vì sao các nhà giao dịch từ khắp nơi trên thế giới đang đổ xô đăng ký và háo hức chờ đợi cuộc thi demo đầu tiên của GTC:",
+      "title": "Vì sao bạn nên tham gia Cuộc thi Giao dịch Demo GTC?",
+      "intro": "Bạn không chỉ đơn thuần tham gia một cuộc thi giao dịch — bạn đang bước vào “ánh đèn sân khấu” của thế giới trading!\nDưới đây là lý do vì sao các nhà giao dịch từ khắp nơi trên thế giới đang háo hức đăng ký và sẵn sàng tranh tài tại giải đấu giao dịch Demo của GTC:",
       "cta": "Tham gia",
       "features": {
         "feature1": {
-          "title": "$3,000 cho người chiến thắng – Giao dịch không lo rủi ro!",
-          "description": "Bạn đang giao dịch bằng tài khoản demo, nhưng người đạt thành tích cao nhất sẽ nhận ngay tài khoản giao dịch thật trị giá $3,000!Không cần nạp tiền để tham gia."
+          "title": "Giải thưởng 3.000 USD cho người chiến thắng – Hoàn toàn không rủi ro!",
+          "description": "Giao dịch bằng quỹ demo, nhận ngay tài khoản thật 3.000 USD nếu bạn dẫn đầu! Tham gia miễn phí, không cần nạp tiền"
         },
         "feature2": {
-          "title": "Rèn luyện kỹ năng giao dịch trong môi trường thị trường thực",
-          "description": "Đây là cơ hội để bạn chứng minh mình là nhà giao dịch xuất sắc nhất trong điều kiện thị trường thực – và hoàn toàn không có rủi ro!"
+          "title": "Thử thách kỹ năng của bạn trong môi trường thị trường thực tế",
+          "description": "Đây là cơ hội để bạn chứng minh mình là người xuất sắc nhất khi giao dịch trong điều kiện thị trường thực tế, và đặc biệt hoàn toàn không rủi ro!"
         },
         "feature3": {
-          "title": "Leo top bảng xếp hạng – Khẳng định đẳng cấp trader của bạn!",
-          "description": "Bạn giỏi đến mức nào? Hãy để bảng xếp hạng toàn cầu trả lời!Cập nhật mỗi ngày – kỹ năng của bạn sẽ tự khẳng định vị trí."
+          "title": "Bảng xếp hạng thể hiện đẳng cấp thực sự của bạn!",
+          "description": "Xem bạn đứng ở vị trí nào so với các nhà giao dịch trên toàn thế giới. Bảng xếp hạng được cập nhật hàng ngày, kết quả của bạn sẽ nói lên tất cả."
         },
         "feature4": {
-          "title": "Giao dịch theo phong cách riêng – Chạm trán những đối thủ toàn cầu!",
-          "description": "Giao dịch theo phong cách riêng – với đòn bẩy 1:500 cực khủng!Forex, Kim loại, Hàng hóa – tất cả đều có trong cuộc thi demo!"
+          "title": "Thỏa sức thể hiện phong cách giao dịch riêng khi tranh tài cùng các trader khác.",
+          "description": "Giao dịch với đòn bẩy lên đến 1:500 trong cuộc thi demo, trải nghiệm đa dạng sản phẩm Forex, Kim loại và Hàng hóa."
         },
         "feature5": {
-          "title": "Khẳng định tên tuổi – Rinh về phần thưởng xứng đáng!",
-          "description": "Những trader xuất sắc nhất không chỉ nhận giải thưởng, mà còn có quyền tự hào khoe thành tích, nhận cúp vinh danh, chứng nhận chính thức và sự công nhận đặc biệt từ GTC!"
+          "title": "Khẳng định vị thế cùng danh tiếng và phần thưởng đỉnh cao!",
+          "description": "Những trader dẫn đầu không chỉ giành phần thưởng giá trị mà còn được tôn vinh với cúp chiến thắng, giấy chứng nhận và sự công nhận độc quyền từ GTC."
         },
         "feature6": {
-          "title": "Dù bạn là người mới hay chuyên gia – cuộc thi này sinh ra là dành cho bạn!",
-          "description": "Dù bạn là người mới bắt đầu hay đã có kinh nghiệm giao dịch, đây chính là cơ hội lý tưởng – không rủi ro – để học hỏi, cạnh tranh và nhận thưởng!"
+          "title": "Phù hợp cho cả người mới và có kinh nghiệm",
+          "description": "Dù bạn là người mới hay trader kỳ cựu, đây là cơ hội hoàn hảo, không rủi ro để nâng cao kỹ năng, tranh tài và nhận những phần thưởng giá trị."
         }
       }
     },
     "work": {
-      "heading": "Cách Thức Hoạt Động của Cuộc Thi Giao Dịch Demo GTC",
-      "paragraph": "Đăng ký chỉ trong vài giây. Giao dịch như một chuyên gia suốt 14 ngày. Và rinh giải lớn!",
+      "heading": "Cách thức tham gia Cuộc thi Giao dịch Demo GTC",
+      "paragraph": "Đăng ký chỉ trong vài giây. Giao dịch chuyên nghiệp trong 10 ngày. Cơ hội chiến thắng lớn đang chờ bạn!",
       "list": {
         "t1": {
           "step": "Bước 1",
           "name": "Đăng kí với tên và email của bạn",
-          "stars": "Điền vào một mẫu đăng ký nhanh.Không cần nạp tiền, không rườm rà – chỉ cần vài thông tin cơ bản để bắt đầu ngay"
+          "stars": "Đăng ký nhanh chóng với vài thông tin cơ bản – không yêu cầu nạp tiền."
         },
         "t2": {
           "step": "Bước 2",
-          "name": "Nhận ngay tài khoản demo trị giá $10,000",
-          "stars": "Chúng tôi sẽ cấp ngay cho bạn một tài khoản demo MT5 với $10,000 tiền ảo sẵn sàng giao dịch."
+          "name": "Nhận ngay tài khoản demo 10.000 USD",
+          "stars": "Tài khoản demo MT5 trị giá 10.000 USD sẽ được cấp ngay sau khi đăng ký"
         },
         "t3": {
           "step": "Bước 3",
-          "name": "Giao dịch Forex, Kim loại và Hàng hóa",
-          "stars": "Bạn sẽ có 14 ngày để thể hiện bản lĩnh. Hãy dùng kỹ năng của mình để gia tăng số dư tài khoản demo!"
+          "name": "Giao dịch Forex, Kim loại & Hàng hóa",
+          "stars": "Vận dụng kỹ năng của bạn để tối ưu hóa số dư tài khoản demo."
         },
         "t4": {
           "step": "Bước 4",
-          "name": "Leo top bảng xếp hạng, chạm tay vào vinh quang!",
-          "stars": "Thắng bằng thực lực – Leo top bảng xếp hạng – Rinh ngay phần thưởng từ quỹ $5,000!"
+          "name": "Chinh phục bảng xếp hạng, giành lấy chiến thắng xứng đáng!",
+          "stars": "Khẳng định vị thế của bạn trên bảng xếp hạng và nhận phần thưởng giao dịch thực lên đến 5.000 USD."
         },
         "cta": "Đăng kí ngay"
       }
     },
     "detail": {
-      "title": "Thông tin chi tiết về Cuộc Thi Giao Dịch Demo",
-      "description": "Dưới đây là tất cả những gì bạn cần biết về cuộc thi giao dịch demo.",
+      "title": "Chi tiết Cuộc thi Giao dịch Demo",
+      "description": "Dưới đây là tất cả những thông tin bạn cần biết về cuộc thi giao dịch demo",
       "competitionDetails": [
         {
-          "title": "Thời gian đăng kí",
+          "title": "Thời gian đăng ký",
           "content": [
-            "Từ Thứ Hai, 11/08/2025 đến Chủ Nhật, 24/08/2025 (23:59 GMT)",
-            "Đăng ký sớm – nhận tài khoản demo trước và làm chủ nền tảng MT5 từ bây giờ"
+            "Từ Thứ Hai, ngày 22/09/2025, lúc 01:00 (GMT+4)\nĐến Chủ Nhật, ngày 12/10/2025, lúc 01:00 (GMT+4)",
+            "Hãy đăng ký sớm để giữ suất tham gia và làm quen với nền tảng giao dịch MT5"
           ]
         },
         {
           "title": "Thời gian diễn ra cuộc thi",
           "content": [
-            "Từ Thứ Hai, 25/08/2025 đến Thứ Năm, 11/09/2025 (23:59 GMT)",
-            "Bạn sẽ có trọn vẹn 14 ngày để giao dịch và leo lên bảng xếp hạng."
+            "Từ Thứ Hai, ngày 13/10/2025, lúc 01:00 (GMT+4)\nĐến Thứ Sáu, ngày 24/10/2025, lúc 01:00 (GMT+4)",
+            "Thời gian 10 ngày là cơ hội để bạn chứng minh năng lực và khẳng định vị thế."
           ]
         },
         {
-          "title": "Cách tham gia",
+          "title": "Cách thức tham gia",
           "content": [
-            "Chỉ cần nhấp vào đây để truy cập mẫu đăng ký. Khi bạn điền form, đây là những gì sẽ diễn ra:"
+            "Chỉ cần nhấn vào đây để truy cập mẫu đăng ký. Sau khi bạn điền đầy đủ thông tin, bạn sẽ nhận được:"
           ],
           "list": [
-            "Bạn sẽ nhận được tài khoản demo MT5 trị giá $10,000 từ GTC cùng thông tin đăng nhập qua email.",
-            "Bạn sẽ có thể giao dịch Forex, Kim loại và Hàng hóa trong suốt thời gian diễn ra cuộc thi.",
-            "Bạn có thể theo dõi tiến trình của mình trên bảng xếp hạng trực tiếp trong GTC VIP – nền tảng tích điểm và nhận thưởng dành cho khách hàng thân thiết. Hãy khám phá ngay!"
+            "Tài khoản GTC MT5 Demo trị giá 10.000 USD, cùng thông tin đăng nhập sẽ được gửi qua email.",
+            "Tự do giao dịch Forex, Kim loại và Hàng hóa xuyên suốt thời gian thi đấu.",
+            "Xem thứ hạng của bạn trực tiếp trên GTC VIP – nền tảng tích thưởng dành cho khách hàng thân thiết. Đừng bỏ lỡ!"
           ],
-          "note": "⚠️ Lưu ý: Cần thực hiện tối thiểu 10 lệnh giao dịch để đủ điều kiện nhận giải thưởng."
+          "note": "⚠️ Lưu ý: Tối thiểu 10 giao dịch để đủ điều kiện nhận giải thưởng."
         },
         {
-          "title": "ổng giải thưởng $5,000",
+          "title": "💰 Tổng giải thưởng: 5.000 USD",
           "list": [
-            "🥇 Giải Nhất nhận $3,000 trong tài khoản giao dịch thật tại GTC",
-            "🥈 Giải Nhì nhận $1,500 trong tài khoản giao dịch thật tại GTC.",
-            "🥉 Giải Ba nhận $500 trong tài khoản giao dịch thật tại GTC.",
-            "Hạng 4 đến 10 nhận thưởng $200 dưới dạng tín dụng bonus (yêu cầu nạp tiền để sử dụng)."
+            "🥇 Giải Nhất: 3.000 USD vào tài khoản giao dịch thực GTC.",
+            "🥈 Giải Nhì: 1.500 USD vào tài khoản giao dịch thực GTC.",
+            "🥉 Giải Ba: 500 USD vào tài khoản giao dịch thực GTC.",
+            "🏅 Hạng 4 - 10: Nhận 200 USD bonus, áp dụng khi nạp tiền."
           ]
         },
         {
           "content": [
-            "ất cả những người tham gia đã xác minh khác sẽ nhận được 15% bonus nạp tiền cho lần nạp đầu tiên vào tài khoản giao dịch thật tại GTC."
+            "Tất cả khách hàng đã xác minh đều được nhận 15% bonus khi nạp tiền lần đầu vào tài khoản giao dịch thực GTC"
           ]
         },
         {
           "content": [
-            "Tất cả người tham gia đều nhận được giấy chứng nhận."
+            "Mọi người đều nhận được giấy chứng nhận tham gia."
           ]
         },
         {
-          "title": "Điều khoản và điều kiện",
+          "title": "Điều khoản & Điều kiện",
           "content": [
-            "Hãy đảm bảo rằng bạn đã hiểu rõ các quy định. Chỉ cần nhấp vào đây để xem đầy đủ điều khoản"
+            "Hãy đảm bảo bạn nắm rõ các quy định.Nhấn vào đây để xem đầy đủ"
           ],
-          "linkText": "Điều khoản và điều kiện",
-          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Vietnamese.pdf"
+          "linkText": "Điều khoản & Điều kiện.",
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
         }
       ]
     },
     "final-cta-section": {
-      "heading": "Bạn đã sẵn sàng chấp nhận thử thách chưa?",
-      "description": "Giải phóng kỹ năng giao dịch của bạn và so tài cùng các trader đến từ khắp nơi trên thế giới!Đừng quên – tổng giải thưởng trị giá $5,000 sẽ được trao vào tài khoản giao dịch thật!",
-      "buttonText": "Đăng ký liền tay – cơ hội không chờ đợi!"
+      "heading": "Bạn đã sẵn sàng chinh phục thử thách?",
+      "description": "Hãy bùng nổ kỹ năng giao dịch của bạn và cạnh tranh sòng phẳng cùng các trader từ khắp nơi trên thế giới. Đừng quên, tổng giải thưởng lên đến 5.000 USD trong tài khoản giao dịch thực đang chờ bạn chinh phục!",
+      "buttonText": "Xác nhận đăng kí "
     },
     "form": {
-      "heading": "Đăng kí ngay",
-      "closeAlt": "Đóng cửa sổ",
+      "heading": "Đăng Ký Ngay",
+      "closeAlt": "Đóng ",
       "firstName": "Họ",
       "lastName": "Tên",
-      "email": " Email",
-      "phone": " Số điện thoại di động",
-      "country": " Quốc gia cư trú",
-      "otp": "Mã OTP đã được gửi đến địa chỉ email đã nhập",
-      "getCode": " Lấy mã",
+      "email": "Email",
+      "phone": "Số điện thoại ",
+      "country": "Quốc gia cư trú",
+      "otp": "Mã OTP đã được gửi tới Email bạn đã cung cấp",
+      "getCode": "Lấy mã",
       "sending": "Đang gửi...",
-      "sendOtp": "Gửi mã OTP",
-      "verifyCode": " Xác minh mã",
-      "termsLabel": "Vui lòng chấp nhận các điều khoản và điều kiện",
-      "termsText": "Tôi xác nhận rằng tôi trên 18 tuổi, đã đọc và đồng ý với...",
-      "conset": "Tôi đồng ý để GTC liên hệ với tôi vào thời điểm hợp lý, và số điện thoại của tôi không nằm trong danh sách Không Gọi (DNCR).",
+      "sendOtp": "Gửi OTP",
+      "verifyCode": "Xác nhận mã",
+      "termsLabel": "Vui lòng chấp nhận các Điều khoản và Điều kiện.",
+      "termsText": "Tôi xác nhận mình đã đủ 18 tuổi, đã đọc kỹ và đồng ý với các Điều khoản và Điều kiện.",
+      "conset": "Tôi đồng ý để GTC liên hệ với tôi vào những thời điểm hợp lý, và xác nhận số điện thoại của tôi không nằm trong danh sách không gọi (DNCR).",
       "clientAgreement": "Điều khoản & Điều kiện cuộc thi",
       "and1": "và",
-      "privacyPolicy": "Chính sách Bảo mật",
-      "submit": "Đăng ký tham gia",
+      "privacyPolicy": "Chính sách bảo mật",
+      "submit": "Xác nhận đăng kí của bạn",
       "submitting": "Đang gửi...",
-      "otpSuccess": "Xác minh OTP thành công!",
-      "otpFail": "Xác minh OTP thất bại, vui lòng thử lại!",
+      "otpSuccess": "Xác thực OTP thành công!",
+      "otpFail": "Xác thực OTP thất bại, vui lòng thử lại!",
       "thankYou1": "Cảm ơn bạn đã đăng ký với GTC!",
-      "otpSent": "Gửi OTP thành công!",
+      "otpSent": "OTP đã được gửi thành công!",
       "errors": {
-        "fullNameFormat": "Họ tên chỉ được chứa chữ cái.",
-        "firstNameRequired": "Tên là bắt buộc",
-        "lastNameFormat": "Họ chỉ được chứa chữ cái",
-        "lastNameRequired": "Họ là bắt buộc",
+        "fullNameFormat": "Họ và tên không dấu",
+        "firstNameRequired": "Họ là bắt buộc",
+        "lastNameFormat": "Tên không dấu",
+        "lastNameRequired": "Tên là bắt buộc",
         "emailInvalid": "Địa chỉ email không hợp lệ",
         "emailRequired": "Email là bắt buộc",
         "phoneRequired": "Số điện thoại là bắt buộc",
         "countryRequired": "Quốc gia là bắt buộc",
-        "otpLength": "Mã OTP phải gồm 6 chữ số",
-        "otpRequired": "OTP là bắt buộc",
-        "termsRequired": "Vui lòng chấp nhận điều khoản và điều kiện"
+        "otpLength": "Mã OTP bao gồm 6 chữ số",
+        "otpRequired": "Mã OTP là bắt buộc",
+        "termsRequired": "Vui lòng chấp nhận các Điều khoản và Điều kiện."
       },
-      "thankYou": "Cảm ơn bạn",
+      "thankYou": "Cảm ơn Bạn!",
       "almostThere": "Bạn đã đăng ký thành công!",
-      "emailSent": "Chúc mừng bạn đã đăng ký thành công Cuộc Thi Giao Dịch Demo của GTC!",
-      "para1": "Bây giờ chính là thời điểm lý tưởng để bạn chuẩn bị chiến lược giao dịch của mình!Và đừng quên: bạn sẽ giao dịch các sản phẩm Forex, Kim loại và Hàng hóa với đòn bẩy 1:500 trong suốt 14 ngày thi đấu.",
-      "para2": "Hãy biến từng lệnh giao dịch của bạn trở nên có giá trị và luôn theo dõi bảng xếp hạng.Một số trader cực kỳ chuyên nghiệp đã tham gia giải đấu này… nhưng cũng có những người cực kỳ may mắn nữa đấy 😉",
-      "para3": "Chúng tôi đã gửi cho bạn một email khác chứa đầy đủ thông tin đăng nhập giao dịch. Hãy kiểm tra hộp thư ngay nhé!Đừng quên kiểm tra cả thư rác hoặc hộp thư quảng cáo, phòng khi email bị lọt vào đó.✅Nếu email nằm trong thư rác, chỉ cần chuyển nó về hộp thư chính là được.",
-      "checkSpam": "Chúng tôi sẽ gửi cho bạn một vài email trước khi cuộc thi bắt đầu.",
-      "seeYou": "CHÚC BẠN MAY MẮN!",
+      "emailSent": "Chúc mừng bạn đã đăng ký tham gia Cuộc thi Giao dịch Demo GTC.",
+      "para1": "Bây giờ là thời điểm hoàn hảo để chuẩn bị chiến lược giao dịch của bạn!\nHãy nhớ rằng bạn sẽ chỉ giao dịch Forex, Kim loại và Hàng hóa với đòn bẩy lên đến 1:500 trong suốt 10 ngày thi đấu.",
+      "para2": "Hãy tận dụng từng giao dịch một cách hiệu quả và thường xuyên theo dõi bảng xếp hạng. Nhiều trader cực kỳ tài năng đã tham gia cuộc thi này… và cũng có những người may mắn không kém. 😉",
+      "checkSpam": "Không rủi ro, chỉ có thử thách – đây chính là sân chơi để bạn tỏa sáng!",
+      "checkSpam1": "Chúng tôi đã gửi cho bạn một email chứa đầy đủ thông tin đăng nhập giao dịch. Hãy kiểm tra hộp thư ngay nhé!\nĐừng quên kiểm tra thư mục Spam hoặc Thư rác, đề phòng trường hợp email bị chuyển nhầm vào đó.\nNếu bạn thấy email trong thư mục spam, chỉ cần chuyển nó về hộp thư đến (Inbox) để không bỏ lỡ bất kỳ thông tin quan trọng nào từ GTC.",
+      "checkSpam2": "Chuyên viên quản lý tài khoản của chúng tôi sẽ sớm liên hệ để hỗ trợ bạn tận dụng tối đa cơ hội và đạt được những giải thưởng cao nhất.",
+      "checkSpam3": "Hãy chú ý điện thoại – chúng tôi sẽ gọi cho bạn!",
+      "checkSpam4": "Chúng tôi cũng sẽ gửi đến bạn một vài email trước khi cuộc thi bắt đầu, nhằm giúp bạn xây dựng chiến lược giao dịch thật hiệu quả.",
+      "seeYou": "C H Ú C B Ạ N M A Y M Ắ N! 🎉",
       "helpSection": {
-        "title": "Cần hỗ trợ?",
-        "phoneLabel": "Bạn có thể liên hệ với chúng tôi thông qua",
+        "title": "Gặp sự cố?",
+        "phoneLabel": "Hãy liên hệ với chúng tôi qua:",
         "phone": "+971 800 667788",
-        "emailLabel": "hoặc gửi email cho Đội Ngũ Đối Tác GTC tại địa chỉ",
+        "emailLabel": "Hoặc liên hệ GTC qua email:",
         "email": "support@gtcfx.com"
       }
     },
     "thankYoumeta": {
-      "title": "Sẵn sàng cho Cuộc Thi Giao Dịch Demo của GTC!",
-      "description": "Chào mừng bạn đến với một mối quan hệ đối tác được xây dựng để bứt phá hiệu suất.Tại GTC, chúng tôi không chỉ chia sẻ cho bạn lên đến 80% doanh thu (RevShare) — mà còn cung cấp đầy đủ công cụ để giúp bạn phát triển hoạt động kinh doanh của mình."
+      "title": "Sẵn sàng cho Cuộc thi Giao dịch Demo GTC!",
+      "description": "Chào mừng bạn đến với mối quan hệ đối tác cam kết mang lại hiệu quả tối ưu.\nTại GTC, chúng tôi không chỉ cung cấp mức chia sẻ doanh thu lên đến 80%, mà còn trang bị cho bạn đầy đủ công cụ cần thiết để phát triển kinh doanh bền vững."
+    }
+  },
+  "previous": {
+    "meta": {
+      "title": "Cuộc thi Giao dịch Demo đầu tiên của GTC đã chính thức kết thúc!",
+      "description": "Cuộc thi Giao dịch Demo GTC đã kết thúc!\nCảm ơn tất cả các bạn đã tham gia và tạo nên cuộc thi sôi động này.\nHãy sẵn sàng cho những cuộc thi hấp dẫn và cơ hội thắng lớn tiếp theo cùng GTC nhé!"
+    },
+    "banner": {
+      "title": "Xem lại những Nhà vô địch Cuộc thi Giao dịch trước đây của GTC",
+      "competitionTitle": "Cuộc thi Giao dịch",
+      "date": "Ngày",
+      "username": "Tên đăng nhập",
+      "total": "Tổng điểm / Tổng thành tích"
     }
   },
   "footer": {
