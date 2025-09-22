@@ -13,14 +13,17 @@
       "description": "Inscreva-se para participar da competição Demo Trading GTC aqui mesmo e ganhe prêmio que somam US$ 5.000! As inscrições começam em 22 de setembro de 2025, então não perca!"
     },
     "banner": {
-      "no": "US$ 5.000",
-      "title": "A Competição Demo Trading GTC já vai começar!",
-      "para1": "GTC",
-      "para2": "Você acha que tem o que é preciso para liderar o ranking da nossa primeira competição Demo Trading? Então prove! Esta é uma competição de demonstração de trading, e você receberá uma Conta Demo US$ 10.000 para negociar. Participe da competição e ganhe prêmios que somam US$ 5.000. Sem risco. Só prêmio. E o reconhecimento que você merece. Clique no botão abaixo para garantir sua vaga e mostrar suas habilidades.",
+      "no": "US$ 5.000!",
+      "title": "",
+      "para1": "Inscreva-se na Competição Demo Trading GTC de ",
+      "para2": [
+"Você acha que tem o que é preciso para liderar o ranking da nossa primeira competição Demo Trading? Então prove! Esta é uma competição de demonstração de trading, e você receberá uma Conta Demo US$ 10.000 para negociar. Participe da competição e ganhe prêmios que somam US$ 5.000. Sem risco. Só prêmio. E o reconhecimento que você merece. ",
+"Clique no botão abaixo para garantir sua vaga e mostrar suas habilidades."
+      ],
       "btnText": "Registre-se"
     },
     "counter": {
-      "title": "A próxima competição Demo Trading GTC começa em:",
+      "title": "A próxima competição Demo Trading GTC começa em: ",
       "days": "Dias",
       "hours": "Horas",
       "min": "Minutos",
@@ -63,7 +66,7 @@
           "description": "Além dos prêmios, você pode receber um troféu, certificado e reconhecimento exclusivo da GTC."
         },
         "feature6": {
-          "title": "Ideal para todos os níiveis",
+          "title": "Ideal para todos os níveis",
           "description": "Seja você iniciante ou experiente, essa é a oportunidade perfeita para competir, aprender e ganhar."
         }
       }
@@ -109,7 +112,7 @@
         {
           "title": "Período da Competição",
           "content": [
-            "Segunda-feira, 13 de outubro, 01:00 GMT+4 e terminará na sexta-feira, 24 de outubro, 01:00 GMT+4.",
+            "Segunda-feira, 13 de outubro, 01:00 GMT+4 – Sexta-feira, 24 de outubro, 01:00 GMT+4.",
             "Você terá 10 dias completos para negociar e subir no ranking."
           ]
         },
