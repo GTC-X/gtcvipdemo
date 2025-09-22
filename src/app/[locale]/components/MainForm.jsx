@@ -124,7 +124,7 @@ const CommonMainForm = () => {
       password: data.password,
       company: "no",
       country: data.country,
-      group: "contest\\AUG25\\STD-USD",
+      group: "contest\\OCT25\\STD-USD",
       invest_password: data.invest_password,
       locale: locale,
     };
@@ -149,7 +149,7 @@ const CommonMainForm = () => {
           password: data.password,
           user: mt5Res.data.data.user,
           invest_password: data.invest_password,
-          server_name: "contest\\AUG25\\STD-USD",
+          server_name: "contest\\OCT25\\STD-USD",
           locale: locale,
         });
 
