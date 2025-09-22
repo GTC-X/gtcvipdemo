@@ -131,7 +131,7 @@
         {
           "title": "Prêmio Total de US$ 5.000",
           "list": [
-            "🥇 O 1º lugar ganha US$ 3.000 em uma Conta de Negociação Real da GTC.",
+            "🥇 O 1º lugar ganha US$ 3.000 em uma Conta de negociação Real da GTC.",
             "🥈 O 2º colocado ganha US$ 1.500 em uma conta de negociação Real da GTC.",
             "🥉 O 3º colocado ganha US$ 500 em uma conta de negociação Real da GTC.",
             "4º ao 10º lugares ganham um Bônus de Crédito de US$ 200, que requer depósito."
@@ -139,7 +139,7 @@
         },
         {
           "content": [
-            "Todos os outros participantes verificados recebem um Bônus de Depósito de 15% em seu primeiro depósito na Conta de Negociação Real da GTC."
+            "Todos os outros participantes verificados recebem um Bônus de Depósito de 15% em seu primeiro depósito na Conta de negociação Real da GTC."
           ]
         },
         {
@@ -200,7 +200,7 @@
         "otpRequired": "OTP obrigatório",
         "termsRequired": "Aceite os termos e condições"
       },
-      "thankYou": "Obrigada.",
+      "thankYou": "Obrigada",
       "almostThere": "Você garantiu sua vaga!",
       "emailSent": "Parabéns por se registrar no Demo Trading GTC.",
       "para1": "Agora é o momento perfeito para preparar sua estratégia de trading! E lembre-se: você negociará apenas em Forex, Metais e Commodities, com alavancagem de 1:500 ao longo de um período de 10 dias.",
