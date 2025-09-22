@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import MobileMenu from './MobileMenu';
 import { useTranslations, useLocale } from 'next-intl';
 
@@ -79,7 +79,7 @@ const MainHeader = ({ setIsOpen }) => {
               <Link
                 key={i}
                 href={item.href}
-                className="text-[#000032] font-medium text-sm lg:text-base relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
+                className="text-[#000032] font-medium text-sm lg:text-base relative rtl:md:text-sm after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
               >
                 {item.label}
               </Link>

@@ -1,8 +1,8 @@
 {
    "menuItem": {
-    "whyJoin": "لماذا عليك الانضمام إلى مسابقة التداول التجريبي من GTC؟",
-    "howItWorks": "آلية عمل مسابقة GTC للتداول التجريبي",
-    "competitionDetails": "تفاصيل مسابقة التداول التجريبية",
+    "whyJoin": "لماذا عليك الانضمام إلى مسابقة GTC؟",
+    "howItWorks": "آلية عمل المسابقة ",
+    "competitionDetails": "تفاصيل المسابقة",
     "termsConditions": "الأحكام والشروط ",
     "register": "سجل الآن",
     "previous": "الفائزين السابقين "
@@ -14,8 +14,8 @@
     },
     "banner": {
       "no": "بقيمة إجمالية للجوائز 5,000 دولار",
-      "title": "تقترب من الانطلاق!",
-      "para1": "مسابقة التداول التجريبي من GTC",
+      "title": "",
+      "para1": "سجل في مسابقة التداول التجريبي من GTC",
       "para2": "هل تعتقد أن لديك القدرة لتكون في صدارة مسابقة التداول للحسابات التجريبية من GTC؟ أثبت مهاراتك في   مسابقة  التداول التجريبي الخاصة بنا ونافس على جزء من جوائز بقيمة 5,000 دولار في حسابات تداول حقيقية.\nبدون مخاطرة، مكاسب فقط، وفرصة حقيقية للتقدم في عالم التداول.\nتذكّر، هذه مسابقة تداول تجريبي تُمنح فيها حسابات تداول تجريبية بقيمة 10,000 دولار لتستخدمها بحرية، بدون أي مخاطر!\nسجل الآن عبر الزر أدناه واستعد للتحدي",
       "btnText": "سجّل اليوم واحجز مكانك!"
     },
@@ -150,7 +150,7 @@
             "تأكد من فهمك للقواعد جيداً، اضغط هنا للاطلاع بشكل كامل على "
           ],
           "linkText": "الأحكام والشروط",
-          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Arabic.pdf"
         }
       ]
     },
@@ -222,10 +222,10 @@
     }
   },
   "previous": {
-    "meta": {
-      "title": "GTC's First-Ever Demo Trading Competition has Ended!",
-      "description": "The GTC Demo Trading Competition has officially ended. Thank you to all participants who joined us for this exciting event. Stay tuned for future competitions and opportunities to win big with GTC!"
-    },
+     "meta": {
+    "title": "انتهت أول مسابقة تداول تجريبي من GTC!",
+    "description": "انتهت مسابقة التداول التجريبي من GTC رسميًا. نشكر جميع المشاركين الذين انضموا إلينا في هذا الحدث المثير. تابعونا للحصول على أخبار المسابقات المستقبلية وفرص الفوز بجوائز كبيرة مع GTC!"
+  },
     "banner": {
       "title": "اطّلع على الفائزين في مسابقات التداول السابقة من GTC وشاهد من تصدّر القمة! ",
       "competitionTitle": "مسابقة التداول التجريبي ",

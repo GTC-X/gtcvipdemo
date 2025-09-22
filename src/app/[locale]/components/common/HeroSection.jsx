@@ -29,7 +29,7 @@ export default function HeroSection({ setIsOpen, isAfterMidnight }) {
       <div className="relative z-10 container flex flex-col md:flex-row items-center">
         {/* LEFT */}
         <div className="w-full md:w-[44%] space-y-2 text-center ltr:md:text-left rtl:md:text-right">
-          <h2 className="text-[#000032] text-[32px] md:text-[30px] ltr:xl:text-[40px] rtl:xl:text-[30px] font-bold">
+          <h2 className="text-[#000032] text-[22px] md:text-[23px] ltr:xl:text-[25px] rtl:xl:text-[25px] font-bold">
             {t('para1')}
           </h2>
 
@@ -47,7 +47,7 @@ export default function HeroSection({ setIsOpen, isAfterMidnight }) {
           </div>
 
           {/* Paragraph(s): supports string (EN) or array (ES/PT). First ES paragraph bold. */}
-          <div className="text-primary text-[14px] md:text-[18px] leading-relaxed py-4 md:px-0 mb-3 md:mb-0 space-y-4">
+          <div className="text-primary relative z-50 w-full text-[14px] ltr:md:text-[18px] rtl:md:text-[18px] leading-relaxed py-4 md:px-0 mb-3 md:mb-0 space-y-4">
             {Array.isArray(rawPara2) ? (
               rawPara2.map((p, i) => (
                 <p key={i} className={locale === 'es' && i === 0 ? 'font-semibold' : undefined}>

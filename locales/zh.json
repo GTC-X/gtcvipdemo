@@ -14,8 +14,8 @@
     },
     "banner": {
       "no": "5000",
-      "title": "模拟交易赛即将开启！",
-      "para1": "GTC主办",
+      "title": "美元模拟交易竞赛！",
+      "para1": "立即注册参加",
       "para2": "登顶交易排行榜，证明您的实力！\n参与GTC模拟交易赛，零成本赢取$5000实盘账户奖金池\n本次赛事全程使用$10000模拟账户交易，无真实资金风险\n点击报名，见证交易实力！",
       "btnText": "立即报名"
     },
@@ -150,10 +150,7 @@
             "点击查看完整参赛协议"
           ],
           "linkText": "参赛协议",
-          "linkUrl": {
-            "text": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf",
-            "hyperlink": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
-          }
+          "linkUrl": "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Mandarin.pdf"
         }
       ]
     },

@@ -1,7 +1,7 @@
 // const Metatrader5 = require("mt5-sdk");
 // const axios = require("axios");
 
-// const group = "contest\\AUG25\\STD-USD";
+// const group = "contest\\OCT25\\STD-USD";
 
 
 // const mt5Instance = new Metatrader5("mtapi.gtcfx.com", 443, {
@@ -166,7 +166,7 @@ async function clientPipeline(credentials, locale) {
     const client_id = clientResponse[0].id;
     console.log("Client created:", clientResponse);
 
-    const getUSer = await mt5Instance.users.getBatch("contest\\AUG25\\STD-USD")
+    const getUSer = await mt5Instance.users.getBatch("contest\\OCT25\\STD-USD")
     if (getUSer?.answer?.some(x => x?.Phone == credentials?.phone)) {
         return {
             message: getLocalizedUserExistsMessage(locale),

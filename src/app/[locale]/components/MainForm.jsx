@@ -493,12 +493,13 @@ const CommonMainForm = () => {
               <a
                 href={
                   {
-                    ar: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Arabic.pdf",
+                    ar: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Arabic.pdf",
                     ru: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Russian.pdf",
-                    cn: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Mandarin.pdf",
-                    vi: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Vietnamese.pdf",
-                    pt: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Portuguese.pdff",
-                    es: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/Demo+Trading+Competition+T%26Cs+_+Spanish.pdf",
+                    cn: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Mandarin.pdf",
+                    fa: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+farsi.pdf",
+                    vi: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Vietnamese.pdf",
+                    pt: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Portuguese.pdf",
+                    es: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/demo-ts+_+Spanish.pdf",
                   }[locale] || "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/demo/Demo+Trading+Competition+T%26Cs.pdf"
                 }
                 target="_blank"
@@ -515,6 +516,7 @@ const CommonMainForm = () => {
                     ru: "/ru/privacy-policy",
                     cn: "/cn/privacy-policy",
                     vi: "/vi/privacy-policy",
+                    fa: "/vi/privacy-policy",
                     es: "/es/privacy-policy",
                     pt: "/pt/privacy-policy",
                   }[locale] || "/privacy-policy"

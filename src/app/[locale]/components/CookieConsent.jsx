@@ -38,7 +38,12 @@ const translations = {
   message: "Bằng cách nhấp vào 'Tôi đồng ý', bạn đồng ý cho phép lưu cookie trên thiết bị của mình để cải thiện trải nghiệm người dùng, điều hướng trang web, phân tích việc sử dụng trang web và hỗ trợ các hoạt động tiếp thị của chúng tôi.",
   cta: "Tôi đồng ý",
   linkText: "Đọc chính sách bảo mật của chúng tôi tại đây."
-}
+},
+ fa: {
+    message: "با کلیک بر روی 'موافقم'، موافقت خود را با ذخیره‌سازی کوکی‌ها روی دستگاه شما برای بهبود تجربه کاربری، ناوبری سایت، تحلیل استفاده از سایت و کمک به تلاش‌های بازاریابی ما اعلام می‌کنید.",
+    cta: "موافقم",
+    linkText: "سیاست حفظ حریم خصوصی ما را اینجا بخوانید.",
+  },
 };
 
 export default function CookieConsent() {

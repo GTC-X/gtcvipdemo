@@ -1,5 +1,5 @@
 export const routing = {
-  locales: ['en', 'ar', 'pt', 'es', 'ru', 'zh', 'vi'], // Added Kurdish
+  locales: ['en', 'ar', 'pt', 'es', 'ru', 'zh', 'vi', 'fa'], // Added Kurdish
   defaultLocale: 'en', // Arabic as default
   localePrefix: 'as-needed', // Only non-default locale shows in URL
 };
