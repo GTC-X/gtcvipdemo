@@ -2,8 +2,6 @@
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { useEffect, useMemo, useState } from 'react';
-import RegistrationPopup from '../../5k-demo-trading-competition/components/RegistrationPopup';
-import Link from 'next/link';
 import CustomButton from './CustomButton';
 export default function HeroSection({ setIsOpen, isAfterMidnight }) {
   const t = useTranslations('demo.banner');

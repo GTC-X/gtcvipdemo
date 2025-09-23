@@ -1,8 +1,7 @@
 import React from 'react';
 import CustomButton from '../../components/common/CustomButton';
 import { useTranslations } from 'next-intl';
-import RegistrationPopup from './RegistrationPopup';
-import Link from 'next/link';
+
 const FinalCtaSection = ({ setIsOpen, isAfterMidnight }) => {
   const t = useTranslations('demo.final-cta-section');
  const t2 = useTranslations('demo.banner');

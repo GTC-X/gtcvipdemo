@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomButton from '../../components/common/CustomButton';
+import CustomButton from '@/app/[locale]/components/common/CustomButton';
 import { useTranslations } from 'next-intl';
 import RegistrationPopup from './RegistrationPopup';
 import Link from 'next/link';

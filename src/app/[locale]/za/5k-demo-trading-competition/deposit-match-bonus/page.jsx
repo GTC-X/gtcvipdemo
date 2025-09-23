@@ -2,10 +2,10 @@
 import { useState } from "react";
 import HeroMargin from './components/HeroMargin'
 import { useTranslations } from 'next-intl'
-import Meta from '../../../components/common/MetaData'
-import MainHeader from '../../components/MainHeader'
-import FinalCtaSection from '../components/FinalCtaSection'
-import MainFooter from '../../components/MainFooter'
+import Meta from "@/app/components/common/MetaData";
+import MainHeader from "@/app/[locale]/components/MainHeader";
+import FinalCtaSection from "@/app/[locale]/5k-demo-trading-competition/components/FinalCtaSection";
+import MainFooter from "@/app/[locale]/components/MainFooter";
 
 const page = () => {
    const [isOpen, setIsOpen] = useState(false);

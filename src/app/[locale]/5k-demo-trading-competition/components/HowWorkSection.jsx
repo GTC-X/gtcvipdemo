@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
-import RegistrationPopup from './RegistrationPopup';
+
 import Link from "next/link";
 
 export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {

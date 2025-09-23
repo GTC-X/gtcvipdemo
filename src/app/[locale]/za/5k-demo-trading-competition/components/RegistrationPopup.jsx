@@ -2,7 +2,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { useTranslations } from 'next-intl';
-import ReregistrationForm from '../../components/ReregistrationForm';
+
 
 export default function RegistrationPopup({
   // Fallbacks if JSON is missing, but prefer using translations!
@@ -126,8 +126,7 @@ export default function RegistrationPopup({
                       <div className="space-y-3">
                         <p className="text-sm md:text-base text-center">{leadPrompt}</p>
 
-                        {/* Your actual form. Call setSubmitted(true) on success */}
-                        <ReregistrationForm onSuccess={() => setSubmitted(true)} />
+                      
                       </div>
                     </>
                   )}
