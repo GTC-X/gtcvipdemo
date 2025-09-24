@@ -22,20 +22,7 @@ export async function POST(req) {
   const mailData = {
     from: '"GTC" <portal@mx4.gtcmail.com>',
     to: email,
-    subject:  
-    data?.locale == "ar"
-        ? "تم تسجيلك في مسابقة التداول التجريبي من GTC"
-        : data?.locale == "zh"
-            ? "您已注册参加 GTC 演示竞赛"
-            : data?.locale == "es"
-                ? "Te has registrado en la competencia de trading de GTC"
-                : data?.locale == "pt"
-                    ? "Você se registrou na competição Demo Trading GTC" 
-                    : data?.locale == "ru"
-                        ? "Ваши учетные данные для турнира GTC"
-                        : data?.locale == "vi"
-                            ? "Bạn đã đăng ký tham gia Cuộc thi demo GTC"
-                            : "You’ve Registered for the GTC Demo Competition",
+     subject: "You’ve Registered for the GTC Demo Competition",
     text: `Your OTP is ${otp}`,
     html:
       locale == "ar"
