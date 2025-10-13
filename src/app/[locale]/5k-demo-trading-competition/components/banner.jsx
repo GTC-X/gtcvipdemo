@@ -6,6 +6,9 @@ import CustomButton from "@/app/components/common/CustomButton";
 import SliderModal from "./SliderModal";
 import SlidePanelExample from "./SlidePanel";
 import { useTranslations } from "next-intl";
+import RegistrationPopup from "../../gtc-s-first-ever-demo-trading-competition/components/RegistrationPopup";
+
+
 const HeroSection = ({ setIsOpen }) => {
   const t = useTranslations();
 
@@ -577,13 +580,7 @@ const HeroSection = ({ setIsOpen }) => {
 
             </p>
             <div className="flex flex-row justify-center md:justify-start items-center gap-4 pb-8 md:pb-20">
-              <CustomButton
-                text={t("partner.banner.btnText")}
-                bgColor="bg-white hover:bg-[#b2b2c2]"
-                textColor="text-[#1F2937]"
-                strokeColor="#000032"
-                onClick={() => setIsOpen(true)}
-              />
+                         <RegistrationPopup />
             </div>
 
           </div>

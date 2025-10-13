@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
 
 import Link from "next/link";
+import RegistrationPopup from "../../gtc-s-first-ever-demo-trading-competition/components/RegistrationPopup";
 
 export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
   const t = useTranslations("demo.work");
@@ -53,13 +54,7 @@ export default function HowItWorksSection({ setIsOpen,isAfterMidnight }) {
           <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-4 md:pb-20 md:px-0 mt-4"
           >
             <div className="flex flex-row justify-center md:justify-start items-center gap-4 pb-8 md:pb-20">
-              <CustomButton
-                text={t2("btnText")}
-                bgColor="inline-flex items-center justify-center rounded-xl px-8 py-3 text-sm lg:text-lg font-semibold text-white bg-gradient-to-r from-primary to-[#263B93] shadow hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#263B93] hover:bg-[#b2b2c2]"
-                textColor="text-[#1F2937]"
-                strokeColor="#fff"
-                onClick={() => setIsOpen(true)}
-              />
+              <RegistrationPopup />
             </div>
             
           </div>

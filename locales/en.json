@@ -12,7 +12,7 @@
     "popup": {
       "comingSoon": "We’ll be back soon!",
       "title": "Registration Temporarily Closed",
-      "subtitle": "Registration reopens on {date}. Stay tuned!",
+      "subtitle": "Registration reopens soon. Stay tuned!",
       "leadPrompt": "Leave your details and we’ll notify you as soon as registration opens."
     },
     "thankYou": {

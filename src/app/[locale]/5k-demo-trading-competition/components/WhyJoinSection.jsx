@@ -95,7 +95,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 
   return (
     <section
-      className="relative bg-[#F7F3EE] pt-10 pb-16 md:py-20 overflow-hidden"
+      className="relative bg-[#F7F3EE] pt-10 pb-16 overflow-hidden"
       id="join"
     >
 

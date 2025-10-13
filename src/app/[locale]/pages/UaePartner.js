@@ -136,7 +136,7 @@ const UaePartnerPage = () => {
       <MainHeader setIsOpen={setIsOpen} />
 
       <HeroSection setIsOpen={setIsOpen} isAfterMidnight={true} />
-      <CountdownSection isAfterMidnight={true} />
+     
       <WhyJoinSection setIsOpen={setIsOpen} isAfterMidnight={true} />
       <HowWorkSection setIsOpen={setIsOpen} isAfterMidnight={true} />
       <EarningsMarginImpact isAfterMidnight={true} />
