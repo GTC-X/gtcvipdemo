@@ -117,7 +117,7 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
             />
             : */}
             <iframe
-              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest"
+              src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest-2"
               frameborder="0"
               width="100%"
               height="100%"
