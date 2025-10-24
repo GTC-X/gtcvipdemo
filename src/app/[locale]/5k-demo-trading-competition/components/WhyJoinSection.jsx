@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import CustomButton from "@/app/components/common/CustomButton";
 import { useMemo } from "react";
 import SheetTable from "../../components/SheetTable";
+import Image from "next/image";
 
 const icons = [
   // 1. Shield + Trophy
@@ -101,8 +102,8 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
 
       <div className="relative z-10 container text-center">
         <div className="mb-12 flex flex-col gap-5">
-          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary">
-            {"Leaderboard "}
+          <h2 className="text-[25px] md:text-3xl xl:text-[40px] font-bold text-primary max-w-xl mx-auto">
+            Meet the Winners of the 2nd Demo Trading Competiton
 
           </h2>
           {/* {!isAfterMidnight &&
@@ -116,13 +117,40 @@ const WhyJoinSection = ({ setIsOpen, isAfterMidnight }) => {
               gid="0"
             />
             : */}
-            <iframe
+           
+          {/*  <iframe
               src="https://prod-widgets.returning.ai/custom-leaderboards/67c95cd354f1f4d3292b5455/gtc-vip-demo-contest-2"
               frameborder="0"
               width="100%"
               height="1000px"
-            ></iframe>
-          {/* } */}
+            ></iframe>} */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="relative w-full h-[400px] md:h-[400px]">
+                <Image
+                  src="/demo/pic1.png"
+                  alt="Leaderboard 1"
+                  fill
+                  className="object-contain"
+                />  
+              </div>
+              <div className="relative w-full h-[400px] md:h-[400px]">
+                <Image
+                  src="/demo/pic2.png"
+                  alt="Leaderboard 1"
+                  fill
+                  className="object-contain"
+                />  
+              </div>
+              <div className="relative w-full h-[400px] md:h-[400px]">
+                <Image
+                  src="/demo/pic3.png"
+                  alt="Leaderboard 1"
+                  fill
+                  className="object-contain"
+                />  
+              </div>
+
+            </div>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-6 md:gap-9 pb-8 md:pb-16">
