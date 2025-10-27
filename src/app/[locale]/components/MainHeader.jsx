@@ -57,12 +57,7 @@ const MainHeader = ({ setIsOpen }) => {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
-          <button
-            onClick={() => setIsOpen(true)}
-            className="text-[#000032] font-medium text-sm lg:text-base relative cursor-pointer after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#b68756] hover:after:w-full after:transition-all after:duration-300 hover:text-[#b68756]"
-          >
-            {t('register')}
-          </button>
+     
 
           {menuItems.map((item, i) =>
             item.external ? (

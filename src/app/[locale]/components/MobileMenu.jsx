@@ -88,17 +88,7 @@ const MobileMenu = ({ setIsOpen }) => {
           </div>
 
           <ul className="p-4 space-y-3">
-            <li>
-              <button
-                onClick={() => {
-                  setIsOpen(true);
-                  setOpen(false);
-                }}
-                className="block w-full text-left text-sm font-medium text-white bg-primary px-4 py-2 rounded hover:bg-secondary"
-              >
-                Register
-              </button>
-            </li>
+          
             {menuItems.map((item, index) =>
               item.external ? (
                 <li key={index}>
